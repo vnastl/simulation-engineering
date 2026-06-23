@@ -1,0 +1,53 @@
+{
+  "unit_id": "int24",
+  "recodes": [
+    {
+      "var": "father",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "my dad is a computer consultant, so he – he does a lot of – well he started off doing programming and that sort of thing then he worked his way up to management",
+      "reasoning": "Father is a computer consultant; she mentions him often but never states he encouraged her to study engineering, so no agreement level is verbatim-supportable."
+    },
+    {
+      "var": "nobody",
+      "code": 2,
+      "label": "disagree",
+      "confidence": "low",
+      "evidence_quote": "on my dad’s side – they’re all – because it’s seen as a (craft?) system and the craft is carpenters, which is kind of like engineers (yes) so they’re all into that sort of thing",
+      "reasoning": "Family steeped in craft/engineering plus a brother doing engineering and positive peer feedback mean it is not true that nobody encouraged her; disagree."
+    },
+    {
+      "var": "furstudy",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "once you get your chartered engineer, it depends what you do as well because I mean you could go into management, a lot of engineers do",
+      "reasoning": "She discusses Chartership and management but never expresses any wish (or refusal) to undertake further academic study; not verbatim-supportable either way."
+    },
+    {
+      "var": "interper",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Communication skills, of course, from work. So yeah.",
+      "reasoning": "She attributes communication skills to work, not the course, and her group-work account is negative; there is no clear statement that the course develops interpersonal skills."
+    },
+    {
+      "var": "teachhrs",
+      "code": 3,
+      "label": "neither satisfied nor dissatisfied",
+      "confidence": "low",
+      "evidence_quote": "loads of hours, I have like a silly amount of hours, I think I’m up to 30 hours one week and it’s like madness",
+      "reasoning": "She calls the hours a 'silly amount'/'madness' yet also says 'It pushes you... and that’s fine'; the mixed framing maps to neutral satisfaction."
+    },
+    {
+      "var": "highsal",
+      "code": 2,
+      "label": "disagree",
+      "confidence": "medium",
+      "evidence_quote": "I felt that engineering would allow me to get out from behind a desk and perhaps try something a bit more practical",
+      "reasoning": "Her stated draw to engineering is practicality/usefulness; salary is only mentioned in the law context ('earn lots of money'), not as an engineering motive, so disagree."
+    }
+  ]
+}

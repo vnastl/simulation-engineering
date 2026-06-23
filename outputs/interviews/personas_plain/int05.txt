@@ -1,0 +1,43 @@
+INTERVIEW INT05 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Department: Civil & Building Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Having a family member in the industry: Agree
+Engineering as a good degree to hold regardless: Agree
+Engineering's appeal as a varied field: Agree
+Father's encouragement to study engineering: Agree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+The course developing interpersonal skills: Strongly agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Satisfied
+Support from a personal tutor: Dissatisfied
+Group work: Dissatisfied
+The friends made on the course: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Because of needing the money: Disagree
+To improve job chances after university: Agree
+To see what industry is really like: Agree
+To apply theory learnt at university: Strongly agree
+To help choose a final-year project: Agree
+Because it counts towards Chartership: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Opportunities to travel: Important
+Opportunities for promotion: Important

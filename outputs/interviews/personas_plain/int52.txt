@@ -1,0 +1,24 @@
+INTERVIEW INT52 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Civil & Building Engineering
+
+## Experiences of higher education
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Group work: Dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To improve job chances after university: Agree
+For personal development: Agree
+To apply theory learnt at university: Strongly agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Preferred future work role: Managerial

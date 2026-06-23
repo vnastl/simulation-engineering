@@ -1,0 +1,44 @@
+INTERVIEW INT63 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Single sex
+Year of study: Placement year
+Department: Design & Technology
+University type (pre- or post-1992): Pre-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Having a family member in the industry: Strongly disagree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Difficulty seeing the relevance of some modules: Agree
+Engineering students being competitive: Agree
+The course developing interpersonal skills: Agree
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+To help choose a final-year project: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work
+Whether they would like to go on to further study: Yes
+Intended area of further study: PhD
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Work environment: Very important
+The people worked with: Important
+Training opportunities: Important
+Opportunities for promotion: Important
+Equal-opportunities policies: Important
+Preferred future work role: Managerial
+Importance of gaining Chartership: Important

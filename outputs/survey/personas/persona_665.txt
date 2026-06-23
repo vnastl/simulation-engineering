@@ -1,0 +1,98 @@
+SURVEY RESPONDENT #665 (Women Engineering Students' Workplace Experiences, UKDA SN 5723)
+
+## Demographics & background
+Gender: Female
+Age band: 18
+Ethnic group: Irish
+Religion: Sikh
+Type of secondary school attended: Single sex
+Year of study: Part B/Year 2
+Department: School of Technology
+University type (pre- or post-1992): Post-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Agree
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Neither agree nor disagree
+Choosing engineering with little knowledge of the job: Strongly agree
+Having a family member in the industry: Agree
+Having technical hobbies and interests: Neither agree nor disagree
+Engineering as a good degree to hold regardless: Agree
+Engineering's appeal as a varied field: Disagree
+Mother's encouragement to study engineering: Agree
+Father's encouragement to study engineering: Disagree
+Careers advisor's encouragement: Neither agree nor disagree
+School teacher's encouragement: Agree
+Nobody encouraged the choice: Neither agree nor disagree
+Ever attended an engineering insight course: No
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Neither agree nor disagree
+The curriculum being harder than expected: Strongly agree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Disagree
+Engineering students being competitive: Agree
+Male students being more confident in class: Disagree
+Female students getting more help in class: Strongly agree
+Always having competing deadlines: Agree
+The coursework/exam balance being just right: Neither agree nor disagree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Satisfied
+Support from lecturers: Neither satisfied nor dissatisfied
+Support from a personal tutor: Satisfied
+Group work: Neither satisfied nor dissatisfied
+Number of teaching hours: Neither satisfied nor dissatisfied
+The friends made on the course: Satisfied
+Quantity of coursework: Dissatisfied
+Theory work: Neither satisfied nor dissatisfied
+Practical work: Satisfied
+Design work: Neither satisfied nor dissatisfied
+Variety of subjects covered: Neither satisfied nor dissatisfied
+
+## Industrial placement
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Neither agree nor disagree
+For a break from education: Neither agree nor disagree
+To improve job chances after university: Disagree
+To help decide a future direction: Neither agree nor disagree
+To see what industry is really like: Agree
+For personal development: Disagree
+To improve grades on returning to university: Neither agree nor disagree
+To apply theory learnt at university: Neither agree nor disagree
+To help choose a final-year project: Disagree
+Because it counts towards Chartership: Agree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Agree
+No placement available in a suitable location: Disagree
+Fear of returning to education after a break: Neither agree nor disagree
+Wanting to finish university sooner and start earning: Disagree
+Seeing nothing to be gained from a placement: Agree
+No available placement appealing: Disagree
+Having applied but not been accepted: Neither agree nor disagree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Whether they would like to go on to further study: No
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Neither important nor unimportant
+Work environment: Unimportant
+The people worked with: Neither important nor unimportant
+Opportunities to travel: Important
+Benefits such as a company car: Neither important nor unimportant
+Training opportunities: Unimportant
+Opportunities for promotion: Important
+Equal-opportunities policies: Unimportant
+Opportunities for flexible working: Important
+Childcare policies: Neither important nor unimportant
+Preferred future work role: Don't know
+Importance of gaining Chartership: Important
+
+[Not stated: 3 item(s) left blank; 3 item(s) not applicable / filtered out by a branch.]

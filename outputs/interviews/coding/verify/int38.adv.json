@@ -1,0 +1,277 @@
+{
+ "unit_id": "int38",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Speaks as a woman/girl throughout; interview targets women. Clear."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Interviewer frames as second-year; returns for 3rd year after placement. Year 2 fits."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Architectural engineering is not a listed dept; Civil & Building is closest. Inference, already low conf."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Father is a production engineer; explicit family member in industry, informed her knowledge. Strongly agree fits."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Dad pushed [university] and gave lots of encouragement. Strongly agree supported."
+  },
+  {
+   "var": "nobody",
+   "verdict": "wrong_code",
+   "corrected_code": 1,
+   "corrected_label": "strongly disagree",
+   "corrected_confidence": "medium",
+   "note": "Got lots of encouragement plus a support system; nobody-encouraged should be strongly disagree (1), not 2."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote is about dad being happy, indirect; no discouragement anywhere. Code 0 right but evidence thin."
+  },
+  {
+   "var": "careers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Careers tests never raised engineering; advisor did not encourage. Strongly disagree fits."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Unique course she really wanted to do; interesting work. Strongly agree supported."
+  },
+  {
+   "var": "special",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Not-too-technical-for-mechanical loosely supports broad/non-specialised motive; item is sci+maths without specialising. Thin."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Course going in 2 directions; breadth/variety appeal. Agree supported."
+  },
+  {
+   "var": "mathsci",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Enjoyed/took maths+physics A-levels that pointed to engineering; agree defensible."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Such a positive experience, really enjoyed it. Strongly agree supported."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Personal tutor brilliant/really good, accommodating. Very satisfied supported."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Genuinely mixed: good thing but free-riders/too much/peer assessment frustration. Neither (3) fits."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Group work develops communication with different people. Agree supported."
+  },
+  {
+   "var": "Fhelp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Perceives female students get leniency a lad would not. Agree supported."
+  },
+  {
+   "var": "Mconfid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote is about male technical knowledge, not class confidence; related but indirect. Keep low."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Has a valued best friend on the course; positive about course friendships. Satisfied fits."
+  },
+  {
+   "var": "variety",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Course going in 2 directions = breadth of subjects. Satisfied supported."
+  },
+  {
+   "var": "designwk",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is anticipation of design at her PLACEMENT, not satisfaction with design work ON THE COURSE. Variable mismatch."
+  },
+  {
+   "var": "deadline",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "References deadlines as a feature of uni life; agree thin but defensible, already low."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Confirmed placement secured with named company. Yes supported."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Really wants to get out and use what she has learnt. Strongly agree supported."
+  },
+  {
+   "var": "money",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Names money but immediately hedges (is it bad... I er no) and pivots; agree somewhat overstated. Downgrade."
+  },
+  {
+   "var": "educatio",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Would feel restless / could not do 3 years straight; wants break from study. Agree supported."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Big thing was opportunities after graduating. Agree supported (arguably stronger)."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Placement as an experiment to find out what she wants after graduating. Strongly agree supported."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Wants to get out and use learning; overlaps experien more than seeing what industry is really like. Thin."
+  },
+  {
+   "var": "apptheor",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Reflect input/use what she learnt; supports applying theory. Strongly agree defensible."
+  },
+  {
+   "var": "finalyr",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote (come back in 3rd year, reflect in dissertation) is about applying input, not DECIDING the final-year project. Construct not evidenced."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly more interested in consultancy; ideal = Architectural Engineering Consultant. Supported."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Sees self in management, likes being in control. Managerial supported."
+  },
+  {
+   "var": "location",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "20 mins from home helped; location matters to her. Important supported, mildly thin."
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "unit_id": "int65",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "sometimes as a girl they do help you out and they help you to carry heavy things",
+   "theme": "route_into_engineering",
+   "reasoning": "Refers to herself as a girl/woman in engineering throughout."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I started the 3rd of August",
+   "theme": "placement_decision",
+   "reasoning": "Currently on a six-month placement at the company."
+  },
+  {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "with transport you jump from here to there",
+   "theme": "route_into_engineering",
+   "reasoning": "Values the variety; also chose engineering for its mobility/variety across fields and countries."
+  },
+  {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s a good experience that I know what the real world is",
+   "theme": "placement_decision",
+   "reasoning": "Frames the placement primarily as valuable work experience of the real world."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s a good experience that I know what the real world is",
+   "theme": "placement_decision",
+   "reasoning": "Placement gave her an idea of what industry/the real world is really like."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "you will be more competitive when you graduate and you could have contacts with companies and people",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as improving job chances and building contacts."
+  },
+  {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s a good experience that I know what the real world is and if I want to stay and work in England after I’ve graduated",
+   "theme": "placement_decision",
+   "reasoning": "Placement is helping her decide direction (whether to stay in engineering/England)."
+  },
+  {
+   "var": "carpath",
+   "code": 9,
+   "label": "don't know",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m not sure if I will stay, if I will be site engineering, if I will stick with engineering",
+   "theme": "future_intentions",
+   "reasoning": "Genuinely undecided about her engineering specialism/career direction."
+  },
+  {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I used to think that I would be working in management side, but from seeing what my managers do I don’t think that’s very interesting",
+   "theme": "future_intentions",
+   "reasoning": "Moved away from a managerial preference after seeing managers' work."
+  },
+  {
+   "var": "salary",
+   "code": 5,
+   "label": "very important",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it depends on how much they are offering. I need to talk about money now!",
+   "theme": "future_intentions",
+   "reasoning": "Salary repeatedly stressed as the decisive factor in accepting a job."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m planning to go to a country and stay there for a few years and then change to another",
+   "theme": "future_intentions",
+   "reasoning": "Wants to travel/work across countries; a stated motivation for choosing engineering."
+  },
+  {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the cost of living there and having a better standard of life could be cheaper, so it depends",
+   "theme": "future_intentions",
+   "reasoning": "Location and cost of living weigh into job decisions alongside salary."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "breaked",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "finuni",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noappeal",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noaccept",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "Yeah, and that’s why I chose engineering.",
+    "it’s not similar to law or something like that that you have to stay.",
+    "I’m planning to go to a country and stay there for a few years and then change to another, so …",
+    "With engineering it’s more a way to analyse and to reach the – to solve a problem – and it’s more, um, based on thinking than feelings.",
+    "Yeah, yeah, I’m glad that it’s not too, all about feelings, like artistic"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "what is useful that I’ve done in [university], it’s the way to approach the work and the way to analyse things.",
+    "I’d say 90% not relevant.",
+    "there’s a module about highways that I think I should be more, having advantage over other course-mates",
+    "I forgot most of the things from what I learned in uni, like, um geotechnics and water, it’s something that I forgot straight away when I started.",
+    "it’s inter-personal skills that you get out of it from group work and you get to know your course-mate better as well."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Yeah I would. Um, you will be more competitive when you graduate and you could have contacts with companies and people",
+    "You are prepared for what you’re going to do when you’ve graduated.",
+    "it’s a good experience that I know what the real world is and if I want to stay and work in England after I’ve graduated.",
+    "At the moment not really. Sometimes they tend to give me some easier work",
+    "Oh, the only drawback is the salary. (Yes) It’s really, really bad!",
+    "Definitely. It’s – they don’t treat me very different from permanent so sometimes I have to consider myself a new graduate"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I like the company, I like my team, but I’m not sure if transport is the right career for me.",
+    "I’m not sure if I will stay, if I will be site engineering, if I will stick with engineering.",
+    "Accounting. Yeah, possible. Or go into Government.",
+    "it depends on how much they are offering. I need to talk about money now!",
+    "I like what I do but it’s quite a turn-off when I think of what I’m getting, what I will be getting, and what I could possibly get if I don’t work in engineering.",
+    "I used to think that I would be working in management side, but from seeing what my managers do I don’t think that’s very interesting."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 12,
+  "n_codes_kept": 12,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

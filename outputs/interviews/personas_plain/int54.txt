@@ -1,0 +1,36 @@
+INTERVIEW INT54 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Strongly agree
+Engineering's appeal as a varied field: Strongly agree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Engineering students being competitive: Agree
+The course developing interpersonal skills: Disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Group work: Dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+For a break from education: Agree
+To improve job chances after university: Agree
+To help decide a future direction: Disagree
+To see what industry is really like: Strongly agree
+For personal development: Strongly agree
+To help choose a final-year project: Agree
+Because it counts towards Chartership: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Don't know
+Preferred future work role: Don't know

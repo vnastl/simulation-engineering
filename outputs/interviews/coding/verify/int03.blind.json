@@ -1,0 +1,37 @@
+{
+ "unit_id": "int03",
+ "recodes": [
+  {
+   "var": "placothe",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": null,
+   "reasoning": "Subject gives experience as her reason but never states placement is compulsory nor an additional 'other' reason beyond listed survey items; cannot distinguish 1 vs 2."
+  },
+  {
+   "var": "promot",
+   "code": 3,
+   "label": "neither important nor unimportant",
+   "confidence": "medium",
+   "evidence_quote": "if it's there then that'd be nice but I'm not really too bothered",
+   "reasoning": "Asked about opportunities for a job with the company when finished, she is indifferent ('not really too bothered')."
+  },
+  {
+   "var": "training",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": null,
+   "reasoning": "Interviewer lists training among options but Subject only addresses location and pay in her answer; no verbatim about training opportunities."
+  },
+  {
+   "var": "furstudy",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": null,
+   "reasoning": "Subject discusses enjoying a management module and possibly going into management, but never expresses wanting to go on to further study; unsupportable."
+  }
+ ]
+}

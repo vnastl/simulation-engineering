@@ -1,0 +1,53 @@
+INTERVIEW INT07 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Year of study: Part B/Year 2
+Department: Design & Technology
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Agree
+Engineering as a good degree to hold regardless: Agree
+Engineering's appeal as a varied field: Agree
+Mother's encouragement to study engineering: Agree
+Father's encouragement to study engineering: Neither agree nor disagree
+Careers advisor's encouragement: Disagree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The curriculum being harder than expected: Strongly agree
+Being pleased with the choice to study engineering: Neither agree nor disagree
+Female students getting more help in class: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Dissatisfied
+Support from a personal tutor: Dissatisfied
+Group work: Very satisfied
+Practical work: Dissatisfied
+Design work: Satisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Agree
+For a break from education: Agree
+To improve job chances after university: Agree
+For personal development: Agree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+No available placement appealing: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work
+Intended area of further study: PGCE, teaching
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Important
+Preferred future work role: Technical/specialist

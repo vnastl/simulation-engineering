@@ -1,0 +1,213 @@
+{
+  "unit_id": "int18",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-references as a woman ('how you feel, as a woman'); female confirmed."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Assigned quote is about A-level gender mix, but interview confirms comprehensive and 'Not a girls' school... No' -> mixed sex correct."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Studies design & technology / industrial design degree; quote (A-level) plus course context confirm D&T."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Chose design to do creative/interesting work; agree is reasonable."
+    },
+    {
+      "var": "challeng",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is her describing problem-solving as a trait of a good designer (answer to a different question), not that SHE wanted the challenge of solving problems as a reason to study."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Emphatic 'not at all' - no family member in the industry; strongly disagree correct."
+    },
+    {
+      "var": "careers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Careers advice 'not really' an influence; route via chance meeting -> strongly disagree."
+    },
+    {
+      "var": "nobody",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "medium",
+      "note": "Route was self-driven/chance with no active encourager; agree defensible but quote is indirect, keep at medium."
+    },
+    {
+      "var": "discoura",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Family supportive, no one discouraged the subject choice; 'no' correct."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'made the right decision... can't think of anything else' -> pleased."
+    },
+    {
+      "var": "curricul",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Did not expect so much mechanical/maths, got stressed -> curriculum harder than expected."
+    },
+    {
+      "var": "interper",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'builds up your relationship skills' -> course develops interpersonal skills."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I enjoy group work... not as stressful' -> satisfied."
+    },
+    {
+      "var": "friends",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'really good sound group of mates and it's brilliant' -> very satisfied."
+    },
+    {
+      "var": "designwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote is about WHY she chose design (love of art/creativity), not satisfaction with design work on the course; inference is reasonable but thin, downgrade to low."
+    },
+    {
+      "var": "Fhelp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Tutor pulls girls to front and helps them -> female students get more help; agree correct."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'really, really wanted to get on one'; applying/interviewing -> yes."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Mainly because of the experience' -> primary reason, strongly agree defensible."
+    },
+    {
+      "var": "finalyr",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'possibly find an opportunity for a final project' -> placement to help with final-year project."
+    },
+    {
+      "var": "educatio",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'having that break from Uni' -> needs a break from education; agree."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'getting out into the real world and getting a taster' -> idea of what industry is really like."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Hopes placement employer will hire her -> improving job chances; medium conf appropriate."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'going into research and development' -> research/development."
+    },
+    {
+      "var": "furstudy",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'thought about doing a masters' -> has considered further study, yes."
+    },
+    {
+      "var": "studarea",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'thought about doing a masters' -> Masters/MSc/MBA."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Asked management vs other, opts for R&D (not managerial) -> technical/specialist."
+    }
+  ]
+}

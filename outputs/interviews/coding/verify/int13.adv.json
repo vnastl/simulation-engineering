@@ -1,0 +1,277 @@
+{
+ "unit_id": "int13",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Self-identifies as female ('as a female there are more advantages'); study interviews women."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Confirms aeronautical engineering ('doing aeronautical engineering then? Yeah')."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'just a normal high school' plus explicit 'No' to all-girls' school = mixed sex."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'it's really interesting... I want to know how it works' = strong attraction to interesting work."
+  },
+  {
+   "var": "mathsci",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I had a knack for maths and physics' explicitly drove the choice; strongly agree justified."
+  },
+  {
+   "var": "hobbies",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Lifelong technical hobbies (Meccano, Lego, model planes); strongly agree justified."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'liked it because it was so broad... electrical to mechanical to systems' = chose for variety."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'very much my dad's influence... took me to model car racing/plane flying from a very early age'."
+  },
+  {
+   "var": "mother",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Disagree rests on absence; quote is about the father, mother never cited. Low confidence appropriate."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Parents explicitly not engineers; dad is a tech teacher/computer technician, not in the industry."
+  },
+  {
+   "var": "careers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Advisor reacted positively and suggested engineering areas; reactive approval, agree (not 5) fits."
+  },
+  {
+   "var": "teacher",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote is mainly about teacher praising the university 'as an engineer'; only indirect encouragement to study engineering — downgrade to low."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Uniformly positive reactions throughout; nobody discouraged her. 'no' supported."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Very pleased. I don't think I would have taken any other course' = strongly agree."
+  },
+  {
+   "var": "designwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'this year's really good, actually learning how to design an aircraft from scratch' = very satisfied with design."
+  },
+  {
+   "var": "variety",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Reuses the choice-quote about breadth, but evidences positive sentiment on subject variety; satisfied is conservative."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Best thing about course is the cohort 'gelled really well' = very satisfied with friends."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Personal tutor 'a brilliant chap, really interesting' = very satisfied."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'the lecturer was great on it' re thermodynamics support = satisfied with lecturer support."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Generally likes group work ('I do in most situations... I like everybody'); one difficult peer keeps it at satisfied not 5."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is mainly about task-division benefits, but teamwork/cross-checking maps to interpersonal-skill development; agree moderate."
+  },
+  {
+   "var": "Mconfid",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('men especially will listen to you') is about being heard as a female, NOT about male vs female confidence in class; variable not addressed — reject."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicit 'I'm not.' going on placement; doing straight masters."
+  },
+  {
+   "var": "finuni",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "medium",
+   "note": "Wants to finish in a row ('5 years is too long', 'brains in the right gear'), but the 'start earning money' element is absent — keep agree, lower confidence."
+  },
+  {
+   "var": "wkexp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Cites RAF management/leadership training as making her 'bold enough... without the gap year'; agree fits."
+  },
+  {
+   "var": "noplaoth",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "RAF volunteer/bursary ('wouldn't be allowed to do a gap year') = Armed Forces reason against placement."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Career aim is RAF (navigator/engineer, 16-year bursary) = Armed Forces related."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I would really enjoy the people management' = managerial; some pull toward technical but stated preference is managerial."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Doing the integrated 4-year masters; mapped to further study = yes per standard treatment."
+  },
+  {
+   "var": "studarea",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'4 years masters' = Masters/MSc/MBA."
+  },
+  {
+   "var": "charship",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Factors becoming chartered into her route choice and checks it carries over to RAF = important."
+  },
+  {
+   "var": "promot",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Very much good promotional prospects' is her first/top company criterion = very important."
+  },
+  {
+   "var": "travel",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('they've taken me all around the world') describes RAF travel she has enjoyed, not that travel is an important factor in CHOOSING a job; her stated job criteria were promotion/strong company — reject."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Awkward mapping for a non-placement student, but she affirms placement improves job chances ('if just a Bachelor's I'd be a bit worried'); agree justified."
+  }
+ ]
+}

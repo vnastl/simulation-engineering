@@ -1,0 +1,189 @@
+{
+ "unit_id": "int31",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Self-identifies as female ('because I'm a female'); clearly supports code 2."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "'Comprehensive – a high school' implies mixed-sex but does not state it; inference only, downgrade to low."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'something I'd like – I'm interested in' directly supports interest (agree)."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'opening the avenue to a lot' supports varied appeal (agree)."
+  },
+  {
+   "var": "knowledg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Surprise at the scope ('you think health & safety is health and safety') supports little prior knowledge (agree)."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Route via own work experience, no family in industry mentioned; supports disagree (already low)."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Colleague told her 'from day one that I'd find it hard' and 'they'll laugh at you'; clear yes."
+  },
+  {
+   "var": "whodisc",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Discourager is a course colleague/peer; friend(s) is the closest allowed code."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'happy with the way I went' supports pleased with the choice (agree); slightly broad but valid."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'the course teaches you to listen to other people' supports developing interpersonal skills (agree)."
+  },
+  {
+   "var": "variety",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Positive about breadth ('the three of them... go in any direction'); supports satisfied with variety."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Names team work as 'one of the worst'; supports dissatisfied."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Mixed picture (female lecturers helpful, male 'get on with it'); neither/ambivalent defensible but thin, keep low."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Network 75 continuing, interviewed for placement job; clear yes."
+  },
+  {
+   "var": "experien",
+   "verdict": "wrong_code",
+   "corrected_code": 4,
+   "corrected_label": "agree",
+   "corrected_confidence": "medium",
+   "note": "Wanted placement for experience but phrasing is tentative ('maybe a placement would give me'); supports agree, not Strongly agree."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('touched on it but haven't gone into detail') is about gaining depth of experience, not deciding future direction; supports experien, not jobdecid."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'going into the plant and be working' supports wanting to see what industry is like (agree); already low."
+  },
+  {
+   "var": "noplaoth",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly 'on the Network 75 avenue'; supports code 2."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Health & safety/environmental is not a listed engineering specialism; 'other' correct."
+  },
+  {
+   "var": "workrole",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is self-contradicting ('not really a managerial role... well it's sort of managerial'); does not clearly support technical/specialist."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'whether or not I stay on extra time and go further into that area' supports openness to further study (yes); already low."
+  },
+  {
+   "var": "travel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Finds 'travelling around... quite exciting' a positive draw; supports travel important."
+  },
+  {
+   "var": "promot",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'hopefully further up the ladder if there is one' is hedged but supports promotion mattering; already low."
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "unit_id": "int70",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Subject's own turn refers to herself as female; clear."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'two other mechanical engineers basically on a level to me' places her as mechanical eng; defensible."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "medium",
+   "note": "Code correct (whole interview is the placement year) but cited quote is about moving house, thin for year."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'my placement is a work experience'; currently on placement, yes."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Values placement for the year's experience; 'agree' fits."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'certainly help me get a job... quite a sought after thing' supports strong agreement."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'more aware of how work is expected, general structure' supports idea of what industry is like."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'go back more focused because I know really what I want now' supports helping decide direction."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Confidence, interpersonal skills, problem-solving changed; clear personal development."
+  },
+  {
+   "var": "apptheor",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Used course content in depth and beneficially at work; applying theory supported."
+  },
+  {
+   "var": "finalyr",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Construct is deciding WHAT final-year PROJECT to do; quote only says experience makes projects easier to cope with, not project choice."
+  },
+  {
+   "var": "carpath",
+   "verdict": "wrong_code",
+   "corrected_code": 9,
+   "corrected_label": "don't know",
+   "corrected_confidence": "medium",
+   "note": "She is explicitly still exploring ('still so much I haven't seen', design 'more for the experience', enjoys testing too) -> don't know, not a settled design-work preference."
+  },
+  {
+   "var": "designwk",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "designwk = satisfaction with COURSE design work; quote is about design work at her placement/job, not the university course."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "'learn a lot from group work at uni' is positive but immediately tempered by the unfairness/recognition complaint; mixed -> downgrade."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Yes definitely' answers a career-intention question, not literally 'pleased I chose to study'; but strong commitment reasonably supports it; keep medium."
+  },
+  {
+   "var": "interper",
+   "verdict": "wrong_code",
+   "corrected_code": 2,
+   "corrected_label": "disagree",
+   "corrected_confidence": "low",
+   "note": "She explicitly says nothing from that side of the course benefited her; only concedes OTHER people might benefit. Her stance is disagreement, not agree."
+  },
+  {
+   "var": "travel",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'see different areas' = rotating through work areas/departments, not geographic travel; coder admits ambiguity. Does not support travel."
+  }
+ ]
+}

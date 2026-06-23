@@ -1,0 +1,189 @@
+{
+  "unit_id": "int20",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "All-girls school plus repeated self-references as a woman in factory/course confirm female."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Main school was an all-girls (single-sex) school; comprehensive was only for DT classes."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Doing the design technology course (R&D placement); D&T department confirmed despite quote being A-levels."
+    },
+    {
+      "var": "year",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Currently on industrial placement in R&D = placement year."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Chose D&T 'cause I enjoy it' / wanted to do more = agree on interesting work; no emphatic marker for strongly agree."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Parents 'not to design no, no' = disagree family member in industry."
+    },
+    {
+      "var": "teacher",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Enthusiastic teacher cited as industry contact, not explicit encouragement; mild agree at best, confidence thin."
+    },
+    {
+      "var": "careers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Careers advice 'wasn't very helpful' = did not encourage = disagree."
+    },
+    {
+      "var": "practica",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is about breadth/doing materials (variety), not whether the LEVEL of practical work is 'just right'; no support for practica."
+    },
+    {
+      "var": "curricul",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'a bit harder than I expected... covers a lot of different areas' = agree curriculum harder than expected."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Yeah definitely' plus later 'quite glad I chose the course' supports strongly agree."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "'don't mind it, not too bad' is lukewarm-positive; borderline neutral, satisfied defensible but confidence thin."
+    },
+    {
+      "var": "supppers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'really helpful' and would not want a different tutor supports very satisfied."
+    },
+    {
+      "var": "variety",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'doing a bit of everything... quite enjoyed it' supports satisfied with variety of subjects."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Currently on placement in R&D = yes."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'the experience' first reason given for placement = agree."
+    },
+    {
+      "var": "money",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "'bit more money (laughs)' cited lightly as a want, not a stated need; mild agree only, confidence thin."
+    },
+    {
+      "var": "finalyr",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is 'more time to prepare myself in the final year' = general prep, not deciding the final-year PROJECT; conflates the two."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'real world based rather than just learning about it in lectures' = agree wanting idea of what industry is like."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Interviewer-prompted retrospective ('good to have experience... know what I'm going into'); not stated as a motivation; mild agree at best."
+    },
+    {
+      "var": "placothe",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Reasons voluntary/personal, placement not compulsory ('would do a placement again') = other."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Enjoys R&D, wants same area/'development side', rejects design consultancy = research/development."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'technical well sort of specialist, technical' directly supports technical/specialist."
+    }
+  ]
+}

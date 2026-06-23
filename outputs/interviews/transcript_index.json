@@ -1,0 +1,1049 @@
+[
+  {
+    "file": "SN5723fg01.rtf",
+    "unit_id": "fg01",
+    "kind": "focus_group",
+    "format": "tagged",
+    "is_group": true,
+    "verbatim": true,
+    "n_turns": 563,
+    "n_subject_turns": 0,
+    "speakers": [
+      "All",
+      "Chloe",
+      "Grace",
+      "Group",
+      "Interviewer 1",
+      "Interviewer 2",
+      "Jessica",
+      "Jill",
+      "Michelle",
+      "Samantha"
+    ]
+  },
+  {
+    "file": "SN5723fg02.rtf",
+    "unit_id": "fg02",
+    "kind": "focus_group",
+    "format": "tagged",
+    "is_group": true,
+    "verbatim": true,
+    "n_turns": 518,
+    "n_subject_turns": 0,
+    "speakers": [
+      "Alison",
+      "All",
+      "Anna",
+      "Carolyn",
+      "Frances",
+      "Hayley",
+      "Interviewer 1",
+      "Interviewer 2",
+      "Rebecca",
+      "Sophie"
+    ]
+  },
+  {
+    "file": "SN5723int01.rtf",
+    "unit_id": "int01",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 217,
+    "n_subject_turns": 108,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int02.rtf",
+    "unit_id": "int02",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 133,
+    "n_subject_turns": 66,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int03.rtf",
+    "unit_id": "int03",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 195,
+    "n_subject_turns": 97,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int04.rtf",
+    "unit_id": "int04",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 199,
+    "n_subject_turns": 99,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int05.rtf",
+    "unit_id": "int05",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 179,
+    "n_subject_turns": 89,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int06.rtf",
+    "unit_id": "int06",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 173,
+    "n_subject_turns": 86,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int07.rtf",
+    "unit_id": "int07",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 123,
+    "n_subject_turns": 61,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int08.rtf",
+    "unit_id": "int08",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 209,
+    "n_subject_turns": 104,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int09.rtf",
+    "unit_id": "int09",
+    "kind": "interview_notes",
+    "format": "notes",
+    "is_group": false,
+    "verbatim": false,
+    "n_turns": 1,
+    "n_subject_turns": 0,
+    "speakers": [
+      "Notes"
+    ]
+  },
+  {
+    "file": "SN5723int10.rtf",
+    "unit_id": "int10",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 133,
+    "n_subject_turns": 66,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int11.rtf",
+    "unit_id": "int11",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 109,
+    "n_subject_turns": 54,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int12.rtf",
+    "unit_id": "int12",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 141,
+    "n_subject_turns": 70,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int13.rtf",
+    "unit_id": "int13",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 174,
+    "n_subject_turns": 87,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int14.rtf",
+    "unit_id": "int14",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 187,
+    "n_subject_turns": 93,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int15.rtf",
+    "unit_id": "int15",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 229,
+    "n_subject_turns": 114,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int16.rtf",
+    "unit_id": "int16",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 157,
+    "n_subject_turns": 78,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int17.rtf",
+    "unit_id": "int17",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 128,
+    "n_subject_turns": 64,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int18.rtf",
+    "unit_id": "int18",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 135,
+    "n_subject_turns": 67,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int19.rtf",
+    "unit_id": "int19",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 153,
+    "n_subject_turns": 76,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int20.rtf",
+    "unit_id": "int20",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 257,
+    "n_subject_turns": 128,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int21.rtf",
+    "unit_id": "int21",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 213,
+    "n_subject_turns": 106,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int22.rtf",
+    "unit_id": "int22",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 199,
+    "n_subject_turns": 99,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int23.rtf",
+    "unit_id": "int23",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 193,
+    "n_subject_turns": 96,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int24.rtf",
+    "unit_id": "int24",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 183,
+    "n_subject_turns": 91,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int25.rtf",
+    "unit_id": "int25",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 151,
+    "n_subject_turns": 75,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int26.rtf",
+    "unit_id": "int26",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 151,
+    "n_subject_turns": 75,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int27.rtf",
+    "unit_id": "int27",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 201,
+    "n_subject_turns": 100,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int28.rtf",
+    "unit_id": "int28",
+    "kind": "interview_notes",
+    "format": "notes",
+    "is_group": false,
+    "verbatim": false,
+    "n_turns": 1,
+    "n_subject_turns": 0,
+    "speakers": [
+      "Notes"
+    ]
+  },
+  {
+    "file": "SN5723int29.rtf",
+    "unit_id": "int29",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 187,
+    "n_subject_turns": 93,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int30.rtf",
+    "unit_id": "int30",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 205,
+    "n_subject_turns": 102,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int31.rtf",
+    "unit_id": "int31",
+    "kind": "interview_notes",
+    "format": "notes",
+    "is_group": false,
+    "verbatim": false,
+    "n_turns": 1,
+    "n_subject_turns": 0,
+    "speakers": [
+      "Notes"
+    ]
+  },
+  {
+    "file": "SN5723int32.rtf",
+    "unit_id": "int32",
+    "kind": "interview_notes",
+    "format": "notes",
+    "is_group": false,
+    "verbatim": false,
+    "n_turns": 1,
+    "n_subject_turns": 0,
+    "speakers": [
+      "Notes"
+    ]
+  },
+  {
+    "file": "SN5723int33.rtf",
+    "unit_id": "int33",
+    "kind": "interview_notes",
+    "format": "notes",
+    "is_group": false,
+    "verbatim": false,
+    "n_turns": 1,
+    "n_subject_turns": 0,
+    "speakers": [
+      "Notes"
+    ]
+  },
+  {
+    "file": "SN5723int34.rtf",
+    "unit_id": "int34",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 191,
+    "n_subject_turns": 95,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int35.rtf",
+    "unit_id": "int35",
+    "kind": "interview",
+    "format": "alternating",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 163,
+    "n_subject_turns": 81,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int36.rtf",
+    "unit_id": "int36",
+    "kind": "interview",
+    "format": "alternating",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 143,
+    "n_subject_turns": 71,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int37.rtf",
+    "unit_id": "int37",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 213,
+    "n_subject_turns": 106,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int38.rtf",
+    "unit_id": "int38",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 129,
+    "n_subject_turns": 64,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int39.rtf",
+    "unit_id": "int39",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 151,
+    "n_subject_turns": 75,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int40.rtf",
+    "unit_id": "int40",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 137,
+    "n_subject_turns": 68,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int41.rtf",
+    "unit_id": "int41",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 117,
+    "n_subject_turns": 58,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int42.rtf",
+    "unit_id": "int42",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 131,
+    "n_subject_turns": 65,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int43.rtf",
+    "unit_id": "int43",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 235,
+    "n_subject_turns": 117,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int44.rtf",
+    "unit_id": "int44",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 233,
+    "n_subject_turns": 116,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int45.rtf",
+    "unit_id": "int45",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 193,
+    "n_subject_turns": 96,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int46.rtf",
+    "unit_id": "int46",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 177,
+    "n_subject_turns": 88,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int47.rtf",
+    "unit_id": "int47",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 177,
+    "n_subject_turns": 88,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int48.rtf",
+    "unit_id": "int48",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 137,
+    "n_subject_turns": 68,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int49.rtf",
+    "unit_id": "int49",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 175,
+    "n_subject_turns": 87,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int50.rtf",
+    "unit_id": "int50",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 133,
+    "n_subject_turns": 66,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int51.rtf",
+    "unit_id": "int51",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 143,
+    "n_subject_turns": 71,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int52.rtf",
+    "unit_id": "int52",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 171,
+    "n_subject_turns": 85,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int53.rtf",
+    "unit_id": "int53",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 179,
+    "n_subject_turns": 89,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int54.rtf",
+    "unit_id": "int54",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 143,
+    "n_subject_turns": 71,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int55.rtf",
+    "unit_id": "int55",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 161,
+    "n_subject_turns": 80,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int56.rtf",
+    "unit_id": "int56",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 160,
+    "n_subject_turns": 80,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int57.rtf",
+    "unit_id": "int57",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 213,
+    "n_subject_turns": 106,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int58.rtf",
+    "unit_id": "int58",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 165,
+    "n_subject_turns": 82,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int59.rtf",
+    "unit_id": "int59",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 165,
+    "n_subject_turns": 82,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int60.rtf",
+    "unit_id": "int60",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 177,
+    "n_subject_turns": 88,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int61.rtf",
+    "unit_id": "int61",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 185,
+    "n_subject_turns": 92,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int62.rtf",
+    "unit_id": "int62",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 225,
+    "n_subject_turns": 112,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int63.rtf",
+    "unit_id": "int63",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 322,
+    "n_subject_turns": 161,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int64.rtf",
+    "unit_id": "int64",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 318,
+    "n_subject_turns": 159,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int65.rtf",
+    "unit_id": "int65",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 190,
+    "n_subject_turns": 95,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int66.rtf",
+    "unit_id": "int66",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 143,
+    "n_subject_turns": 71,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int67.rtf",
+    "unit_id": "int67",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 162,
+    "n_subject_turns": 81,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int68.rtf",
+    "unit_id": "int68",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 317,
+    "n_subject_turns": 158,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int69.rtf",
+    "unit_id": "int69",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 245,
+    "n_subject_turns": 122,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int70.rtf",
+    "unit_id": "int70",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 139,
+    "n_subject_turns": 69,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int71.rtf",
+    "unit_id": "int71",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 193,
+    "n_subject_turns": 96,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  },
+  {
+    "file": "SN5723int72.rtf",
+    "unit_id": "int72",
+    "kind": "interview",
+    "format": "tagged",
+    "is_group": false,
+    "verbatim": true,
+    "n_turns": 186,
+    "n_subject_turns": 93,
+    "speakers": [
+      "Interviewer",
+      "Subject"
+    ]
+  }
+]

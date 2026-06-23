@@ -1,0 +1,141 @@
+{
+  "unit_id": "int61",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-identifies as 'the only woman designer'; female clearly supported."
+    },
+    {
+      "var": "year",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "On a one-year placement, 'half a year done so far'; Placement year correct."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Repeatedly a 'designer-y person' on a design course; Design & Technology correct."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Currently on placement; yes correct."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'still a year in work... never be a bad thing... full time work' strongly endorses work experience value."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'look really good on anyone's CV' maps to improved job chances; agree fits."
+    },
+    {
+      "var": "jobdecid",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'helped because I've seen different areas I could work in' supports deciding future direction."
+    },
+    {
+      "var": "industry",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote ('lot of experience... confident talking to people') is personal development, not 'idea of what industry is really like'; same quote as perdevel, no industry-construct evidence."
+    },
+    {
+      "var": "perdevel",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'a lot more confident... presentation skills got loads better' strongly supports personal development."
+    },
+    {
+      "var": "apptheor",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'a bit, but not loads... not as designery as I thought' supports limited theory application; disagree reasonable."
+    },
+    {
+      "var": "nogain",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'can never be a bad thing... full time work' strongly rejects 'nothing to gain'; strongly disagree correct."
+    },
+    {
+      "var": "pleased",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is about future-career doubt ('don't know if I want to be a designer'), not displeasure with the choice to STUDY; she elsewhere enjoyed it. No support for disagree on pleased-to-study."
+    },
+    {
+      "var": "interper",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Confidence gains attributed to the PLACEMENT, not the COURSE; variable is 'the course develops interpersonal skills'. Coder's own note admits misattribution."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicitly no longer wants a design career, leans to marketing (non-engineering); code 10 fits."
+    },
+    {
+      "var": "workenv",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Strongly dislikes desk-bound working, values manager's leniency; work environment matters. Indirect but adequate; keep medium."
+    },
+    {
+      "var": "people",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'old men, not much to talk about... thing that bothers me the most' shows the people she works with matter."
+    },
+    {
+      "var": "flexible",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'work from home some days... quite cool' indicates flexible working valued; indirect, low confidence appropriate."
+    }
+  ]
+}

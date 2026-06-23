@@ -1,0 +1,53 @@
+{
+  "unit_id": "int17",
+  "recodes": [
+    {
+      "var": "hobbies",
+      "code": 2,
+      "label": "disagree",
+      "confidence": "medium",
+      "evidence_quote": "I did a lot of sport when I was younger",
+      "reasoning": "Only hobby mentioned is sport, which is not technical in nature."
+    },
+    {
+      "var": "pleased",
+      "code": 4,
+      "label": "agree",
+      "confidence": "low",
+      "evidence_quote": "While, she has enjoyed the degree, she doesn’t think she will enjoy the engineering job at the end",
+      "reasoning": "She enjoyed the degree itself, supporting agreement, though her doubt about the job tempers this below strong agreement."
+    },
+    {
+      "var": "friends",
+      "code": 4,
+      "label": "satisfied",
+      "confidence": "low",
+      "evidence_quote": "it is a lot easier to work in a group where it’s your friends",
+      "reasoning": "Speaks positively of her friends and wants to stay near university friends; indirect but positive satisfaction signal."
+    },
+    {
+      "var": "placloca",
+      "code": 4,
+      "label": "agree",
+      "confidence": "medium",
+      "evidence_quote": "I’m asking quite a lot and its basically whether they can actually, even find a job, in their company, which would suit all that or not",
+      "reasoning": "Her main barrier to placement is finding one in a suitable location (home/near Loughborough) with regular hours."
+    },
+    {
+      "var": "noappeal",
+      "code": 4,
+      "label": "agree",
+      "confidence": "medium",
+      "evidence_quote": "they are a very construction based (right) company and for me now that isn’t really what I need to be doing and I can’t see myself actually managing to work on site for them",
+      "reasoning": "The construction/site work her sponsor offers does not appeal given her current situation."
+    },
+    {
+      "var": "carpath",
+      "code": 9,
+      "label": "don't know",
+      "confidence": "medium",
+      "evidence_quote": "In terms of career, Eve had no idea what she would be doing in the future",
+      "reasoning": "Explicitly undecided about her future career area; the design-office reference is tentative and placement-specific."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+INTERVIEW INT15 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Year of study: Part B/Year 2
+Department: Mechanical & Manufacturing Engineering
+University type (pre- or post-1992): Pre-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Wanting the challenge of solving problems: Agree
+Being good at maths and science at school: Strongly agree
+Choosing engineering with little knowledge of the job: Strongly agree
+Having a family member in the industry: Agree
+Engineering's appeal as a varied field: Agree
+Father's encouragement to study engineering: Neither agree nor disagree
+Careers advisor's encouragement: Agree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Engineer(s)
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Neither agree nor disagree
+Difficulty seeing the relevance of some modules: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Neither satisfied nor dissatisfied
+Support from a personal tutor: Very satisfied
+Group work: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Because of needing the money: Agree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+To apply theory learnt at university: Agree
+Additional reason for wanting placement: Other
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work

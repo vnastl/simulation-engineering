@@ -1,0 +1,545 @@
+{
+ "unit_id": "int30",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "part of me – I would have been the only girl in class",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject refers to herself as a girl/woman engineering student throughout."
+  },
+  {
+   "var": "dept",
+   "code": 2,
+   "label": "Chemical Engineering",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yeah, I’m doing chemical engineering.",
+   "theme": "course_experience",
+   "reasoning": "Explicitly states she does chemical engineering."
+  },
+  {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Er, a mixed college. A mixed co-ed school.",
+   "theme": "route_into_engineering",
+   "reasoning": "Describes her schooling as mixed/co-ed."
+  },
+  {
+   "var": "year",
+   "code": 2,
+   "label": "Part B/Year 2",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "so I start the second year (?) after my first year",
+   "theme": "course_experience",
+   "reasoning": "States she is starting/in her second year."
+  },
+  {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Oh, I thought it would be interesting",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose engineering because she thought it would be interesting."
+  },
+  {
+   "var": "challeng",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s challenging so I think I like",
+   "theme": "route_into_engineering",
+   "reasoning": "Attracted by the challenge of engineering."
+  },
+  {
+   "var": "mathsci",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s more mathematically – mathematically based, yeah, compared to the other degrees",
+   "theme": "route_into_engineering",
+   "reasoning": "Drawn by the maths basis; took pure science and pure maths, implying competence/affinity."
+  },
+  {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "very wide industry – very broad",
+   "theme": "route_into_engineering",
+   "reasoning": "Describes engineering as a wide/broad/varied field positively."
+  },
+  {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I didn’t know 100% what engineering’s all about until I did it myself",
+   "theme": "route_into_engineering",
+   "reasoning": "Indicates she chose with limited prior knowledge of what engineers do."
+  },
+  {
+   "var": "family",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think my father was the one that introduced this engineering thing … I know he’s an engineer … my siblings and friends, yeah friends, people in the – you know – kind of engineering as well, so that’s how I got into this thing",
+   "theme": "route_into_engineering",
+   "reasoning": "Father (engineer) plus siblings/friends in engineering are how she learned about it."
+  },
+  {
+   "var": "father",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think my father was the one that introduced this engineering thing",
+   "theme": "route_into_engineering",
+   "reasoning": "Father introduced engineering and parents were all for her choices, indicating paternal encouragement."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "No one really discourage me, everyone’s been telling me it’s a really good position.",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly says nobody discouraged her."
+  },
+  {
+   "var": "nobody",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "my tutor encouraged me to go for placement. And my parents are all for it",
+   "theme": "route_into_engineering",
+   "reasoning": "She was encouraged (father introduced it, parents/tutor supportive), so 'nobody encouraged me' is false."
+  },
+  {
+   "var": "pleased",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "More than what I expected.",
+   "theme": "course_experience",
+   "reasoning": "Course exceeded expectations and she affirmed being pleased she chose it; strong positive."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "you do develop some leadership skills and your team working skills and also your communication skills",
+   "theme": "course_experience",
+   "reasoning": "States the group work on the course develops interpersonal/team/communication skills."
+  },
+  {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think I like it very much that I learn a lot from it",
+   "theme": "course_experience",
+   "reasoning": "Clearly positive about group work despite some problems."
+  },
+  {
+   "var": "designwk",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "The best thing about the course right now I think would be the opportunity that you have in engineering to do the design coursework",
+   "theme": "course_experience",
+   "reasoning": "Design coursework named as the best thing about the course; strongly positive."
+  },
+  {
+   "var": "supppers",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "my personal tutor is fine",
+   "theme": "course_experience",
+   "reasoning": "Positive though modest assessment of her personal tutor."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "that was why I came to [this university] actually being a – because I want to go for a placement",
+   "theme": "placement_decision",
+   "reasoning": "Intends to go on placement; chose the university for it and has a placement arranged."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Firstly, you expect to get the experience",
+   "theme": "placement_decision",
+   "reasoning": "Work experience named as the first reason for wanting the placement."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the thought of working like in a proper big British company is really like – how you say? – you look forward to that",
+   "theme": "placement_decision",
+   "reasoning": "Wants to experience what real industry/a big company is like."
+  },
+  {
+   "var": "apptheor",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "you get first hand experience and you get to deal with real kind of thing, like now what do we do to is a piece of paper",
+   "theme": "placement_decision",
+   "reasoning": "Looks forward to applying learning in practice rather than just paper, supporting apply-theory motive."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ll probably learn how to deal with things but in more mature way",
+   "theme": "placement_decision",
+   "reasoning": "Expects personal development/maturing from the placement."
+  },
+  {
+   "var": "carpath",
+   "code": 6,
+   "label": "research/development",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m still thinking of doing research in chemical engineering",
+   "theme": "future_intentions",
+   "reasoning": "Preferred area framed around research in chemical engineering."
+  },
+  {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think I’ll still be working as a process engineer, yeah.",
+   "theme": "future_intentions",
+   "reasoning": "Envisions a technical engineering role (process engineer; ideal is going on site, doing the work)."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yeah, I’m still thinking of doing research in chemical engineering. I’m not sure what that will be.",
+   "theme": "future_intentions",
+   "reasoning": "Expresses intention to go on to research/further study."
+  },
+  {
+   "var": "studarea",
+   "code": 5,
+   "label": "engineering related subject",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "doing research in chemical engineering",
+   "theme": "future_intentions",
+   "reasoning": "Intended further study is in chemical engineering, an engineering-related subject."
+  }
+ ],
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "breaked",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "finuni",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noappeal",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noaccept",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "Oh, I thought it would be interesting and it has more – it’s more mathematically – mathematically based, yeah, compared to the other degrees. And I’m not really interested in sort of business and social science, that kind of – it’s like, er, there are more job opportunities like now in the engineering sector industry and it’s challenging so I think I like.",
+    "It was half way – the middle – doing the ‘A’ level equivalent, ‘cos I was thinking of – actually I thought bio technology, prior to engineering, then I – some problem came up so I thought it wasn’t right me doing bio technology because it’s dealing with going against nature, so then I thought oh engineering",
+    "I think my father was the one that introduced this engineering thing. He didn’t really tell me about what he’s doing – but I know he’s an engineer, so it tells me that this profession and also like friends – my friends – my siblings and friends, yeah friends, people in the – you know – kind of engineering as well, so that’s how I got into this thing.",
+    "Oh yeah, and also because there are more girls in chemical engineering than the other engineering departments. Yeah.",
+    "No – my tutor encouraged me to go for placement. And my parents are all for it. No one really discourage me, everyone’s been telling me it’s a really good position."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "More than what I expected.",
+    "The best thing about the course right now I think would be the opportunity that you have in engineering to do the design coursework well I think 4 times more than what my friends have where they are at [name] University – they have 1 and that’s all.",
+    "There is much work but I take it that’s good. It is really bad but you learn a lot from the course.",
+    "I really think that I can do things my friends can’t do.",
+    "Er, well doing the work isn’t my (?) because I’ve just been – because you work with so many different people and you like you encounter a lot of problems, but I think I like it very much that I learn a lot from it",
+    "Oh er, first things you get to share the load. Second that it doesn’t always (?) – secondly you – well you do develop some leadership skills and your team working skills and also your communication skills.",
+    "Well, I think she’ll probably be more approachable (yeah) yeah. I think sometimes you sit there and he doesn’t know what to ask. Maybe they would be more – make you feel more comfortable."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Yes, I was – that was why I came to [this university] actually being a – because I want to go for a placement.",
+    "Firstly, you expect to get the experience and secondly was – well the thought of working like in a proper big British company is really like – how you say? – you look forward to that, sort of know it is a type of job, you produce some big things.",
+    "I’ll probably learn how to deal with things but in more mature way. And also er, it probably helps me more in decision making ‘cos I know what I’ll be doing",
+    "Most looking forward to being – doing work, because I haven’t done any real work, and look forward to meeting other people, so you know. Not really worried about anything probably just moving there by myself because I think I will be the only one from the department going.",
+    "Ok – if you work you get pay, and also like you get first hand experience and you get to deal with real kind of thing, like now what do we do to is a piece of paper – you don’t really see much."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "5 years – I think I’ll still be working as a process engineer, yeah.",
+    "10 years? Probably working part time. Erm, I’m not sure but I used to think like my younger brothers study chemical engineer and I was thinking maybe we set up a company and doing consultation work or something like that.",
+    "Er, my ideal career would be working for a petro-chemical company and going like – doing all the dirty jobs. Not really dirty but you have to go on site and see things and do the (?). Challenging career is the ideal.",
+    "Yeah, I’m still thinking of doing research in chemical engineering. I’m not sure what that will be.",
+    "Er, well if the company is so male dominated and they probably – er see women as a back-up and if they can, use as much male power as…"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 27,
+  "n_codes_kept": 27,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

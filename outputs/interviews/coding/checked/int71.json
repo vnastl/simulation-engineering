@@ -1,0 +1,470 @@
+{
+ "unit_id": "int71",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "my college course was all men, I was the only girl, so, that didn’t bother me",
+   "theme": "route_into_engineering",
+   "reasoning": "Self-identifies as the only girl/woman; safety clothing in women's sizes probed of her."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I started beginning of August, the first week of August. Six, seven months ago now",
+   "theme": "placement_decision",
+   "reasoning": "Currently on a year-long industrial placement."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "you need the experience to get a job nowadays. You need to have at least a year’s experience",
+   "theme": "placement_decision",
+   "reasoning": "Strongly endorses the work experience as the key value of placement."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "if you just go through uni and through school, and don’t actually go and see the real world, you live on cloud cuckoo land half the time",
+   "theme": "placement_decision",
+   "reasoning": "Values placement for seeing what the real working world/industry is really like."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it will help me get a job, having such a big reputable company on your CV, can’t be a negative thing at all",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as improving chances of getting a job after university."
+  },
+  {
+   "var": "apptheor",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "It’s very relevant … A lot of things I’m doing are really connected to the things that I’ve done … actually seeing it working in real life",
+   "theme": "placement_decision",
+   "reasoning": "Strongly affirms placement let her apply theory learnt at university."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think is the confidence thing, that you can go and sort of greet different people you don’t know or who you know are managers, and talk to them as if they were on the same level",
+   "theme": "placement_decision",
+   "reasoning": "Reports clear personal development/growth in confidence from the placement."
+  },
+  {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "now I’m here and doing the work, environmental work I think I’ll probably end up going into environmental career",
+   "theme": "placement_decision",
+   "reasoning": "Placement helped her decide her future direction (into environmental work)."
+  },
+  {
+   "var": "unigrade",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "you learn so much which you wouldn’t learn at uni, but you can just then take back to uni",
+   "theme": "placement_decision",
+   "reasoning": "Expects placement learning to feed back into final year; weak/indirect on grades."
+  },
+  {
+   "var": "relevanc",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "some of the modules I’m doing next year I know I’m working on things connected with them, so I’m doing a lot of waste work so, and I’ve got a waste module next year. So they are very related",
+   "theme": "course_experience",
+   "reasoning": "Finds module relevance clear/connected to work, i.e. disagrees it is difficult to see relevance."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "at uni it teaches you to sort of listen to everyone and try and get everyone, sort of, what they’re stronger at and what their weaker at",
+   "theme": "course_experience",
+   "reasoning": "Credits university team work with developing interpersonal/listening skills."
+  },
+  {
+   "var": "carpath",
+   "code": 11,
+   "label": "other",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think I want to do something very similar to what I’m doing now, sort of environmental advisor",
+   "theme": "future_intentions",
+   "reasoning": "Preferred specialism is an environmental advisor role, not matching the listed engineering areas; coded other."
+  },
+  {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I don’t know if I could go into a small company where I was the only environmental manager. I think that’d be sort of too much when I first leave anyway",
+   "theme": "future_intentions",
+   "reasoning": "Wants a specialist environmental-advisor role and shies from a lone management role; weak/indirect."
+  },
+  {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the only thing that sort of puts me back is it’s location. It’s in the middle of nowhere, it takes two hours to get past London, so there is that sort of disadvantage",
+   "theme": "future_intentions",
+   "reasoning": "Location is a clear deciding factor for whether she would work somewhere."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yes I think it does, but I think the language might be a problem (laughing). Erm, but I could work in America or New Zealand",
+   "theme": "future_intentions",
+   "reasoning": "Working abroad/travel appeals to her, though mildly and with caveats."
+  }
+ ],
+ "skips": [
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "covered by future_intentions field-characteristics, not the decision battery"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "school",
+   "reason": "only FE college (all men) mentioned, not secondary school type"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "dissertation use uncertain; says it is not going to happen at the moment"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "ambiguous; implies course too theoretical but does not rate level as just right"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed as being pleased she chose engineering"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "covered by interper; not rated as satisfaction"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "placement social group discussed, not course friends specifically"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed as satisfaction"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed as satisfaction"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed as course satisfaction"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not clearly framed as a job-choice importance factor"
+  },
+  {
+   "var": "people",
+   "reason": "valued team in experience but not framed as job-choice factor"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "valued in placement but not framed as a job-choice factor"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "cares about no discrimination but not framed as job-choice factor"
+  },
+  {
+   "var": "flexible",
+   "reason": "flexi-time experienced but not framed as a job-choice factor"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not clearly stated; environmental/manufacturing role, department code unclear"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "placement year implied but covered by placemen"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "my college course was all men, I was the only girl, so, that didn’t bother me, but I thought it was going to be more male dominated, but it’s definitely not",
+    "I wasn’t going to do environmental at all. It was only the fact that I was so desperate for a position I was like I’ll apply for anything, I’ll do anything in either energy or environmental",
+    "‘Cos I wanted to get an energy related placement, erm and now I’m here and doing the work, environmental work I think I’ll probably end up going into environmental career"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "It’s very relevant, I’ve done … A lot of things I’m doing are really connected to the things that I’ve done or that I know that I’m gonna do",
+    "it gave me a lot of, a broad base of knowledge before I’ve started and so it meant that I picked up things quite quickly",
+    "the nature of a lot of the things you do at Uni is completely different, it’s all theoretical, it’s very rarely application",
+    "at uni it teaches you to sort of listen to everyone and try and get everyone, sort of, what they’re stronger at and what their weaker at and try and pull that information from everyone",
+    "I think Outlook would be a, like learning to use Outlook in an efficient manner beforehand is a key one I think"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I also think that you need the experience to get a job nowadays. You need to have at least a year’s experience",
+    "if you just go through uni and through school, and don’t actually go and see the real world, you live on cloud cuckoo land half the time",
+    "it will help me get a job, having such a big reputable company on your CV, can’t be a negative thing at all",
+    "the knowledge and sort of hands on experience that I’ve got in the different fields, that I wouldn’t normally have got at uni",
+    "if you can survive in a place like this, you can survive anywhere, that’s my thinking anyway",
+    "Each year it changes slightly and you start off with very little responsibility and then it grows and grows and grows"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I think I want to do something very similar to what I’m doing now, sort of environmental advisor",
+    "I think I probably will end up working for a big company because of the fact that it’s going to be the type of role I can go into",
+    "I don’t know if I could go into a small company where I was the only environmental manager. I think that’d be sort of too much when I first leave anyway",
+    "the only thing that sort of puts me back is it’s location. It’s in the middle of nowhere, it takes two hours to get past London",
+    "I could work in America or New Zealand or somewhere like that. But I don’t know. It’s a good company to work for"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 15,
+  "n_codes_kept": 15,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

@@ -1,0 +1,29 @@
+{
+  "unit_id": "int13",
+  "recodes": [
+    {
+      "var": "mother",
+      "code": 2,
+      "label": "disagree",
+      "confidence": "low",
+      "evidence_quote": "Er, I think it's very much my dad's influence. Er because he used to take me to model car racing and model air – you know – plane - flying things from a very early age.",
+      "reasoning": "Influence on entering engineering is credited entirely to her father; the mother is never mentioned as an encourager, supporting disagree by inference."
+    },
+    {
+      "var": "Mconfid",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": null,
+      "reasoning": "She never compares male vs female confidence in class; her overbearing group peer 'does that with everybody, it's not just females', so no allowed value is verbatim-supportable."
+    },
+    {
+      "var": "travel",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_quote": "I've had so much management and leadership training and you know they've taken me all around the world",
+      "reasoning": "She repeatedly prizes the global travel her RAF role offers (Egypt, Tanzania), suggesting travel matters to her, but it is not stated as a company/job-choice criterion, hence low confidence."
+    }
+  ]
+}

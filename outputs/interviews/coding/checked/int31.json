@@ -1,0 +1,522 @@
+{
+ "unit_id": "int31",
+ "verbatim": false,
+ "placement_status": "network75",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "if I want to do something that bad, I know it sounds sexist in a way, but I won’t have no bloke turn around to me, personally, and tell me that I’m not (yeah), I’m not good enough because I’m a female",
+   "theme": "route_into_engineering",
+   "reasoning": "Refers to herself as a female throughout."
+  },
+  {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "Just a comprehensive – a high school.",
+   "theme": "route_into_engineering",
+   "reasoning": "Comprehensive high school implies mixed-sex secondary schooling."
+  },
+  {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "because it’s something that, you know, I’d like – I’m interested in (yeah), I’d like to do",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose health & safety out of genuine interest in the work."
+  },
+  {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "Because the course is erm environmental health and safety, it’s opening the avenue to a lot.",
+   "theme": "route_into_engineering",
+   "reasoning": "Drawn to the course because its breadth opens many avenues/directions."
+  },
+  {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "You come on these courses and you think like health & safety is health and safety and then you look in the environment, and you’ve got like, you’ve got like the engineering, you’ve got the energy side",
+   "theme": "route_into_engineering",
+   "reasoning": "Came in with limited knowledge of what the field actually entailed; surprised by its scope."
+  },
+  {
+   "var": "family",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "I just sort of got all my qualifications through erm work experience (yeah) you know, just working through",
+   "theme": "route_into_engineering",
+   "reasoning": "Route was via her own work experience, not a family member in the industry; no family involvement mentioned."
+  },
+  {
+   "var": "discoura",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "he basically said to me, from day one, that I’d find it hard",
+   "theme": "route_into_engineering",
+   "reasoning": "A male colleague told her she'd find it hard and that they'd laugh at her."
+  },
+  {
+   "var": "whodisc",
+   "code": 5,
+   "label": "friend(s)",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "[name], who’s a colleague of mine, was on the same course as me and he said to me, [name] why – why do you want to do it?",
+   "theme": "route_into_engineering",
+   "reasoning": "The discourager was a course colleague/peer, best mapped to friend(s)."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "no, I think I’m happy with the way I went",
+   "theme": "course_experience",
+   "reasoning": "Happy with career/course choices made; would not do anything differently."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "but then I think that’s how the course sort of teaches you to listen to other people, to a certain extent, listen and use other people’s experiences",
+   "theme": "course_experience",
+   "reasoning": "Course develops listening/teamwork skills through mixed-age group work."
+  },
+  {
+   "var": "variety",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "[this university] offered, obviously, the – the three of them which I thought would widen, at the end of the day, you could go in any direction",
+   "theme": "course_experience",
+   "reasoning": "Values and is positive about the breadth/variety of subjects the course covers."
+  },
+  {
+   "var": "groupwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "For my course, at the moment, I would probably say one of the worst is team work, on my course, personally.",
+   "theme": "course_experience",
+   "reasoning": "Names team work as the worst aspect of the course."
+  },
+  {
+   "var": "supplect",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "with females I find it’s more er – I wouldn’t – more help, I suppose, available",
+   "theme": "course_experience",
+   "reasoning": "Mixed view: female lecturers supportive/guiding, male lecturers 'here's your lectures, get on with it' — overall ambivalent."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "whereas I’m just continuing or like I said on the Network 75 (yeah) avenue",
+   "theme": "placement_decision",
+   "reasoning": "Network 75 student continuing into a placement/work; went through interview for placement job."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I thought that maybe a placement would give me the experience in either engineering, do you know what I mean? The safety side of things – health and safety side of things",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly wanted placement for the work experience in the field."
+  },
+  {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "whereas in my – in sort of my experience so far, I’ve touched on it but I haven’t actually gone into it, in detail",
+   "theme": "placement_decision",
+   "reasoning": "Wants placement to gain detailed experience that helps clarify her direction in the field."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "You know I like the idea of going into erm sort of the plant, you know, and be working.",
+   "theme": "placement_decision",
+   "reasoning": "Keen to experience working on actual plant/in industry."
+  },
+  {
+   "var": "noplaoth",
+   "code": 2,
+   "label": "network 75 student",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "whereas I’m just continuing or like I said on the Network 75 (yeah) avenue",
+   "theme": "placement_decision",
+   "reasoning": "Self-identifies as a Network 75 student."
+  },
+  {
+   "var": "carpath",
+   "code": 11,
+   "label": "other",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I’ll be in health and safety definitely. Health and safety or environmental side of it.",
+   "theme": "future_intentions",
+   "reasoning": "Intended specialism is health & safety / occupational health / environmental — not among the listed engineering areas, so 'other'."
+  },
+  {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "it’s sort of different, in health and safety, because health and safety it’s not really a managerial role, it’s more – well it’s sort of managerial but not on a",
+   "theme": "future_intentions",
+   "reasoning": "Frames her future role as a specialist health-and-safety position rather than a standard managerial route."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "will depend whether or not I stay on extra time and go further into that area",
+   "theme": "future_intentions",
+   "reasoning": "Open to staying on to study further into a chosen area, depending on direction."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "it’s actually travelling around as well. So that sounds quite exciting (yeah) erm where you’re not like sort of in one office (yeah) or one place you’re actually moving around",
+   "theme": "future_intentions",
+   "reasoning": "Travelling around / not being in one place is a clear positive draw of the job for her."
+  },
+  {
+   "var": "promot",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "hopefully further up the ladder if there is one (yeah)",
+   "theme": "future_intentions",
+   "reasoning": "Aspires to move up the ladder over five years, suggesting promotion matters."
+  }
+ ],
+ "skips": [
+  {
+   "var": "year",
+   "reason": "covered by carpath"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "covered by noplaoth"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I came straight in as a mature student.",
+    "Erm, just chefing basically. I left school and went straight into catering, you know catering and hospitality erm and just basically worked, worked my way up from the bottom, basically, to the top and then decided I’d done everything, what would I actually really like to do?",
+    "And then I decided I’d like to do a bit more of the health and safety side because that was sort of roughly where I was doing well at you know. So I decided to come to university and see if I can get the degree.",
+    "I was sort of getting a bit bored with what I was doing and then thought well OK then, what can I do?",
+    "Because the course is erm environmental health and safety, it’s opening the avenue to a lot.",
+    "[this university] offered, obviously, the – the three of them which I thought would widen, at the end of the day, you could go in any direction"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "For my course, at the moment, I would probably say one of the worst is team work, on my course, personally.",
+    "sometimes it’s like there’s one group and they’re all male in the group and er sometimes you can feel intimidated by that because like, you know all the other groups have all got females in them (yeah) erm but then, on the other hand, this can be – like it can be a strength.",
+    "I think it’s good now. At the beginning I didn’t think it was good erm I suppose the same as the engineering lot, you know.",
+    "But by the end of the year, it all links together",
+    "with females I find it’s more er – I wouldn’t – more help, I suppose, available.",
+    "whereas like er for instance with the exams, I found the male lecturers was like – here’s your lectures for the year, get on with it."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "For me personally, it was erm because of my past experience – I’ve always been in catering and hospitality. I thought that maybe a placement would give me the experience in either engineering, do you know what I mean?",
+    "whereas in my – in sort of my experience so far, I’ve touched on it but I haven’t actually gone into it, in detail and so, for me, and being a mature student as well, I thought it’d be, you know, beneficial to myself.",
+    "whereas I’m just continuing or like I said on the Network 75 (yeah) avenue",
+    "for our course there wasn’t anything available, and, to be honest, the only way this job come up was just by the actual team or the actual company, was just passing comment basically",
+    "I know it’s to do with Welsh water – to do with all the pipe work and things like that."
+   ],
+   "n_dropped": 1
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’ll be in health and safety definitely. Health and safety or environmental side of it.",
+    "I know I’ll definitely be in a job because I’m quite focussed and I’ll be – how far up the ladder will depend in which area I actually pursue",
+    "in like 5 years maybe start off with a small team, move (yes) you know, into a bigger team – hopefully further up the ladder if there is one",
+    "the occupational health I got to admit I’ve sort of er given me a bit of ooh, I’d like to do that (yeah). You know, the effects on humans and things like that.",
+    "it’s actually travelling around as well. So that sounds quite exciting (yeah) erm where you’re not like sort of in one office (yeah) or one place you’re actually moving around",
+    "With me personally I don’t like to get sort of bored in a job (yeah) you know. These days I think a job is the same thing, day in, and day out. I’d like a bit of change, you know."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 23,
+  "n_codes_kept": 23,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

@@ -1,0 +1,442 @@
+{
+ "unit_id": "int55",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "oh she’s a girl, whereas if it was a guy they’ll be snap your fingers and they do it instantly",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject repeatedly refers to herself as a girl/woman in a male-dominated job",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I started in, June. I started last year.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on placement at the company",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "money": {
+   "var": "money",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Down here, I’m only working because of the money, yeah.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly says she is only working for the money",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it prepares you for erm when you actually go, finish the degree and you want to get a job, and you like, you know exactly what it’s like, coming to work",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Values the work experience the placement provides",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobprosp": {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it’s been very good, you feel, you know, to get a job afterwards",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as improving chances of getting a job afterwards",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "industry": {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "you’ve learnt like every company’s a little bit different. You know exactly how they are generally run, and how everything generally is",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement gave her an idea of what industry is really like",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placothe": {
+   "var": "placothe",
+   "code": 1,
+   "label": "compulsory",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "You can’t, you can’t erm do my degree without doing placement. Definitely not. … you have to have a placement.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement is a compulsory part of her degree",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "relevanc": {
+   "var": "relevanc",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "The surveying one was absolutely rubbish. There’s no point even doing that module whatsoever.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Difficulty seeing the relevance of some modules; calls some useless",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "covered by experien"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "carpath",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I don’t want to be an engineer. So it won’t specifically be engineering, but in construction, yeah.",
+    "It does pay quite a bit, that’s the only reason why I like working in it, it pays more money.",
+    "No, it did put me off at the beginning, I was actually changing, I was thinking of changing my degree. But, erm no, not anymore.",
+    "I was an engineer for six months, I mean, it’s okay, yeah. But you go it’s pretty boring, there’s loads of maths, and working out"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "Yes, it’s a waste of time.",
+    "Was it the drawing erm modules, where we did sections and elevations - that’s quite useful, cos’ I know what they look like now",
+    "It’s like CAD is very important. Erm the drawing one’s pretty important. The surveying one was absolutely rubbish. There’s no point even doing that module whatsoever.",
+    "I’m not sure I’ve used anything. I know what everything means, that I have learnt and I have done all my coursework on. But, erm other than that, not really.",
+    "more explanations on what the drawings actually mean for some of them, half of them, some of them, that’s all."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "You can’t, you can’t erm do my degree without doing placement. Definitely not.",
+    "Down here, I’m only working because of the money, yeah.",
+    "it’s been good though, yeah it’s been very good, you feel, you know, to get a job afterwards.",
+    "the good thing is erm, it prepares you for erm when you actually go, finish the degree and you want to get a job, and you like, you know exactly what it’s like, coming to work",
+    "I have to get up at twenty past six. I leave at seven. Start half past seven or eight o’clock. And erm you have no social life. The money’s good.",
+    "What can I say the worst things are, is the whole teasing and everything … it’s just mainly the teasing I think."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I don’t want to be an engineer. So it won’t specifically be engineering, but in construction, yeah.",
+    "It does pay quite a bit, that’s the only reason why I like working in it, it pays more money.",
+    "if you want to be like a manager and get a company. So they employ half girls, have guys.",
+    "Because they’re like an international company and they’ve got to know (inaudible). It’s like loads of you can choose from where you want to go anyway."
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

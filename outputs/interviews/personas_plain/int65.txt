@@ -1,0 +1,26 @@
+INTERVIEW INT65 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Engineering's appeal as a varied field: Agree
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Don't know
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Very important
+Location: Important
+Opportunities to travel: Important
+Preferred future work role: Don't know

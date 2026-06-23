@@ -1,0 +1,253 @@
+{
+ "unit_id": "int04",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Married female engineering student; clearly female throughout."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Repeatedly self-identifies as doing civil engineering."
+  },
+  {
+   "var": "mother",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'my mum originally suggested it' maps to mother encouraged (agree)."
+  },
+  {
+   "var": "family",
+   "verdict": "wrong_code",
+   "corrected_code": 2,
+   "corrected_label": "disagree",
+   "corrected_confidence": "low",
+   "note": "Uncle studied civil but went into finance (not in industry) and she says she 'knew virtually nothing about it'; 'agree' overstates."
+  },
+  {
+   "var": "mathsci",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Chose A-levels by 'subjects I found interesting and that I was good at' = good at maths/science."
+  },
+  {
+   "var": "knowledg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'knew virtually nothing about it' strongly supports choosing with little knowledge."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'more diverse' / 'wanted something quite diverse' clearly supports varied appeal."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'find it more interesting in the long run' supports interesting-work draw."
+  },
+  {
+   "var": "special",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote is about avoiding a narrow qualification for career breadth, not explicitly science+maths without specialising; thin, downgrade."
+  },
+  {
+   "var": "gooddeg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Values the MEng's standing even though she may exit the profession."
+  },
+  {
+   "var": "highsal",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Calls industry 'poorly paid'; salary not a draw, supports strongly disagree (low conf retained)."
+  },
+  {
+   "var": "careers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Did extensive careers research but 'engineering never came up' = no careers-advisor encouragement."
+  },
+  {
+   "var": "nobody",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Mum suggested/encouraged it, so 'nobody encouraged me' is false = disagree."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No discouragement reported anywhere; quote answers the encourage/discourage probe with 'no'."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Answered 'I think so' then elaborated on wanting diversity; supports agree."
+  },
+  {
+   "var": "quality",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'The teaching has been excellent' = very satisfied."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Very positive about personal tutor ('great', keeps up to date)."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Friends 'very motivating'; supports satisfaction with friends made."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Learnt leadership/managerial/group skills = course develops interpersonal skills."
+  },
+  {
+   "var": "variety",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote expresses what she WANTED (diversity), not satisfaction with delivered variety; thin, downgrade."
+  },
+  {
+   "var": "relevanc",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Questions relevance of modules ('never going to touch hydraulics again') = relevance hard to see."
+  },
+  {
+   "var": "coursewk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Names 'sheer volume of work' as worst thing = dissatisfied with quantity of coursework."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'better off going straight through' = decided not to go on placement."
+  },
+  {
+   "var": "placloca",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'haven't been able to find a job in the area' due to commuting constraint = no suitable-location placement."
+  },
+  {
+   "var": "finuni",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Wants to get into industry a year earlier, but the 'finish ASAP to earn money' rationale is absent; primary driver is location. Thin, downgrade."
+  },
+  {
+   "var": "noplaoth",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Saving the placement year ('one year earlier') reasonably maps to 4=time (low conf retained)."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I would need to work for a consultancy' over a contractor = consultancy preference."
+  },
+  {
+   "var": "promot",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'too ambitious' / needs 'future prospects... climb a ladder' = promotion very important."
+  },
+  {
+   "var": "location",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I certainly need to stay in one place' (husband's PhD) = location very important."
+  },
+  {
+   "var": "flexible",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Flexible working listed as one acceptable option ('set or flexible'), emphasis on not over-long hours; thin, downgrade."
+  },
+  {
+   "var": "childcar",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is her personal stance against nurseries, not the importance of employer child-care policies when choosing a job; does not support the construct."
+  }
+ ]
+}

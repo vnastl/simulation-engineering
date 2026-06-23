@@ -1,0 +1,51 @@
+INTERVIEW INT01 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Department: Mechanical & Manufacturing Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Using science and maths without specialising: Agree
+Choosing engineering with little knowledge of the job: Disagree
+Having a family member in the industry: Agree
+Engineering as a good degree to hold regardless: Strongly agree
+Father's encouragement to study engineering: Strongly disagree
+Careers advisor's encouragement: Strongly disagree
+Nobody encouraged the choice: Agree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Father
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Agree
+Engineering students being competitive: Disagree
+Female students getting more help in class: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Very satisfied
+Group work: Neither satisfied nor dissatisfied
+Theory work: Dissatisfied
+Design work: Very satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Because of needing the money: Disagree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Strongly agree
+To apply theory learnt at university: Neither agree nor disagree
+To help choose a final-year project: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Research/development
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Important
+Preferred future work role: Technical/specialist
+Importance of gaining Chartership: Important

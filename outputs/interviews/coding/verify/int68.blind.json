@@ -1,0 +1,37 @@
+{
+ "unit_id": "int68",
+ "recodes": [
+  {
+   "var": "furstudy",
+   "code": 0,
+   "label": "no",
+   "confidence": "low",
+   "evidence_quote": "I’m going to work for them when I leave definitely because I think they're a good company.",
+   "reasoning": "Intends to go straight into work for the company after graduating; no mention of wanting further study (PhD/Masters), so inferred no but indirect."
+  },
+  {
+   "var": "friends",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "low",
+   "evidence_quote": "My degree there's about 40 of us on the course and I know there's like phsyc or something there's like hundred of millions. So people think it's unusual that I know everyone on my course",
+   "reasoning": "Speaks positively about the small, close-knit cohort where she knows everyone, implying satisfaction with friends made; never rates friendship satisfaction directly."
+  },
+  {
+   "var": "highsal",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": "it's a very common sense job it's practical",
+   "reasoning": "She frames engineering as common-sense/practical, never as a salary draw; the only salary talk is about actuaries/others. No verbatim statement supports a code for being attracted by high salary, so null."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "evidence_quote": "See my family like didn’t even have a clue still now, that is unusual then isn’t it?",
+   "reasoning": "Family was simply unaware of engineering and her careers advisor encouraged it; no one is described as discouraging her, so no."
+  }
+ ]
+}

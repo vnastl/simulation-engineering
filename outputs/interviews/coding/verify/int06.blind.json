@@ -1,0 +1,29 @@
+{
+ "unit_id": "int06",
+ "recodes": [
+  {
+   "var": "money",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "evidence_quote": "You're going out, you're working and you're earning your own money, whereas here you just turn up for a lecture if you feel like it.",
+   "reasoning": "Earning money is named only as a feature of how placement differs from uni, never as a reason she needs it; when asked why she wants placement she cites experience."
+  },
+  {
+   "var": "training",
+   "code": 3,
+   "label": "neither important nor unimportant",
+   "confidence": "low",
+   "evidence_quote": "Yes. Erm, the training programme, I'd actually like to travel, so world-wide would be nice, so I've had a look at that. Erm, other than that, not really.",
+   "reasoning": "She acknowledges looking at the training programme but immediately pivots to travel and adds 'not really', indicating lukewarm/ambivalent importance."
+  },
+  {
+   "var": "theory",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "low",
+   "evidence_quote": "because there's so much theory, they're a bit put off by it. But I think in the long run, its more helpful for a job.",
+   "reasoning": "Notes the heavy theory that puts others off yet sees it as helpful long-term; ambivalent, no clear personal satisfaction or dissatisfaction."
+  }
+ ]
+}

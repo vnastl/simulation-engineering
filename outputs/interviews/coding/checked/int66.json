@@ -1,0 +1,536 @@
+{
+ "unit_id": "int66",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’d done this drawing but I sign my name as C Brown so they don’t know I’m a girl",
+   "theme": "route_into_engineering",
+   "reasoning": "Repeatedly self-identifies as a girl/woman; only girl left on course."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ve just actually put in a letter to, er, to extend it, because I should finish the end of June but I want to work through the Summer as well",
+   "theme": "placement_decision",
+   "reasoning": "Currently on placement and extending it."
+  },
+  {
+   "var": "family",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "my dad’s an engineer and dad’s side of the family is very engineering-focussed, and so I knew about my dad’s course",
+   "theme": "route_into_engineering",
+   "reasoning": "Knew about engineering because a family member is in the industry."
+  },
+  {
+   "var": "nobody",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I was in an environment where they wouldn’t have dreamt of suggesting engineering to me, it’s off my own bat that I’ve found out about it",
+   "theme": "route_into_engineering",
+   "reasoning": "No one encouraged the choice; she found out on her own."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s off my own bat that I’ve found out about it",
+   "theme": "route_into_engineering",
+   "reasoning": "No mention of anyone discouraging; characterises it as nobody suggesting rather than active discouragement."
+  },
+  {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s incredibly interesting as well, when you look at all the different aspects of the course",
+   "theme": "route_into_engineering",
+   "reasoning": "Stresses the varied range of the course as appealing; 'because it’s architectural engineering and management – covers such a wide range of stuff'."
+  },
+  {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s incredibly interesting as well, when you look at all the different aspects of the course",
+   "theme": "route_into_engineering",
+   "reasoning": "Describes the field as incredibly interesting work."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "because I love all aspects of my course",
+   "theme": "course_experience",
+   "reasoning": "Expresses love for the course, implying she is pleased with the choice."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "because I had to do some coursework with a couple of civil engineers and the technical stuff I was absolutely useless on but they were really good on. Whereas the management side of things, the organised time side of things, I was better on",
+   "theme": "course_experience",
+   "reasoning": "Course group work with other courses develops collaborative/interpersonal skills; 'team working is very important' for the field."
+  },
+  {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think so, yeah, definitely, because … yeah I think it’s definitely beneficial",
+   "theme": "course_experience",
+   "reasoning": "Positive about uni group work; 'definitely beneficial', though notes alphabetical team allocation as a gripe."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s given me a lot of experience, it’s given me a lot of confidence, and I’m able to go away and I’ve learned a lot",
+   "theme": "placement_decision",
+   "reasoning": "Placement valued strongly for work experience; 'it was an experience thing'."
+  },
+  {
+   "var": "jobdecid",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "this year is for actually like discovering what I want to do when I actually graduate, because I love all aspects of my course, I didn’t have a particular focus",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly framed placement as deciding her future direction; now 'focussing towards the management side'."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s going to be very beneficial when they actually go to get a job after they graduate, because they’ll have this experience which is one over",
+   "theme": "placement_decision",
+   "reasoning": "Placement seen as improving job chances; 'it’s one over people who haven’t had the experience'."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I know what it’s like to work in an office environment where we’ve worked under pressure, where we’ve worked through quite a few problems",
+   "theme": "placement_decision",
+   "reasoning": "Placement gave her a real idea of what industry/office work is like."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "It’s given me, I think it’s given me better people skills … I think I have become more confident as well",
+   "theme": "placement_decision",
+   "reasoning": "Placement drove personal development: confidence, people skills, independence."
+  },
+  {
+   "var": "unigrade",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think working this year will help my degree loads because I think I’ll be able to go back into my final year and I will have learned quite a lot so I’ll be able to use it in final year projects",
+   "theme": "placement_decision",
+   "reasoning": "Believes placement will improve her final-year work/grades on return."
+  },
+  {
+   "var": "apptheor",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the more management side of my course has played a part when I’ve been going to do drawing records, drawing [issue?], things like that, so yeah, I think it’s helped",
+   "theme": "placement_decision",
+   "reasoning": "Applied theory (management side, CAD, health & safety) from uni on placement."
+  },
+  {
+   "var": "finalyr",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the one thing I’m really looking forward to going back to uni with is the fact that when we do our final year project I’ll be able to actually produce all my drawings on CAD",
+   "theme": "placement_decision",
+   "reasoning": "Placement skills (CAD, management) will feed directly into her final-year project."
+  },
+  {
+   "var": "money",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s nice because I have far more independence and things like that because I’ve got – because I’m earning money",
+   "theme": "placement_decision",
+   "reasoning": "Mentions earning money as a perk but never as a reason she went; weak/ambiguous so coded neutral."
+  },
+  {
+   "var": "carpath",
+   "code": 5,
+   "label": "project management",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I am veering towards design management",
+   "theme": "future_intentions",
+   "reasoning": "Repeatedly focusing on the design/management side; 'focussing towards the management side of things' — nearest allowed area is project management."
+  },
+  {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m already focussing towards the management side of things",
+   "theme": "future_intentions",
+   "reasoning": "Clearly prefers a managerial/management role over technical specialist."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I would like to go and do a Masters in something like that and just sort make it more sort of specialist",
+   "theme": "future_intentions",
+   "reasoning": "Would like further study (a Masters), though keeping options open."
+  },
+  {
+   "var": "studarea",
+   "code": 3,
+   "label": "Masters, MSc, MBA",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I would like to go and do a Masters in something like that",
+   "theme": "future_intentions",
+   "reasoning": "Names a Masters as the intended further study."
+  },
+  {
+   "var": "training",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they’re very big on like sponsoring to do Masters and stuff like that … So I think they’re quite big on the training and stuff like that, so I’d like to come back because I know there’s a lot of opportunities for me",
+   "theme": "future_intentions",
+   "reasoning": "Values an employer’s training/sponsorship opportunities as a draw to return."
+  },
+  {
+   "var": "promot",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "give me a better opportunity to actually like grow through the company",
+   "theme": "future_intentions",
+   "reasoning": "Values opportunity to grow/progress through the company."
+  },
+  {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "And you’ve got a lot of support from the people around you",
+   "theme": "future_intentions",
+   "reasoning": "Strong value placed on supportive colleagues throughout; indirect on job-choice importance so kept low."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "covered by nobody"
+  },
+  {
+   "var": "careers",
+   "reason": "covered by nobody"
+  },
+  {
+   "var": "teacher",
+   "reason": "covered by nobody"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "covered by varied"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I was in an environment where they wouldn’t have dreamt of suggesting engineering to me, it’s off my own bat that I’ve found out about it",
+    "my dad’s an engineer and dad’s side of the family is very engineering-focussed, and so I knew about my dad’s course and thought, well I kind of like architecture but I don’t think I can hack the 7 years, and I kind of stumbled across it",
+    "it’s incredibly interesting as well, when you look at all the different aspects of the course",
+    "I definitely think there should be more, not necessarily encouragement but awareness that there are, you know, women can go into engineering, it’s not like a really blokey subject"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "because I love all aspects of my course, I didn’t have a particular focus",
+    "I had to do some coursework with a couple of civil engineers and the technical stuff I was absolutely useless on but they were really good on. Whereas the management side of things, the organised time side of things, I was better on",
+    "The only problem I have is the way they put the teams together. Because they just stick you in alphabetical order and stuff so you end up working with the same people over and over",
+    "you’re always working towards the goal of exams and things like that"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "this year is for actually like discovering what I want to do when I actually graduate, because I love all aspects of my course, I didn’t have a particular focus",
+    "it’s going to be very beneficial when they actually go to get a job after they graduate, because they’ll have this experience which is one over",
+    "It’s been really – it’s been a total learning experience. I mean there isn’t a day that goes by when I haven’t like learned something new",
+    "I think it’s exceeded my expectations a little bit because I didn’t think I’d be given the responsibility I’ve been given",
+    "I think working this year will help my degree loads because I think I’ll be able to go back into my final year and I will have learned quite a lot",
+    "it’s given me a lot of experience, it’s given me a lot of confidence, and I’m able to go away and I’ve learned a lot"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I am veering towards design management, I would like to go and do a Masters in something like that and just sort make it more sort of specialist, but, I’m keeping my options open",
+    "I’ve realised I like the architecture side of things but I’m actually focussing more on the management",
+    "if I went into a small private company I don’t think I’d have the opportunities that I’d have … give me a better opportunity to actually like grow through the company",
+    "they’re very big on like sponsoring to do Masters and stuff like that … so I’d like to come back because I know there’s a lot of opportunities for me",
+    "if I’m still interested he’d be willing to sort of take me on after I’ve graduated as well"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 26,
+  "n_codes_kept": 26,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

@@ -1,0 +1,551 @@
+{
+ "unit_id": "int33",
+ "verbatim": false,
+ "placement_status": "network75",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I felt that was because I was a girl",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject repeatedly referred to as a girl/woman; she is one of the female students sought for interview.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it was a comprehensive school I went to",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "Comprehensive school, confirmed not a girls' school, so mixed-sex.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 4,
+   "label": "Electronic & Electrical Engineering",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’m doing electrical – electronic and it’s a degree",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "Electrical-electronic degree maps to Electronic & Electrical Engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "working in [company], I know it’s only on the production line, but I was interested",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "Interest in the work drove her into electronics; wanted interesting work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "family": {
+   "var": "family",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I’ll go out and do it myself and then I went to college",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "No family member in industry mentioned; she decided to do it herself, implying no family involvement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mother": {
+   "var": "mother",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I’ll go out and do it myself and then I went to college",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "No mention of mother's encouragement; she framed the decision as her own.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "father": {
+   "var": "father",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "I’ll go out and do it myself and then I went to college",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "No mention of father's encouragement; she framed the decision as her own.",
+   "provenance": "prose-derived",
+   "flags": [
+    "blind-no-resupport"
+   ]
+  },
+  "nobody": {
+   "var": "nobody",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "then I thought I’ll go out and do it myself and then I went to college",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "She presents the decision as self-driven with no encouragers named, after being rejected for an apprenticeship.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "then I thought I’ll go out and do it myself and then I went to college",
+   "evidence_role": "Notes",
+   "theme": "route_into_engineering",
+   "reasoning": "No discouragement reported; the apprenticeship rejection spurred rather than discouraged her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "if I went back I’d probably do exactly the same thing I’ve done now",
+   "evidence_role": "Notes",
+   "theme": "course_experience",
+   "reasoning": "She would repeat the same choices, indicating she is pleased she chose engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "curricul": {
+   "var": "curricul",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I found it a bit harder than I thought it was going to be here",
+   "evidence_role": "Notes",
+   "theme": "course_experience",
+   "reasoning": "Uni course harder than she expected — curriculum more difficult than expected.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "friends": {
+   "var": "friends",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I’d never spoke to ‘em all the way through the year, really",
+   "evidence_role": "Notes",
+   "theme": "course_experience",
+   "reasoning": "She barely interacted with coursemates all year; weak/neutral satisfaction with friends made.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "are you on the Network 75? Yeah",
+   "evidence_role": "Notes",
+   "theme": "placement_decision",
+   "reasoning": "Network 75 student working in industry alongside study, counts as placement experience.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "money": {
+   "var": "money",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Hmm, the money",
+   "evidence_role": "Notes",
+   "theme": "placement_decision",
+   "reasoning": "Money was her first and emphasised reason for joining Network 75; could not afford uni otherwise.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the best is the money and the experience",
+   "evidence_role": "Notes",
+   "theme": "placement_decision",
+   "reasoning": "She values the work experience gained through Network 75.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "apptheor": {
+   "var": "apptheor",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "now I’m starting to pick up things and erm when we go on site, I seem to understand it a bit more now",
+   "evidence_role": "Notes",
+   "theme": "placement_decision",
+   "reasoning": "She applies and connects university theory to her site work.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "jobprosp": {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I’d definitely work for them at the end of it",
+   "evidence_role": "Notes",
+   "theme": "placement_decision",
+   "reasoning": "The placement company offers her a future job, improving her employment chances.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "noplaoth": {
+   "var": "noplaoth",
+   "code": 2,
+   "label": "network 75 student",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "are you on the Network 75? Yeah",
+   "evidence_role": "Notes",
+   "theme": "placement_decision",
+   "reasoning": "She is a Network 75 student rather than a conventional sandwich-placement student.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 5,
+   "label": "project management",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I wouldn’t mind running my own sort of company like I’m working for – so I’d be in charge then",
+   "evidence_role": "Notes",
+   "theme": "future_intentions",
+   "reasoning": "Wants to run/manage her own firm; project-management/managerial direction within engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I wouldn’t mind running my own sort of company like I’m working for – so I’d be in charge then",
+   "evidence_role": "Notes",
+   "theme": "future_intentions",
+   "reasoning": "She aspires to be in charge running a company — a managerial role.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "covered by money"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "covered by experien"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "covered by noplaoth"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I wanted to do something a bit different ‘cos I’d already done ‘A’ levels – I didn’t like doing them, and I’d done the computer course – I just found everything a bit boring, I wanted something different",
+    "working in [company], I know it’s only on the production line, but I was interested and I actually applied for an apprenticeship with [company] and I went for the interview and I never got the job and I felt that was because I was a girl",
+    "and then I thought I’ll go out and do it myself and then I went to college",
+    "it was a comprehensive school I went to",
+    "I don’t really see why it should be a male orient – orientated subject really. I don’t see why it should be a man’s subject and not a woman’s"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "in college it was – yeah, and then coming to Uni is a bit of a – a jump up. I found it a bit harder than I thought it was going to be here",
+    "I’d say it was a lot harder but I’m learning the stuff I wanted to learn",
+    "the worst thing so far has been the exams at the end of the year",
+    "I think it was only last 2 weeks that I actually spoke to the rest of ‘em., during exam time, I’d never spoke to ‘em all the way through the year, really",
+    "what happens is on a Wednesday, I think the people who come here work in groups to do little projects, but I miss out that lesson because I do that sort of thing in work"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Hmm, the money",
+    "I did apply for the sandwich year anyway, I wanted to do a year out, but I’d just moved out of – out from my mum’s and I’d bought my own place, and I really wanted to come here and I couldn’t afford to support myself and pay the fees",
+    "I heard about the Network 75 and erm, at first when they come to college I was like no, no, I ain’t going to that, there’s got to be some catch",
+    "the best is the money and the experience. Erm, it sort of makes learning here easier as well",
+    "the worst is having to work and coming here and doing your work as well. All those assignments after you’ve got home from work"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’d like to work for my company I’m with now (yeah) just cos they’ve put me up since I’ve been in Uni, so I’d definitely work for them at the end of it",
+    "I wouldn’t mind running my own sort of company like I’m working for – so I’d be in charge then. Erm, so I can boss all the men around",
+    "Erm, no. Erm, it don’t seem to be that many places around that we could all work in because everywhere seems to be closing",
+    "I’m hoping from being at Uni and getting the qualifications, I’ll always have a job out there for me",
+    "if I went back I’d probably do exactly the same thing I’ve done now"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

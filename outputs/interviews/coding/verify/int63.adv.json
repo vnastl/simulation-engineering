@@ -1,0 +1,32 @@
+{
+ "unit_id": "int63",
+ "verdicts": [
+  {"var": "gender", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Subject self-identifies as 'girl' throughout; female clear."},
+  {"var": "school", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'all female mistresses' + confirms girls' school (turn 121, amalgamated in sixth form) = single sex."},
+  {"var": "year", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "On placement now, final year still to come; placement year clear."},
+  {"var": "dept", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Studies DT (BSc stream) per turn 123; Design & Technology correct."},
+  {"var": "uni", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Top-ten engineering uni contrasted against 'old poly's' = pre-1992."},
+  {"var": "family", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'no engineering history in my family whatsoever... dad's a librarian' = strongly disagree."},
+  {"var": "interper", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'course has given me the confidence to say what I think... lots of critiquing' = develops interpersonal skills, agree."},
+  {"var": "relevanc", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'a bit airy fairy... what relevance does this have' = difficult to see relevance, agree."},
+  {"var": "competit", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'working against your competitors... get your job off you' + 'scarily competitive' = agree."},
+  {"var": "placemen", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Currently on placement; yes clear."},
+  {"var": "experien", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'main benefit for this year, as well as the business experience' = values work experience, agree."},
+  {"var": "industry", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Placement showed her what the engineering environment is really like, agree."},
+  {"var": "perdevel", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'learnt more about myself than engineering' = personal development, agree."},
+  {"var": "jobdecid", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'taught me that I don't want to do it' = helped decide future direction, agree."},
+  {"var": "finalyr", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'preparation for my final year dissertation' + continuing dissertation = helps final-year project, agree."},
+  {"var": "jobprosp", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'shows commitment... good enough... good references' = improves job chances, agree; low conf apt given scepticism."},
+  {"var": "carpath", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'established within my design career' = design work."},
+  {"var": "furstudy", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'going to do a Masters and then a Doctorate' = yes."},
+  {"var": "studarea", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'doctor in ergonomics' + Doctorate = PhD is ultimate aim; defensible over Masters."},
+  {"var": "charship", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": "low", "note": "'Yes' to chartership Q but cited quote is about general qualifications, deflecting to a doctorate; thin, downgrade to low."},
+  {"var": "workrole", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'get to a management level' = managerial work role."},
+  {"var": "salary", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'I love the money... the independence of the money' = salary matters but downplayed; important (4) apt."},
+  {"var": "workenv", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Environment is decisive reason she rejects the field; very important justified."},
+  {"var": "people", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'no true friends... none socialise... concerns me slightly' = people/atmosphere matter, important."},
+  {"var": "training", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": "low", "note": "Praises company's training provision, not stated as a job-choice priority; inferential, keep low."},
+  {"var": "equalopp", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": "low", "note": "Grievance-policy quote is a past-incident response, not a stated job-choice factor; topic (fair treatment) present but inferential, keep low."},
+  {"var": "promot", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": "low", "note": "'get to a management level' (advancement aspiration) supports promotion mattering; reused quote, keep low."}
+ ]
+}

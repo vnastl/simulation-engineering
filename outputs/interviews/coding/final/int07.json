@@ -1,0 +1,675 @@
+{
+ "unit_id": "int07",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "especially when we've done like er group work or things like that. We have different perspectives than the males",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Speaks of herself as distinct from 'the males'; study of women students.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Er, just a normal, basic school.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Describes an ordinary (non-single-sex) school; implies mixed.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 7,
+   "label": "Design & Technology",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Industrial design and technology.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "States course is industrial design and technology.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "year": {
+   "var": "year",
+   "code": 2,
+   "label": "Part B/Year 2",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "when I got here, I was supposed to be in the first year and sometimes now I do think",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "References being past first year, with placement decision pending for the sandwich year, consistent with second year.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "family": {
+   "var": "family",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "My dad's an engineer – well, that's what course he did – he's a Project Manager",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Father is an engineer/project manager — family member in the industry.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mother": {
+   "var": "mother",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "my Mum did say well, maybe you should do industrial design, instead of graphic design",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Mother actively steered her toward industrial design.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "father": {
+   "var": "father",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "my dad did – because he'd worked in engineering, he said that they're always looking for",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Father informed her about engineering but no explicit encouragement to study it; weak/ambiguous.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "careers": {
+   "var": "careers",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I didn't really at secondary school. I didn't really – they never said that much, to be honest",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Careers advisors gave little advice; no encouragement to study D&T.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "varied": {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-wrong_code",
+   "evidence": "because there's a lot of different areas you can go into then",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose industrial design for its breadth/variety of areas.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "knowledg": {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I didn't quite realise how much technology would be involved though",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose course without full knowledge of its technical content.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "gooddeg": {
+   "var": "gooddeg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "everyone wants graduates from [this university], then it probably will – you know – get me – you'll be able to get your foot in the door",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Sees the degree as valuable for getting a foot in the door regardless of profession.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Yeah, they did sort of because my Mum did say well, maybe you should do industrial design",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Family steered her toward, not away from, D&T; no one is described as discouraging her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I got to college and I did design and technology and I did really enjoy that as well",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Drawn in by enjoyment/interest in design and technology.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Well, obviously some aspects I hate but there is – you know there is some that I do like. It's hard to say, I change from day to day.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Explicitly ambivalent about her choice, changing day to day.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "curricul": {
+   "var": "curricul",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I got here and it was really difficult, I found it really hard",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Curriculum far harder than she expected given prior assurances.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I do quite like working in the group work like, I very much like brain storming",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strong enthusiasm for group work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I've gained more confidence, obviously through the group work and getting on with other people, and presentations",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Course developed her interpersonal skills/confidence.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I don't ever really go and talk to my personal tutor because I don't find that, you know, it'd be that beneficial really",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Finds personal tutor support not beneficial; tutors not approachable.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supplect": {
+   "var": "supplect",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "they just lecture, they don't really – they're not bothered about if you – really, you know, you can understand it",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Lecturers described as unhelpful, only lecturing, not bothered if students understand.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "designwk": {
+   "var": "designwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I did really enjoy doing that because you can put much more of your influence into it",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Enjoys the open design/research project work where she can add her own influence.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "practwk": {
+   "var": "practwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I hated that part of it as well. I was surprised that I had to do all that sort of thing",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Hated the workshop/machining practical making.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "variety": {
+   "var": "variety",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-wrong_code",
+   "evidence": "it's a good course, you know, and very varied so",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Values the variety the course covers.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "Fhelp": {
+   "var": "Fhelp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "we do have someone in for electronics and he's male and obviously he helps the females more and so the guys get annoyed about that",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Female students get more help (in electronics) than males.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I've applied to [company] so far and some others I've looked at",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Has applied for placements and intends to apply for more.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "money": {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Er, money (laughs)",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "First reason given for good things about placement is money.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "educatio": {
+   "var": "educatio",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "looking forward to well, getting a break from the course",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Wants a break from education/the course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "a lot of people say that obviously it'll help you in your job if you've had some work experience, because nowadays that's what they look for",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Values the work experience a placement gives.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobprosp": {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it'll help you in your job if you've had some work experience, because nowadays that's what they look for",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as improving job chances since employers want experience.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "perdevel": {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "you'll have like some more skills and you'll have thought – you know, you won't be like – still at this early – you'll probably feel a bit older because you've had, you know, more in experience",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Expects personal development/maturity from placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "noappeal": {
+   "var": "noappeal",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "a lot are very technical which I obviously don't want",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "The technical placements on offer do not appeal to her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 2,
+   "label": "design work",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "working in a team, you know brainstorming different ideas for products and stuff, or something like more – much more arty or I would – I could see myself sort of doing more textiles",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Sees herself in design/creative product and textiles work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it would be good to be more specialised",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "When asked managerial vs specialised, prefers to be more specialised.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "studarea": {
+   "var": "studarea",
+   "code": 4,
+   "label": "PGCE, teaching",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "I think I'll probably teach – if I can't you know, find anything else",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Fallback toward teaching; implies a teaching qualification, but only as a backup.",
+   "provenance": "prose-derived",
+   "flags": [
+    "blind-no-resupport"
+   ]
+  },
+  "location": {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I'm actually living in [university town] next year, so whatever I get, you know, I want to be in travelling distance",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Location/travelling distance clearly matters in where she will work.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "covered by year"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "covered by supplect"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by experien"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "well through school, I'd always been interested in Art and I'd always wanted to do something with that and then I got to college and I did design and technology and I did really enjoy that",
+    "I thought doing the technology will be using my brain more than the arts – you know people always say oh I can't get a job in a art, so I thought oh, I'll take that course then",
+    "I was either going to be a graphic designer or it was just, you know, design technology and talking to my tutors and everything and they said, oh well maybe you should go for the design technology",
+    "my Mum did say well, maybe you should do industrial design, instead of graphic design because it's – you know – quite difficult to get a job in graphics design",
+    "My dad's an engineer – well, that's what course he did – he's a Project Manager",
+    "I didn't quite realise how much technology would be involved though, 'cos like on the open day they said – I said, oh well I did Maths at GCSE, and I got an A for that, and so will I be OK?"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "I got here and it was really difficult, I found it really hard. And a lot of people did. I think a few of the people did drop out in the first year",
+    "the best thing is – I enjoy working within – I do quite like working in the group work like, I very much like brain storming",
+    "There are also things that I don't like, sort of electronics. I'm not keen on the CAD – you know – computer aided design. I just find it really difficult",
+    "they just lecture, they don't really – they're not bothered about if you – really, you know, you can understand it",
+    "I do find that our tutors aren't very approachable",
+    "it does seem more masculine because you do make a lot and in a workshop like machining and stuff like that and I hated that part of it as well"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I'm not sure, I've applied to [company] so far and some others I've looked at, but erm, I'm actually living in [university town] next year, so whatever I get, you know, I want to be in travelling distance",
+    "No, I don't, no. And I think that's why I sort of, you know, holding back a bit",
+    "I'm just sort of like thinking, oh God, I don't think I can do these things, like it looks very like you've got to be efficient in CAD and stuff and I'm like well, I'm not really that",
+    "in my freetime, I like making like bags and clothes and stuff, so I've sort of looked into some stuff like that. So I might apply to some of those – like more craft sort of things rather than in technology sort of things",
+    "Er, money (laughs)",
+    "a lot are very technical which I obviously don't want, so I sort of looked in the – like you can go on the database and I was like crafts"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I think I'll probably be doing something totally different from the course. I think I'll probably – or maybe something quite related",
+    "the sort of careers things that I can see myself in, they'd either be something like that or sustainable design – you know working in a team, you know brainstorming different ideas for products",
+    "I could see myself sort of doing more textiles sort of thing, because I really enjoy that making – coming up with designs for clothes and like accessories",
+    "I want to be quite high up. I'd like to work for like a group of like people, like your small group, brainstorming ideas",
+    "with that sort, you know, sort of field it is very difficult to get jobs",
+    "I think I'll probably teach – if I can't you know, find anything else, 'cos I think I'd really enjoy that"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

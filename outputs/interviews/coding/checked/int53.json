@@ -1,0 +1,408 @@
+{
+ "unit_id": "int53",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "They have never had a female flight manager before, so I’m the first.",
+   "theme": "route_into_engineering",
+   "reasoning": "Refers to herself as the first female flight manager; consistently positions herself as a woman in the role."
+  },
+  {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I started my placement at the end of September, (20th?) September.",
+   "theme": "placement_decision",
+   "reasoning": "Currently undertaking her industrial placement year, started end of September."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I started my placement at the end of September, (20th?) September.",
+   "theme": "placement_decision",
+   "reasoning": "She is actively on placement, so has gone on placement."
+  },
+  {
+   "var": "salary",
+   "code": 2,
+   "label": "unimportant",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "But now money doesn’t matter, it’s how I feel about the job. I couldn’t care if I got paid £8,000 a year but I was happy.",
+   "theme": "future_intentions",
+   "reasoning": "Explicitly de-prioritises salary in favour of job satisfaction when reflecting on what matters for a job."
+  },
+  {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s making me grow up because I want to be in charge of a hell of a lot more than I did at university",
+   "theme": "future_intentions",
+   "reasoning": "Expresses desire to be in charge of more / take on greater responsibility, consistent with a managerial role; she already works as a Flight Operations Manager and wants more."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "experien",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "breaked",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "finuni",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noappeal",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noaccept",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "carpath",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "They have never had a female flight manager before, so I’m the first.",
+    "Really really useful, it’s really relevant. Um, because I’m working in the air industry, so I’m doing management for aircraft as well, so yeah, it’s been really good.",
+    "Just generally, um, part of my course is, you know, aircraft knowledge and what it takes to run an airline, so that’s been quite helpful."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "I think my educational experience has been a lot of theory of how to run an airline. This is more the practical side.",
+    "No, I think, I think it’s a good balance. You know, I think I’m quite lucky in this placement because I know a lot of students will be just doing the theory as part of their placement so, I’m pretty lucky.",
+    "Within the university, I don’t know, it still feels like you’re playing a bit, its still, oh XY and Z will do this and this, within work you just know straight away what person can achieve that and you tend to pick up on their strengths and weaknesses a bit better, I prefer it.",
+    "Maybe some of the theory parts as to, you know, the psychology of transport, isn’t so helpful to us, but you know, the real practical parts have been quite good."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "it’s been absolutely fantastic. It’s been put down as the best placement you can do for my course, it’s been amazing – I’ve been places, seen things, that I wouldn’t have ever done.",
+    "A lot of experience of the airline industry, how it works, people’s attitudes, which you don’t get taught in the classroom. Um, (inaudible) responsibility, you know, it’s been good for me to grow up and have to organise myself",
+    "You can only really take positive things and it can help you decide what you want to do – like I don’t ever want to work in an office again",
+    "When I first got this placement I really felt quite lucky because we’re the highest paid placement, we were like yeah, look what we get to do. But now money doesn’t matter, it’s how I feel about the job.",
+    "I think I’ve got pretty much, um, unique kind of skills through this one, so either I’ll go straight back into kind of brokering for airlines or I might go back and do this job again, but yeah, I think it’s been a pretty good experience for me to have on my CV."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "But now money doesn’t matter, it’s how I feel about the job. I couldn’t care if I got paid £8,000 a year but I was happy.",
+    "it’s making me grow up because I want to be in charge of a hell of a lot more than I did at university",
+    "It’s something I’d like to do, definitely, um, but I think it’s going to be whether they want me to or whether I want to at the end of it. I might just get to the end of it and just say, oh I need a break",
+    "the option’s there and I’ve been offered a placement with a shipping company as well, when I finish, so I’ve got lots of options",
+    "I don’t really get a social life apart from my workmates, but even then we’re never in the same place at the same time. Um, you certainly don’t get to form relationships."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 5,
+  "n_codes_kept": 5,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

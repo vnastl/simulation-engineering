@@ -1,0 +1,27 @@
+INTERVIEW INT67 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Design & Technology
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Because of needing the money: Neither agree nor disagree
+To improve job chances after university: Agree
+To help decide a future direction: Strongly agree
+To see what industry is really like: Agree
+For personal development: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Don't know
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Unimportant

@@ -1,0 +1,45 @@
+INTERVIEW INT23 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: not_going.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Department: Mechanical & Manufacturing Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Disagree
+Having a family member in the industry: Agree
+Having technical hobbies and interests: Agree
+Engineering's appeal as a varied field: Agree
+Father's encouragement to study engineering: Disagree
+Careers advisor's encouragement: Disagree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Disagree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Satisfied
+Group work: Dissatisfied
+Practical work: Dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Agree
+Wanting to finish university sooner and start earning: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Research/development
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Important
+The people worked with: Important
+Opportunities to travel: Important
+Training opportunities: Important
+Preferred future work role: Managerial

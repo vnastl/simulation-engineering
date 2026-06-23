@@ -1,0 +1,165 @@
+{
+ "unit_id": "int32",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "high",
+   "note": "Self-describes as only woman in office and receives 'you're a woman' jokes; clearly female."
+  },
+  {
+   "var": "curricul",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'didn't expect it to be as hard as it has been' directly maps to curriculum harder than expected -> agree."
+  },
+  {
+   "var": "relevanc",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'never gonna use this' plus expecting more useful content supports difficulty seeing module relevance -> agree."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Confidence with presentations supports interpersonal development, but quote tail is computer skills (technical); thin -> low."
+  },
+  {
+   "var": "pleased",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about being happy with her education timing/route, not pleasure at studying engineering; she is a business student, construct is engineering-specific."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'good experiences and bad experiences' plus 'like it if good group' supports mixed/neutral satisfaction."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Friends/meeting people named as the best thing about course -> satisfied."
+  },
+  {
+   "var": "theory",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'this is silly'/'never gonna use this' is clearly negative about theory work -> dissatisfied."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "high",
+   "note": "Actively on a Network 75 work placement at the company -> yes."
+  },
+  {
+   "var": "noplaoth",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Evidence quote is the interviewer's question 'What appealed to you about the Network 75 programme?' (interviewer-planted); also noplaoth is reasons for NOT going, but she did go."
+  },
+  {
+   "var": "money",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'hard to get by when you're a student, nice to have a bit of money' supports money as a placement motive -> agree."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'best thing is the experience' explicitly values work experience -> agree."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'made me grow up a lot, learnt a lot from it' supports personal development -> agree."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'no ambition really of what I want to be' indicates undecided specialisation -> don't know."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Considering a law conversion course indicates interest in further study -> yes."
+  },
+  {
+   "var": "studarea",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Law conversion course is not engineering/design related -> code 7."
+  },
+  {
+   "var": "salary",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'money would obviously come into it...why shouldn't I have the money' supports salary important."
+  },
+  {
+   "var": "location",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Bought a house and wants to stay local near parents supports location important."
+  },
+  {
+   "var": "workenv",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "'nice atmosphere, good place to work' describes current job positively; importance in job choice is inferred, not stated -> low."
+  },
+  {
+   "var": "people",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Wanting to stay because 'I like everybody there' supports people mattering, but importance-in-choice is inferred -> low."
+  }
+ ]
+}

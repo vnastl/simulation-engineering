@@ -1,0 +1,699 @@
+{
+ "unit_id": "int42",
+ "verbatim": true,
+ "placement_status": "not_going",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "that tends to be a problem when you’re a girl",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject refers to herself as a girl/woman throughout; only female on course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 2,
+   "label": "Single sex",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I went to a girls comprehensive.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Attended a single-sex (girls) comprehensive school.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "highsal": {
+   "var": "highsal",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "in our family, I mean we haven’t got a lot of money so you needed to go into an industry where you could earn a living and have a trade",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Motivation was earning a living/trade, not a high salary specifically; high salary was not the draw.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "there are elements that you do love doing like getting in the studios and things",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose engineering side of music as her interest; loves elements of the work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "challeng": {
+   "var": "challeng",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I really do enjoy working in a male industry … you’re constantly pushing yourself as well. … I’m very much a sort of challenge person, where I need something to work towards and build to.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly a challenge person who wants problems to work towards; also praises problem solving.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "family": {
+   "var": "family",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "No there’s only my Mum and she went back and did a degree a few years ago. She went back as a mature student and did archaeology and now she’s in marketing. So its completely unrelated.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "No family member in the industry; explicitly completely unrelated.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "hobbies": {
+   "var": "hobbies",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "she saw me fiddling with electronics and things",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Technical hobby of fiddling with electronics; music/sound is her technical interest.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mother": {
+   "var": "mother",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "On and off. At first when I went to college I was the only girl in the class and I think that shocked her a bit. And then she saw me fiddling with electronics and things and I don’t think she saw that as the kind of thing I should be doing",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Mother was only on-and-off supportive and initially shocked/sceptical; not an encourager of the choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "father": {
+   "var": "father",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "No there’s only my Mum",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "No father present; could not have encouraged the choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "careers": {
+   "var": "careers",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "in girls schools they don’t really advise engineering … When I said I wanted to go on and do that, I think they were quite shocked and sort of told me how difficult it was going to be and tried to put me off as much as possible from going into engineering.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "School careers advice actively discouraged rather than encouraged engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "teacher": {
+   "var": "teacher",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "tried to put me off as much as possible from going into engineering",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "School actively tried to put her off; teachers did not encourage.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "they were quite shocked and sort of told me how difficult it was going to be and tried to put me off as much as possible from going into engineering",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "The school explicitly tried to discourage her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "whodisc": {
+   "var": "whodisc",
+   "code": 4,
+   "label": "teacher(s)",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "in girls schools they don’t really advise engineering … they were quite shocked and sort of told me how difficult it was going to be and tried to put me off as much as possible from going into engineering",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "The discouragement came from her girls' school staff/teachers.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’m pleased I chose the course.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Explicitly pleased she chose the course (though would pick a different university).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "relevanc": {
+   "var": "relevanc",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "instead of spending time doing electronics and engineering based things we’ve been told to go out and make videos, make buttons for webpages, which have absolutely nothing to do with what we’re doing, so you get the feeling its just something to pad out the course content with, which has no benefit to us whatsoever",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strongly finds some modules irrelevant/padding with no benefit.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "one thing I’ve learnt more from working than from class is communication with people because that’s one thing that they don’t really tend to teach you",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "States communication/interpersonal skills are not taught; learnt from work not the course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supplect": {
+   "var": "supplect",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it’s the tutors you meet are big names, and you get to talk to these people and find out sort of background knowledge and the small things",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about access to and learning from well-known tutors; satisfaction with lecturer support.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 1,
+   "label": "very dissatisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I saw him once in the first year and I’ve never seen him again. … he’s in a totally unrelated school, he doesn’t know our work, doesn’t know what’s going on with us and our course, so I didn’t really see the point in them assigning him really.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strongly negative experience of personal tutor — useless and absent.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "that caused a lot of problems with a lot of people. … The majority of the group work’s been ok if I’m honest.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Mixed: forced groups caused problems, but majority of group work was ok — a middling stance.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "friends": {
+   "var": "friends",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I met some of the best friends I’ll ever meet in my life",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Very positive about friends made; also names people/friends as the best thing and biggest influence.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "practwk": {
+   "var": "practwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "there are elements that you do love doing like getting in the studios and things",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Loves the hands-on studio (practical) work; positive about practical elements.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "coursewk": {
+   "var": "coursewk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "the first year I think we got over 35-40 essays … you end up doing four times as much work as anybody else tends to.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strongly negative about the quantity/volume of coursework — 'the amount of work' was a worst part.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "Mconfid": {
+   "var": "Mconfid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it tends to be the fact that they don’t want to listen to what I’m saying, but more listen to what they think they should be doing and that tends to be a problem when you’re a girl, because when you’re a guy they do tend to listen to each other",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Describes male students as more assertive/confident; she is sidelined as the only girl.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 0,
+   "label": "no",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "it just seemed a bit of a pointless exercise really. You know, I’d rather just get it all out the way.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Decided against the optional placement year.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "wkexp": {
+   "var": "wkexp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "I started at … at 16 I went and worked in a studio in [city] for two weeks in the summer … every year since I’ve been about 16 I do a festival … I’ve worked for the past 3 years in the students union on stage crew … A bit of work with some PA companies.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Already has extensive work experience in the industry, a reason not to need placement.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "finuni": {
+   "var": "finuni",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’d rather just get it all out the way. … with friends being here, I want to go through at the same time.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Wanted to get the degree out of the way / finish at the same time as friends rather than extend it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placloca": {
+   "var": "placloca",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "The idea was to go away but basically you had to find your own placement, you had to fund yourself.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Reason against was self-funding/lack of uni support, not inability to find a suitable location.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "noplaoth": {
+   "var": "noplaoth",
+   "code": 7,
+   "label": "university not supportive",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "basically you had to find your own placement, you had to fund yourself. You know the university offered no assistance in doing this.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Key additional reason: university offered no assistance/funding for placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 11,
+   "label": "other",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "possibly a live company. I like being on the road … But generally a touring company or a venue. I wouldn’t like to be in a studio.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Preferred area (live/touring sound, venue) does not map onto consultancy/design/contracting/etc.; best fit is other.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "furstudy": {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’d like to do my masters but that’s one of them things that I can’t find funding for so it’s not an option at the minute.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Would like further study (a masters) but is blocked by funding.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "studarea": {
+   "var": "studarea",
+   "code": 3,
+   "label": "Masters, MSc, MBA",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "if I did a masters I’d probably do it in stage management so I’m sort of multi-skilled then",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Intended further study is a masters.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "salary": {
+   "var": "salary",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "hopefully in ten years time I can choose where I want to be … And somewhere that pays you well.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Wanting somewhere that pays well indicates salary matters, though framed as a longer-term goal.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "location": {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "if I got offered a job in September and I had to go to John O’groats for instance, I don’t have any money to go to John O’Groats, so I can’t even afford to rent a place there.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Location matters greatly to her — worried about being forced to relocate far away.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "people": {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I suppose the people you meet really, that tends to be the best thing wherever you are if I’m honest.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "People she works with consistently framed as the best/most valued aspect of any setting.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "travel": {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I like being on the road and sort of meeting new people being in new places. … I’d love to go abroad and work.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Values being on the road / new places / working abroad — travel opportunities matter to her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I wanted to do the complete engineering side of the whole thing",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Identifies as a hands-on sound engineer/technologist wanting the technical side rather than management.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "covered by coursewk"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "covered by supplect"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "covered by relevanc"
+  },
+  {
+   "var": "experien",
+   "reason": "covered by wkexp"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "covered by wkexp"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by noplaoth"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "Basically when I left school I hated academic type work. I hate the fact that you know you read books and in our family, I mean we haven’t got a lot of money so you needed to go into an industry where you could earn a living and have a trade. I loved art in school, but of course you can’t make your money out of doing art really, so music was the obvious choice. And I play, but I just didn’t see a point in getting a certificate saying you can play an instrument, so I thought go into the engineering side.",
+    "I wanted to do the complete engineering side of the whole thing. So I needed sound technology and there’s only a few places in Britain that do that and [university] was one of them.",
+    "in girls schools they don’t really advise engineering, which is quite bizarre so. When I said I wanted to go on and do that, I think they were quite shocked and sort of told me how difficult it was going to be and tried to put me off as much as possible from going into engineering. Erm, but as I hated school I was going to do the complete opposite to what they told me anyway",
+    "On and off. At first when I went to college I was the only girl in the class and I think that shocked her a bit. And then she saw me fiddling with electronics and things and I don’t think she saw that as the kind of thing I should be doing, but since then, when she comes and sees concerts and stuff, she’s been more supportive",
+    "In a way no. In a way it made me want to do it even more. I don’t really get on with girls generally. … I think I thought ok I’m going to prove every single one of you wrong and do the best that I can, so I did."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "Mainly course content I think has been a big problem. You know we’re doing sound engineering and instead of spending time doing electronics and engineering based things we’ve been told to go out and make videos, make buttons for webpages, which have absolutely nothing to do with what we’re doing, so you get the feeling its just something to pad out the course content with, which has no benefit to us whatsoever.",
+    "I’m pleased I chose the course. I think if I had to do it again, I would probably choose another university to do it in, just because the facilities here really aren’t very good. To try to get into them, you really do have to fight for your time in the studios.",
+    "the year I joined this course, it was the first year they ran the course, so it was a bit of a … we were the guinea pigs, and we’ve been changing things as we’ve been going along",
+    "I suppose the people you meet really, that tends to be the best thing wherever you are if I’m honest. … it’s the tutors you meet are big names, and you get to talk to these people and find out sort of background knowledge and the small things",
+    "I saw him once in the first year and I’ve never seen him again. … he’s in a totally unrelated school, he doesn’t know our work, doesn’t know what’s going on with us and our course, so I didn’t really see the point in them assigning him really.",
+    "the first year I think we got over 35-40 essays … you end up doing four times as much work as anybody else tends to."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "There was a sort of placement year in the third year. The idea was to go away but basically you had to find your own placement, you had to fund yourself. You know the university offered no assistance in doing this. And so it just seemed a bit of a pointless exercise really.",
+    "You know, I’d rather just get it all out the way. You know it was a lot of things as well, like with friends being here, I want to go through at the same time.",
+    "Yes, but I could do with a lot more, but it tends to be where you can get your foot in the door at the times you can do it.",
+    "If I’m honest I think I’ve learnt more from working in these situations than I have from sitting in a class and being told what supposedly happens."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "possibly a live company. I like being on the road and sort of meeting new people being in new places. … But generally a touring company or a venue. I wouldn’t like to be in a studio.",
+    "I’d like to do my masters but that’s one of them things that I can’t find funding for so it’s not an option at the minute. But if I did a masters I’d probably do it in stage management so I’m sort of multi-skilled then, in the industry.",
+    "hopefully sort of resident in a venue somewhere. You know somewhere comfortable, just being able to do what I love doing everyday really.",
+    "I’d love to work in a studio but with world music. Erm whereas hopefully in ten years time I can choose where I want to be … And somewhere that pays you well.",
+    "Yes, I’d love to go abroad and work. But I think I’d have to, for certain times in the year … I would have to come home. Because, you know, I have family here, I have my friends here."
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

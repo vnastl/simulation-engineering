@@ -1,0 +1,56 @@
+INTERVIEW INT24 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Year of study: Part B/Year 2
+Department: Mechanical & Manufacturing Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Disagree
+The chance to do interesting work: Strongly agree
+Being good at maths and science at school: Strongly disagree
+Having a family member in the industry: Agree
+Engineering's appeal as a varied field: Strongly agree
+Father's encouragement to study engineering: Disagree
+Careers advisor's encouragement: Strongly disagree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Careers advisor
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Strongly agree
+Engineering students being competitive: Agree
+Male students being more confident in class: Strongly agree
+Female students getting more help in class: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Very satisfied
+Support from lecturers: Very satisfied
+Support from a personal tutor: Very satisfied
+Group work: Very dissatisfied
+Number of teaching hours: Neither satisfied nor dissatisfied
+Design work: Dissatisfied
+Variety of subjects covered: Very satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+For a break from education: Agree
+To improve job chances after university: Agree
+Because it counts towards Chartership: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Other
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Opportunities to travel: Important
+Opportunities for promotion: Important
+Opportunities for flexible working: Very important
+Childcare policies: Important
+Preferred future work role: Technical/specialist
+Importance of gaining Chartership: Important

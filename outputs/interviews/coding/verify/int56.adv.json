@@ -1,0 +1,133 @@
+{
+ "unit_id": "int56",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Repeatedly self-identifies as female designer; quote 'I was the only female in cosmetics' confirms female."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Design Development team, design degree throughout; Design & Technology is the right dept."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Whole interview is about her current placement ('going back next year', final year next); placement year correct."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Clearly currently on placement at the company; yes is correct."
+  },
+  {
+   "var": "money",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Names money as the main benefit of the placement; supports agree (adjacent to 'need money' but supportive)."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Values new skills and manufacturing knowledge gained; supports agree on work experience."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote about seeing things made and understanding processes directly maps to 'what industry is really like'."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about accepting a future job at the firm for security, not that the placement improves chances of getting a job; does not support this item."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Placement highlighted likes/dislikes and future direction; supports agree."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Clear growth in confidence ('I've been told my confidence has grown'); supports personal development."
+  },
+  {
+   "var": "finalyr",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly will NOT base final-year project on placement; supports disagree."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Credits course presentations/communicating ideas as very helpful; supports course develops interpersonal skills."
+  },
+  {
+   "var": "competit",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Contrasts self-interested uni work ('trying to get one thing for yourself') with less competitive work; supports agree uni students are competitive."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Describes uni group work as stressful, unfair, difficult, with bad experiences; supports dissatisfied."
+  },
+  {
+   "var": "variety",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Frames the many different modules positively; supports satisfied with subject variety."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "medium",
+   "note": "Finds the field 'much more exciting than so many other jobs'; indirect (about industry, not 'pleased I chose to study') but supports agree at medium."
+  }
+ ]
+}

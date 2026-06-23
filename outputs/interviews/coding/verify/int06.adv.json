@@ -1,0 +1,237 @@
+{
+ "unit_id": "int06",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Subject refers to herself as the only girl; clearly female."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Grammer school - female' = single-sex girls' school."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'really grabbed my attention... really interesting' clearly strongly agree."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'so much I could do with it' endorses variety appeal of the field."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No family in the industry (lawyer, sailor, hairdresser) = strongly disagree."
+  },
+  {
+   "var": "careers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Only from the RAF' = no careers advisor encouraged engineering -> strongly disagree."
+  },
+  {
+   "var": "gooddeg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "medium",
+   "note": "Useful-fallback framing supports agree; inference, downgrade confidence."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about family support, but no discouragement anywhere -> 'no' correct."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Intends to go; only obstacle is finding a placement."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'For the experience it will bring' = primary reason, strongly agree."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Wants to show employers 'I'm not just RAF' -> improve job chances."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'show what I don't want to do' supports help-decide direction."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Wants to see what office/industry is really like; strongly agree."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'make me grow up' supports personal development."
+  },
+  {
+   "var": "finalyr",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'might provide my end of year project' supports final-year project reason."
+  },
+  {
+   "var": "money",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote is descriptive contrast, not a need; 'disagree' rests on absence of motive; thin, keep low."
+  },
+  {
+   "var": "placloca",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Difficulty is relevance/type and industry-wide availability, NOT suitable LOCATION; wrong construct."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Names consultancy as preferred specialism repeatedly."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'rather do management, not really engineering' = managerial."
+  },
+  {
+   "var": "travel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Actively looks for worldwide travel; important (not very, given hedging)."
+  },
+  {
+   "var": "training",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Mentions training but pivots to travel and 'not really'; neutral, low confidence apt."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'm happy, can't see myself doing anything else' = strongly agree."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'easier to work as a group... I enjoy it more' = very satisfied."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Cites meeting people as a best thing; enthusiastic, very satisfied defensible."
+  },
+  {
+   "var": "variety",
+   "verdict": "wrong_code",
+   "corrected_code": 3,
+   "corrected_label": "neither satisfied nor dissatisfied",
+   "corrected_confidence": "low",
+   "note": "Quote shows surprise (expected more aeronautical), not satisfaction with variety; ambivalent -> 3."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Tutor unrelated to course, seen once, doesn't know her name -> dissatisfied."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Course tutor 'really good about it' supports satisfied with lecturer support."
+  },
+  {
+   "var": "quality",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Praises 'cracking' lecturer; another boring; net satisfied."
+  },
+  {
+   "var": "theory",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'others put off' but she sees it helpful long-term; ambivalent -> neither, low apt."
+  }
+ ]
+}

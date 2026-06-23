@@ -1,0 +1,21 @@
+{
+  "unit_id": "int25",
+  "recodes": [
+    {
+      "var": "carpath",
+      "code": 10,
+      "label": "do not want career in engineering",
+      "confidence": "medium",
+      "evidence_quote": "I’m interested in engineering but it’s not what I want my career – I don’t want to make my career out of it, I just want to get the money",
+      "reasoning": "Her ambition is to be a pilot; she explicitly states engineering is not the career she wants, which maps directly to value 10."
+    },
+    {
+      "var": "teachhrs",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "the down side is just the work load really. We had like 25 hours a week – last semester, which, when you think about when people work they’re doing like 40 hour week, it isn’t very much",
+      "reasoning": "Her complaint is about workload/difficulty of the work, and she explicitly says the number of hours 'isn’t very much'; satisfaction with the number of teaching hours per se is not clearly stated, so no value is supportable."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+ "unit_id": "int54",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Refers to herself among 'the girls' (vs 'the boys'); 'two of us are girls' elsewhere — clearly female."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Currently on her 'year out'/placement, returning to final year in October — placement year."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Entire interview is about her current placement; started 'middle of July last year' — yes."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "medium",
+   "note": "Same quote as 'industry'; supports work-experience value but is really about seeing industry — agree adequate, confidence trimmed."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'to see like an industry that actually involves engineering... Its good to see it' maps directly to seeing what industry is like."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Calls personal growth 'the best thing'; repeatedly stresses learning about herself/handling people — strongly agree well-supported."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Direct 'Yes' that placement helps get a job; aware of skills at interview — agree supported."
+  },
+  {
+   "var": "indchart",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Mentions the year 'can contribute... to be Chartered' only as an aside, not framed as a reason she wanted placement — thin; downgrade."
+  },
+  {
+   "var": "finalyr",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Links placement to the DIS dissertation content, but not to DECIDING a project nor as a reason for placement — inferential; downgrade."
+  },
+  {
+   "var": "educatio",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I needed the year out' after an extra foundation/college year supports needing a break from education — agree."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicit 'No... I still can't focus on a particular area' to 'does it help you decide' — disagree clearly supported."
+  },
+  {
+   "var": "carpath",
+   "verdict": "wrong_code",
+   "corrected_code": 9,
+   "corrected_label": "don't know",
+   "corrected_confidence": "medium",
+   "note": "'Production stuff' is about placement role exposure; she repeatedly states 'I still can't focus on a particular area' — don't know is more faithful than manufacturing."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Could take business/managerial or technical route; explicitly can't focus — don't know supported."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'definitely so varied... the word engineering just doesn't justify it'; though prompted, she elaborates emphatically in own words — strongly agree."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'It is interesting - yes definitely very interesting' — direct strongly agree."
+  },
+  {
+   "var": "travel",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Answers a factual question that travel opportunities exist; never says travel is IMPORTANT to a job decision — does not support the importance construct."
+  },
+  {
+   "var": "competit",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Says uni has 'more of a competitive edge'; 'Yes definitely' to uni being more competitive — agree supported."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote concedes uni gives 'a lot of teamwork or group work' opportunity ('not the same' as work); weak basis for disagree — downgrade, near-neutral."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Uni group work 'like a chore... oh not group work again' — dissatisfied supported."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "'silly to rule it out' is about not ruling out an engineering CAREER, a mild double-negative, not 'pleased I chose to STUDY' — positive disposition but thin; downgrade."
+  }
+ ]
+}

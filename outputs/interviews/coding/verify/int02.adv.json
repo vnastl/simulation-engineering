@@ -1,0 +1,221 @@
+{
+ "unit_id": "int02",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Self-reference 'the only girl in the class' confirms female."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Comprehensive school, and confirms 'No' to all-girls' = mixed sex."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Subject is a D&T student throughout; context confirms Design & Technology."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I do actually enjoy the work... something that I enjoy doing' supports interesting work."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'several aspects, you're not just stuck doing one thing... loads of things' maps directly to varied."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Brother 'doing the same thing' = family member involved in the field."
+  },
+  {
+   "var": "hobbies",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Galleries/Art & Design family outings are not the subject's own TECHNICAL hobbies; item requires technical-nature hobbies. Reject."
+  },
+  {
+   "var": "teacher",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "medium",
+   "note": "Teacher 'talked to me about the background' is informational rather than explicit encouragement; downgrade to medium."
+  },
+  {
+   "var": "careers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'other than that, not really' = no careers-advisor encouragement, supports disagree."
+  },
+  {
+   "var": "discoura",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote 'Not really, no. I didn't mind' answers whether male-domination BOTHERED her, not discouragement; no discouragement was ever probed. Reject."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Despite slight regret, 'I do actually enjoy the work that we do' affirms pleased with choice."
+  },
+  {
+   "var": "curricul",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Covered things 'in as much depth' than she was aware leans to more-than-expected; thin, medium retained."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Group work develops ability to 'communicate with other people' = interpersonal skills."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'really good tutor so I'm quite happy' = satisfied with personal tutor."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I do like doing group work' with caveats = satisfied (not very satisfied)."
+  },
+  {
+   "var": "designwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about 'the work' generally, not design work specifically, but design is the core of her course; thin, medium retained."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'No I'm not' to doing the placement."
+  },
+  {
+   "var": "breaked",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'difficult to get back into the flow... don't want to get out of the uni system' directly supports fear-of-return-after-break."
+  },
+  {
+   "var": "nogain",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Sees limited gain from others' experience, but qualifies it 'depends'; thin, medium retained."
+  },
+  {
+   "var": "wkexp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Only brief office work, no relevant work experience, so the 'already have work experience' reason does not apply = disagree; inferential, medium retained."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I will go into the design industry' = design work."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'prefer to go into more management' = managerial."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'required to do a bit of further training' indirectly supports yes; framed as required, medium retained."
+  },
+  {
+   "var": "salary",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I want a well paid job' = salary important."
+  },
+  {
+   "var": "location",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'not really too bothered about' location = unimportant."
+  },
+  {
+   "var": "workenv",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'type of work I'm going to do' is the CONTENT of the work, not the work ENVIRONMENT the item asks about. Reject."
+  },
+  {
+   "var": "training",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'wouldn't mind if there weren't any... but then after...' = ambivalent = neither important nor unimportant."
+  }
+ ]
+}

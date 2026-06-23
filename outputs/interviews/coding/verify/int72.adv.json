@@ -1,0 +1,18 @@
+{"unit_id":"int72","verdicts":[
+  {"var":"gender","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Refers to herself as a girl student; female clearly supported."},
+  {"var":"dept","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"States 'my degree is chemical engineering' directly."},
+  {"var":"year","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"On placement now, 'after my second year'; placement year correct."},
+  {"var":"placemen","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Applied through ~20 interviews and is on placement; yes supported."},
+  {"var":"experien","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":"medium","note":"Values work experience strongly ('really good', never worked before); 5 defensible but downgrade conf."},
+  {"var":"industry","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":"low","note":"'working is a totally different environment' maps weakly to seeing what industry is like; thin, downgrade."},
+  {"var":"perdevel","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"English/confidence practice clearly personal development; agree supported."},
+  {"var":"jobprosp","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'would help me when I actually go and find a job'; supports job prospects."},
+  {"var":"finalyr","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Dissertation/final-year project is the company research; agree supported."},
+  {"var":"carpath","verdict":"unsupported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Quote names sectors (pharma/petroleum), not research/development; she explicitly rejects working in research dept again. Does not support code 6."},
+  {"var":"furstudy","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'I'd like to study master's' if affordable; yes supported."},
+  {"var":"studarea","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Names master's in chem eng / management; Masters code supported."},
+  {"var":"workrole","verdict":"unsupported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'still want to be a chemical engineer' is an occupation, not a managerial-vs-technical role preference; quote does not establish technical/specialist (she also cites a management masters)."},
+  {"var":"interper","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Group work taught listening to others' ideas, applied at work; develops interpersonal skills supported."},
+  {"var":"groupwk","verdict":"wrong_code","corrected_code":3,"corrected_label":"neither satisfied nor dissatisfied","corrected_confidence":"low","note":"Quote is descriptive ('not much of a difference') and accompanied by explicit frustration with non-workers; does not support 'satisfied' (4), closer to neutral."},
+  {"var":"pleased","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":"low","note":"'still want to be a chemical engineer' implies pleased with choice; inferential, agree defensible but low conf."}
+]}

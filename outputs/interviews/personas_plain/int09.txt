@@ -1,0 +1,43 @@
+INTERVIEW INT09 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Department: Civil & Building Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Strongly disagree
+Careers advisor's encouragement: Strongly disagree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Strongly agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+The friends made on the course: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Because of needing the money: Agree
+To improve job chances after university: Strongly agree
+To see what industry is really like: Agree
+For personal development: Agree
+To improve grades on returning to university: Agree
+To apply theory learnt at university: Disagree
+Additional reason for wanting placement: Other
+
+## Future in engineering
+Preferred area of engineering to specialise in: Project management
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Very important
+Location: Important
+Opportunities to travel: Important
+Benefits such as a company car: Important
+Opportunities for promotion: Important
+Preferred future work role: Managerial

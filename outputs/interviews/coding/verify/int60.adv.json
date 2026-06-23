@@ -1,0 +1,117 @@
+{
+  "unit_id": "int60",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Refers to herself as a girl/woman throughout; entire gender battery addressed to her as a woman."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicitly 'because we do mechanical engineering' - direct match to Mechanical & Manufacturing."
+    },
+    {
+      "var": "year",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Currently on her DIS placement year; placement framing pervasive throughout."
+    },
+    {
+      "var": "uni",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote only shows the D&D director knows a Loughborough lecturer, not that she attends; indirect, low confidence retained as correct."
+    },
+    {
+      "var": "challeng",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I personally, I like challenges' plus repeated wanting of challenging work; clear agree."
+    },
+    {
+      "var": "knowledg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'a lot less engineering in it than I thought' supports having chosen with limited knowledge of the job; inferential but fair, medium ok."
+    },
+    {
+      "var": "varied",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Strongly endorses engineering as varied; prefers being an all-rounder. Maps to agree."
+    },
+    {
+      "var": "interper",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Course communication skills 'pale in comparison' to what work needs - course did not develop them well, disagree."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Clearly negative about uni group work (haphazard allocation, grades suffer); dissatisfied."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "On placement via DIS scheme; unambiguous yes."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "'an experience worth having' is retrospective valuation, not stated as her reason for wanting placement; thin for this item, downgrade to low."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'the point of coming on placement, to learn how it is in industry' directly matches seeing what industry is really like."
+    },
+    {
+      "var": "jobdecid",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Wants to explore industries rather than settle - maps to using placement to help decide future direction; medium ok."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Business/managerial route, all-rounder over technician; confirms 'I think so' to managerial. Hedged but direction supports managerial."
+    }
+  ]
+}

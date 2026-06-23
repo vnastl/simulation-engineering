@@ -1,0 +1,680 @@
+{
+ "unit_id": "int48",
+ "verbatim": true,
+ "placement_status": "not_going",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "that was just ridiculously girly as well",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject repeatedly self-identifies as a girl/woman on the course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Comprehensive – normal high school.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "States she did not attend an all-girls school; regular mixed comprehensive.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "year": {
+   "var": "year",
+   "code": 2,
+   "label": "Part B/Year 2",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "right now, I’m only half way through",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "2nd year of a masters course, half way through.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 1,
+   "label": "Aeronautical & Automotive Engineering",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Yeah, aeronautical, yeah.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Studying aeronautical engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "family": {
+   "var": "family",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "all my grandparents were engineers and their parents were engineers as well and my brother is as well",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Multiple close family members in engineering; granddad did aeronautical engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "teacher": {
+   "var": "teacher",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "my physics teacher was an aeronautical engineer so she’s the one that suggested doing it and pushed it",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Physics teacher suggested and pushed engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "careers": {
+   "var": "careers",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "the careers like department, at school, they didn’t tell us about open days or careers fairs or anything that were at universities – we had to do that ourselves really",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "School careers department gave no encouragement; she found things herself.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mathsci": {
+   "var": "mathsci",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’m only good at maths and numbers really, so it was either engineering or maths.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "States she is good at maths/numbers, which drove the subject choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "challeng": {
+   "var": "challeng",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I want to keep challenging myself and get the best degree that I can",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly chose the harder course to challenge herself.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I could still work with aeroplanes – something that I enjoy",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Drawn to engineering as a route to working with aeroplanes she enjoys.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "gooddeg": {
+   "var": "gooddeg",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "with an aeronautical engineering degree. Obviously you can’t be a lawyer or a doctor but you could go into business or finance or teaching or even the police force or something, so I think I just did it to give myself a lot of options",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose it as a versatile, employable degree even if she leaves the profession.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "varied": {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "it said if you’re an engineer you’re very versatile and employable",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Appeal of engineering as versatile and giving many options.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "knowledg": {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I thought it would be a bit more design; a bit more erm contact with aeroplanes and a bit more lab work",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Her expectation of what engineering involved differed substantially from reality, indicating limited prior knowledge of the job.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "highsal": {
+   "var": "highsal",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’d rather get paid less but be able to get out of bed and go to work everyday than get paid more and absolutely hate what I do",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Salary not a primary draw; would accept lower pay for enjoyable work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "my granddad, he did aeronautical engineering",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "No one discouraged her; family supportive and teachers encouraged.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 0,
+   "label": "no",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I was on the placement programme but then I changed to the actual one without the industrial placement.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Switched off the placement programme; not going on placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "wkexp": {
+   "var": "wkexp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Because I’m not doing a placement anymore, I thought I’ll try and get experience anyway. Erm, so I worked at [company], all of last summer and I’ve got some experience at [company] this summer",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Gaining summer work experience instead of a placement; feels she can reach the same position.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "nogain": {
+   "var": "nogain",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "yeah, obviously you’d have friends within the industry – you’d have a foot in the door, whatever company you do your placement with",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Acknowledges real advantages to placement, so does not believe there is nothing to be gained.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "noplaoth": {
+   "var": "noplaoth",
+   "code": 8,
+   "label": "other",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’m not doing a placement and that’s because I don’t think I want to work in the industry when I’m finished.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Main reason for not going: does not intend to work in the industry.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "No, if I was gonna do any course apart from this, it would be pure maths. So, and that’d be just boring.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Says she is glad she took the course and does not regret it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "practica": {
+   "var": "practica",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "there’s a lot more theory than I expected. I thought there’d be a bit more practice",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Feels there is too much theory and not enough practical work — level not just right.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "practwk": {
+   "var": "practwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "they can’t afford to let us do a lot of practical work and run wind tunnels and things all the time",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Wanted more practical/lab work than the underfunded department provides.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "designwk": {
+   "var": "designwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I thought it would be a bit more design; a bit more erm contact with aeroplanes and a bit more lab work",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Expected and wanted more design work than the course delivers.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 1,
+   "label": "very dissatisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I absolutely hate it. And they had some pieces of course work, where it was optional, you could do it on your own or do it in a group and share the marks, and I was like I’m doing it on my own. I hate group work.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strong, repeated statement that she hates group work and avoids it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "she told my lecturers and people that my course work was supposed to be handed to, that it wouldn’t all be in on time, that kind of thing. And she was really good with that.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Personal tutor was supportive after a family death and approachable — clearly satisfied.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "quality": {
+   "var": "quality",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "Clearer – easier to understand, she did explain things differently but then every lecturer is like that. So, I found her easier to understand",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive remarks about lecturers' clarity and explanation.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "theory": {
+   "var": "theory",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "when you see stuff on paper, and you see more and more on paper, and it’s all based on other stuff you’ve seen on paper, you start to lose track of what stuff actually is",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Finds the heavy paper-based theory disorienting and would prefer to see things in real life.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 2,
+   "label": "design work",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I think design is more my kind of thing – er more maths and numbers than like cutting up sheets of metal and things.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "If staying in the field she prefers design work; though she also leans away from a career in industry.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "management would be good – something – I want to progress in whatever I do.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Sees management as desirable and wants to progress, not do the hands-on labour.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "furstudy": {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I have actually been looking into a PGCE to look at teacher training",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Considering further study via a PGCE.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "studarea": {
+   "var": "studarea",
+   "code": 4,
+   "label": "PGCE, teaching",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I have actually been looking into a PGCE to look at teacher training",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Specifically a PGCE for teacher training.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "salary": {
+   "var": "salary",
+   "code": 3,
+   "label": "neither important nor unimportant",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "So money – obviously I don’t want to get a degree here to earn the same as someone that has walked straight out of school erm but I – I also, I’m not obsessed with it.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Money matters somewhat but she is explicitly not obsessed with it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "location": {
+   "var": "location",
+   "code": 2,
+   "label": "unimportant",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "location doesn’t bother me at all. Anywhere in the world really",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Location explicitly does not matter to her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workenv": {
+   "var": "workenv",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Oh somewhere where you don’t get your hands dirty.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Cares about the working environment — does not want a dirty, overalls workplace.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by teacher"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "covered by quality"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "experien",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "money",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "educatio",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "industry",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "perdevel",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "unigrade",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "apptheor",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "finalyr",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "indchart",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placothe",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "my granddad, he did aeronautical engineering, became an airline pilot",
+    "all my grandparents were engineers and their parents were engineers as well and my brother is as well",
+    "my physics teacher was an aeronautical engineer so she’s the one that suggested doing it and pushed it",
+    "I want to keep challenging myself and get the best degree that I can",
+    "I just did it ‘cos it had high entry grades and it said if you’re an engineer you’re very versatile and employable, so I thought that’s what I want to be – employable",
+    "I’m only good at maths and numbers really, so it was either engineering or maths."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "I thought it would be a bit more design; a bit more erm contact with aeroplanes and a bit more lab work but I mean with all the recent strikes and things I know that they are really under funded",
+    "there’s a lot more theory than I expected. I thought there’d be a bit more practice but I can handle that.",
+    "I absolutely hate it. And they had some pieces of course work, where it was optional, you could do it on your own or do it in a group and share the marks, and I was like I’m doing it on my own. I hate group work.",
+    "Because boys are just useless and the chances of me being in a group, with other girls is very slim. I just think let me work on my own.",
+    "there was a death in my family recently, and I told my personal tutor and she told my lecturers and people that my course work was supposed to be handed to, that it wouldn’t all be in on time, that kind of thing. And she was really good with that.",
+    "even though it wasn’t what I expected, it’s still not that different."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "No, I was on the placement programme but then I changed to the actual one without the industrial placement.",
+    "I’m not doing a placement and that’s because I don’t think I want to work in the industry when I’m finished.",
+    "Because I’m not doing a placement anymore, I thought I’ll try and get experience anyway. Erm, so I worked at [company], all of last summer and I’ve got some experience at [company] this summer and I’ll do something else next summer.",
+    "obviously you’d have friends within the industry – you’d have a foot in the door, whatever company you do your placement with",
+    "I’ll still make as much of an impression, as I could if I were there for longer. So I think it’s – I can still get myself to the same position where I’ve got opportunities in the industry when I leave."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’d rather get paid less but be able to get out of bed and go to work everyday than get paid more and absolutely hate what I do like for 5 days a week.",
+    "location doesn’t bother me at all. Anywhere in the world really erm so long as they’re English or French speaking.",
+    "I think design is more my kind of thing – er more maths and numbers than like cutting up sheets of metal and things.",
+    "I would like to work in aerospace because with an aeronautical engineering degree, you’d get more money in aerospace",
+    "I have actually been looking into a PGCE to look at teacher training so I don’t really know.",
+    "management would be good – something – I want to progress in whatever I do."
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

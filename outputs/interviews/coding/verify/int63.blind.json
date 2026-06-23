@@ -1,0 +1,50 @@
+{
+  "unit_id": "int63",
+  "recodes": [
+    {
+      "var": "jobprosp",
+      "code": 4,
+      "label": "agree",
+      "confidence": "medium",
+      "evidence_role": "Subject",
+      "evidence_quote": "if you get a diploma then it’s something a bit extra. It shows commitment and it shows obviously some company somewhere thought you were good enough, and you pass. And it’s good references as well",
+      "reasoning": "She ties the placement/diploma and resulting references directly to future employability, though sceptical of qualifications generally."
+    },
+    {
+      "var": "carpath",
+      "code": 2,
+      "label": "design work",
+      "confidence": "medium",
+      "evidence_role": "Subject",
+      "evidence_quote": "I wanted to get myself established within my design career and get to a management level before I considered having children",
+      "reasoning": "Design (DT) is her named field and passion; she explicitly rejects the civil/structural engineering area she is placed in."
+    },
+    {
+      "var": "training",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_role": "Subject",
+      "evidence_quote": "there’s a lot of emphasis on training and the personal development, which is good",
+      "reasoning": "She praises training/development provision positively, but states it descriptively rather than as an explicit job-choice priority."
+    },
+    {
+      "var": "equalopp",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_role": "Subject",
+      "evidence_quote": "I had a erm a copy of the Grievance Policy. And I knew what my rights were",
+      "reasoning": "She is intensely attuned to fair treatment as a woman and actively invoked formal grievance/HR procedures, implying such policies matter to her; not stated as an explicit decision factor."
+    },
+    {
+      "var": "promot",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_role": "Subject",
+      "evidence_quote": "I wanted to get myself established within my design career and get to a management level before I considered having children. Because otherwise I wouldn’t have a hope in hell of getting up there",
+      "reasoning": "She personally cares about advancing to management level, though she dislikes the promotion-obsessed culture she observed on placement."
+    }
+  ]
+}

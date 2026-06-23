@@ -1,0 +1,15 @@
+{"unit_id":"int64","verdicts":[
+{"var":"gender","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Refers to herself as a girl/woman on plant throughout; female confirmed."},
+{"var":"dept","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Explicitly 'the Chemical Engineering Course'."},
+{"var":"year","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Start-date quote is thin alone, but on a one-year placement throughout; placement year correct."},
+{"var":"placemen","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Actively on placement in manufacturing support; yes is correct."},
+{"var":"apptheor","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":"medium","note":"'very relevant... really applying what I've learnt' endorses applying theory; quote is about degree relevance not a stated reason, so downgrade to medium."},
+{"var":"jobdecid","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'helped me determine what I want to do when I get out' directly supports decide-future-direction; agree."},
+{"var":"finalyr","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Placement data feeds dissertation, 'very relevant'; strong endorsement supports strongly agree."},
+{"var":"interper","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'team work... has helped in terms of working with other people' supports course develops interpersonal skills; agree."},
+{"var":"groupwk","verdict":"unsupported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"Quote (reused from interper) describes teamwork helping working with others, not satisfaction with group work as a course aspect; no satisfaction expressed."},
+{"var":"carpath","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'I don't know really' after ruling out areas supports don't know."},
+{"var":"workrole","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'specialised in technical things... not wholly managerial' supports technical/specialist."},
+{"var":"location","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'happy to go anywhere where there's a good job' supports location unimportant."},
+{"var":"pleased","verdict":"supported","corrected_code":null,"corrected_label":null,"corrected_confidence":null,"note":"'Still want [career in engineering]' implies pleased with the choice; supported but inferential, medium confidence apt."}
+]}

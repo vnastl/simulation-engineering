@@ -1,0 +1,33 @@
+{
+  "unit_id": "int09",
+  "verdicts": [
+    {"var": "gender", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Named Clare and repeatedly referred to as a woman; clearly female."},
+    {"var": "dept", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "BSc Construction Management maps to Civil & Building Engineering."},
+    {"var": "highsal", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'Also a well paid job' names pay as a draw to the field; agree fits."},
+    {"var": "family", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'neither parent is in engineering industry' supports strongly disagree."},
+    {"var": "knowledg", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'No previous experience of the industry' supports chose with little knowledge; agree."},
+    {"var": "careers", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'Didn't have any careers advice at school' supports strongly disagree on careers-advisor encouragement."},
+    {"var": "discoura", "verdict": "unsupported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'Happy with all career choices' is about satisfaction, not whether anyone discouraged her; quote does not address the discouragement question (and a QS-lecturer episode arguably cuts the other way)."},
+    {"var": "pleased", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'really enjoys' plus 'enjoyed the course so far' supports strongly agree."},
+    {"var": "interper", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Improved confidence working with the guys is interpersonal-skill development; agree fits."},
+    {"var": "Mconfid", "verdict": "unsupported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Quote is a general claim that good engineers need confidence (perceived male); says nothing about male vs female students' confidence in class."},
+    {"var": "supppers", "verdict": "unsupported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'No personal tutor' means the item is not applicable; absence of a tutor does not express neutral satisfaction."},
+    {"var": "friends", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'a fellow student ... very encouraging' supports satisfaction with friends; thin, low confidence retained."},
+    {"var": "placemen", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'Is going on placement with [company]' confirms yes."},
+    {"var": "experien", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Principal reason was lack of industry experience; strongly agree fits."},
+    {"var": "money", "verdict": "supported", "corrected_code": null, "corrected_label": "agree", "corrected_confidence": "low", "note": "'best thing will be getting paid' signals pay matters but item is about NEEDING money; agree at low confidence is defensible."},
+    {"var": "jobprosp", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'would count more than anything else' for getting jobs supports strongly agree."},
+    {"var": "industry", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Having no industry experience supports wanting an idea of what industry is like; agree, low conf."},
+    {"var": "perdevel", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'will improve confidence' supports personal development; agree."},
+    {"var": "unigrade", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'help with assignments in the final year' supports improving grades; agree."},
+    {"var": "apptheor", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Does not expect to put theory into practice; disagree fits (could be stronger)."},
+    {"var": "placothe", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Placement was a voluntary choice (not all students go), so 'other' rather than compulsory; low conf."},
+    {"var": "carpath", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'a good project manager' supports project management specialism."},
+    {"var": "workrole", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Executive of own company / project manager supports managerial role."},
+    {"var": "salary", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "'earning lots of money' as a key aspiration supports very important."},
+    {"var": "location", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Stated preference to work abroad (climate) shows location matters; important, low conf."},
+    {"var": "travel", "verdict": "supported", "corrected_code": null, "corrected_label": "important", "corrected_confidence": "low", "note": "Wanting to work in Australia shows mobility/openness to working abroad; thin (motivation stated is prospects), low conf."},
+    {"var": "benefits", "verdict": "supported", "corrected_code": null, "corrected_label": "important", "corrected_confidence": "low", "note": "'nice car' is a generic life-goal in a husband/house/car list rather than a job company-car benefit; weakest available signal, low conf."},
+    {"var": "promot", "verdict": "supported", "corrected_code": null, "corrected_label": null, "corrected_confidence": null, "note": "Citing good career prospects/shortage of professionals supports promotion opportunities mattering; important, low conf."}
+  ]
+}

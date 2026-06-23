@@ -1,0 +1,658 @@
+{
+ "unit_id": "int13",
+ "verbatim": true,
+ "placement_status": "not_going",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think females very much have the good people – good people skills",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject refers to herself as a female engineer throughout; study interviews women.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 1,
+   "label": "Aeronautical & Automotive Engineering",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "with aeronautical it's – I liked it because it was so broad",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Confirms she is on the aeronautical engineering course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Erm, it was just a normal high school.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Confirms not single-sex; a normal (mixed) high school.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "it's really interesting. I look at everything and I want to know how it works",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicit strong attraction to interesting work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mathsci": {
+   "var": "mathsci",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I just found that I had a knack for maths and physics, so I thought engineering would be great to do",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Clearly states being good at maths and science drove the choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "hobbies": {
+   "var": "hobbies",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I was one of these kids that always had Meccano or Lego",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Lifelong technical hobbies (Meccano, Lego, model planes).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "varied": {
+   "var": "varied",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I liked it because it was so broad, you learnt everything from you know, electrical to mechanical to you know say systems and programming",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly chose aeronautical for its breadth/variety.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "father": {
+   "var": "father",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think it's very much my dad's influence. Er because he used to take me to model car racing and model air – you know – plane - flying things from a very early age.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Father is identified as the dominant influence on her route into engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mother": {
+   "var": "mother",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I think it's very much my dad's influence.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Influence attributed almost entirely to father; mother never mentioned as encourager, weak inference.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "family": {
+   "var": "family",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "no but my dad's a technology teacher and he's – he's now a computer technician.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "No family member in the engineering industry; parents not engineers.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "careers": {
+   "var": "careers",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "they said that was really good. Erm, and they said – I said aeronauticals and they said you know a few other engineering areas to look into.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Careers advisor reacted positively and supportively to her engineering choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "teacher": {
+   "var": "teacher",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "one of my teachers went to [this university] and he used to sing its praises, as an engineer",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "A teacher actively promoted engineering/the university to her.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "they said that was really good",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "No one discouraged her; advisors and teachers were supportive, brought-up around male hobbies seamlessly.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Very pleased. I don't think I would have taken any other course – looking back.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Explicit strong satisfaction with choosing the course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "designwk": {
+   "var": "designwk",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "this year's really good, actually learning how to design an aircraft from scratch",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Very enthusiastic about the design work this year.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "variety": {
+   "var": "variety",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "you learnt everything from you know, electrical to mechanical to you know say systems and programming",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about the breadth/variety of subjects covered.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "friends": {
+   "var": "friends",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I think that the best thing is that everyone's sort of gelled really well",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Best thing about the course is how well the cohort gelled; clearly very positive about friends.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "he's a brilliant chap, he's really interesting – yeah.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Very positive about her (male) personal tutor.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supplect": {
+   "var": "supplect",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the lecturer was great on it",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about lecturer support, even on the difficult thermodynamics module.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I do in most situation's – I mean there's a – I like everybody normally",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Generally likes group work despite one difficult peer; sees clear benefits.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "each person can focus on a different bit. And if you're focusing on something different, it's always good to get them to look at your bit",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Course group work develops collaborative/interpersonal skills she values for industry.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 0,
+   "label": "no",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm not.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly not going on placement; doing straight 4-year masters.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "finuni": {
+   "var": "finuni",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "if I've got to do this masters anyway, I might as well do it all in a row, while your brains in the right gear than do a placement year",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Wants to finish straight through rather than add a placement year; 5 years too long.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "wkexp": {
+   "var": "wkexp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I've had so much management and leadership training and you know they've taken me all around the world, so I such be a bold enough person without the gap year",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Cites her existing RAF and factory work experience as making a placement year unnecessary.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "noplaoth": {
+   "var": "noplaoth",
+   "code": 3,
+   "label": "Armed Forces",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I joined the RAF as a volunteer reserve",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "RAF commitment (squadron, bursary) is a key reason against a placement/gap year.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 8,
+   "label": "Armed Forces related",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'll go in direct entrants and apply navigator first, then engineer … if I accept the bursary I'll have to do 16 years, but that's what I want really",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Career aim is an RAF (Armed Forces) engineering/navigator role.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I think I would really enjoy the people management",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Prefers people-management/managerial role, sees engineers progressing to manager.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "furstudy": {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm doing the 4 years masters",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Already committed to the integrated masters as further study.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "studarea": {
+   "var": "studarea",
+   "code": 3,
+   "label": "Masters, MSc, MBA",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm doing the 4 years masters",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Further study is the integrated masters.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "charship": {
+   "var": "charship",
+   "code": 1,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "in a few years time become chartered",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Becoming chartered is part of her plan and a reason she values the masters route.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "promot": {
+   "var": "promot",
+   "code": 5,
+   "label": "very important",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Very much good promotional prospects – er it'd have to be a big successful company er because they're the only ones that have good promotional prospects",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Promotion prospects are the top stated criterion when choosing a company.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobprosp": {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "if I was just doing a Bachelor's I'd be a bit worried about not doing a placement year",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Acknowledges placement improves job chances; reason she'd want one if not doing the masters.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "covered by interest"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by father"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "experien",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "covered by noplaoth"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "covered by promot"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I think it probably started when I was a child. I was one of these kids that always had Meccano or Lego and I just found that I had a knack for maths and physics, so I thought engineering would be great to do. Also, I wanted to be an engineer, as a career, that's what I wanted to do.",
+    "I think it's very much my dad's influence. Er because he used to take me to model car racing and model air – you know – plane - flying things from a very early age.",
+    "it's really interesting. I look at everything and I want to know how it works. Erm, and with engineering, well they teach you how it works",
+    "I considered a few types but with aeronautical it's – I liked it because it was so broad, you learnt everything from you know, electrical to mechanical to you know say systems and programming. But then the case studies are all linked to aircraft which was where my main interest lay, in the end.",
+    "yes, I went through probably about 15 – like a keeping of a folder of everything that looked good and kept on checking things out till I decided what…"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "this year it has. The first year I was getting a little bit disillusioned because it's all sorts of maths and all basics and there's no aircraft in it erm but yeah, this year's really good, actually learning how to design an aircraft from scratch.",
+    "I think that the best thing is that everyone's sort of gelled really well. When we did a end of term sort of 2 weeks after everyone else has gone home and building model aircrafts and all you know, just playing – that bit's really good fun. Erm the worst bit's – I think it's the thermodynamics",
+    "Very pleased. I don't think I would have taken any other course – looking back.",
+    "there's 9 females out of 140 people on the course, I think. It's a bit low.",
+    "he's a brilliant chap, he's really interesting – yeah."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "well I'm doing the 4 years masters – er and I kind of thought maybe 5 years is too long. Erm, I mean if I could – I could have done a 3 year and had a year in industry and realised that's good to employers because I'd done the year in industry and had experience but then I thought well if I do the – I want – I'm gonna – touch wood – I'll end up doing the masters",
+    "if I've got to do this masters anyway, I might as well do it all in a row, while your brains in the right gear than do a placement year.",
+    "I joined the RAF as a volunteer reserve",
+    "they weren't really into people doing gap years because you have to leave your squadron, and then sort of re-apply (absolutely) and I didn't really want to lose you know, the opportunities that I had",
+    "one of my friends has done a 3 year straight – erm mechanical engineering course and she's going on to get a job in the industry and the first sort of 5 places she applied to said, oh we're just using people with a year's experience",
+    "So I think if I was just doing a Bachelor's I'd be a bit worried about not doing a placement year."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I'm a navigator, but unfortunately they're not taking any more on, they've got too many at the moment so unless I – if I don't get this bursary I'll go in direct entrants and apply navigator first, then engineer",
+    "if I accept the bursary I'll have to do 16 years, but that's what I want really.",
+    "I think I would really enjoy the people management. But as you progress up the ladder you need to use your engineering degree more erm because you'll be looking at bringing new technologies, which is eventually what I'd like to do.",
+    "Very much good promotional prospects – er it'd have to be a big successful company er because they're the only ones that have good promotional prospects.",
+    "in a few years time become chartered"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

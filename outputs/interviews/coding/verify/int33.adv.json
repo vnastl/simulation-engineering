@@ -1,0 +1,181 @@
+{
+ "unit_id": "int33",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Repeatedly self-identifies as a girl/woman ('because I was a girl'); clearly female."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Comprehensive school, explicitly confirmed not a girls' school -> mixed sex."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'electrical - electronic' degree maps directly to Electronic & Electrical Engineering."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I was interested' / wanted 'something different' supports interest as a draw; agree justified."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Absence-inference: no family in industry ever mentioned; quote itself is silent on family, but direction holds. Keep low."
+  },
+  {
+   "var": "mother",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No mother encouragement mentioned; decision framed as her own. Absence-inference, low."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No father encouragement mentioned; decision framed as her own. Absence-inference, low."
+  },
+  {
+   "var": "nobody",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'll go out and do it myself' with no encouragers named supports nobody-encouraged."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No discouragement from studying reported; apprenticeship rejection spurred her on. Code 0=no holds."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'd probably do exactly the same thing' supports being pleased with the choice; agree justified."
+  },
+  {
+   "var": "curricul",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'a bit harder than I thought' supports curriculum more difficult than expected; agree justified."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Barely spoke to coursemates all year; no voiced (dis)satisfaction so 'neither' defensible but thin; keep low."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote says she MISSES the group-work lesson (does it at work) - absence of group work at uni gives no basis for a satisfaction rating; reject."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Network 75 work-based student; she affirms 'Yeah' to being on it -> yes."
+  },
+  {
+   "var": "money",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Money is first and emphasised reason ('couldn't afford fees', 'best is the money'); strongly agree justified."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'the best is the money and the experience' supports valuing work experience; agree justified."
+  },
+  {
+   "var": "apptheor",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote leans on 'understanding' more than 'applying' and she qualifies 'I wouldn't say I use anything I know yet'; agree borderline, downgrade to low."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'd definitely work for them at the end' supports placement improving job chances; agree, low ok."
+  },
+  {
+   "var": "noplaoth",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "She is a Network 75 student -> additional reason code 2 holds."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "'Running my own company / be in charge' is managerial/ownership ambition; project management is the closest allowed value but a loose fit; keep low."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'running my own company... be in charge' is a clear managerial work-role aspiration."
+  },
+  {
+   "var": "salary",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'the money' refers to funding uni via Network 75, not salary importance in choosing a future job; cross-construct inference, reject."
+  }
+ ]
+}

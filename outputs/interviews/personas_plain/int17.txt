@@ -1,0 +1,57 @@
+INTERVIEW INT17 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: unclear.
+
+## Demographics & background
+Gender: Female
+Year of study: Part B/Year 2
+Department: Civil & Building Engineering
+University type (pre- or post-1992): Pre-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Strongly agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Strongly disagree
+Having technical hobbies and interests: Disagree
+Engineering as a good degree to hold regardless: Strongly agree
+Mother's encouragement to study engineering: Disagree
+Father's encouragement to study engineering: Disagree
+School teacher's encouragement: Strongly agree
+Nobody encouraged the choice: Disagree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Agree
+The curriculum being harder than expected: Disagree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Disagree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Satisfied
+Support from a personal tutor: Very satisfied
+Group work: Satisfied
+The friends made on the course: Satisfied
+Practical work: Satisfied
+
+## Industrial placement
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To help decide a future direction: Strongly agree
+To see what industry is really like: Strongly agree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+No placement available in a suitable location: Agree
+No available placement appealing: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Don't know
+Whether they would like to go on to further study: Yes
+Intended area of further study: PGCE, teaching
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Important
+Opportunities for flexible working: Important
+Childcare policies: Very important

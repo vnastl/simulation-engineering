@@ -1,0 +1,85 @@
+{
+  "unit_id": "int33",
+  "recodes": [
+    {
+      "var": "family",
+      "code": 1,
+      "label": "strongly disagree",
+      "confidence": "low",
+      "evidence_quote": "and then I thought I’ll go out and do it myself and then I went to college",
+      "reasoning": "No family member in the industry is mentioned; she frames the decision as entirely her own."
+    },
+    {
+      "var": "mother",
+      "code": 1,
+      "label": "strongly disagree",
+      "confidence": "low",
+      "evidence_quote": "and then I thought I’ll go out and do it myself and then I went to college",
+      "reasoning": "Mother only mentioned regarding moving out; no encouragement to study engineering reported."
+    },
+    {
+      "var": "father",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": null,
+      "reasoning": "Father is never mentioned anywhere in the transcript; no verbatim Subject statement supports any code."
+    },
+    {
+      "var": "nobody",
+      "code": 4,
+      "label": "agree",
+      "confidence": "low",
+      "evidence_quote": "and then I thought I’ll go out and do it myself and then I went to college",
+      "reasoning": "She presents the choice as self-driven after an apprenticeship rejection, naming no one who encouraged her."
+    },
+    {
+      "var": "discoura",
+      "code": 0,
+      "label": "no",
+      "confidence": "low",
+      "evidence_quote": "I actually applied for an apprenticeship with [company] and I went for the interview and I never got the job and I felt that was because I was a girl (really?) – yeah – and, and then I thought I’ll go out and do it myself",
+      "reasoning": "No one discouraged her; the apprenticeship rejection spurred her to pursue engineering herself."
+    },
+    {
+      "var": "friends",
+      "code": 3,
+      "label": "neither satisfied nor dissatisfied",
+      "confidence": "low",
+      "evidence_quote": "I think it was only last 2 weeks that I actually spoke to the rest of ‘em., during exam time, I’d never spoke to ‘em all the way through the year, really",
+      "reasoning": "She had almost no contact with coursemates all year; no positive or negative satisfaction expressed, so neutral."
+    },
+    {
+      "var": "groupwk",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "I miss out that lesson because I do that sort of thing in work",
+      "reasoning": "She skips the university group-work lesson and does it at work instead; she expresses no satisfaction stance on group work."
+    },
+    {
+      "var": "jobprosp",
+      "code": 4,
+      "label": "agree",
+      "confidence": "low",
+      "evidence_quote": "I’m hoping from being at Uni and getting the qualifications, I’ll always have a job out there for me",
+      "reasoning": "She links the placement/qualification to securing future employment, and her company would employ her at the end."
+    },
+    {
+      "var": "carpath",
+      "code": 5,
+      "label": "project management",
+      "confidence": "low",
+      "evidence_quote": "I wouldn’t mind running my own sort of company like I’m working for – so I’d be in charge then",
+      "reasoning": "Her stated preference is running/managing a firm doing project work, mapping to project management."
+    },
+    {
+      "var": "salary",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_quote": "the best is the money and the experience",
+      "reasoning": "Money is a consistent primary motivator (Network 75 and best part of work), implying salary matters in job choice."
+    }
+  ]
+}

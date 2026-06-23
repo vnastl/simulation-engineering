@@ -1,0 +1,435 @@
+{
+ "unit_id": "int58",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "on my section I am the only girl",
+   "theme": "route_into_engineering",
+   "reasoning": "Repeatedly self-identifies as a girl/woman on site."
+  },
+  {
+   "var": "dept",
+   "code": 3,
+   "label": "Civil & Building Engineering",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "the bit that I'm working for is [Company] Civil Engineering",
+   "theme": "route_into_engineering",
+   "reasoning": "She is a civil engineering student on a civils placement."
+  },
+  {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I have personally found my whole year out to be pretty disorganised",
+   "theme": "placement_decision",
+   "reasoning": "Currently on her placement/year-out, with two further years at uni to come."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "the first day I was there",
+   "theme": "placement_decision",
+   "reasoning": "She is actively on placement, started middle of August last year."
+  },
+  {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think for people like me it helped because rather than having being in this situation when I've graduated, going ‘on no, what do I do now?’ I think it helps to sort it out",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly frames a key benefit of placement as helping decide future direction."
+  },
+  {
+   "var": "apptheor",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "there's lots of the practical aspects that you can apply to all the theory now",
+   "theme": "placement_decision",
+   "reasoning": "Names applying theory learnt at uni as a clear benefit of the placement."
+  },
+  {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I've enjoyed doing the actual work … I feel I've got a very sort of varied experience",
+   "theme": "placement_decision",
+   "reasoning": "Values the work experience itself; placement is fundamentally about gaining experience for her."
+  },
+  {
+   "var": "carpath",
+   "code": 1,
+   "label": "consultancy",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Well it's an option before I just went oh I'm never doing civil engineering I would certainly explore that first",
+   "theme": "future_intentions",
+   "reasoning": "Moving away from contracting/on-site; consultancy named as the option she would explore first."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "working with people at uni erm especially if you don't get on with them particularly well I think that has helped me to … it doesn’t matter whether I like somebody or not I can work with them",
+   "theme": "course_experience",
+   "reasoning": "States uni team/group work developed her interpersonal/people skills that transfer to work."
+  }
+ ],
+ "skips": [
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "covered by interper"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "covered by jobdecid"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "the bit that I'm working for is [Company] Civil Engineering",
+    "on my section I am the only girl",
+    "I think disadvantages like I said you get people that just, just have issues with you for no reason other than the fact that you are a girl and they think you should be at home cooking and cleaning",
+    "I think any (inaudible) into the industry needs to be more encouraged because there is still very few women in civil engineering"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "some modules are more useful like the more practical modules. (Yeah) I've found them a lot more useful because I've gone out working for a contractor so I'm out on site so the practical stuff, it's more use",
+    "from what I've been told about the design and what I've learnt about the design, I think, some of the more of the theoretical would come into use there",
+    "I wish I had actually had more experience in er using the instruments",
+    "I think we should have had more site visits because the only site visits there were, were organised as part of the civil engineering society",
+    "working with people at uni erm especially if you don't get on with them particularly well I think that has helped me to … it doesn’t matter whether I like somebody or not I can work with them"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I've enjoyed doing the actual work erm not too sure whether I want to go into civil engineering at the moment",
+    "I think for people like me it helped because rather than having being in this situation when I've graduated, going ‘on no, what do I do now?’ I think it helps to sort it out",
+    "there's lots of the practical aspects that you can apply to all the theory now",
+    "I have personally found my whole year out to be pretty disorganised",
+    "Because I just feel that if it had all been organised properly I’d have been sort of much happier and much more able just to relax and learn",
+    "I feel I've got a very sort of varied experience"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I'm not sure that I want to go into civil engineering erm I've got the rest of this year to think plus the next 2 years at university to think about it",
+    "Well actually when I said civil engineering it's not so much civil engineering as like on the contracting side out on site",
+    "Well it's an option before I just went oh I'm never doing civil engineering I would certainly explore that first",
+    "I would have to speak to them first I think I would speak to them first and explain why I wasn’t particularly happy with my placement",
+    "at the moment no because the financial state of the company’s so up in the air"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 9,
+  "n_codes_kept": 9,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

@@ -1,0 +1,572 @@
+{
+ "unit_id": "int36",
+ "verbatim": true,
+ "placement_status": "not_going",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "if I got married, I obviously can’t fly",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Speaks as a woman about marriage/flying constraints; study is of women engineering students.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "No, no, it was just a normal Catholic School.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Describes a 'normal' Catholic school in response to whether it was a girls' school, implying mixed sex.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’ve always wanted to work in like just planes and stuff – they just fascinate me",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Strong fascination with planes/airports as the reason for studying the field maps to interesting-work draw.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "varied": {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "the course that we do is so wide … it’s got logistics in it, it’s got economics and it’s like generally all transport",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Values the breadth/variety of the course content; she came to like its varied nature.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "family": {
+   "var": "family",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "because school didn’t have any information. I did it all on my own.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Although her father is in construction, she attributes her knowledge of the field entirely to her own research, not a family member in the industry.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "nobody": {
+   "var": "nobody",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "verification": "adversarial-wrong_code",
+   "evidence": "because school didn’t have any information. I did it all on my own.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Stresses no school/careers information existed and she found the course herself; nobody steered her into it.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 1,
+   "label": "yes",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "in our culture we’re not allowed – girls are not allowed to travel",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Cultural expectation that girls don't travel acted as a discouraging pressure she had to overcome (parents then supported her).",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "whodisc": {
+   "var": "whodisc",
+   "code": 8,
+   "label": "other",
+   "confidence": "low",
+   "verification": "adversarial-wrong_code",
+   "evidence": "in our culture we’re not allowed – girls are not allowed to travel",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Discouragement framed as cultural/family expectation; ambiguous attribution so low confidence.",
+   "provenance": "prose-derived",
+   "flags": [
+    "blind-disagree"
+   ],
+   "alt": {
+    "code": 3,
+    "label": "other family",
+    "evidence": "in our culture we’re not allowed – girls are not allowed to travel"
+   }
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I am. I have no doubts. … I have no doubts as to why I did this course or anything. I am happy.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Explicitly states no doubts and happiness about choosing the course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "variety": {
+   "var": "variety",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I like the fact that they’ve done it like that. It’s really good.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Pleased with the wide variety of subjects the course covers after initially disliking it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I guess my personal tutor has really helped me greatly",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Personal tutor described as greatly helpful, biggest influence, and approachable.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "friends": {
+   "var": "friends",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’ve got a really good mate. He’s like helped me so much and it shows in my results – definite. I’ve like improved by 10%.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strongly positive about friends/support made on the course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "this year, because we know the rules and we know how things work, I think this year we’re alright – we’ve like taken it really seriously",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Group work this year going well and taken seriously, aside from one freeloader; net positive.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "assess": {
+   "var": "assess",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the best bit is having 50% course work, 50% exams",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Names the 50/50 coursework-exam balance as the best thing, indicating the balance is just right for her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 0,
+   "label": "no",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "No, because I decided not to do it. I did put myself down",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Clearly not going on placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "noaccept": {
+   "var": "noaccept",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I had written about 60 letters so far and I didn’t get any replies … they’re all nos",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Applied extensively for placements but was not accepted (all rejections).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placloca": {
+   "var": "placloca",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "because I did apply abroad and none of them – they all said no to me",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Wanted a placement out of London/abroad but could not secure one in a suitable location.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "noplaoth": {
+   "var": "noplaoth",
+   "code": 8,
+   "label": "other",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "my other reason for not doing a placement is ‘cos all my mates that I hang around with at the moment, they’re not going on placement",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Additional non-listed reason: friends not going on placement (other).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "my career aspiration is like going to [airport] or wherever - sit there in the office and actually manage the airport",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Explicitly wants a management role rather than technical/flying work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 5,
+   "label": "project management",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’m more into getting things sorted and having them working in their proper order",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Wants to manage the airport / make things work in order, best fitting project/management specialism among allowed options.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "covered by nobody"
+  },
+  {
+   "var": "father",
+   "reason": "covered by nobody"
+  },
+  {
+   "var": "careers",
+   "reason": "covered by nobody"
+  },
+  {
+   "var": "teacher",
+   "reason": "covered by nobody"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "covered by supppers"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "covered by assess"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "experien",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I’ve always wanted to work in like just planes and stuff – they just fascinate me. I think mostly it’s the airports that fascinate me, so I just wanted to work in an airport whatever happened",
+    "I applied for air traffic control – I failed that and erm looking into this, afterwards, I got into uni. So I thought I might as well.",
+    "No. No I don’t like physics.",
+    "I had my support from my family. That was – in our culture we’re not allowed – girls are not allowed to travel and it’s like, obviously after marriage",
+    "I had the support from my parents and stuff and they said you can do whatever you want",
+    "Because I struggled – because obviously it was my research, that I did, with the help from my tutor, that I did get to this stage, but I wouldn’t have got to this stage because school didn’t have any information. I did it all on my own."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "At first I didn’t – I was not happy with it. I did consider to change it.",
+    "now that I’m well into it, I’m quite happy with the course – it’s not, it’s everything I expected now",
+    "the best bit is having 50% course work, 50% exams, I think I’d rather do more course work than exams. I like that. The worst thing is we have do 12 modules a year.",
+    "I am. I have no doubts. … I have no doubts as to why I did this course or anything. I am happy.",
+    "I guess my personal tutor has really helped me greatly. … Then I also have so much support from my friends and stuff",
+    "I’d trust a male lecturer more than a female one. I guess it comes back to the fact that male are dominating again"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Well, I’ve been applying – since I started Uni, I’ve been applying for placements since then",
+    "I had written about 60 letters so far and I didn’t get any replies. I think I’ve only got 8 replies out of that, and they’re all nos",
+    "I really wanted to do a placement, out of the UK – not the UK, but I wouldn’t mind abroad, in the EU, or like out of London … I didn’t want to stay in London at all",
+    "I think it’s just September 11th thing – that is what affected it, because when I started my course, that’s when it happened, so that was a factor",
+    "my other reason for not doing a placement is ‘cos all my mates that I hang around with at the moment, they’re not going on placement. It’s like – I don’t want to stick around and be left around with the other people",
+    "I’d come out with one year’s experience and I would be more attractive than someone who hasn’t done it, but at the end of the day, it’s like getting it in the first place"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "my career aspiration is like going to [airport] or wherever - sit there in the office and actually manage the airport. And that’s what I want to do",
+    "I’m more into getting things sorted and having them working in their proper order and stuff like that.",
+    "being in an office, like where I can see the runway or something, and just like working in a team with other people and just making things work",
+    "I do see myself even working as a secretary in an airport, I’m happy with that as a first thing, and then move up from there – definite. After this, I really want to do air traffic control anyway",
+    "It depends on where I go and how I go about with my life, so if I like get married or something and then that’s a bit different. I think marriage is – could be a big difference in life, especially the ladies",
+    "my culture plays a massive part in my life – ‘cos it’s so different"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

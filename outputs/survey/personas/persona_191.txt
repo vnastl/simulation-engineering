@@ -1,0 +1,88 @@
+SURVEY RESPONDENT #191 (Women Engineering Students' Workplace Experiences, UKDA SN 5723)
+
+## Demographics & background
+Gender: Male
+Age band: 30+
+Ethnic group: British
+Religion: Christian
+Type of secondary school attended: Single sex
+Year of study: Part C/Year 3
+Department: School of Technology
+University type (pre- or post-1992): Post-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Strongly disagree
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Using science and maths without specialising: Strongly disagree
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Disagree
+Having a family member in the industry: Strongly agree
+Having technical hobbies and interests: Neither agree nor disagree
+Engineering as a good degree to hold regardless: Agree
+Engineering's appeal as a varied field: Neither agree nor disagree
+Mother's encouragement to study engineering: Strongly disagree
+Father's encouragement to study engineering: Strongly disagree
+Careers advisor's encouragement: Strongly disagree
+School teacher's encouragement: Strongly disagree
+Nobody encouraged the choice: Strongly disagree
+Ever attended an engineering insight course: No
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Neither agree nor disagree
+The curriculum being harder than expected: Disagree
+Being pleased with the choice to study engineering: Neither agree nor disagree
+Difficulty seeing the relevance of some modules: Neither agree nor disagree
+Engineering students being competitive: Neither agree nor disagree
+Male students being more confident in class: Strongly disagree
+Female students getting more help in class: Strongly disagree
+Always having competing deadlines: Neither agree nor disagree
+The coursework/exam balance being just right: Agree
+The course developing interpersonal skills: Neither agree nor disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Satisfied
+Support from lecturers: Neither satisfied nor dissatisfied
+Support from a personal tutor: Satisfied
+Group work: Satisfied
+Number of teaching hours: Satisfied
+The friends made on the course: Neither satisfied nor dissatisfied
+Quantity of coursework: Satisfied
+Theory work: Satisfied
+Practical work: Neither satisfied nor dissatisfied
+Design work: Neither satisfied nor dissatisfied
+Variety of subjects covered: Very satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Strongly agree
+No placement available in a suitable location: Strongly disagree
+Fear of returning to education after a break: Strongly disagree
+Wanting to finish university sooner and start earning: Strongly disagree
+Seeing nothing to be gained from a placement: Strongly disagree
+No available placement appealing: Strongly disagree
+Having applied but not been accepted: Strongly disagree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Teaching
+Whether they would like to go on to further study: Yes
+Intended area of further study: Engineering related subject
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Very important
+Work environment: Neither important nor unimportant
+The people worked with: Neither important nor unimportant
+Opportunities to travel: Unimportant
+Benefits such as a company car: Very unimportant
+Training opportunities: Unimportant
+Opportunities for promotion: Neither important nor unimportant
+Equal-opportunities policies: Important
+Opportunities for flexible working: Important
+Childcare policies: Important
+Preferred future work role: Technical/specialist
+Importance of gaining Chartership: Not applicable to my subject area
+
+[Not stated: 1 item(s) left blank; 14 item(s) not applicable / filtered out by a branch.]

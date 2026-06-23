@@ -1,0 +1,93 @@
+{
+  "unit_id": "int09",
+  "recodes": [
+    {
+      "var": "discoura",
+      "code": 0,
+      "label": "no",
+      "confidence": "low",
+      "evidence_quote": "Happy with all career choices.",
+      "reasoning": "No one is reported as discouraging her from studying engineering; QS jokes were about a course transfer, not discouragement from the field."
+    },
+    {
+      "var": "Mconfid",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Thinks that a good engineer needs to be a born leader and confident – characteristics that are usually perceived as male.",
+      "reasoning": "Statement is about engineers generally being perceived as male/confident, not about male vs female students' confidence in class; cannot support the specific item."
+    },
+    {
+      "var": "supppers",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "No personal tutor.",
+      "reasoning": "She has no personal tutor, so satisfaction with personal-tutor support cannot be placed on the scale."
+    },
+    {
+      "var": "friends",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Thinks that the best thing is improved confidence with working with the guys.  But worst bit is only 1 other girl on course",
+      "reasoning": "No direct statement of satisfaction with friends made on the course; comments are about confidence and being the only girl, not codeable as a satisfaction rating."
+    },
+    {
+      "var": "money",
+      "code": 4,
+      "label": "agree",
+      "confidence": "low",
+      "evidence_quote": "Thinks the best thing about placement will be getting paid and improving confidence working with men.",
+      "reasoning": "Getting paid named as the best thing about placement indicates money matters, though not explicitly framed as needing it."
+    },
+    {
+      "var": "industry",
+      "code": 4,
+      "label": "agree",
+      "confidence": "low",
+      "evidence_quote": "Principal reason for choosing to go on placement was because she had no experience in industry",
+      "reasoning": "Having no industry experience and going on placement to gain it supports wanting an idea of what industry is really like."
+    },
+    {
+      "var": "placothe",
+      "code": 2,
+      "label": "other",
+      "confidence": "low",
+      "evidence_quote": "Didn’t decide to do a placement until she got to university.",
+      "reasoning": "Placement was her own later decision rather than compulsory, so it falls under 'other'."
+    },
+    {
+      "var": "location",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_quote": "Would like to work abroad because it is too cold here!",
+      "reasoning": "Choosing where to work based on climate/abroad indicates location is an important job-choice factor."
+    },
+    {
+      "var": "travel",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_quote": "would love to work in Australia where career prospects are good as there is a shortage of professionals",
+      "reasoning": "Keen desire to work abroad (Australia) indicates opportunities to travel matter in her job choice."
+    },
+    {
+      "var": "benefits",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Thought that in 5 years time would hopefully be a good project manager earning lots of money, and have a husband, house and nice car.",
+      "reasoning": "The 'nice car' is a 5-year life aspiration, not a statement about importance of job benefits like a company car when choosing a job; unsupportable."
+    },
+    {
+      "var": "promot",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_quote": "would love to work in Australia where career prospects are good as there is a shortage of professionals",
+      "reasoning": "Preferring a location for good career prospects indicates promotion/progression opportunities matter in her job choice."
+    }
+  ]
+}

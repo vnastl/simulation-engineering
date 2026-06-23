@@ -1,0 +1,285 @@
+{
+ "unit_id": "int37",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Self-references as 'a girl' doing civil engineering; whole interview is a woman engineer."
+  },
+  {
+   "var": "school",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote says 'private high school' in Canada; she deflects the all-girls question and never confirms single-sex. Does not support code 2."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I decided to do civil' confirms Civil & Building Engineering."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'satisfying things in engineering... I did this bridge' maps to opportunity for interesting work."
+  },
+  {
+   "var": "varied",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote about moving 'to business sector' is transferability, not variety of the field; does not support 'appealed because so varied'."
+  },
+  {
+   "var": "gooddeg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'engineering discipline can go to business sector as well' = good degree to have even outside the profession."
+  },
+  {
+   "var": "challeng",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Problem-solving is valued but quote is about engineers' thinking style, not a draw-to-study; thin, keep low."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Father businessman, mother housewife; no family member in industry -> strongly disagree."
+  },
+  {
+   "var": "mother",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Mother warned it could be tough for a girl rather than encouraged; disagree defensible."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'My family, they are neutral' -> father did not encourage -> disagree."
+  },
+  {
+   "var": "nobody",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Family not supportive/neutral; only a friend's mention sparked the idea, so 'nobody encouraged' is defensible."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Family neutral; no one discouraged studying engineering (father's discouragement was about placement)."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Yeah, I really like it' plus 'Very pleased that I'm in [this university]' supports strongly agree."
+  },
+  {
+   "var": "quality",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'find it quite interesting and the lecturers... willing to teach and patient' = satisfied with lectures."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Lecturers 'willing to teach and patient' -> satisfied with support from lecturers."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'my tutor he's been - done very well' -> satisfied with personal tutor support."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Friends were biggest positive influence; met a lot of new people -> satisfied with friends made."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "'become a stronger person' is personal growth not clearly interpersonal skills from the course; thin, downgrade to low."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Fine with friends but annoyed by no-shows; mixed net stance -> neither satisfied nor dissatisfied."
+  },
+  {
+   "var": "Mconfid",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about men being fair on mental work / helping with physical; says nothing about male vs female confidence in class."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Confirms intention to go on placement and gives reasons."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I want some experiences in the civil industry' = primary work-experience reason; strongly agree defensible."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'get the job easier after I graduate' plus affirms it improves career prospects."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I know what civil engineering is really like' = wants idea of what industry is really like."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'placement experience will help me make the decision' (consultant vs contractor)."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Networking / knowing what to expect maps reasonably to personal development."
+  },
+  {
+   "var": "apptheor",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about LEARNING technical skills / learning more on site, not APPLYING theory learnt at university."
+  },
+  {
+   "var": "finuni",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Rejects father's 'finish earlier' view -> does not want to finish uni ASAP -> disagree."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Concludes 'eventually I think I'll go into consulting' despite preferring contracting now."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'll carry on and an MSc programme' -> yes to further study."
+  },
+  {
+   "var": "studarea",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Names an MSc -> Masters, MSc, MBA."
+  },
+  {
+   "var": "charship",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Definitely being chartered' -> chartership important."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "'senior engineer / responsible for quite large project' is ambiguous between managerial and technical; keep low."
+  },
+  {
+   "var": "travel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Repeatedly cites wanting to travel; influences company choice -> travel important."
+  },
+  {
+   "var": "salary",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote notes salary not competitive but not its importance to her job choice; neutral is a thin default, keep low."
+  }
+ ]
+}

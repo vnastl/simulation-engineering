@@ -1,0 +1,45 @@
+{
+  "unit_id": "int53",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Subject explicitly self-identifies as the first female flight manager and repeatedly as a woman; female (2) clearly supported."
+    },
+    {
+      "var": "year",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Subject is currently on her industrial placement ('I started my placement at the end of September'); Placement year (5) supported."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Subject is actively on placement, confirming she has gone on placement; yes (1) supported."
+    },
+    {
+      "var": "salary",
+      "verdict": "wrong_code",
+      "corrected_code": 1,
+      "corrected_label": "very unimportant",
+      "corrected_confidence": "medium",
+      "note": "Emphatic de-prioritisation ('money doesn't matter', 'I couldn't care if I got paid £8,000') maps to very unimportant (1), stronger than merely unimportant (2)."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Wanting 'to be in charge of a hell of a lot more' fits managerial (1) given she is already a Flight Operations Manager, but it is inferential (no explicit managerial-vs-technical statement); downgrade to low."
+    }
+  ]
+}

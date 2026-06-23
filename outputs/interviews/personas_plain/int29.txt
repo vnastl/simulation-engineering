@@ -1,0 +1,53 @@
+INTERVIEW INT29 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Single sex
+Year of study: Part B/Year 2
+Department: Design & Technology
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Disagree
+Having a family member in the industry: Strongly disagree
+Engineering's appeal as a varied field: Strongly agree
+Mother's encouragement to study engineering: Neither agree nor disagree
+Father's encouragement to study engineering: Neither agree nor disagree
+Careers advisor's encouragement: Strongly disagree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Careers advisor
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Engineering students being competitive: Strongly agree
+Always having competing deadlines: Strongly agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Very satisfied
+Group work: Very dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Agree
+To improve job chances after university: Agree
+To help decide a future direction: Strongly agree
+To see what industry is really like: Agree
+For personal development: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Important
+The people worked with: Important
+Opportunities to travel: Important
+Benefits such as a company car: Important
+Opportunities for promotion: Important
+Opportunities for flexible working: Important
+Preferred future work role: Don't know

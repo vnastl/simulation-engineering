@@ -1,0 +1,44 @@
+INTERVIEW INT41 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Year of study: Part C/Year 3
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Choosing engineering with little knowledge of the job: Disagree
+Father's encouragement to study engineering: Disagree
+Nobody encouraged the choice: Agree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Disagree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Satisfied
+Support from a personal tutor: Dissatisfied
+Group work: Dissatisfied
+Practical work: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Fear of returning to education after a break: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Other
+Whether they would like to go on to further study: Yes
+Intended area of further study: Masters, MSc, MBA
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Work environment: Important
+The people worked with: Important
+Opportunities to travel: Important

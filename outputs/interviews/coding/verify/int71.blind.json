@@ -1,0 +1,29 @@
+{
+ "unit_id": "int71",
+ "recodes": [
+  {
+   "var": "unigrade",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": "you learn so much which you wouldn’t learn at uni, but you can just then take back to uni",
+   "reasoning": "Speaks of general benefit in final year, never frames placement as improving grades; no support for the specific grades item."
+  },
+  {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "medium",
+   "evidence_quote": "I think I want to do something very similar to what I’m doing now, sort of environmental advisor",
+   "reasoning": "Prefers a specialist advisor role and explicitly rejects being the only environmental manager, indicating technical/specialist over managerial."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_quote": "Yes I think it does, but I think the language might be a problem (laughing). Erm, but I could work in America or New Zealand or somewhere like that",
+   "reasoning": "Mild positive appeal of working abroad with caveats, mapping to important rather than very important; indirect as it concerns relocation not travel per se."
+  }
+ ]
+}

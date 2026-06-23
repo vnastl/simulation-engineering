@@ -1,0 +1,23 @@
+INTERVIEW INT62 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Civil & Building Engineering
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To improve job chances after university: Strongly agree
+To see what industry is really like: Agree
+For personal development: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+The people worked with: Important
+Preferred future work role: Managerial

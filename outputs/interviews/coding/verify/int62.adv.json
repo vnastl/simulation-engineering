@@ -1,0 +1,101 @@
+{
+  "unit_id": "int62",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-identifies as 'only girl in the team' and 'being a female'; clearly female."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicitly says 'the civil engineering that I'm doing'; works on highways/bridges."
+    },
+    {
+      "var": "year",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Whole interview is about her one-year industrial placement; started 'end September last year'."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Currently on placement throughout interview; clearly yes."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Extremely useful' for seeking employment + repeated as main benefit; strong language supports code 5."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote is retrospective gain ('never worked in an office before'), an inferred motive not a stated reason; thin, downgrade."
+    },
+    {
+      "var": "perdevel",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Personal development endorsed ('makes me grow up a lot') but as retrospective gain, motive inferred; downgrade."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote (new programme useful for employment) leans toward employability/jobprosp; work-experience motive only indirectly supported; downgrade."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote names area (structures/bridges) but her role is bridge modelling/design; design work is best fit among allowed codes."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I would hope for more managerial role'; hedge is about timing not preference; managerial supported."
+    },
+    {
+      "var": "salary",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Low civil-eng pay salient enough to consider changing field; supports salary being important (code 4)."
+    },
+    {
+      "var": "people",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Repeatedly stresses it's 'very, very much down to the people you work with'; supports importance of colleagues."
+    }
+  ]
+}

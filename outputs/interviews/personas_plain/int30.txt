@@ -1,0 +1,42 @@
+INTERVIEW INT30 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Year of study: Part B/Year 2
+Department: Chemical Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Strongly agree
+Father's encouragement to study engineering: Agree
+Nobody encouraged the choice: Disagree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Strongly agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Satisfied
+Group work: Satisfied
+Design work: Very satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+To see what industry is really like: Agree
+For personal development: Agree
+To apply theory learnt at university: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Research/development
+Whether they would like to go on to further study: Yes
+Intended area of further study: Engineering related subject
+Preferred future work role: Technical/specialist

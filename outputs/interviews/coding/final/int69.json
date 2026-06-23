@@ -1,0 +1,519 @@
+{
+ "unit_id": "int69",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "because I'm young and I'm female they're a bit",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject repeatedly self-identifies as female.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 2,
+   "label": "Chemical Engineering",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "whereas with chemical engineers obviously you do have loads of ideas but it's all the same",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Identifies herself as a chemical engineer; boss also chemical engineer.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "year": {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "It didn’t take me long to settle in probably about a couple of days to be honest yeah so.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on the industrial placement year, started 12th July.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "It didn’t take me long to settle in probably about a couple of days to be honest yeah so.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on placement at the textiles company.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I just love it, it's challenging definitely and it does teach you a lot.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Strongly values the work experience the placement gives; loves it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "industry": {
+   "var": "industry",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "all you can do you know in a lecture hall is you know learn the basics … until you actually see it you know you can't learn from them",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Emphasises placement shows what industry is really like vs lecture hall.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "perdevel": {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "But yeah I am different just different responsibilities you know you’ve got",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Reports personal change/development from placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "apptheor": {
+   "var": "apptheor",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "You need to know about process engineering to appreciate it",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Says degree theory is very useful and applied on placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobdecid": {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "The petrochemicals I've always said no about that but since working at [company] I’d definitely try petrochemicals definitely.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement changed/clarified what career area she would consider.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I've become more interested in engineering, a lot more, I mean don’t get me wrong I was interested at the start of my degree or else I wouldn’t have done it",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Expresses sustained and growing interest/satisfaction with engineering choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I would just say people skills not erm any type of education skills",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Says uni team work develops people/interpersonal skills and confidence.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Oh I’d say yeah I mean it's very useful",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about the value of group/team work at uni.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "challeng": {
+   "var": "challeng",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I just love it, it's challenging definitely and it does teach you a lot.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Values the challenge in engineering work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 2,
+   "label": "design work",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "I mean I want to do some more design work but I'm getting that now",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Expresses preference for design work; also notes interest in HSE/pollution, but design is the engineering area she wants more of.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'd rather be like hands on all of the time because that's the best bit of engineering in my opinion",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Prefers hands-on technical work over managerial route.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "location": {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the only way that I'd be able to work in textiles would be abroad to like the middle east or the far east which I'm not going to do",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Rules out jobs by location, indicating location matters in her job decisions.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "covered by pleased"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "covered by charship"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "covered by location"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I've become more interested in engineering, a lot more, I mean don’t get me wrong I was interested at the start of my degree or else I wouldn’t have done it",
+    "there's things that I wanted to do before I got on placement. As a result of coming to uni, I didn’t want to do any of this before uni, it's just from being at uni that I've you know had these kinds of ideas of a career really",
+    "I just love it, it's challenging definitely and it does teach you a lot.",
+    "men generally have a more mathematic/scientific mind which allows them to approach problems completely differently to women"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "some stuff if I didn’t have a degree I think I’d be all right like Health and Safety stuff I think it's just a lot of common sense but at the same time you do need to have that on board. You need to know about process engineering to appreciate it",
+    "some of the modules I haven’t used at all. You don’t really need them because you know there's computer programmes that do it for you",
+    "Oh I’d say yeah I mean it's very useful buts it's completely for a different reason?",
+    "after 2 years of doing that at uni it definitely achieves it towards the end you know most people are you know willing to contribute and willing to do the work",
+    "Just the way you approach a problem really erm you just you have there's just so many more things to consider in the team work thing",
+    "I would just say people skills not erm any type of education skills"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I just love it, it's challenging definitely and it does teach you a lot.",
+    "I didn’t really have any expectations to be honest. I didn’t really know what I was going to be doing or. I just heard that it was a good placement from the last year’s student",
+    "I wouldn’t say it's a shock starting work. Because I knew I was only going to be here a year. But if I had just done my degree and then started work I would have probably been like, for the first couple of months just you know really taken aback",
+    "the best thing is like finishing, finishing projects",
+    "all you can do you know in a lecture hall is you know learn the basics … until you actually see it you know you can't learn from them",
+    "I'm like appointed project engineer for 2 projects now so I’m like the top one kind of thing as it were"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I'd rather be like hands on all of the time because that's the best bit of engineering in my opinion",
+    "the longer you're at a company the more managerial you become, you can't get away from that",
+    "No because I think it's going to go bust in a few years and the only way that I'd be able to work in textiles would be abroad to like the middle east or the far east which I'm not going to do, so I'm not going to work in textiles",
+    "Pharmaceuticals would be quite good. The petrochemicals I've always said no about that but since working at [company] I’d definitely try petrochemicals definitely.",
+    "I want to do some more design work but I'm getting that now",
+    "it would be good and I'm really, really enjoying it but there's things that I would like to do as well, which aren’t anything to do with engineering"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

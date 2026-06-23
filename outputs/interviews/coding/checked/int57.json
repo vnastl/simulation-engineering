@@ -1,0 +1,449 @@
+{
+ "unit_id": "int57",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "being a woman you shouldn’t do that",
+   "theme": "future_intentions",
+   "reasoning": "Repeatedly refers to herself as a woman/the only woman on the team."
+  },
+  {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I started training on the fifth of September. (Okay) I had two weeks training, then.",
+   "theme": "placement_decision",
+   "reasoning": "Currently on her industrial placement year, finishing in August."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m working as part of the [name] team. Which is the [name] team.",
+   "theme": "placement_decision",
+   "reasoning": "She is currently on placement with the organisation."
+  },
+  {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "there was a lot of talk of experience and what you can do, put it on you CV and. Yeah, just experience really.",
+   "theme": "placement_decision",
+   "reasoning": "Frames placement value as experience; she endorses experience as the point of going."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "The people skills and the responsibilities that I’ve been given are so big compared to what you get in the outside world.",
+   "theme": "placement_decision",
+   "reasoning": "Values placement for showing what real industry/work is like; recommends it."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they’ll offer me a sponsorship for the rest of the Uni, yeah.",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as improving job chances; it secures sponsorship and a job route."
+  },
+  {
+   "var": "groupwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Team working at uni is so artificial.",
+   "theme": "course_experience",
+   "reasoning": "Clearly negative about university group work, calling it artificial and poorly organised."
+  },
+  {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yeah I think I quite enjoy, actually a more managerial side of it.",
+   "theme": "future_intentions",
+   "reasoning": "Explicitly prefers the managerial side over technical/specialist."
+  },
+  {
+   "var": "carpath",
+   "code": 8,
+   "label": "Armed Forces related",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yeah so long as I don’t get into a serious trouble erm they’ll offer me a sponsorship for the rest of the Uni, yeah.",
+   "theme": "future_intentions",
+   "reasoning": "Intends to stay with the Armed Forces organisation that placed her and is sponsoring her."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Placement in, ensure I get the training when I leave.",
+   "theme": "future_intentions",
+   "reasoning": "Plans to continue with further training/sponsorship after the degree, committing for several more years."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think I’ve become more relaxed speaking to people speaking to people that are older than me.",
+   "theme": "course_experience",
+   "reasoning": "Interpersonal development noted, but attributed to placement rather than the course; weak fit, flagged."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "The best thing has been able to get out and about. Going to Italy (Yeah) that was great.",
+   "theme": "future_intentions",
+   "reasoning": "Values travel/getting out and about as the best part; indirect for job-choice importance, flagged."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "covered by industry"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "Team working at uni is so artificial. It’s so much. Erm you’re also at Uni trying to juggle other bits of work that are individuals (Yeah) so, some people prioritise their individual work rather than their team work, or the other way around.",
+    "Whereas at Uni, a lot of people get put in a group and then just decide, ‘Oh I‘m not going do it’, you know ‘I’m just going to do my own thing’ and do nothing as part of the team effort so. At work we have to get on and do it, whereas at Uni you have the choice not to.",
+    "Yeah, it needs to, yeah it needs a change. Cos you have trouble – I was speaking to [name] about this the other day, when he came to visit - we have trouble with er foreign students as well.",
+    "I think we need to do more of it at uni, and the way in which it’s done needs to be altered.",
+    "Um at Uni you’re only really there for yourself and to get an education and to come away with a piece of paper, telling everyone else that you’ve reached a certain level."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Er, it’s been really good. Erm the learning curve has been you know, straight up. (Yeah) Getting dumped in the, deep end, I think works quite well.",
+    "there was a lot of talk of experience and what you can do, put it on you CV and. Yeah, just experience really.",
+    "The people skills and the responsibilities that I’ve been given are so big compared to what you get in the outside world.",
+    "Well I know that a lot of my, a few of my friends that are out, in another industries, aren’t having a good time. A lot of them doing jobs that, may be should have been done by admin or given to somebody a bit.",
+    "Yes, they’re not doing engineering jobs. They’re doing graphics or tea making, stuff like that. So you’ve really got to be careful where you end up.",
+    "they’ll offer me a sponsorship for the rest of the Uni, yeah."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "Yeah I think, so. Yeah.",
+    "No I think I, found where I’m, I’m good at. (Yeah) Yeah I think I quite enjoy, actually a more managerial side of it.",
+    "No I don’t think so. No. No.",
+    "Yeah, definitely. The people skills and the responsibilities that I’ve been given are so big compared to what you get in the outside world.",
+    "Yeah I think it’s another what six years.",
+    "Placement in, ensure I get the training when I leave. But that’s assuming I’m a good girl between now and then."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 12,
+  "n_codes_kept": 12,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

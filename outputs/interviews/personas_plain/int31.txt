@@ -1,0 +1,39 @@
+INTERVIEW INT31 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: network75.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Disagree
+Engineering's appeal as a varied field: Agree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Friend(s)
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Neither satisfied nor dissatisfied
+Group work: Dissatisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To see what industry is really like: Agree
+Additional reason for not going on placement: Network 75 student
+
+## Future in engineering
+Preferred area of engineering to specialise in: Other
+Whether they would like to go on to further study: Yes
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Opportunities to travel: Important
+Opportunities for promotion: Important

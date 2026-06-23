@@ -1,0 +1,504 @@
+{
+ "unit_id": "int60",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "the way I act they probably think well, she’s just a typical girl",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject refers to herself as a girl/woman throughout; gender battery probes about women in male-dominated workplace addressed to her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 6,
+   "label": "Mechanical & Manufacturing Engineering",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "because we do mechanical engineering",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Explicitly states she does mechanical engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "year": {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm required to have three visits a year from my tutor as a part of the DIS placement scheme",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on her DIS placement year.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "uni": {
+   "var": "uni",
+   "code": 1,
+   "label": "Pre-1992 university",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "the Design and Development director actually knows, um, one of the head, um, lecturers at Loughborough in, um, mechanical engineering department",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "References Loughborough (a pre-1992 university) as her institution context; she never explicitly names it as her own uni, hence low.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "challeng": {
+   "var": "challeng",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I personally, I like challenges",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Repeatedly states she likes challenges and wanted challenging/difficult work; maps to wanting the challenge of solving problems.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "knowledg": {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Coming out of this placement, it’s a lot – there’s a lot less engineering in it than I thought there would be",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Discovered engineering involves far less of what she expected (and includes marketing she never thought of), indicating she chose with limited knowledge of what engineers actually do.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "varied": {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "varied, most definitely varied. It’s not all about technical, it’s not all about drawing, it’s not all about managerial, it’s not all about marketing",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Strongly endorses engineering's variety and says she would rather be an all-rounder, supporting the varied appeal.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I would say that they pale in comparison to the type of communication and, um, patience you need in a working environment",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Says the communication/interpersonal skills from the course pale in comparison to what is needed at work, indicating the course did not develop them well.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "The thing that annoys me about group work at university is the fact that it is really, really haphazard about who you get put with … and your grades suffer because of it and that is really annoying",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Clearly negative about university group work (haphazard allocation, grades suffer), mapping to dissatisfied.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm required to have three visits a year from my tutor as a part of the DIS placement scheme",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Subject is currently on placement (DIS year).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "It was an experience worth having",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Frames the placement's value in terms of gaining work experience, calling it an experience worth having.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "industry": {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think that’s the point of coming on placement, to learn how it is in industry. Academia is very different to the real world",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly frames placement as being about seeing what industry is really like.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobdecid": {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I think it’s important in the early stages of your career to go around and see what kind of industries there are instead of settling for the first thing that’s given to you",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Uses placement to inform her future direction and what kind of industry to pursue.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I think the way it would work is I would actually stay in engineering but go into a business role … I’d rather be an all rounder instead of a design technician or a manufacturing person",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "States she would take a business/managerial route and prefers being an all-rounder over a technician.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "covered by interper"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "covered by jobdecid"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "carpath",
+   "reason": "covered by workrole"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "one of the reasons why I chose engineering was it was quite nice to do a degree and then be able to just go into a job that was actually to do with the degree, instead of doing Business and not really knowing where you’ll end up with something like that",
+    "I always imagined myself doing engineering. I really don’t know what I’d do if I didn’t do engineering because it’s been in my head for that long",
+    "I personally, I like challenges. I might scream when I see them, but once I’ve done them I get – I do appreciate them very much so",
+    "Coming out of this placement, it’s a lot – there’s a lot less engineering in it than I thought there would be",
+    "varied, most definitely varied. It’s not all about technical, it’s not all about drawing, it’s not all about managerial, it’s not all about marketing, which I didn’t even think it was about marketing before, but it is"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "Not at all really it has to be said. Um, mainly the one thing that I’ve found useful from the course has been, um, the modelling that I’ve been doing, um, using computer packaging, but even that was so basic",
+    "I would say that they pale in comparison to the type of communication and, um, patience you need in a working environment",
+    "No, I don’t do any group work at all. Despite being told at university, ‘Well, you know, you’re always going to do group work.’",
+    "The thing that annoys me about group work at university is the fact that it is really, really haphazard about who you get put with and you can get put in a group with someone who doesn’t do any work and that automatically puts the onus on everyone else and your grades suffer because of it and that is really annoying",
+    "I know I’m going to be staying up til three o’clock in the morning doing crazy amounts of work and sort of running around trying to get from lecture to lecture and being challenged and completely not knowing what I’m doing"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I think that’s the point of coming on placement, to learn how it is in industry. Academia is very different to the real world, very much so",
+    "It was an experience worth having and I’ve still got a couple of months left",
+    "I would like to be given more responsibility at some point earlier than I have been given it",
+    "Other than that, I’ve been passed off with what I call monkey work again",
+    "this place just doesn’t push you enough",
+    "I don’t feel particularly valued at all … no one would notice, no-one does care"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "Not so much, not so much, um… I don’t know",
+    "I think the way it would work is I would actually stay in engineering but go into a business role, because I think that you do need the engineering knowledge for some jobs, but you can sort of not do any of the technical stuff",
+    "I think so. I don’t know. Um, might change my mind in a month or so, I suppose",
+    "as a person I’d rather be an all rounder instead of a design technician or a manufacturing person. I’d rather be able to sit there and be able to dabble",
+    "if I didn’t get a job anywhere else I’d have to because I need the money"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

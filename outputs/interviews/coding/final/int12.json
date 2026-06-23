@@ -1,0 +1,715 @@
+{
+ "unit_id": "int12",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I was in an all girls school but there were only 6 of us in the whole school who did it at A level",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Female subject, all-girls school, referred to as one of the girls throughout.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 2,
+   "label": "Single sex",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "All girls Grammar.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly attended an all-girls grammar school.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 7,
+   "label": "Design & Technology",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Yeah, industrial design & technology.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Studies industrial design & technology.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "it's just so broad and varied. I think it's a lot more exciting than sitting, just listening to lots of lectures.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Drawn to subject as interesting/exciting work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "varied": {
+   "var": "varied",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "The subject I'm doing here is so broad, compared to other degrees. … it's just so broad and varied. … it's varied and that was what I was looking for.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Variety was explicitly what she was looking for; strong, repeated emphasis.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "special": {
+   "var": "special",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "I considered doing something more engineering based but I thought that I'd miss the graphics side of it",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose a broad course spanning engineering and art rather than specialising in either; wanted to keep both.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "family": {
+   "var": "family",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "My mum used to do interior designing erm freelance, and she did lots of text – she did a textile degree and my dad does fashion",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Both parents in design/related industry; gave her an interest in it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mother": {
+   "var": "mother",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I think it gave me an interest in it, but it was just the fact that I enjoy it and that I'm good at it, that made me choose it really.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Mother gave interest but did not actively encourage the choice; subject attributes choice to own enjoyment/ability.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "careers": {
+   "var": "careers",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "We had Careers Advice at school but I don't think it was that helpful.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Careers advice present but not influential; came up as an option but not encouraging.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "they weren't going to run design technology for my 'A' levels – for our year, but we did a petition and – I mean I was going to swap schools if they didn't provide it for me",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "School effectively obstructed/discouraged the choice by not running the A level; she had to petition.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "whodisc": {
+   "var": "whodisc",
+   "code": 8,
+   "label": "other",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "they weren't going to run design technology for my 'A' levels – for our year",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "The discouraging agent was the school/institution rather than a named person; mapped to other.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "after advice from my parents I decided to go for it, because I just thought that it adds to your degree",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Switched to sandwich course and is applying for placements; intends to go.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "the best thing will just be the experience – the new experience for a year in the company",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Work experience is the headline reason and best thing about placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "industry": {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "it's kind of a taster for what I want to do for a job, so it's just practice",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Wants a taster/idea of what the working industry is really like.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "money": {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "Another good thing will be getting some money so I'll be more out of debt.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Money a positive but secondary reason; agree rather than strongly.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "jobprosp": {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "in my field you always need a minimum of 1 year's experience, and it'll be an easy way to get that.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as needed experience to get a job in the competitive field.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobdecid": {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm hoping that my year in industry will help me decide, because there's so many things that we can go into.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly hopes placement helps her decide her career direction.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "unigrade": {
+   "var": "unigrade",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I've been told that you get better marks in the final year, generally",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Believes placement improves final-year grades; cited as a reason.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "perdevel": {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think it will be good experience, not just work wise but also personally",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly cites personal development as a reason.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "finalyr": {
+   "var": "finalyr",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I'm not ready for third year because I need to have a great idea for a final project and gain confidence about my work.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Hopes placement gives her a great idea for the final-year project.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placothe": {
+   "var": "placothe",
+   "code": 2,
+   "label": "other",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the fact that there were so many people in our year who are doing one, or planning on doing one … plus it makes life as a student a bit longer",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Additional reasons (peers doing it, lengthening student life) are not 'compulsory'; mapped to other.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "yes – still. I've had moments where I've just been overwhelmed by the amount of work, but other than that I do really enjoy it and it is what I want to carry on doing.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Pleased with the choice, with a caveat about workload; agree not strongly.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "Mconfid": {
+   "var": "Mconfid",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think a lot of the girls tend to be neater with their work … I think it's just mainly the confidence thing – the guys tend to be a lot more confident than the girls in their work, and it shows.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strongly and repeatedly states male students are more confident in class.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "Fhelp": {
+   "var": "Fhelp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think some of the male lecturers are more helpful to the girls than to the guys.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "States female students get more help, attributing it to male lecturers.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it's like being in industry, you're meant to sort out your own team problems, but I mean, it has taught me for the future.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Group work taught her to handle team problems — developing interpersonal skills.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "deadline": {
+   "var": "deadline",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "we have a lot of deadlines in, at the same time, and it's – you don't get much sleep at all.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strong statement about competing simultaneous deadlines.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "friends": {
+   "var": "friends",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I like the fact that we're a lot more bonded than other courses. We know everyone in the year … and I really like that.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Very positive about the friendships/bonding on the course; named as the best thing.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "variety": {
+   "var": "variety",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "it's just so broad and varied … it's varied and that was what I was looking for.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Highly satisfied with the variety of subjects the course covers.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "teachhrs": {
+   "var": "teachhrs",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I have a lot more teaching hours so I'm gaining a lot more from the lectures than 3 hours a week.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about having more teaching hours than other courses.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "coursewk": {
+   "var": "coursewk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the worst things are the amount of work … it's a lot of course work … a lot of the work is very time consuming.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Names the quantity of coursework as the worst thing; dissatisfied (with mild caveat she likes always having work).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I don't know how your meant to use it for personal tutor really, 'cos I don't – we haven't seen him that much",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Tutor approachable but rarely seen and she'd be put off with personal issues; lukewarm/neutral.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it needs to be done, just not always great to do.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Sees benefit in group work but mixed experience (one project frustrating); neutral overall.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 1,
+   "label": "consultancy",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think working in a consultancy appeals to me the most.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Names consultancy as the area that appeals most as her ideal career.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Management doesn't really appeal to me – managing other people. I just like being part of the group.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Rejects managerial role, prefers being a contributor in the group (technical/specialist).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "training": {
+   "var": "training",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it's appealing when they have extra training for you on the software that you're going to need to use",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Training opportunities are an appealing factor when choosing a company.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "people": {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "when there's a place that's on a team work because it – in general it's better to work as a team",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Values working with a team / the people, important factor in choosing a job.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "location": {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I live in London so I'd like to move back there and work in there",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Expresses a clear location preference (London) for her future work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "salary": {
+   "var": "salary",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "As long as I'm just – I'm enjoying my work and I'm comfortable money wise.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Money matters to the extent of being comfortable, but not strongly prioritised; flagged low.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "covered by salary"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by family"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I always liked arty things, from my mum, and then at school I found – I mean I was an all rounder but I always enjoyed art and design technology and then it was just one of my best subjects at GCSE which I really – I really enjoyed it at GCSE so I did it for A level and then it was just the obvious choice really.",
+    "I think it gave me an interest in it, but it was just the fact that I enjoy it and that I'm good at it, that made me choose it really.",
+    "The subject I'm doing here is so broad, compared to other degrees. You get to do engineering subjects like mechanics and electronics but you get to do – you get to be creative, but you also get to make things as well",
+    "I considered doing something more engineering based but I thought that I'd miss the graphics side of it (yes) and I also considered doing the same course but with a language on the side, like French",
+    "they weren't going to run design technology for my 'A' levels – for our year, but we did a petition and – I mean I was going to swap schools if they didn't provide it for me because I'd decided that's what I wanted to do.",
+    "We had Careers Advice at school but I don't think it was that helpful. But I mean it always came up as one of the options that erm I was suited to."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "Hmm, the worst things are the amount of work but then we were told to expect that and the fact that it's a lot of course work, so we have a lot of deadlines in, at the same time, and it's – you don't get much sleep at all.",
+    "I think our department in general, because we have a lot more seminars and workshops. I like the fact that we're a lot more bonded than other courses. We know everyone in the year and we see each other – we can chat during lesson time – it's like school",
+    "I think it's just mainly the confidence thing – the guys tend to be a lot more confident than the girls in their work, and it shows.",
+    "I think some of the male lecturers are more helpful to the girls than to the guys. Female lecturers I think tend to be the same to everyone.",
+    "Er, yes – still. I've had moments where I've just been overwhelmed by the amount of work, but other than that I do really enjoy it and it is what I want to carry on doing.",
+    "after the first – after the first few months, I realised that I was just on the same level as everyone else really – fine."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "At first I was a bit too scared to go out into industry, in the middle of my degree. I'm still a bit scared I think – it will be really strange but, after advice from my parents I decided to go for it, because I just thought that it adds to your degree and I've been told that you get better marks in the final year, generally and also it will just – in my field you always need a minimum of 1 year's experience, and it'll be an easy way to get that.",
+    "Because well I'm not ready for third year because I need to have a great idea for a final project and gain confidence about my work. And I'd like to gain some extra knowledge in a year in between. I think it will be good experience, not just work wise but also personally",
+    "the best thing will just be the experience – the new experience for a year in the company and you know, it's kind of a taster for what I want to do for a job, so it's just practice.",
+    "The negative things will be I think if I'm away from university then I'll miss out on the final year of all my other friends and that's probably the only negative thing. Another good thing will be getting some money so I'll be more out of debt.",
+    "we weren't given much help – we haven't been given much help for applying for jobs (right) and I mean I think it's quite a competitive field. … I'm finding now that I'm ready – I've missed out on quite a few opportunities because a lot of the companies have stopped taking applicants"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I'm hoping that my year in industry will help me decide, because there's so many things that we can go into. I mean there's a design consultancy which can be lots of different products or a company that does one specific product, or I mean you can go into packaging or something more engineering",
+    "I think working in a consultancy appeals to me the most. It's just – I mean eventually I'd like to – I live in London so I'd like to move back there and work in there you know, a fast-paced company with lots of things happening all the time",
+    "Management doesn't really appeal to me – managing other people. I just like being part of the group.",
+    "Yes, I mean it's so competitive and I'm not – I don't know I'm particularly ambitious so I probably would be just happy working for a smaller company that's – does one product type. As long as I'm just – I'm enjoying my work and I'm comfortable money wise.",
+    "I think once you've got a foot in the door, yeah and that's why I'm hoping that I'll get a good placement for next year. But, on the other hand, I think – I get the impression that it is very competitive"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

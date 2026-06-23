@@ -1,0 +1,22 @@
+INTERVIEW INT57 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+
+## Experiences of higher education
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Group work: Dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To improve job chances after university: Agree
+To see what industry is really like: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Armed Forces related
+Preferred future work role: Managerial

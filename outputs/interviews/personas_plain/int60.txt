@@ -1,0 +1,31 @@
+INTERVIEW INT60 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Mechanical & Manufacturing Engineering
+University type (pre- or post-1992): Pre-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Wanting the challenge of solving problems: Agree
+Choosing engineering with little knowledge of the job: Agree
+Engineering's appeal as a varied field: Agree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The course developing interpersonal skills: Disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Group work: Dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+
+## Future in engineering
+Preferred future work role: Managerial

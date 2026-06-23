@@ -1,0 +1,253 @@
+{
+  "unit_id": "int47",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Refers to herself as 'the only girl'; female throughout."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Direct answer 'No, no, mixed' to all-girls probe = mixed sex."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'It's quite interesting' cites interesting work as appeal; agree fits."
+    },
+    {
+      "var": "challeng",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I like problem solving' maps to challenge of solving problems; agree."
+    },
+    {
+      "var": "knowledg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote thin but 'just fallen into it' + 'didn't know what I wanted' support little knowledge; agree."
+    },
+    {
+      "var": "varied",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'so broad and covers everything' presented as appeal; agree."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Code correct (no family in industry, parents not engineers), but quote is the work-experience answer, not the family answer."
+    },
+    {
+      "var": "father",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Father not an engineer, no father encouragement; quote weak (work-exp answer) but conclusion right."
+    },
+    {
+      "var": "mother",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Mother not an engineer, no mother encouragement; quote weak but conclusion right."
+    },
+    {
+      "var": "careers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "School gave no engineering push; no careers-advisor encouragement = strongly disagree."
+    },
+    {
+      "var": "teacher",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'didn't push the girls through' supports no teacher encouragement."
+    },
+    {
+      "var": "discoura",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Code (no) correct - no discouragement in interview; but quote about lack of awareness, not discouragement. Downgrade to low."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Yeah, I am actually... very interesting' explicitly pleased; agree."
+    },
+    {
+      "var": "relevanc",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Modules 'miles away' / hard to connect, framed as disadvantage; agree fits relevance difficulty."
+    },
+    {
+      "var": "interper",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Group work 'builds patience' for industry = interpersonal development; agree."
+    },
+    {
+      "var": "supplect",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'lecturers are very approachable' supports satisfaction with lecturer support."
+    },
+    {
+      "var": "supppers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Unsure she even has a tutor; neutral at low confidence is a defensible default. Already low."
+    },
+    {
+      "var": "variety",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Range/breadth named as best thing = satisfied with variety."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'nightmare' to organise, peers not pulling weight; net negative = dissatisfied."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Has secured placement in environmental department = yes."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'no experience' + 'looking forward to hands on experience'; strongly agree justified."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Office/industry environment she hasn't experienced; agree on seeing what industry is like."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'got to do this placement to get a job at the end'; strongly agree."
+    },
+    {
+      "var": "jobdecid",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'if I enjoy this placement I'll stay environmental' + 'see if I like it'; agree on deciding direction."
+    },
+    {
+      "var": "finalyr",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Final-year PROJECT never mentioned; quote 'fall into something' is about career direction, not the FYP. Variable not addressed - reject."
+    },
+    {
+      "var": "money",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "She frames money as a deterrent for OTHERS, not a personal motivator; neutral (no personal money motive) is defensible."
+    },
+    {
+      "var": "wkexp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I knew I had no experience' = strongly disagree she already has work experience."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Haven't got a clue' repeated = don't know specialism."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'managerial post - definitely'; interviewer prompted 'managerial' but she affirms and elaborates."
+    },
+    {
+      "var": "location",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Gives specific semi-urban location preference; indicates location matters = important. Prompted but elaborated."
+    },
+    {
+      "var": "people",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Values 'friendly atmos... working within a team' = people important."
+    }
+  ]
+}

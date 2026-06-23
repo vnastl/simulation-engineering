@@ -1,0 +1,52 @@
+INTERVIEW INT28 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Department: Chemical Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Agree
+Father's encouragement to study engineering: Neither agree nor disagree
+Careers advisor's encouragement: Disagree
+School teacher's encouragement: Disagree
+Nobody encouraged the choice: Agree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Agree
+Female students getting more help in class: Disagree
+The course developing interpersonal skills: Strongly agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Satisfied
+Support from a personal tutor: Satisfied
+Group work: Satisfied
+Number of teaching hours: Neither satisfied nor dissatisfied
+Design work: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+For a break from education: Agree
+To help decide a future direction: Strongly agree
+To see what industry is really like: Agree
+To apply theory learnt at university: Agree
+Additional reason for wanting placement: Compulsory
+
+## Future in engineering
+Preferred area of engineering to specialise in: Armed Forces related
+Whether they would like to go on to further study: Yes
+Intended area of further study: PhD
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Very important
+Opportunities to travel: Important
+Training opportunities: Important
+Preferred future work role: Managerial

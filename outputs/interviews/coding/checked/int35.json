@@ -1,0 +1,625 @@
+{
+ "unit_id": "int35",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I went to a girls’ school – a private school.",
+   "theme": "route_into_engineering",
+   "reasoning": "Attended a girls' school and later refers to herself as a woman; female."
+  },
+  {
+   "var": "school",
+   "code": 2,
+   "label": "Single sex",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I went to a girls’ school – a private school.",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly attended a single-sex (girls') secondary school."
+  },
+  {
+   "var": "dept",
+   "code": 7,
+   "label": "Design & Technology",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "instead of that I picked Industrial Design here",
+   "theme": "route_into_engineering",
+   "reasoning": "Industrial Design & Technology student, i.e. Design & Technology department."
+  },
+  {
+   "var": "year",
+   "code": 2,
+   "label": "Part B/Year 2",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "for the second years you do options and you get to choose 2 modules that you choose. And I’ve chosen mechanics first and then this creative products one",
+   "theme": "course_experience",
+   "reasoning": "Currently a second year choosing the second-year options; applying for placement next."
+  },
+  {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I liked it, like making things – I thought that was quite interesting, so I thought I’d carry on",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose it because she found making things interesting; agrees it offered interesting work."
+  },
+  {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "whereas we have quite a lot different aspects – yeah, a big variety of things",
+   "theme": "route_into_engineering",
+   "reasoning": "Values the breadth/variety of the course relative to more specialised courses."
+  },
+  {
+   "var": "mathsci",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "because of the ‘A’ levels I did, erm I did Geography and Physics as well",
+   "theme": "route_into_engineering",
+   "reasoning": "Did A-level Physics; suggests reasonable science background, though leans creative."
+  },
+  {
+   "var": "family",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "No, my dad’s just a business man. I don’t really know what he does. Erm, my mum she works in a big cash and carry – she does administration.",
+   "theme": "route_into_engineering",
+   "reasoning": "No family member in the industry; disagrees she knew about it through family."
+  },
+  {
+   "var": "hobbies",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I like the creative side definitely more than the technology bit",
+   "theme": "route_into_engineering",
+   "reasoning": "Self-describes interests as creative rather than technical."
+  },
+  {
+   "var": "careers",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Mine was a little bit creative, so they were saying like you could be a designer. That was on the list and I was thinking, oh that sounds quite nice.",
+   "theme": "route_into_engineering",
+   "reasoning": "School careers test/advice suggested designer, which appealed to her."
+  },
+  {
+   "var": "teacher",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "The teacher kind of encouraged it. They said that’s what I want to do and they said, don’t be discouraged because it might be a lot of boys",
+   "theme": "route_into_engineering",
+   "reasoning": "School teachers encouraged her to pursue design and not be put off."
+  },
+  {
+   "var": "mother",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they’ve been supportive but I wouldn’t say they’ve influenced me as such as. My sister – she’s physiotherapist so she hadn’t done design, she didn’t really like design and my mum doesn’t either.",
+   "theme": "route_into_engineering",
+   "reasoning": "Family supportive but did not encourage/influence; mother does not like design."
+  },
+  {
+   "var": "father",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they’ve been supportive but I wouldn’t say they’ve influenced me as such as",
+   "theme": "route_into_engineering",
+   "reasoning": "Parents supportive but did not actively encourage the choice."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "The teacher kind of encouraged it. They said that’s what I want to do and they said, don’t be discouraged because it might be a lot of boys and things like that, so…",
+   "theme": "route_into_engineering",
+   "reasoning": "Reports encouragement and being told not to be discouraged; no one discouraged her."
+  },
+  {
+   "var": "curricul",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s been a lot of harder than I thought it would be. It’s a lot – they put emphasis on the technology",
+   "theme": "course_experience",
+   "reasoning": "Course harder than expected, especially the technology emphasis."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yeah, yeah definitely.",
+   "theme": "course_experience",
+   "reasoning": "Says she is definitely pleased she chose this course."
+  },
+  {
+   "var": "Fhelp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "There’s this one assistant in our department and he is known for helping girls out more than boys",
+   "theme": "course_experience",
+   "reasoning": "Gives concrete example of female students getting more help; agrees females get more help."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s very important to be a – to be able to work with other people, people you might not know",
+   "theme": "course_experience",
+   "reasoning": "Course group work develops teamwork/interpersonal skills valued for work."
+  },
+  {
+   "var": "supplect",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "if I had any problems they’d be willing to help cos maybe they thought I wouldn’t know as much (laughs) so they’d be extra helpful",
+   "theme": "course_experience",
+   "reasoning": "Generally finds lecturers willing/extra helpful when she has problems; satisfied with support."
+  },
+  {
+   "var": "supppers",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "my tutor last year he was really friendly, very helpful when I asked him all these questions and (name) is the same this year",
+   "theme": "course_experience",
+   "reasoning": "Both her personal tutors friendly and helpful; satisfied with personal tutor support."
+  },
+  {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I do actually. I’ve been quite lucky because erm the people either that you’ve been put with, or that you pick yourself, when I’ve been put in the groups, my people have been like we’ve all been helpful, and friendly, and willing to work",
+   "theme": "course_experience",
+   "reasoning": "Likes group work and reports positive experiences; satisfied with group work."
+  },
+  {
+   "var": "designwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s that side of design that I prefer like the more creative, thinking side",
+   "theme": "course_experience",
+   "reasoning": "Enjoys the creative design side of the course; satisfied with design work."
+  },
+  {
+   "var": "practwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I liked it, like making things – I thought that was quite interesting",
+   "theme": "course_experience",
+   "reasoning": "Enjoys making things (practical/hands-on); tentative, flagged low."
+  },
+  {
+   "var": "variety",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "we have quite a lot different aspects – yeah, a big variety of things",
+   "theme": "course_experience",
+   "reasoning": "Positive about the variety of subjects the course covers; satisfied with variety."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ve applied for – to go on a placement course",
+   "theme": "placement_decision",
+   "reasoning": "Has applied and intends to go on placement; coded yes."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I thought it would be a really good way of getting work experience",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly wants placement for work experience."
+  },
+  {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Money (laughs)",
+   "theme": "placement_decision",
+   "reasoning": "First-named thing she hopes to get from placement is money; agrees money is a reason."
+  },
+  {
+   "var": "jobdecid",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "hopefully just something – I’ll find something that I really enjoy and then I’ll know that’s the kind of thing I want to go for, after I graduate",
+   "theme": "placement_decision",
+   "reasoning": "Wants placement to help decide what to do after university."
+  },
+  {
+   "var": "industry",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "you get to like see how design works in industry, like it’s completely different to designing on a course",
+   "theme": "placement_decision",
+   "reasoning": "Wants placement to see what industry is really like."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think like that way you can like more organised within yourself, making sure you do things",
+   "theme": "placement_decision",
+   "reasoning": "Expects placement to develop independence/organisation; personal development."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "if you get like a year’s experience that would be really good",
+   "theme": "placement_decision",
+   "reasoning": "Values a year of experience for future job prospects."
+  },
+  {
+   "var": "breaked",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ve always been like scared that like you’d lose some skills, like if your placement didn’t have emphasis on like computer design as such, by the time you came back you might forget everything",
+   "theme": "placement_decision",
+   "reasoning": "Worries about losing skills and forgetting things after the placement break."
+  },
+  {
+   "var": "placloca",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I didn’t really want to go for a placement and have to live somewhere by myself",
+   "theme": "placement_decision",
+   "reasoning": "Restricted herself to local placements; location/being away a deterrent factor."
+  },
+  {
+   "var": "noappeal",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "most of them I’m not interested in and they’re like really far away or really technical",
+   "theme": "placement_decision",
+   "reasoning": "Many advertised placements did not appeal (too technical/far away)."
+  },
+  {
+   "var": "carpath",
+   "code": 2,
+   "label": "design work",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m interested in design things but not – I don’t want to be like really technical and in just like industrial things. So it’s more like a broad range of design",
+   "theme": "future_intentions",
+   "reasoning": "Wants a future in (creative) design work, not technical/manufacturing."
+  },
+  {
+   "var": "salary",
+   "code": 3,
+   "label": "neither important nor unimportant",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I haven’t worried too much about pay – I haven’t looked for a high salary and just aimed for those, I haven’t looked at that too much",
+   "theme": "future_intentions",
+   "reasoning": "Pay not a priority in choosing a placement; salary low-importance/neutral."
+  },
+  {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "when I’m looking for placements now, they’re definitely around [university area], like where I can commute to. So I’ve restricted myself to that.",
+   "theme": "future_intentions",
+   "reasoning": "Location strongly shaped her placement search; important."
+  },
+  {
+   "var": "workenv",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "just the ones that say like quite creative, and almost like quite relaxed (yeah). Not really very formal",
+   "theme": "future_intentions",
+   "reasoning": "Drawn to relaxed, creative, informal work environments; environment matters."
+  },
+  {
+   "var": "highsal",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I haven’t looked for a high salary and just aimed for those",
+   "theme": "route_into_engineering",
+   "reasoning": "Not driven by high salary; disagrees salary drew her to the field."
+  },
+  {
+   "var": "furstudy",
+   "code": 0,
+   "label": "no",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "they want to get University over with, so they can carry – like go out into the world and see what they want to do",
+   "theme": "future_intentions",
+   "reasoning": "Frames the goal as finishing uni and going out into the world; weak, flagged low."
+  }
+ ],
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by teacher"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "covered by furstudy"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "covered by furstudy"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "at my school you do it in like – from Year 7, till like up to GCSE’s – it’s compulsory, like everyone does a bit of it. So I thought it was – that was like a bit of a taster and I liked it, like making things",
+    "I like the creative side definitely more than the technology bit. Erm, I like the sort of – it’s nice to know I’ve got a course where I can do a bit of drawing and it’s not just like all essays all the time",
+    "Mine was a little bit creative, so they were saying like you could be a designer. That was on the list and I was thinking, oh that sounds quite nice.",
+    "The teacher kind of encouraged it. They said that’s what I want to do and they said, don’t be discouraged because it might be a lot of boys and things like that",
+    "they’ve been supportive but I wouldn’t say they’ve influenced me as such as. My sister – she’s physiotherapist so she hadn’t done design, she didn’t really like design and my mum doesn’t either.",
+    "No, my dad’s just a business man. I don’t really know what he does. Erm, my mum she works in a big cash and carry – she does administration."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "it’s been a lot of harder than I thought it would be. It’s a lot – they put emphasis on the technology",
+    "they see you drawing and then they sort of criticise your drawing and say you can’t draw right, so you start to feel a bit like hmm, maybe I’m not quite as good on this course",
+    "The worst thing I would say was doing computer design – CAD, because I’ve never done it before – ever",
+    "I do like erm a module I’m doing now, it’s called Product Analysis and Artefacts and that’s a really creative one",
+    "There’s this one assistant in our department and he is known for helping girls out more than boys",
+    "I do actually. I’ve been quite lucky because erm the people either that you’ve been put with, or that you pick yourself, when I’ve been put in the groups, my people have been like we’ve all been helpful, and friendly, and willing to work"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I thought it would be a really good way of getting work experience",
+    "if you did like a placement, you get to like see how design works in industry, like it’s completely different to designing on a course",
+    "I’ve applied for – to go on a placement course, but I’ve been thinking like at the end of last year, thinking I don’t know if I want one",
+    "I’ve always been like scared that like you’d lose some skills, like if your placement didn’t have emphasis on like computer design as such, by the time you came back you might forget everything",
+    "I’ve sort of leaned away from all the ones that ask for technical things just cos I don’t want to be stuck, for like a year, doing something I’d be bored with",
+    "when I’m looking for placements now, they’re definitely around [university area], like where I can commute to. So I’ve restricted myself to that."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "hopefully something I really enjoy to do with design",
+    "I’m more interested in things like – like toy design really (yeah) and just things that aren’t like – you have to think oh, where does the battery go",
+    "Hopefully, something that’s quite relaxed with design and technology but not – not engineering as such.",
+    "I don’t think like I want to be an industrial designer as such. Er, I’m interested in design things but not – I don’t want to be like really technical",
+    "I’ve always been interested in like erm dolls, say like doll set design. I’ve always thought that would be like a really cool job to do",
+    "I haven’t worried too much about pay – I haven’t looked for a high salary and just aimed for those, I haven’t looked at that too much"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 40,
+  "n_codes_kept": 40,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

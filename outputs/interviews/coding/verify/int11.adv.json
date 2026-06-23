@@ -1,0 +1,213 @@
+{
+  "unit_id": "int11",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-identifies as 'a little girl'/female throughout; clear."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Mechanical confirmed by subject 'Yeah' to interviewer's question; cited quote is weak but variable holds (code 6 fits)."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Enjoys work, 'don't get bored' = strong endorsement of interesting work."
+    },
+    {
+      "var": "challeng",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicitly names 'challenging all the time' as the draw; strongly agree fits."
+    },
+    {
+      "var": "varied",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'never two days the same' directly supports variety appeal."
+    },
+    {
+      "var": "knowledg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Narrow view (cars/aeroplanes) plus 'never really looked into it' supports chose with little knowledge."
+    },
+    {
+      "var": "money",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'struggling for money', 'money would be handy' supports money motive at agree level."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Work experience repeatedly the key reason; strongly agree justified."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Frames 5 years experience as edge at interviews; supports improving job chances strongly."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'rose tinted glasses... seen things how it is' = seeing what industry/real world is really like."
+    },
+    {
+      "var": "apptheor",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Glad she works to be able to 'use this/make this' rather than only essays; thin but supports applying theory. Keep medium."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Two days uni, three days work = currently on placement; yes."
+    },
+    {
+      "var": "wkexp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Actively sought placement; did NOT avoid it due to prior experience; strongly disagree defensible. Thin/inferential, medium ok."
+    },
+    {
+      "var": "noplaoth",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Network 75 route confirmed throughout and by placement_status; code 2 fits."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'quite pleased that I did' = agree (4), not strongly; correct level."
+    },
+    {
+      "var": "practica",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Wanted more practical, 'only one subject' practical = level not just right; disagree fits."
+    },
+    {
+      "var": "relevanc",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Couldn't see relevance of management/communication modules; agree fits despite 'turned out alright' caveat. Medium ok."
+    },
+    {
+      "var": "interper",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Credits communication module with 'how to put things across to people'; supports course developing interpersonal skills."
+    },
+    {
+      "var": "Mconfid",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Bus-with-40-boys quote describes male-dominated isolation and HER own confidence-building, not male students being more confident in class. Does not support construct."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Positive about group projects ('we've been quite good'); satisfaction reasonable. Medium ok."
+    },
+    {
+      "var": "supplect",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote is about equal/fair treatment, not lecturer support per se; positive view of lecturers ('really good') gives weak support. Downgrade to low."
+    },
+    {
+      "var": "friends",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Positive about the one other girl, 'get on quite well'; supports satisfaction with friends made."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Names aerospace/own airline preference, not in list 1-10, so 'other' defensible (don't-know is an alternative given her uncertainty). Medium ok."
+    },
+    {
+      "var": "furstudy",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote 'see how I feel at the end' is general career uncertainty; never addresses further study. Coding 'no' from absence is unsupported."
+    },
+    {
+      "var": "travel",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Wanting to move to Australia/work for Qantas indicates travel/relocation matters, but offhand aspiration ('perhaps', 'not sure'); downgrade to low."
+    },
+    {
+      "var": "equalopp",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is about industry trend (companies showing equal-opps to attract women), not whether equal-opp policies matter to HER job choice. Does not support the personal job-factor construct."
+    }
+  ]
+}

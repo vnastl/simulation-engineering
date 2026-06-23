@@ -1,0 +1,28 @@
+INTERVIEW INT72 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Chemical Engineering
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Group work: Neither satisfied nor dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+To improve job chances after university: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+To help choose a final-year project: Agree
+
+## Future in engineering
+Whether they would like to go on to further study: Yes
+Intended area of further study: Masters, MSc, MBA

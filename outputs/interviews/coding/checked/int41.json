@@ -1,0 +1,553 @@
+{
+ "unit_id": "int41",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "It’s me and another girl are the only girls.",
+   "theme": "route_into_engineering",
+   "reasoning": "Refers to herself as one of the only girls on the course."
+  },
+  {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Just a normal mixed school.",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly says she attended a mixed school."
+  },
+  {
+   "var": "year",
+   "code": 3,
+   "label": "Part C/Year 3",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "At the beginning I thought that on my third year I’d have more experience.",
+   "theme": "course_experience",
+   "reasoning": "States she is in her third/final year."
+  },
+  {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I started to be more interested in audio visual kind of engineering studies",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose the field out of a developing interest in audio-visual studies."
+  },
+  {
+   "var": "knowledg",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I did before secondary school yes. … I decided I wanted this and",
+   "theme": "route_into_engineering",
+   "reasoning": "Had done career research before and knew what she wanted, so not little knowledge."
+  },
+  {
+   "var": "father",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "my father is an engineer, but civil engineering so, its different from what I’m doing",
+   "theme": "route_into_engineering",
+   "reasoning": "Father is in a different (civil) field; no indication he encouraged this choice; says biggest influence was herself."
+  },
+  {
+   "var": "nobody",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think myself. I decided to come here.",
+   "theme": "route_into_engineering",
+   "reasoning": "States the biggest influence was herself; no one cited as encouraging the choice."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think myself. I decided to come here.",
+   "theme": "route_into_engineering",
+   "reasoning": "No one mentioned as discouraging; decision framed as her own."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "But yeah, I think I’m happy with my choices.",
+   "theme": "course_experience",
+   "reasoning": "Says she is happy with her choices, though would slightly prefer media technology."
+  },
+  {
+   "var": "practica",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "If we spent more time like on practical, on the practical side of the course, I think it would be better, like more studio time",
+   "theme": "course_experience",
+   "reasoning": "Wants more practical/studio time, implying current level is not just right."
+  },
+  {
+   "var": "relevanc",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "We miss a lot of time on modules that I think that are not as much important as.",
+   "theme": "course_experience",
+   "reasoning": "Finds some modules less important/relevant; course not well structured."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Interpersonal skills, yes.",
+   "theme": "course_experience",
+   "reasoning": "Agrees the course/experience developed interpersonal skills (content also in her own prior turn about dealing with different people)."
+  },
+  {
+   "var": "supppers",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I just met him in my first year, and no more.",
+   "theme": "course_experience",
+   "reasoning": "Almost no relationship with personal tutor; says he is not from her area and doesn't help."
+  },
+  {
+   "var": "supplect",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I do talk with some of my lecturers … but yes with my other lecturers I do.",
+   "theme": "course_experience",
+   "reasoning": "Has a good relationship and talks with her lecturers, indicating satisfaction with their support."
+  },
+  {
+   "var": "groupwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "its kind of difficult because it’s my final project … its depending on six other people and sometimes they don’t work as you want them to work. And it’s a bit messy and so I’m a bit worried about it.",
+   "theme": "course_experience",
+   "reasoning": "Describes group work on final project as messy and worrying, though sees value in principle."
+  },
+  {
+   "var": "practwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think this university has a very good practical side of the course",
+   "theme": "course_experience",
+   "reasoning": "Praises the practical side of the course, though she also wants more of it."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ll try to get a placement during the summer",
+   "theme": "placement_decision",
+   "reasoning": "Intends to get a summer placement and is sending out her CV."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "only because I want the work experience now",
+   "theme": "placement_decision",
+   "reasoning": "Explicitly wants placement for the work experience; strongly emphasised throughout."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "to have some work placement or something to have that confidence",
+   "theme": "placement_decision",
+   "reasoning": "Wants placement to gain confidence/preparedness for industry."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "when they come to the third year, they’re more prepared to do tasks that they give us",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as making students more prepared/employable."
+  },
+  {
+   "var": "breaked",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think it would be difficult to come back and start studying again and to finish it",
+   "theme": "placement_decision",
+   "reasoning": "Her reason for not interrupting now was fear of difficulty returning to study."
+  },
+  {
+   "var": "placloca",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "They help us to find placements but I think in my area its very difficult. … its really difficult to get work in this area.",
+   "theme": "placement_decision",
+   "reasoning": "Difficulty finding placement in her area/suitable location."
+  },
+  {
+   "var": "carpath",
+   "code": 11,
+   "label": "other",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ll be a very successful video editor. … My dream is to work in cinema",
+   "theme": "future_intentions",
+   "reasoning": "Wants to specialise as a video editor / in cinema, not one of the standard engineering areas."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "in the next academic year I’ll be doing my masters",
+   "theme": "future_intentions",
+   "reasoning": "Clearly intends to do a Masters."
+  },
+  {
+   "var": "studarea",
+   "code": 3,
+   "label": "Masters, MSc, MBA",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "if I’m going to do a master, I’m going to change it to video",
+   "theme": "future_intentions",
+   "reasoning": "Plans to do a Masters (in video)."
+  },
+  {
+   "var": "workenv",
+   "code": 5,
+   "label": "very important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’d chose like a dynamic company with a good working environment",
+   "theme": "future_intentions",
+   "reasoning": "Names a good working environment as a key attraction when choosing a company."
+  },
+  {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "a good working environment, a good team",
+   "theme": "future_intentions",
+   "reasoning": "Values a good team / people she works with when choosing a company."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’d like to travel, yes I would",
+   "theme": "future_intentions",
+   "reasoning": "Expresses a desire to travel, though uncertain if possible."
+  }
+ ],
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "covered by father"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "covered by breaked"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by jobprosp"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "like when I was in my second year of secondary school I started to be more interested in audio visual kind of engineering studies",
+    "First of all, when I enrolled, I wanted to go to media, media technology, but then I changed to sound. I like them both.",
+    "Quite different, my parents, my father is an engineer, but civil engineering so, its different from what I’m doing. My mother she studied economics so.",
+    "Because I had a cousin studying here and I wanted to try to have the experience of studying outside [country], and my cousin was studying here so I just came.",
+    "I think myself. I decided to come here.",
+    "Just a normal mixed school."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "At the beginning I thought that on my third year I’d have more experience. I’d be better prepared for the working in industry, but I don’t feel like it.",
+    "No I think the course is sometimes not well structured. We miss a lot of time on modules that I think that are not as much important as. If we spent more time like on practical, on the practical side of the course, I think it would be better, like more studio time, in my case.",
+    "The worst thing I think is right now on my final project, I have to work with six more guys and its kind of difficult because it’s my final project and its not depending only on me, its depending on six other people and sometimes they don’t work as you want them to work. And it’s a bit messy and so I’m a bit worried about it.",
+    "I do but I just met him in my first year, and no more.",
+    "But I do talk with some of my lecturers, but I don’t have that kind of relationship with my personal tutor, but yes with my other lecturers I do.",
+    "Perhaps not going to sound technology but media technology as I’ve found out it’s what I like the most. But I like sound as well, but I prefer video. But yeah, I think I’m happy with my choices."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Because I want to finish this and yes I think it would be difficult to come back and start studying again and to finish it. So I want to finish it first and then try and go into the industry.",
+    "That’s why I’m anxious to do some work, to have some work placement or something to have that confidence. I don’t have any confidence.",
+    "I think so because I know some guys they’ve done it. And when they come to the third year, they’re more prepared to do tasks that they give us. Yeah I think so, its good.",
+    "I’ll try to get a placement during the summer, but then in the next academic year I’ll be doing my masters.",
+    "Yes, but not here, in [country], but I’m trying. I’m sending over my CV.",
+    "They help us to find placements but I think in my area its very difficult. … But its really difficult to get work in this area."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’ll be a very successful video editor. Yes I’ll be doing what I want. My dream is to work in cinema, so I’ll be doing like working in the cinema and er doing my other projects, my side projects as well.",
+    "Yes, because I want to change to video and because I want to specialise in the (addition?) part. I want to really have an intensive course and I think its good if you have a greater degree.",
+    "I don’t know yet, I’m going to have my masters done and then I’ll see if I go back home or if I stay, it will depend on the job opportunities. I’d like to travel, yes I would, but I don’t know if it will be possible or not.",
+    "if I could chose, I’d chose like a dynamic company with a good working environment, a good team. I’d look at the image of the company as well, that’s very important I think.",
+    "Er like er, production companies, publicity companies, yeah, or tv companies.",
+    "I think it will be difficult at first. It’s like I don’t imagine me going and finding a beautiful job at first, but er I’ll have to fight and work really hard."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 28,
+  "n_codes_kept": 28,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

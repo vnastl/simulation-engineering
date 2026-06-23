@@ -1,0 +1,46 @@
+INTERVIEW INT26 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Department: Design & Technology
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Agree
+Mother's encouragement to study engineering: Neither agree nor disagree
+Father's encouragement to study engineering: Agree
+Careers advisor's encouragement: Strongly disagree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Agree
+Engineering students being competitive: Agree
+Female students getting more help in class: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Dissatisfied
+The friends made on the course: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Strongly agree
+For a break from education: Disagree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Research/development
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Opportunities to travel: Very important
+Preferred future work role: Managerial

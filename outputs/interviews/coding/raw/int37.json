@@ -1,0 +1,131 @@
+{
+  "unit_id": "int37",
+  "verbatim": true,
+  "placement_status": "intend_yes",
+  "codes": [
+    {"var":"gender","code":2,"label":"female","confidence":"high","evidence_role":"Subject","evidence_quote":"my mother actually said it could be quite tough for a girl to do civil engineering","theme":"route_into_engineering","reasoning":"Subject refers to herself as a girl/woman doing civil engineering; whole interview is of a woman engineer."},
+    {"var":"school","code":2,"label":"Single sex","confidence":"low","evidence_role":"Subject","evidence_quote":"It’s kind of private high school (right) in Canada.","theme":"route_into_engineering","reasoning":"Says private high school but does not confirm single-sex; weak/ambiguous so low confidence."},
+    {"var":"dept","code":3,"label":"Civil & Building Engineering","confidence":"high","evidence_role":"Subject","evidence_quote":"I like the infrastructure, I think. I was thinking to do materials as well but I decided to do civil, that’s all.","theme":"route_into_engineering","reasoning":"Subject confirms she is doing civil engineering."},
+
+    {"var":"interest","code":4,"label":"agree","confidence":"medium","evidence_role":"Subject","evidence_quote":"And I found that more – erm satisfying things in engineering because I’d like to say I did this bridge, or something.","theme":"route_into_engineering","reasoning":"Finds engineering satisfying/interesting work (building a bridge); indirect mapping to interesting-work item."},
+    {"var":"varied","code":4,"label":"agree","confidence":"medium","evidence_role":"Subject","evidence_quote":"and engineering discipline can go to business sector as well.","theme":"route_into_engineering","reasoning":"Values engineering's breadth/variety (can also move into business); indirect."},
+    {"var":"gooddeg","code":4,"label":"agree","confidence":"medium","evidence_role":"Subject","evidence_quote":"and engineering discipline can go to business sector as well.","theme":"route_into_engineering","reasoning":"Sees engineering as a good degree to hold even outside the profession (transferable to business)."},
+    {"var":"challeng","code":4,"label":"agree","confidence":"low","evidence_role":"Subject","evidence_quote":"Thinking in an engineering way, it’s more fundamental and problem solving – we’re more realistic.","theme":"route_into_engineering","reasoning":"Values problem solving as core to engineering; weak as a direct draw-to-study statement."},
+
+    {"var":"family","code":1,"label":"strongly disagree","confidence":"high","evidence_role":"Subject","evidence_quote":"No, my father is a businessman – well he has a shipping company and he runs it.","theme":"route_into_engineering","reasoning":"No family member in engineering (father is a businessman, mother housewife); did not know engineering through family."},
+    {"var":"mother","code":2,"label":"disagree","confidence":"high","evidence_role":"Subject","evidence_quote":"my mother actually said it could be quite tough for a girl to do civil engineering","theme":"route_into_engineering","reasoning":"Mother did not encourage; rather warned it could be tough for a girl."},
+    {"var":"father","code":2,"label":"disagree","confidence":"medium","evidence_role":"Subject","evidence_quote":"My family, they are neutral","theme":"route_into_engineering","reasoning":"Family neutral; father did not encourage the engineering choice (he later discouraged placement)."},
+    {"var":"nobody","code":4,"label":"agree","confidence":"medium","evidence_role":"Subject","evidence_quote":"Mm, no. Actually it was a friend of mine.","theme":"route_into_engineering","reasoning":"In response to whether family was supportive she says no; nobody from family encouraged the choice, only a friend's mention sparked the idea."},
+
+    {"var":"discoura","code":0,"label":"no","confidence":"medium","evidence_role":"Subject","evidence_quote":"My family, they are neutral","theme":"route_into_engineering","reasoning":"No one discouraged her from studying engineering (mother only noted it could be tough; family neutral). Father's discouragement was about placement, not studying engineering."},
+
+    {"var":"pleased","code":5,"label":"Strongly agree","confidence":"high","evidence_role":"Subject","evidence_quote":"Yeah, I really like it.","theme":"course_experience","reasoning":"Strongly positive about choosing/studying engineering at this university; also 'Very pleased that I’m in [this university]'."},
+    {"var":"quality","code":4,"label":"satisfied","confidence":"medium","evidence_role":"Subject","evidence_quote":"most of all I find it quite interesting and the lecturers they are willing to – to teach and they are patient.","theme":"course_experience","reasoning":"Positive about lectures/lecturers; maps to satisfied with quality of lectures."},
+    {"var":"supplect","code":4,"label":"satisfied","confidence":"medium","evidence_role":"Subject","evidence_quote":"the lecturers they are willing to – to teach and they are patient.","theme":"course_experience","reasoning":"Lecturers willing and patient -> satisfied with support from lecturers."},
+    {"var":"supppers","code":4,"label":"satisfied","confidence":"medium","evidence_role":"Subject","evidence_quote":"Yes, my tutor he’s been – done very well.","theme":"course_experience","reasoning":"Personal tutor has done very well/working hard -> satisfied with personal tutor support."},
+    {"var":"friends","code":4,"label":"satisfied","confidence":"medium","evidence_role":"Subject","evidence_quote":"My friend, I think, I met a lot of new people, when I came to university.","theme":"course_experience","reasoning":"Positive about friends/people met at university; friends were the biggest influence and helped her grow."},
+    {"var":"interper","code":4,"label":"agree","confidence":"medium","evidence_role":"Subject","evidence_quote":"Yes, I think I’ve become a different person, or a stronger person.","theme":"course_experience","reasoning":"Reports personal/interpersonal growth from the course and the people on it."},
+    {"var":"groupwk","code":3,"label":"neither satisfied nor dissatisfied","confidence":"low","evidence_role":"Subject","evidence_quote":"sometimes my group mate will not turn up on time or they just disappeared. It’s quite annoying sometimes.","theme":"course_experience","reasoning":"Mixed feelings on group work: fine with friends, but annoyed when members don't turn up; ambiguous net stance."},
+
+    {"var":"Mconfid","code":3,"label":"neither agree nor disagree","confidence":"low","evidence_role":"Subject","evidence_quote":"Er, I think they are quite fair on the mental work. On the physical work they might help you.","theme":"course_experience","reasoning":"Sees men as fair on mental work; no claim of greater male confidence; weak/ambiguous."},
+
+    {"var":"placemen","code":1,"label":"yes","confidence":"high","evidence_role":"Subject","evidence_quote":"Because I want some experiences in the civil industry and hopefully I can get the job easier after I graduate.","theme":"placement_decision","reasoning":"Clearly intends to go on placement; gives her reasons for wanting to go."},
+    {"var":"experien","code":5,"label":"Strongly agree","confidence":"high","evidence_role":"Subject","evidence_quote":"Because I want some experiences in the civil industry and hopefully I can get the job easier after I graduate.","theme":"placement_decision","reasoning":"Primary stated reason is to gain work experience in the civil industry."},
+    {"var":"jobprosp","code":4,"label":"agree","confidence":"high","evidence_role":"Subject","evidence_quote":"hopefully I can get the job easier after I graduate.","theme":"placement_decision","reasoning":"Wants placement to improve job chances after university; affirms it will improve career prospects."},
+    {"var":"industry","code":4,"label":"agree","confidence":"high","evidence_role":"Subject","evidence_quote":"First of all I know what civil engineering is really like.","theme":"placement_decision","reasoning":"Wants placement to find out what industry/civil engineering is really like."},
+    {"var":"jobdecid","code":4,"label":"agree","confidence":"high","evidence_role":"Subject","evidence_quote":"I don’t know if I want to be consultant or contractor. And I think my placement experience will help me make the decision.","theme":"placement_decision","reasoning":"Wants placement to help decide future direction (consultant vs contractor)."},
+    {"var":"perdevel","code":4,"label":"agree","confidence":"medium","evidence_role":"Subject","evidence_quote":"To know more people and to larger your network and know what to expect after you graduate","theme":"placement_decision","reasoning":"Sees placement as personal development/networking; indirect mapping to personal development."},
+    {"var":"apptheor","code":4,"label":"agree","confidence":"low","evidence_role":"Subject","evidence_quote":"some technical skills because being on site for a year will be – probably will learn more than staying on at university","theme":"placement_decision","reasoning":"Expects to gain/apply technical skills on site; weak as a direct apply-theory statement."},
+
+    {"var":"finuni","code":2,"label":"disagree","confidence":"medium","evidence_role":"Subject","evidence_quote":"he thinks it’s better to finish university earlier but I believe it’s better to have some experience.","theme":"placement_decision","reasoning":"Her father wanted her to finish sooner; she rejects that view and chooses placement -> she does not want to finish uni as soon as possible."},
+
+    {"var":"carpath","code":1,"label":"consultancy","confidence":"medium","evidence_role":"Subject","evidence_quote":"eventually I think I’ll go into consulting because I wouldn’t imagine myself, at age 40, climbing up and down","theme":"future_intentions","reasoning":"Despite preferring contracting now, she concludes she will eventually specialise in consulting."},
+    {"var":"furstudy","code":1,"label":"yes","confidence":"high","evidence_role":"Subject","evidence_quote":"I’ll carry on and an MSc programme after the undergraduate.","theme":"future_intentions","reasoning":"Wants to go on to further study (MSc)."},
+    {"var":"studarea","code":3,"label":"Masters, MSc, MBA","confidence":"high","evidence_role":"Subject","evidence_quote":"I’ll carry on and an MSc programme after the undergraduate.","theme":"future_intentions","reasoning":"Names an MSc as the intended further study."},
+    {"var":"charship","code":1,"label":"important","confidence":"high","evidence_role":"Subject","evidence_quote":"Definitely being chartered.","theme":"future_intentions","reasoning":"Strongly wants to gain Chartership; 'I hope that I can be Chartered' and 'Definitely being chartered'."},
+    {"var":"workrole","code":2,"label":"technical/specialist","confidence":"low","evidence_role":"Subject","evidence_quote":"Hopefully I can be senior engineer or be responsible for quite large project and I can travel around.","theme":"future_intentions","reasoning":"Aspires to senior engineer responsible for large projects; ambiguous between managerial and technical, leans specialist/engineer."},
+    {"var":"travel","code":4,"label":"important","confidence":"medium","evidence_role":"Subject","evidence_quote":"I’m applying to big companies (yes) because I like to travel around","theme":"future_intentions","reasoning":"Travel matters to her in job choice; repeatedly cites wanting to travel around."},
+    {"var":"salary","code":3,"label":"neither important nor unimportant","confidence":"low","evidence_role":"Subject","evidence_quote":"I really think that the salary is not very competitive (OK) because engineers are – they put in a lot of hard work.","theme":"future_intentions","reasoning":"Notes salary is not competitive but does not present it as a decisive factor in job choice; ambiguous importance."}
+  ],
+  "skips": [
+    {"var":"year","reason":"not discussed"},
+    {"var":"uni","reason":"not discussed"},
+    {"var":"highsal","reason":"not discussed"},
+    {"var":"special","reason":"not discussed"},
+    {"var":"mathsci","reason":"not discussed"},
+    {"var":"knowledg","reason":"not discussed"},
+    {"var":"hobbies","reason":"not discussed"},
+    {"var":"careers","reason":"not discussed"},
+    {"var":"teacher","reason":"not discussed"},
+    {"var":"whodisc","reason":"covered by discoura"},
+    {"var":"practica","reason":"not discussed"},
+    {"var":"curricul","reason":"not discussed"},
+    {"var":"relevanc","reason":"not discussed"},
+    {"var":"competit","reason":"not discussed"},
+    {"var":"Fhelp","reason":"not discussed"},
+    {"var":"deadline","reason":"not discussed"},
+    {"var":"assess","reason":"not discussed"},
+    {"var":"teachhrs","reason":"not discussed"},
+    {"var":"coursewk","reason":"not discussed"},
+    {"var":"theory","reason":"not discussed"},
+    {"var":"practwk","reason":"not discussed"},
+    {"var":"designwk","reason":"not discussed"},
+    {"var":"variety","reason":"not discussed"},
+    {"var":"money","reason":"not discussed"},
+    {"var":"educatio","reason":"not discussed"},
+    {"var":"unigrade","reason":"not discussed"},
+    {"var":"finalyr","reason":"not discussed"},
+    {"var":"indchart","reason":"not discussed"},
+    {"var":"placothe","reason":"not discussed"},
+    {"var":"wkexp","reason":"covered by placemen"},
+    {"var":"placloca","reason":"not discussed"},
+    {"var":"breaked","reason":"not discussed"},
+    {"var":"nogain","reason":"not discussed"},
+    {"var":"noappeal","reason":"not discussed"},
+    {"var":"noaccept","reason":"not discussed"},
+    {"var":"noplaoth","reason":"covered by placemen"},
+    {"var":"location","reason":"not discussed"},
+    {"var":"workenv","reason":"not discussed"},
+    {"var":"people","reason":"not discussed"},
+    {"var":"benefits","reason":"not discussed"},
+    {"var":"training","reason":"not discussed"},
+    {"var":"promot","reason":"not discussed"},
+    {"var":"equalopp","reason":"not discussed"},
+    {"var":"flexible","reason":"not discussed"},
+    {"var":"childcar","reason":"not discussed"}
+  ],
+  "themes": [
+    {"theme":"route_into_engineering","answer_quotes":[
+      "Er, cos I don’t feel that I can do business. When I see my father running a business, I find it quite hard er there’s not really a regular schedule.",
+      "And I found that more – erm satisfying things in engineering because I’d like to say I did this bridge, or something.",
+      "Mm, no. Actually it was a friend of mine. I was thinking to do science subjects and he said he’s studying about engineering and that idea came across my mind and I started to think it could be a good idea.",
+      "My family, they are neutral – my mother actually said it could be quite tough for a girl to do civil engineering, but, I think, or yeah, I’d like – yeah, I think I’d like the course so…and engineering discipline can go to business sector as well.",
+      "I like the infrastructure, I think. I was thinking to do materials as well but I decided to do civil, that’s all.",
+      "I’d love to do politics and literature, but since I don’t apply to Hong Kong, after I’ve graduated I don’t think it’s easy for me to have a career on that path."
+    ]},
+    {"theme":"course_experience","answer_quotes":[
+      "Yeah, I really like it.",
+      "It’s just I think I’ve learned a lot more but at first I didn’t know what to expect from the course. So everything’s quite a surprise and new for me. But I like it. Some modules they are quite boring and er, coursework they are quite hard but most of all I find it quite interesting and the lecturers they are willing to – to teach and they are patient.",
+      "I think the male lecturers tend to go faster you know – at a faster pace. Erm, and I think my female lecturer got a special way to lecture, so it’s quite hard to compare.",
+      "Yes, I think I’ve become a different person, or a stronger person.",
+      "Erm, sometimes my group mate will not turn up on time or they just disappeared. It’s quite annoying sometimes.",
+      "Er, I think they are quite fair on the mental work. On the physical work they might help you."
+    ]},
+    {"theme":"placement_decision","answer_quotes":[
+      "Because I want some experiences in the civil industry and hopefully I can get the job easier after I graduate.",
+      "My Dad told me not to go on placement. Yeah, he thinks it’s better to finish university earlier but I believe it’s better to have some experience.",
+      "First of all I know what civil engineering is really like. Erm, some technical skills because being on site for a year will be – probably will learn more than staying on at university and yeah.",
+      "The best thing is to get (?). To know more people and to larger your network and know what to expect after you graduate, when you go into work. The bad side is it’s very hard to handle the situation at times, I think, especially on site because I really have no idea what will happen there.",
+      "Erm, I’m applying to big companies (yes) because I like to travel around but I want to have something with company so that it looks better on my CV.",
+      "No, I do think I want to be an engineer, but I don’t know if I want to be consultant or contractor. And I think my placement experience will help me make the decision."
+    ]},
+    {"theme":"future_intentions","answer_quotes":[
+      "Er, I hope that I can be Chartered, or I’ll carry on and an MSc programme after the undergraduate.",
+      "Definitely being chartered. Hopefully I can be senior engineer or be responsible for quite large project and I can travel around.",
+      "I would prefer to go into contracting. But then I am thinking, I don’t know if I can handle the situations on site and it’s – it would be a more relaxing environment, in consultancy.",
+      "Not at the moment but eventually I think I’ll go into consulting because I wouldn’t imagine myself, at age 40, climbing up and down",
+      "Erm, I wouldn’t imagine it is hard to have a job but I really think that the salary is not very competitive (OK) because engineers are – they put in a lot of hard work. Erm, the starting salary’s good but after being a senior engineer, it’s not going very far.",
+      "And being a civil engineer, you might travel quite a bit and it’s very hard work but you might have to concentrate in your career totally, well having a family you have responsibility for your family and then I guess every female does – you start to think which is more important."
+    ]}
+  ]
+}

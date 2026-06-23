@@ -1,0 +1,509 @@
+{
+ "unit_id": "int59",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I mean I know going from an all girls school in sixth form",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Refers to herself attending an all girls school and being 'a girl' in engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 2,
+   "label": "Single sex",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I mean I know going from an all girls school in sixth form we were suddenly joined with [school]",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly attended an all-girls school in sixth form.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "year": {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’m a design engineer on a seeker project",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on her DIS industrial placement year.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 6,
+   "label": "Mechanical & Manufacturing Engineering",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Yeah they follow the IMechE chartership so",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Design engineer on IMechE chartership route doing CAD/design work, consistent with mechanical engineering.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’m a design engineer on a seeker project",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Hmm well the experience hmm with engineering in particular it’s a year off chartership",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Names the work experience as the leading benefit of doing a placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "industry": {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "it will give me some idea of how I need to operate in a working environment",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Values the placement for showing what working/industry is really like.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobdecid": {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Its kind of giving me a lot of focus on what I want to do next",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement helping her decide future direction; also 'if its bad I know where I don’t wanna go'.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "educatio": {
+   "var": "educatio",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it’s a break from uni instead of being sat with books, going to lectures",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Names a break from education as a benefit of placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "indchart": {
+   "var": "indchart",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "with engineering in particular it’s a year off chartership if you want to do that",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Counts the year towards Chartership as a placement benefit.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interest": {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I wanted to take the degree, I was interested in it so I’m becoming an engineer",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose engineering out of interest in the work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I definitely want to be here, I’m definitely at the right place, there’s no humming and arring about it",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strongly affirms being pleased with her engineering choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "relevanc": {
+   "var": "relevanc",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "its not really doing much for my first two years cos’ it was doing the equations and the big theory",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Sees limited relevance of early theory modules to her actual work; indirect, flagged low.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I generally email [placement tutor] if there’s a problem and he’ll hmmm put me through to ever needs hmm to know about it, to try and sort it out",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Personal/placement tutor is responsive and helpful when she has problems; indirect, flagged low.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 6,
+   "label": "research/development",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’ve always wanted to do over research or something hands on and I’d like the idea I’m doing a research based placement",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Prefers research/hands-on development work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’d like to still be involved in projects rather than hmm the managerial aspect",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Rejects managerial path, wants to stay close to engineering/technical work.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "location": {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I grew up on [area] where sort of [company] and [company] and the rest of it are based",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Prefers to stay near home area where the firms are based; indirect, flagged low.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "covered by interest"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "covered by perdevel"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "covered by relevanc"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "covered by industry"
+  },
+  {
+   "var": "perdevel",
+   "reason": "covered by experien"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I wanted to take the degree, I was interested in it so I’m becoming an engineer",
+    "yes I’ve done physics and all the rest of it, so I’m doing this, the same way my friends did this and decided they wanted to be doctors or chemistry students",
+    "when people have said but you’re a girl, it’s a bit of a strange degree",
+    "I mean I know going from an all girls school in sixth form we were suddenly joined with [school] and it was odd having classes with blokes but after the first month or so you got used to it"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "its not really doing much for my first two years cos’ it was doing the equations and the big theory",
+    "so it’s more common sense and being able to use the CAD package, rather than actually doing anything from the course",
+    "I don’t think they could in the first year because there’s just so much theory to learn about the background of everything",
+    "I definitely want to be here, I’m definitely at the right place, there’s no humming and arring about it"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Hmm well the experience hmm with engineering in particular it’s a year off chartership if you want to do that",
+    "it’s a break from uni instead of being sat with books, going to lectures, having to sit there for two hours and concentrate, its being able to actually do work",
+    "if its bad I know where I don’t wanna go, if its good, great",
+    "it’s better to find out after two years that you really should be doing something else than it is to do four years",
+    "it will give me some idea of how I need to operate in a working environment rather than hmm than what I do at uni"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’d kind of like to stay in the defence and just kind of I mean I grew up on [area] where sort of [company] and [company] and the rest of it are based",
+    "especially if I ended up doing the same work I’m doing now cos’ I’m really happy with it and find it really interesting",
+    "I’d like to still be involved in projects rather than hmm the managerial aspect because as far as I see, as far up you go, the further you get away from actual engineering",
+    "I’ve always wanted to do over research or something hands on and I’d like the idea I’m doing a research based placement"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

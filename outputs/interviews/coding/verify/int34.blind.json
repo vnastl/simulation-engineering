@@ -1,0 +1,29 @@
+{
+ "unit_id": "int34",
+ "recodes": [
+  {
+   "var": "father",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "evidence_quote": "No, my mum’s a – well, they’re both teachers. My mum’s head of the maths department at a secondary school and my dad, a teacher at a college, doing woodwork and other stuff like that.",
+   "reasoning": "Father is only described as a teacher and is never reported as encouraging her into engineering; on the family-support question only her mother is mentioned (finding it 'hilarious'), so no paternal encouragement."
+  },
+  {
+   "var": "competit",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": null,
+   "reasoning": "Whether engineering students are competitive is never addressed; the only 'support each other' remark refers solely to her best friend, not the student body, so there is no verbatim support."
+  },
+  {
+   "var": "interper",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "evidence_quote": "I don’t really think there’s many advantages at all. I just – I prefer doing it on my own.",
+   "reasoning": "She is sceptical that group/team work at university develops useful skills, seeing few advantages, which leans negative on the course developing interpersonal skills."
+  }
+ ]
+}

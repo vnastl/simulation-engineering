@@ -1,0 +1,1346 @@
+{
+  "linkage": "construct-level only (anonymised transcripts; no survey join key)",
+  "n_units": 74,
+  "by_eligibility": {
+    "primary": [
+      "int01",
+      "int02",
+      "int03",
+      "int04",
+      "int05",
+      "int06",
+      "int07",
+      "int08",
+      "int10",
+      "int11",
+      "int12",
+      "int13",
+      "int14",
+      "int15",
+      "int16",
+      "int17",
+      "int18",
+      "int19",
+      "int20",
+      "int21",
+      "int22",
+      "int23",
+      "int24",
+      "int25",
+      "int26",
+      "int27",
+      "int29",
+      "int30",
+      "int34",
+      "int35",
+      "int36",
+      "int37",
+      "int38",
+      "int39",
+      "int40",
+      "int41",
+      "int42",
+      "int43",
+      "int44",
+      "int45",
+      "int46",
+      "int47",
+      "int48",
+      "int49",
+      "int50",
+      "int51",
+      "int52",
+      "int53",
+      "int54",
+      "int55",
+      "int56",
+      "int57",
+      "int58",
+      "int59",
+      "int60",
+      "int61",
+      "int62",
+      "int63",
+      "int64",
+      "int65",
+      "int66",
+      "int67",
+      "int68",
+      "int69",
+      "int70",
+      "int71",
+      "int72"
+    ],
+    "notes_nonverbatim": [
+      "int09",
+      "int28",
+      "int31",
+      "int32",
+      "int33"
+    ],
+    "supporting_only": [
+      "fg01",
+      "fg02"
+    ]
+  },
+  "units": [
+    {
+      "unit_id": "fg01",
+      "file": "SN5723fg01.rtf",
+      "kind": "focus_group",
+      "format": "tagged",
+      "coding_eligibility": "supporting_only",
+      "n_subject_turns": 0,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "fg02",
+      "file": "SN5723fg02.rtf",
+      "kind": "focus_group",
+      "format": "tagged",
+      "coding_eligibility": "supporting_only",
+      "n_subject_turns": 0,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int01",
+      "file": "SN5723int01.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 108,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int02",
+      "file": "SN5723int02.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 66,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int03",
+      "file": "SN5723int03.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 97,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int04",
+      "file": "SN5723int04.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 99,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int05",
+      "file": "SN5723int05.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 89,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int06",
+      "file": "SN5723int06.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 86,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int07",
+      "file": "SN5723int07.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 61,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int08",
+      "file": "SN5723int08.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 104,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int09",
+      "file": "SN5723int09.rtf",
+      "kind": "interview_notes",
+      "format": "notes",
+      "coding_eligibility": "notes_nonverbatim",
+      "n_subject_turns": 0,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int10",
+      "file": "SN5723int10.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 66,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int11",
+      "file": "SN5723int11.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 54,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int12",
+      "file": "SN5723int12.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 70,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int13",
+      "file": "SN5723int13.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 87,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int14",
+      "file": "SN5723int14.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 93,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int15",
+      "file": "SN5723int15.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 114,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int16",
+      "file": "SN5723int16.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 78,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int17",
+      "file": "SN5723int17.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 64,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int18",
+      "file": "SN5723int18.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 67,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int19",
+      "file": "SN5723int19.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 76,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int20",
+      "file": "SN5723int20.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 128,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int21",
+      "file": "SN5723int21.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 106,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int22",
+      "file": "SN5723int22.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 99,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int23",
+      "file": "SN5723int23.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 96,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int24",
+      "file": "SN5723int24.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 91,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int25",
+      "file": "SN5723int25.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 75,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int26",
+      "file": "SN5723int26.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 75,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int27",
+      "file": "SN5723int27.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 100,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int28",
+      "file": "SN5723int28.rtf",
+      "kind": "interview_notes",
+      "format": "notes",
+      "coding_eligibility": "notes_nonverbatim",
+      "n_subject_turns": 0,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int29",
+      "file": "SN5723int29.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 93,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int30",
+      "file": "SN5723int30.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 102,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int31",
+      "file": "SN5723int31.rtf",
+      "kind": "interview_notes",
+      "format": "notes",
+      "coding_eligibility": "notes_nonverbatim",
+      "n_subject_turns": 0,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int32",
+      "file": "SN5723int32.rtf",
+      "kind": "interview_notes",
+      "format": "notes",
+      "coding_eligibility": "notes_nonverbatim",
+      "n_subject_turns": 0,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int33",
+      "file": "SN5723int33.rtf",
+      "kind": "interview_notes",
+      "format": "notes",
+      "coding_eligibility": "notes_nonverbatim",
+      "n_subject_turns": 0,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int34",
+      "file": "SN5723int34.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 95,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int35",
+      "file": "SN5723int35.rtf",
+      "kind": "interview",
+      "format": "alternating",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 81,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int36",
+      "file": "SN5723int36.rtf",
+      "kind": "interview",
+      "format": "alternating",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 71,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int37",
+      "file": "SN5723int37.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 106,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int38",
+      "file": "SN5723int38.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 64,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int39",
+      "file": "SN5723int39.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 75,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int40",
+      "file": "SN5723int40.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 68,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int41",
+      "file": "SN5723int41.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 58,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int42",
+      "file": "SN5723int42.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 65,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int43",
+      "file": "SN5723int43.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 117,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int44",
+      "file": "SN5723int44.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 116,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int45",
+      "file": "SN5723int45.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 96,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int46",
+      "file": "SN5723int46.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 88,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int47",
+      "file": "SN5723int47.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 88,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int48",
+      "file": "SN5723int48.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 68,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int49",
+      "file": "SN5723int49.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 87,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int50",
+      "file": "SN5723int50.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 66,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int51",
+      "file": "SN5723int51.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 71,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int52",
+      "file": "SN5723int52.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 85,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int53",
+      "file": "SN5723int53.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 89,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int54",
+      "file": "SN5723int54.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 71,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int55",
+      "file": "SN5723int55.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 80,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int56",
+      "file": "SN5723int56.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 80,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int57",
+      "file": "SN5723int57.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 106,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int58",
+      "file": "SN5723int58.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 82,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int59",
+      "file": "SN5723int59.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 82,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int60",
+      "file": "SN5723int60.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 88,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int61",
+      "file": "SN5723int61.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 92,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int62",
+      "file": "SN5723int62.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 112,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int63",
+      "file": "SN5723int63.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 161,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int64",
+      "file": "SN5723int64.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 159,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int65",
+      "file": "SN5723int65.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 95,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int66",
+      "file": "SN5723int66.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 71,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int67",
+      "file": "SN5723int67.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 81,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int68",
+      "file": "SN5723int68.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 158,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int69",
+      "file": "SN5723int69.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 122,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int70",
+      "file": "SN5723int70.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 69,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int71",
+      "file": "SN5723int71.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 96,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    },
+    {
+      "unit_id": "int72",
+      "file": "SN5723int72.rtf",
+      "kind": "interview",
+      "format": "tagged",
+      "coding_eligibility": "primary",
+      "n_subject_turns": 93,
+      "metadata_codes": {
+        "gender": {
+          "code": 2,
+          "label": "female",
+          "confidence": "high",
+          "provenance": "metadata-derived",
+          "basis": "study design: qualitative sample is women second-year engineering students"
+        }
+      }
+    }
+  ]
+}

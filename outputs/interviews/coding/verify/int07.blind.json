@@ -1,0 +1,29 @@
+{
+ "unit_id": "int07",
+ "recodes": [
+  {
+   "var": "father",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "low",
+   "evidence_quote": "Yeah, they did sort of because my Mum did say well, maybe you should do industrial design, instead of graphic design because it's – you know – quite difficult to get a job in graphics design.",
+   "reasoning": "When asked about family influence she credits her Mum's encouragement; though her dad is an engineer, no statement shows him encouraging her to study D&T, so neither agree nor disagree."
+  },
+  {
+   "var": "furstudy",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": "then I think I'll probably teach – if I can't you know, find anything else, 'cos I think I'd really enjoy that.",
+   "reasoning": "Teaching is raised only as a fallback career, with no explicit statement about wanting to undertake further study, so a yes/no cannot be supported."
+  },
+  {
+   "var": "studarea",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": "then I think I'll probably teach – if I can't you know, find anything else, 'cos I think I'd really enjoy that.",
+   "reasoning": "She mentions teaching as a backup career, not as an intended area of further study; without a clear further-study intention, the study area is unsupportable."
+  }
+ ]
+}

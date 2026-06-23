@@ -1,0 +1,53 @@
+{
+ "unit_id": "int31",
+ "recodes": [
+  {
+   "var": "family",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_quote": "I just sort of got all my qualifications through erm work experience (yeah) you know, just working through",
+   "reasoning": "Route in was via her own catering work experience; no family member in the engineering/H&S industry is mentioned, so disagree."
+  },
+  {
+   "var": "supplect",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "low",
+   "evidence_quote": "with females I find it’s more er – I wouldn’t – more help, I suppose, available.",
+   "reasoning": "Mixed view: female lecturers offer more help/guidance, male lecturers 'here’s your lectures, get on with it'; overall ambivalent rather than clearly satisfied or dissatisfied."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_quote": "You know I like the idea of going into erm sort of the plant, you know, and be working.",
+   "reasoning": "Keen to go onto actual plant and experience real industry/work conditions, supporting placement to see what industry is really like."
+  },
+  {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "low",
+   "evidence_quote": "it’s sort of different, in health and safety, because health and safety it’s not really a managerial role, it’s more – well it’s sort of managerial but not on a",
+   "reasoning": "She distinguishes her future H&S role from a normal managerial route, framing it as a specialist position, though she ambiguously also references moving up; leans specialist."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "low",
+   "evidence_quote": "will depend whether or not I stay on extra time and go further into that area",
+   "reasoning": "Open to staying on extra time to go further into a chosen area, indicating a conditional willingness to do further study."
+  },
+  {
+   "var": "promot",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_quote": "in like 5 years maybe start off with a small team, move (yes) you know, into a bigger team – hopefully further up the ladder if there is one (yeah)",
+   "reasoning": "Aspires over five years to progress from a small to a bigger team and 'further up the ladder', implying promotion matters to her."
+  }
+ ]
+}

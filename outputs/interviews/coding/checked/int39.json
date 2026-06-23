@@ -1,0 +1,565 @@
+{
+ "unit_id": "int39",
+ "verbatim": true,
+ "placement_status": "network75",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it doesn’t bother me because if they just said ‘gents’ or whatever it wouldn’t bother me",
+   "theme": "course_experience",
+   "reasoning": "Refers to herself as the girl/lady singled out among the gents; clearly female."
+  },
+  {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Oh just a comprehensive school.",
+   "theme": "route_into_engineering",
+   "reasoning": "Comprehensive school is co-educational/mixed sex."
+  },
+  {
+   "var": "year",
+   "code": 3,
+   "label": "Part C/Year 3",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Third year of the course.",
+   "theme": "course_experience",
+   "reasoning": "States she has just finished her third year of the course."
+  },
+  {
+   "var": "dept",
+   "code": 6,
+   "label": "Mechanical & Manufacturing Engineering",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Mechanical – erm, appealed to me the most straight away",
+   "theme": "route_into_engineering",
+   "reasoning": "Doing mechanical engineering."
+  },
+  {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "because I find it really interesting and I enjoy it",
+   "theme": "route_into_engineering",
+   "reasoning": "Cites interest/enjoyment as a strong draw to engineering."
+  },
+  {
+   "var": "family",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yeah, my Dad is, he works for the Gas Board – it’s kind of engineering-ish. … it definitely made me want to do something like that",
+   "theme": "route_into_engineering",
+   "reasoning": "Father in the industry; says it influenced her, subconsciously and definitely."
+  },
+  {
+   "var": "father",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Not directly but I think subconsciously it must have, it definitely made me want to do something like that, so yeah.",
+   "theme": "route_into_engineering",
+   "reasoning": "Father's involvement influenced her, though not directly/explicit encouragement; nearest positive point."
+  },
+  {
+   "var": "mother",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "because my mother, she’s not interested in it at all. She can’t understand like what",
+   "theme": "route_into_engineering",
+   "reasoning": "Mother not interested in engineering at all; did not encourage."
+  },
+  {
+   "var": "hobbies",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I used to like building things like getting a kit and making – so I like to do things like that, rather than play with dolls too much",
+   "theme": "route_into_engineering",
+   "reasoning": "Technical, practical hobbies (building kits) as her interest."
+  },
+  {
+   "var": "careers",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "We did, but erm nothing – nothing that helped really (laughs).",
+   "theme": "route_into_engineering",
+   "reasoning": "Had careers advice but it did not help/encourage her."
+  },
+  {
+   "var": "mathsci",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think my Physics ‘A’ level made me realise I didn’t want to do electronics",
+   "theme": "route_into_engineering",
+   "reasoning": "Took Maths and Physics A-levels and used Physics to steer her path; supports being good at maths/science."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think so, yeah. Not directly but I think subconsciously it must have, it definitely made me want to do something like that",
+   "theme": "route_into_engineering",
+   "reasoning": "No mention of anyone discouraging her; influences described as encouraging/neutral."
+  },
+  {
+   "var": "practica",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "because I’m doing a BEng, I knew it wouldn’t be as practical as the BSc’s or something like that",
+   "theme": "course_experience",
+   "reasoning": "Notes the BEng is less practical than she might prefer; suggests practical level not ideal/just right."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "No, I think I’d probably do it the same – yeah. I think I’d probably stick with this.",
+   "theme": "course_experience",
+   "reasoning": "Would not change her choices; pleased with choosing engineering."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think it does teach you to like appreciate other people’s opinions and their ideas and things",
+   "theme": "course_experience",
+   "reasoning": "Group work on the course develops interpersonal/teamwork skills."
+  },
+  {
+   "var": "groupwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I don’t like it because you can’t make them all work and they don’t all work as hard as you’d like, and so, sometimes you feel a bit let down by them",
+   "theme": "course_experience",
+   "reasoning": "Explicitly dislikes group work, recounts a bad experience and feeling let down."
+  },
+  {
+   "var": "supppers",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "No. Do you mean in the college? (Yeah) No, not that I know of.",
+   "theme": "course_experience",
+   "reasoning": "Has no personal tutor that she knows of; cannot express satisfaction, neutral/NA stance."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "you are actually doing proper work (yeah) and it’s long-term it’s what you want to be doing as well",
+   "theme": "placement_decision",
+   "reasoning": "Network 75 work-study placement; she is in industry/on placement."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "the best is the experience you get because you get to know working life, what that’s all about",
+   "theme": "placement_decision",
+   "reasoning": "Names work experience as the best aspect of the placement."
+  },
+  {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "the major advantage is you get paid",
+   "theme": "placement_decision",
+   "reasoning": "Money/being paid was a major draw of the Network 75 scheme."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think so, because you’ve got a degree and you’ve got 5 years experience already before you’ve even done anything really.",
+   "theme": "placement_decision",
+   "reasoning": "Believes Network 75 will improve her job/career prospects."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "you get to know working life, what that’s all about",
+   "theme": "placement_decision",
+   "reasoning": "Placement gives her an idea of what industry/working life is really like."
+  },
+  {
+   "var": "apptheor",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "None of them directly apply. Erm, I think by doing what you do in Uni – you appreciate what’s going on in work, but nothing links directly at all, no.",
+   "theme": "placement_decision",
+   "reasoning": "Says the theory learnt at uni does not directly apply at work; opportunity to apply theory not realised."
+  },
+  {
+   "var": "noplaoth",
+   "code": 2,
+   "label": "network 75 student",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I filled in an application form to go on network 75, and then they just sent me a letter then saying I’ve got an interview with [company]",
+   "theme": "placement_decision",
+   "reasoning": "Her placement is via the Network 75 work-study scheme."
+  },
+  {
+   "var": "carpath",
+   "code": 1,
+   "label": "consultancy",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "They also do like one-off consultancy projects and things like that",
+   "theme": "future_intentions",
+   "reasoning": "Works in an aircraft-engine maintenance/consultancy firm and would stay; but uncertain about future direction, so low confidence."
+  },
+  {
+   "var": "workrole",
+   "code": 2,
+   "label": "technical/specialist",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I wouldn’t have to think oh I have to be a Manager or what ever, as long as I’m doing something I enjoy",
+   "theme": "future_intentions",
+   "reasoning": "Explicitly not aiming for managerial; happy in a non-management/specialist role."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "Sometimes I think I could do teaching or something like that",
+   "theme": "future_intentions",
+   "reasoning": "Mentions teaching as a possible future direction; weak, ambiguous signal of further study/PGCE."
+  },
+  {
+   "var": "studarea",
+   "code": 4,
+   "label": "PGCE, teaching",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "that’s why I think teaching because you get a whole summer off don’t you?",
+   "theme": "future_intentions",
+   "reasoning": "Teaching is the further-study area she raises; tentative."
+  },
+  {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "It’s just because I wanted to stay at home",
+   "theme": "future_intentions",
+   "reasoning": "Location mattered for her course choice (staying at home), though she is now open to moving; weak signal."
+  },
+  {
+   "var": "flexible",
+   "code": 5,
+   "label": "very important",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "probably working 3 days a week. I would like that.",
+   "theme": "future_intentions",
+   "reasoning": "Her ideal career is part-time/flexible (3 days a week); flexible working clearly very important to her."
+  }
+ ],
+ "skips": [
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "covered by interest"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "covered by carpath"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by careers"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "covered by noplaoth"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "covered by workrole"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "when I started my ‘A’ levels, I wanted to be an Optician – that’s what I was going to go for but somewhere along the line I just changed my mind",
+    "cos I’ve always been kind of interested in making things and things – like practical things",
+    "Yeah, my Dad is, he works for the Gas Board – it’s kind of engineering-ish.",
+    "Not directly but I think subconsciously it must have, it definitely made me want to do something like that, so yeah.",
+    "I used to like building things like getting a kit and making – so I like to do things like that, rather than play with dolls too much",
+    "We did, but erm nothing – nothing that helped really (laughs)."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "because I’m doing a BEng, I knew it wouldn’t be as practical as the BSc’s or something like that, but most of the subjects have been fine",
+    "because I’m a girl and engineer I get a lot of opportunities and things like that – that’s good",
+    "The worst thing though was this year we had all our assignments – they were all between Christmas and Easter and so it was horrible",
+    "I don’t like it because you can’t make them all work and they don’t all work as hard as you’d like, and so, sometimes you feel a bit let down by them",
+    "one of our lecturers – I mean he just makes like women jokes, which are alright, they’re not offensive, but it – you just get bored with them, every lesson",
+    "you are singled out because you’re the girl, but it doesn’t really bother me too much"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "the major advantage is you get paid (yeah) and you’re doing work that does kind of relate really",
+    "the best is the experience you get because you get to know working life, what that’s all about",
+    "because you come in as a new person and you’re not there all the time, that – they find that quite hard to give you like big projects",
+    "you’ve got a degree and you’ve got 5 years experience already before you’ve even done anything really",
+    "I filled in an application form to go on network 75, and then they just sent me a letter then saying I’ve got an interview with [company]",
+    "None of them directly apply. Erm, I think by doing what you do in Uni – you appreciate what’s going on in work, but nothing links directly at all, no."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "Yeah, I think I would still but sometimes I think I’ll stay where I am. Sometimes I think I could do teaching or something like that",
+    "probably working 3 days a week. I would like that.",
+    "I wouldn’t like to work full time if I had a family – I wouldn’t like that at all.",
+    "as long as I’m doing something I enjoy, it wouldn’t matter too much really",
+    "realistically I realise that I probably have to move away, because it’s not – there a lot of places in [town], but it’s not like loads",
+    "there’s such a broad range of things you could do, like at the moment its aeroplane engines, there’s loads and loads of different things you could do"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 30,
+  "n_codes_kept": 30,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

@@ -1,0 +1,559 @@
+{
+ "unit_id": "int06",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "because with the RAF stuff I've done, I'm normally the only girl, so I've got to prove myself really well",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject refers to herself as a girl/woman throughout."
+  },
+  {
+   "var": "school",
+   "code": 2,
+   "label": "Single sex",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Grammer school – female.",
+   "theme": "route_into_engineering",
+   "reasoning": "Attended a girls' grammar school."
+  },
+  {
+   "var": "interest",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "It kind of really grabbed my attention actually, 'cos I was looking at all the engineering stuff he was doing actually, like how planes are designed and things like that, it was really interesting.",
+   "theme": "route_into_engineering",
+   "reasoning": "Strong expression that the work/subject was interesting and grabbed her attention."
+  },
+  {
+   "var": "varied",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "there isn't just one thing that I can do either. I can manage, do logistics, supply chain management, sales and marketing. There's just so much I could do with it.",
+   "theme": "route_into_engineering",
+   "reasoning": "Repeatedly praises the variety/breadth of the field as an appeal."
+  },
+  {
+   "var": "family",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "no-one in my family's done anything like it. I've got a sister who's a lawyer, and my brother's a sailor.",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly no family member in the industry; mother a hairdresser."
+  },
+  {
+   "var": "careers",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Only from the RAF.",
+   "theme": "route_into_engineering",
+   "reasoning": "Careers advice came only from the RAF, not a school/careers advisor encouraging engineering."
+  },
+  {
+   "var": "gooddeg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think it will be quite useful if I came out the RAF, I can carry on doing what I like",
+   "theme": "route_into_engineering",
+   "reasoning": "Sees the degree as a useful fallback/asset regardless of profession entry."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yes they were actually, I want to join the RAF so an air related degree is quite useful for them.",
+   "theme": "route_into_engineering",
+   "reasoning": "Family supportive; no mention of anyone discouraging her."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yes, it's just finding the placement to do it in. That's been the biggest problem for everyone on my course.",
+   "theme": "placement_decision",
+   "reasoning": "Intends to go on placement; only obstacle is finding one."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "For the experience it will bring.",
+   "theme": "placement_decision",
+   "reasoning": "Names work experience as the primary reason for wanting placement."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I can at least go back and say well I've worked doing this, I'm not just RAF, so can you take me on that.",
+   "theme": "placement_decision",
+   "reasoning": "Wants placement to improve future employability/fallback after RAF."
+  },
+  {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it will (show?) what I don't want to do whether, whether I've enjoyed it or not.",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as helping decide what she does/doesn't want to do."
+  },
+  {
+   "var": "industry",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think working in an office environment is going to be the biggest thing that, it's going to show me how to do it. Because, no experience I've done so far has been in an office, so I don't know what to expect",
+   "theme": "placement_decision",
+   "reasoning": "Wants to see what working in industry/an office is really like."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think it'll probably make me grow up.",
+   "theme": "placement_decision",
+   "reasoning": "Expects personal development from the responsibilities and adult treatment."
+  },
+  {
+   "var": "finalyr",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it might provide me with my end of year project or something like that and then contacts to help me do it.",
+   "theme": "placement_decision",
+   "reasoning": "Hopes placement will help with the final-year project."
+  },
+  {
+   "var": "money",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "you're working and you're earning your own money",
+   "theme": "placement_decision",
+   "reasoning": "Mentions earning money as a change/feature but never as a driving reason; weak so coded low and as not a primary motive."
+  },
+  {
+   "var": "placloca",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it's getting one that's really relevant. I want to try erm, consultancy, but I don't know if there'd be any placements.",
+   "theme": "placement_decision",
+   "reasoning": "Struggles to find a suitable/relevant placement, partly an availability problem."
+  },
+  {
+   "var": "carpath",
+   "code": 1,
+   "label": "consultancy",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I want to try erm, consultancy, but I don't know if there'd be any placements.",
+   "theme": "future_intentions",
+   "reasoning": "Repeatedly names consultancy as her preferred specialism."
+  },
+  {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "No, I just, I'd rather do management, not really engineering.",
+   "theme": "future_intentions",
+   "reasoning": "Clear preference for a management role over a technical one."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I'd actually like to travel, so world-wide would be nice, so I've had a look at that.",
+   "theme": "future_intentions",
+   "reasoning": "States travel/worldwide work as something she actively looks for."
+  },
+  {
+   "var": "training",
+   "code": 3,
+   "label": "neither important nor unimportant",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "the training programme, I'd actually like to travel, so world-wide would be nice, so I've had a look at that. Erm, other than that, not really.",
+   "theme": "future_intentions",
+   "reasoning": "Mentions looking at training programmes but quickly pivots to travel; lukewarm interest, coded low."
+  },
+  {
+   "var": "pleased",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "No, I'm happy. I can't see myself doing anything else.",
+   "theme": "course_experience",
+   "reasoning": "Happy with her choices and cannot see herself doing anything else."
+  },
+  {
+   "var": "groupwk",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "yes I find it easier to work as a group actually, than on my own. I enjoy it more, just talking to people and finding out what they know",
+   "theme": "course_experience",
+   "reasoning": "Strongly positive about group work, enjoys it and does well."
+  },
+  {
+   "var": "friends",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "meeting everyone, you kind of get to know everyone and what they do. Most of the guys work in like the airports round here, so its cool to meet people who like what you do.",
+   "theme": "course_experience",
+   "reasoning": "Cites meeting people/friends as a best thing about the course."
+  },
+  {
+   "var": "variety",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I'm quite surprised by er, we're doing a psychology module at the moment and marketing.",
+   "theme": "course_experience",
+   "reasoning": "Positively surprised by the breadth/variety of subjects covered."
+  },
+  {
+   "var": "supppers",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "No, I've seen her once. She's not actually anything to do with my course, which makes it hard. I'm not sure if she actually knows what my name is",
+   "theme": "course_experience",
+   "reasoning": "Personal tutor is disconnected from her course and barely seen; dissatisfaction."
+  },
+  {
+   "var": "supplect",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I normally go to the course tutor – if I've got a problem, he's really good about it.",
+   "theme": "course_experience",
+   "reasoning": "Course tutor/lecturer support described as good and approachable."
+  },
+  {
+   "var": "quality",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Oh we've got this really cracking lecturer called [name], and he's been so enthusiastic, it's just like really good.",
+   "theme": "course_experience",
+   "reasoning": "Praises a lecturer highly, though notes another is boring; net satisfied."
+  },
+  {
+   "var": "theory",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "because there's so much theory, they're a bit put off by it. But I think in the long run, its more helpful for a job.",
+   "theme": "course_experience",
+   "reasoning": "Notes heavy theory others dislike but sees it as helpful long-term; ambivalent."
+  }
+ ],
+ "skips": [
+  {
+   "var": "year",
+   "reason": "covered by metadata"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "covered by family"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "covered by careers"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "Well, being an RAF cadet, I was kind of looking for a degree course and I actually found it through my boyfriend at the time, who was doing it, and it was a bit different from what I was looking at – I was looking at something geography based.",
+    "It kind of really grabbed my attention actually, 'cos I was looking at all the engineering stuff he was doing actually, like how planes are designed and things like that, it was really interesting.",
+    "No, I just, I'd rather do management, not really engineering.",
+    "Yes they were actually, I want to join the RAF so an air related degree is quite useful for them. Yeah, no-one in my family's done anything like it. I've got a sister who's a lawyer, and my brother's a sailor.",
+    "Only from the RAF.",
+    "'cos coming from a girl's school, most of the kind of leaflets we seem to get are like politics and English, and you don't really get that many engineering ones. Whereas the boys school next to us, were always going on about being engineers and aeronautical"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "Oh we've got this really cracking lecturer called [name], and he's been so enthusiastic, it's just like really good. I think it's the lecturers who make or break the course. We've got another one whose pretty boring.",
+    "meeting everyone, you kind of get to know everyone and what they do. Most of the guys work in like the airports round here, so its cool to meet people who like what you do.",
+    "No, I've seen her once. She's not actually anything to do with my course, which makes it hard. I'm not sure if she actually knows what my name is, she just calls me [shortened version of surname] (laughs). I normally go to the course tutor – if I've got a problem, he's really good about it.",
+    "yes I find it easier to work as a group actually, than on my own. I enjoy it more, just talking to people and finding out what they know, and what they know, and getting it altogether.",
+    "I probably expected a little bit more emphasis on aeronautical, planes and stuff, I'm quite surprised by er, we're doing a psychology module at the moment and marketing.",
+    "I think some people didn't actually expect it to be so management related because its in civil and building, they expected it more like, how a plane is built, because there's so much theory, they're a bit put off by it. But I think in the long run, its more helpful for a job."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Yes, it's just finding the placement to do it in. That's been the biggest problem for everyone on my course.",
+    "For the experience it will bring. I think that if I decide to go into the RAF, and then come out maybe in 6 or12 years, I can at least go back and say well I've worked doing this, I'm not just RAF, so can you take me on that.",
+    "And plus, if things don't go well, it's still the experience, and it will (show?) what I don't want to do whether, whether I've enjoyed it or not.",
+    "it's really difficult to get the placements. It's not what you know and how good you are, it's who you know and who can get you the placement.",
+    "I think working in an office environment is going to be the biggest thing that, it's going to show me how to do it. Because, no experience I've done so far has been in an office, so I don't know what to expect",
+    "I do feel a bit daunted by the placement year. I don't know what to expect. I don't know if I'm going to turn up and make a complete mess out of it (laughs)."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "Hopefully in the RAF, somewhere in Britain or around the world, managing planes.",
+    "Yes. I'd like to do a bit of management consultancy afterwards, but yes.",
+    "I want to try erm, consultancy, but I don't know if there'd be any placements.",
+    "the training programme, I'd actually like to travel, so world-wide would be nice, so I've had a look at that.",
+    "Yes, I think that for my course, you can do so much with it. Erm, there isn't just one thing that I can do either. I can manage, do logistics, supply chain management, sales and marketing. There's just so much I could do with it.",
+    "I think its more kind of while I'm younger, I'd like to see the world before I've got too many responsibilities."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 29,
+  "n_codes_kept": 29,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

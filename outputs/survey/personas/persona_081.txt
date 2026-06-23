@@ -1,0 +1,88 @@
+SURVEY RESPONDENT #81 (Women Engineering Students' Workplace Experiences, UKDA SN 5723)
+
+## Demographics & background
+Gender: Female
+Age band: 22
+Ethnic group: White other
+Religion: None
+Type of secondary school attended: Single sex
+Year of study: Part D/Year 4
+Department: Aeronautical & Automotive Engineering
+University type (pre- or post-1992): Pre-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Agree
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Strongly agree
+Using science and maths without specialising: Strongly agree
+Being good at maths and science at school: Strongly agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Disagree
+Having technical hobbies and interests: Agree
+Engineering as a good degree to hold regardless: Agree
+Engineering's appeal as a varied field: Neither agree nor disagree
+Mother's encouragement to study engineering: Agree
+Father's encouragement to study engineering: Agree
+Careers advisor's encouragement: Agree
+School teacher's encouragement: Agree
+Nobody encouraged the choice: Disagree
+Ever attended an engineering insight course: Yes
+Whether the insight course encouraged studying engineering: Yes
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Disagree
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Neither agree nor disagree
+Difficulty seeing the relevance of some modules: Agree
+Engineering students being competitive: Agree
+Male students being more confident in class: Agree
+Female students getting more help in class: Neither agree nor disagree
+Always having competing deadlines: Agree
+The coursework/exam balance being just right: Agree
+The course developing interpersonal skills: Neither agree nor disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Satisfied
+Support from lecturers: Satisfied
+Support from a personal tutor: Very satisfied
+Group work: Satisfied
+Number of teaching hours: Satisfied
+The friends made on the course: Satisfied
+Quantity of coursework: Satisfied
+Theory work: Neither satisfied nor dissatisfied
+Practical work: Dissatisfied
+Design work: Neither satisfied nor dissatisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Strongly agree
+No placement available in a suitable location: Neither agree nor disagree
+Fear of returning to education after a break: Disagree
+Wanting to finish university sooner and start earning: Agree
+Seeing nothing to be gained from a placement: Disagree
+No available placement appealing: Disagree
+Having applied but not been accepted: Disagree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Whether they would like to go on to further study: No
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Very important
+Work environment: Very important
+The people worked with: Very important
+Opportunities to travel: Important
+Benefits such as a company car: Neither important nor unimportant
+Training opportunities: Important
+Opportunities for promotion: Very important
+Equal-opportunities policies: Very important
+Opportunities for flexible working: Very important
+Childcare policies: Neither important nor unimportant
+Preferred future work role: Don't know
+Importance of gaining Chartership: Important
+
+[Not stated: 1 item(s) left blank; 14 item(s) not applicable / filtered out by a branch.]

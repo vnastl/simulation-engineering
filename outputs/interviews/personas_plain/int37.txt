@@ -1,0 +1,50 @@
+INTERVIEW INT37 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Department: Civil & Building Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Having a family member in the industry: Strongly disagree
+Engineering as a good degree to hold regardless: Agree
+Mother's encouragement to study engineering: Disagree
+Father's encouragement to study engineering: Disagree
+Nobody encouraged the choice: Agree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Strongly agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Satisfied
+Support from lecturers: Satisfied
+Support from a personal tutor: Satisfied
+Group work: Neither satisfied nor dissatisfied
+The friends made on the course: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Wanting to finish university sooner and start earning: Disagree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Whether they would like to go on to further study: Yes
+Intended area of further study: Masters, MSc, MBA
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Neither important nor unimportant
+Opportunities to travel: Important
+Preferred future work role: Technical/specialist
+Importance of gaining Chartership: Important

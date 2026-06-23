@@ -1,0 +1,33 @@
+INTERVIEW INT32 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: network75.
+
+## Demographics & background
+Gender: Female
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The curriculum being harder than expected: Agree
+Difficulty seeing the relevance of some modules: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Group work: Neither satisfied nor dissatisfied
+The friends made on the course: Satisfied
+Theory work: Dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Agree
+For personal development: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Don't know
+Whether they would like to go on to further study: Yes
+Intended area of further study: Not engineering/design related
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Important
+Work environment: Important
+The people worked with: Important

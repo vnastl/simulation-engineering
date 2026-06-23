@@ -1,0 +1,37 @@
+{
+  "unit_id": "int04",
+  "recodes": [
+    {
+      "var": "highsal",
+      "code": 1,
+      "label": "strongly disagree",
+      "confidence": "medium",
+      "evidence_quote": "Poorly paid (laughs)",
+      "reasoning": "She characterises the industry as poorly paid and was drawn to it for diversity/interest, not salary."
+    },
+    {
+      "var": "noplaoth",
+      "code": 4,
+      "label": "time",
+      "confidence": "medium",
+      "evidence_quote": "I'm better off going straight through and then just getting out into industry one year earlier",
+      "reasoning": "Beyond the location constraint, her additional reason is to save the placement year and finish sooner (time)."
+    },
+    {
+      "var": "carpath",
+      "code": 1,
+      "label": "consultancy",
+      "confidence": "medium",
+      "evidence_quote": "If I do then I would need to work for a consultancy because as I mentioned, I'm married and I couldn't really work for a contractor and move around the country, at a moments notice",
+      "reasoning": "States consultancy as the engineering area she would work in, explicitly preferred over contracting."
+    },
+    {
+      "var": "childcar",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "like me – who are not going to put their children in nurseries because they've seen what nurseries are like",
+      "reasoning": "She rejects nurseries and plans for her husband to stay home; she never says company childcare policies would matter in her job choice, so importance is unsupportable."
+    }
+  ]
+}

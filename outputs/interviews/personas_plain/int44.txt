@@ -1,0 +1,48 @@
+INTERVIEW INT44 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Year of study: Part B/Year 2
+Department: Chemical Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Wanting the challenge of solving problems: Strongly agree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Agree
+Having a family member in the industry: Agree
+Having technical hobbies and interests: Disagree
+Engineering as a good degree to hold regardless: Agree
+Father's encouragement to study engineering: Neither agree nor disagree
+Careers advisor's encouragement: Strongly disagree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Neither agree nor disagree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Neither satisfied nor dissatisfied
+Support from a personal tutor: Very satisfied
+Group work: Very satisfied
+Design work: Very satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+To improve job chances after university: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+To apply theory learnt at university: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work
+Whether they would like to go on to further study: Yes
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Neither important nor unimportant
+Location: Important
+Preferred future work role: Technical/specialist

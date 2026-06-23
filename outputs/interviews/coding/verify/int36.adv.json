@@ -1,0 +1,165 @@
+{
+ "unit_id": "int36",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Speaks throughout as a woman (marriage/flying, 'ladies', 'girls'); study is of women students. Supports female."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'No' to girls'/private school + 'normal Catholic school' reasonably implies mixed sex; inferential but sound."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'always wanted to work in planes... they just fascinate me' = strong draw of interesting work; supports 5."
+  },
+  {
+   "var": "varied",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Values course breadth, but this is retrospective ('at first not happy'), not an initial draw; thin for an attraction item, downgrade."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'did it all on my own', school had no info; father in construction not her field. Disagree fits."
+  },
+  {
+   "var": "nobody",
+   "verdict": "wrong_code",
+   "corrected_code": 2,
+   "corrected_label": "disagree",
+   "corrected_confidence": "low",
+   "note": "'Did it all on my own' is about course INFO, not encouragement. Parents 'pushed me forward' and A-level tutor helped, so 'nobody encouraged' is contradicted; should be disagree."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Cultural norm 'girls not allowed to travel' is a generalized discouraging backdrop, but no named person and parents supported her; keep yes at low confidence."
+  },
+  {
+   "var": "whodisc",
+   "verdict": "wrong_code",
+   "corrected_code": 8,
+   "corrected_label": "other",
+   "corrected_confidence": null,
+   "note": "Attributes to 'our culture', not a family member; her family (parents) actively supported her, so 'other family' is contradicted. Best fit is 8=other (cultural)."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I have no doubts... I am happy' is explicit strong agreement; supports 5."
+  },
+  {
+   "var": "variety",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I like the fact they've done it like that. It's really good' = satisfied with subject variety."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'personal tutor has really helped me greatly', biggest influence, approachable; supports very satisfied."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'really good mate... helped me so much... improved by 10%' = strongly positive on friends/support made on course."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'this year we're alright... taken it really seriously' (one freeloader group aside); net mildly positive = satisfied."
+  },
+  {
+   "var": "assess",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Names 50/50 coursework/exams as 'the best bit'; supports agree the balance is just right (slight 'rather more coursework' caveat)."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'No, because I decided not to do it' = not going on placement."
+  },
+  {
+   "var": "noaccept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'wrote about 60 letters... they're all nos' = applied extensively but not accepted; supports strongly agree."
+  },
+  {
+   "var": "placloca",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Wanted abroad/out of London but all rejected; location-specific failure partly overlaps with general rejection, but quote supports agree."
+  },
+  {
+   "var": "noplaoth",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'my mates... not going on placement' is a non-listed additional reason = other (8)."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'sit in the office and actually manage the airport' = clear managerial preference."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'getting things sorted and having them working in proper order' / manage the airport; project management is the closest available listed option (no clean fit)."
+  }
+ ]
+}

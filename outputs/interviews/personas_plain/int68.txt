@@ -1,0 +1,45 @@
+INTERVIEW INT68 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Civil & Building Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Having a family member in the industry: Strongly disagree
+Careers advisor's encouragement: Agree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Disagree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Agree
+Engineering students being competitive: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+The friends made on the course: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+To improve job chances after university: Strongly agree
+To help decide a future direction: Agree
+To see what industry is really like: Strongly agree
+For personal development: Strongly agree
+To apply theory learnt at university: Strongly disagree
+To help choose a final-year project: Strongly agree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Seeing nothing to be gained from a placement: Strongly disagree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Contracting
+Whether they would like to go on to further study: No
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+The people worked with: Important
+Preferred future work role: Technical/specialist
+Importance of gaining Chartership: Not important

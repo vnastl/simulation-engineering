@@ -1,0 +1,571 @@
+{
+ "unit_id": "int15",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I was the only girl. I think that helped actually.",
+   "theme": "course_experience",
+   "reasoning": "Refers to herself as the only girl in the group; subject is a woman engineering student."
+  },
+  {
+   "var": "dept",
+   "code": 6,
+   "label": "Mechanical & Manufacturing Engineering",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I had considered it, yes, but thought mechanical would be a better idea.",
+   "theme": "route_into_engineering",
+   "reasoning": "States she is doing mechanical engineering rather than automotive."
+  },
+  {
+   "var": "uni",
+   "code": 1,
+   "label": "Pre-1992 university",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yes, I want to stay here if I pass this year.",
+   "theme": "course_experience",
+   "reasoning": "At Loughborough, a pre-1992 university."
+  },
+  {
+   "var": "year",
+   "code": 2,
+   "label": "Part B/Year 2",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m actually repeating part B and up to last year, when I did first time part B",
+   "theme": "course_experience",
+   "reasoning": "Currently repeating Part B (Year 2)."
+  },
+  {
+   "var": "mathsci",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "the careers people said what are your favourite subjects? I said maths and physics",
+   "theme": "route_into_engineering",
+   "reasoning": "Maths and physics were her favourite/best subjects (got A's then B's), clear maths/science strength."
+  },
+  {
+   "var": "challeng",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Problem solving as well, I guess.",
+   "theme": "route_into_engineering",
+   "reasoning": "Names problem solving as an appeal of engineering, though hedged with 'I guess'."
+  },
+  {
+   "var": "knowledg",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’d never looked at it before – I just for some reason, I thought no. I just didn’t know enough about it.",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly chose with little knowledge of what engineers do; ruled it out at first for not knowing it."
+  },
+  {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "It’s more diverse, they can move them around a bit more as well. Automotive’s a bit too focussed.",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose mechanical over automotive precisely for its diversity/breadth, indicating variety appealed."
+  },
+  {
+   "var": "careers",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the careers people said what are your favourite subjects? I said maths and physics, and they said, OK look at engineering",
+   "theme": "route_into_engineering",
+   "reasoning": "Careers advisers pointed her towards engineering, though she initially resisted."
+  },
+  {
+   "var": "discoura",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "On the job with the dashboards – they’re saying you’re stupid, don’t do engineering.",
+   "theme": "route_into_engineering",
+   "reasoning": "Engineers at her summer job actively told her not to do engineering."
+  },
+  {
+   "var": "whodisc",
+   "code": 6,
+   "label": "engineer(s)",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I have known engineers say that to me, yeah. On the job with the dashboards – they’re saying you’re stupid, don’t do engineering.",
+   "theme": "route_into_engineering",
+   "reasoning": "Identifies engineers as those who discouraged her."
+  },
+  {
+   "var": "family",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "My dad used to be an engineer",
+   "theme": "route_into_engineering",
+   "reasoning": "A family member (father) was involved in the industry, supporting the 'knew about engineering via family' item."
+  },
+  {
+   "var": "father",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they supported me whatever I wanted to do",
+   "theme": "route_into_engineering",
+   "reasoning": "Parents supportive of whatever she chose but did not specifically push engineering; neutral on active encouragement."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "So I’m glad I’m actually going to do it.",
+   "theme": "placement_decision",
+   "reasoning": "Intends to go on placement (sandwich course); has applied and had interviews."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Again, the experience.",
+   "theme": "placement_decision",
+   "reasoning": "Names work experience as the primary reason for doing the placement/sandwich course, reiterated repeatedly."
+  },
+  {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Erm, money and a bit of experience in the working atmosphere.",
+   "theme": "placement_decision",
+   "reasoning": "Money cited as a key expected gain and reason for the year out."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "all companies are saying that she hasn’t got that year of experience, so she is struggling. So I’m glad I’m actually going to do it.",
+   "theme": "placement_decision",
+   "reasoning": "Decided to go partly because a friend without the placement year is struggling to find a job."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "money and a bit of experience in the working atmosphere",
+   "theme": "placement_decision",
+   "reasoning": "Wants experience of the real working atmosphere of industry."
+  },
+  {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I don’t know it depends how the year out goes. If that inspires me then yeah, I’ll stay",
+   "theme": "placement_decision",
+   "reasoning": "The placement year will help her decide whether to stay in engineering after university."
+  },
+  {
+   "var": "unigrade",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it gives me a bit more creditation, sort of on my degree",
+   "theme": "placement_decision",
+   "reasoning": "Sees the year out as adding credit/standing to her degree."
+  },
+  {
+   "var": "apptheor",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think so. I don’t know quite how ‘cos what we do at university doesn’t seem like engineering to me",
+   "theme": "placement_decision",
+   "reasoning": "Thinks she will get to put university learning into practice, though hesitant and unsure how."
+  },
+  {
+   "var": "placothe",
+   "code": 2,
+   "label": "other",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it gives me a bit more creditation, sort of on my degree. That’s probably the only reasons",
+   "theme": "placement_decision",
+   "reasoning": "Additional reasons are personal (credit on degree, money), not compulsory; treats it as an optional sandwich choice."
+  },
+  {
+   "var": "noaccept",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "2 of them have turned me down, 1 I’m waiting.",
+   "theme": "placement_decision",
+   "reasoning": "Has been rejected from some placements but still intends to go and is awaiting an answer; not a reason for not going."
+  },
+  {
+   "var": "carpath",
+   "code": 2,
+   "label": "design work",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "It used to be designing cars",
+   "theme": "future_intentions",
+   "reasoning": "Ideal career is design/designing cars, though she doubts she will get there."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Group work tends to be quite good as well, if you get the right group.",
+   "theme": "course_experience",
+   "reasoning": "Group work develops interpersonal/teamwork skills, which she values when the group is right (from 2nd year on)."
+  },
+  {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Group work tends to be quite good as well, if you get the right group. I’ve had mostly good groups actually.",
+   "theme": "course_experience",
+   "reasoning": "Clearly positive/satisfied about her group work experience."
+  },
+  {
+   "var": "supppers",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "She’s a really good tutor – she’s probably a better tutor than a lecturer.",
+   "theme": "course_experience",
+   "reasoning": "Very positive about her personal tutor."
+  },
+  {
+   "var": "quality",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the worst is having lecturers that can’t speak proper English",
+   "theme": "course_experience",
+   "reasoning": "Mixed view of lecture quality: some good lecturers but worst aspect is hard-to-understand lecturers; balances out to neutral."
+  },
+  {
+   "var": "practica",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "so probably the one is enough, ‘cos it does take a long time",
+   "theme": "course_experience",
+   "reasoning": "Thinks the one big hands-on project is about the right amount, suggesting the level of practical work is roughly adequate."
+  },
+  {
+   "var": "relevanc",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "what we do at university doesn’t seem like engineering to me, or actually worthwhile at all but apparently it does actually come in useful",
+   "theme": "course_experience",
+   "reasoning": "Struggles to see the relevance/worth of university work to real engineering."
+  },
+  {
+   "var": "competit",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "Well then it could be competitive for me then, so no",
+   "theme": "course_experience",
+   "reasoning": "Frames engineering as competitive (jokingly, re: more women), and elsewhere calls the industry too competitive; weak support for student competitiveness."
+  }
+ ],
+ "skips": [
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "covered by challeng"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "covered by unigrade"
+  },
+  {
+   "var": "mother",
+   "reason": "covered by father"
+  },
+  {
+   "var": "teacher",
+   "reason": "covered by careers"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "covered by quality"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "covered by practica"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "covered by jobprosp"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "covered by placothe"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "covered by carpath"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "when I was at school, the careers people said what are your favourite subjects? I said maths and physics, and they said, OK look at engineering and I said, no. I’d never looked at it and I’d – it just didn’t interest me, but one day I looked at a prospectus and it looked it really good. I also did EMTA engineering course for girls, that kind of confirmed that mechanical was the better one for me.",
+    "Definitely. I’d never looked at it before – I just for some reason, I thought no. I just didn’t know enough about it.",
+    "Yeah, they supported me whatever I wanted to do because even when I wanted to be a vet.",
+    "My dad used to be an engineer, my mum does various things.",
+    "I quite like the design side of things but I don’t actually enjoy drawing things, I just like to be able to design it",
+    "I have known engineers say that to me, yeah. On the job with the dashboards – they’re saying you’re stupid, don’t do engineering."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "the worst is having lecturers that can’t speak proper English. When you can’t understand. Like the Russians – they have to be the worst understand and listen to. They can put you to sleep in less than 5 minutes.",
+    "I suppose there are some good lecturers around that you can just sit and listen to and just take it on board. There are some good ones so – Group work tends to be quite good as well, if you get the right group. I’ve had mostly good groups actually.",
+    "I was the only girl. I think that helped actually.",
+    "She’s a really good tutor – she’s probably a better tutor than a lecturer.",
+    "No, not at all. Er, the whole atmosphere is a kind of step between school and work but it’s neither one or the other.",
+    "what we do at university doesn’t seem like engineering to me, or actually worthwhile at all but apparently it does actually come in useful, so…"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Again, the experience. I’ve got a friend who’s gone straight to her 3rd year and she’s really struggling to find a place – (really) all companies are saying that she hasn’t got that year of experience, so she is struggling. So I’m glad I’m actually going to do it.",
+    "Erm, money and a bit of experience in the working atmosphere.",
+    "No, I’m probably doing the year out – partly for the money, but also it gives me a bit more creditation, sort of on my degree. That’s probably the only reasons (OK) because it’s actually a scary thought going out to work for a year.",
+    "I am now but I don’t know whether I was last year – for the first time in Part B, I don’t think I was quite there then but I – I suppose I’ve got more spare time now, so I do feel more ready now.",
+    "I’ve had 3.",
+    "2 of them have turned me down, 1 I’m waiting."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "Probably not doing engineering.",
+    "I don’t know it depends how the year out goes. If that inspires me then yeah, I’ll stay, but other than that, it’s a degree at the end of the day.",
+    "It used to be designing cars so that erm I’d sort of walk down the street and someone drives past in a car you’ve designed and somebody’s bought, and you’ve liked something I designed, it’d be cool. Erm, I suppose that’d still be the thing, but I don’t think I’ll actually get there.",
+    "Partly it means design work – which I’m no good at – but I just think it’s too competitive and I don’t think I’ll actually get there.",
+    "No. a lot of people struggle to get a job after – when they finish, no matter whether they’ve had a year out or not and there’s now a lot of people that can’t find a job.",
+    "The companies that I tend to go for don’t really have an issue with male domination."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 31,
+  "n_codes_kept": 31,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

@@ -1,0 +1,673 @@
+{
+ "unit_id": "int10",
+ "verbatim": true,
+ "placement_status": "not_going",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm a laddish girl",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Refers to herself as a girl/woman throughout; female engineering student.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 1,
+   "label": "Mixed sex",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Erm, just a local comprehensive.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "States it was not a girls' school, a local comprehensive (mixed).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 3,
+   "label": "Civil & Building Engineering",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "And quantity surveying, yeah.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Commercial management and quantity surveying = construction/civil & building.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "family": {
+   "var": "family",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "my mum, she got a job with CITB, and so she kind of knew all about the construction industry",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Mother worked in the construction industry (CITB), giving her knowledge of it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "mother": {
+   "var": "mother",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "she kind of thrust some leaflets under my nose and said what about this job?",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Mother actively suggested/encouraged the construction route.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "father": {
+   "var": "father",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "No, they're both teachers.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Father a teacher; no mention of him encouraging her — but only weakly supported, flagged low.",
+   "provenance": "prose-derived",
+   "flags": [
+    "blind-disagree"
+   ],
+   "alt": {
+    "code": 1,
+    "label": "strongly disagree",
+    "evidence": "And my mum, she got a job with CITB, and so she kind of knew all about the construction industry and so she kind of thrust some leaflets under my nose and said what about this job? Er, I decided I wanted to come to [this university], and then I sort of found a course to match. So that's pretty the only reason I suppose."
+   }
+  },
+  "careers": {
+   "var": "careers",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "No, not really.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Says she had no careers advice or other influences.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "knowledg": {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I didn't even know what a QS was or – when my mum suggested it. So I didn't really know much",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose with little knowledge of what the job involved.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "challeng": {
+   "var": "challeng",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "it's sort of a challenge being in a male dominated industry. Get a bit of a kick.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Drawn by the challenge, though framed as challenge of the male environment.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "discoura": {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "No, not really.",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "No one discouraged her; only mother/brother encouraged the route.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I'm really enjoying it and I definitely",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Clearly pleased she chose the course; glad she did it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "relevanc": {
+   "var": "relevanc",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "half the stuff I don't think you use when you're actually in the industry – it seems really pointless to learn about it.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Finds the relevance of some modules hard to see.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think we definitely learn a lot about sort of people skills",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Says the course develops interpersonal/people skills.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "quality": {
+   "var": "quality",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the lecturers are really good from our department. They're really enthusiastic about it and enjoy teaching it which is good.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about quality of departmental lectures, though mixed for other departments.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "supplect": {
+   "var": "supplect",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "the lecturers are really good from our department. They're really enthusiastic about it and enjoy teaching it which is good.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Supportive, enthusiastic departmental lecturers; she goes to a lecturer for advice.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "supppers": {
+   "var": "supppers",
+   "code": 1,
+   "label": "very dissatisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "my tutor's a nightmare – I don't like him. He doesn't really kind of get enthusiastic about it.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Strongly negative about her personal tutor.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "you've definitely got to be able to have like people skills erm when you're working. So group work – you're practising that all the time",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Sees clear value in group work; broadly positive, with only minor annoyances.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "variety": {
+   "var": "variety",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I've learnt so much more, other than just kind of construction, which is good.",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about the variety/breadth of subjects (business, economics, law).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "teachhrs": {
+   "var": "teachhrs",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "the work is pretty tough, because I've got about 19 hours a week",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Frames the heavy teaching hours as tough; mild dissatisfaction.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "coursewk": {
+   "var": "coursewk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the coursework's a bit of nightmare",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Negative about the quantity/burden of coursework.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 0,
+   "label": "no",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "Well I've gone onto the 3 – the 3 year course.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Decided not to go on placement; switched to the 3-year non-placement course.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "wkexp": {
+   "var": "wkexp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "the company I was working with over the summer",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Already has relevant work experience (summer placement plus a local job), a reason not to do the year.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "finuni": {
+   "var": "finuni",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I just want to get out working properly and not have to have a year out and come back",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Wants to finish uni sooner rather than interrupting with a placement year.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "breaked": {
+   "var": "breaked",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "It's a bit of – it's a bit of too big an interruption for me. I'd sort of lose all my motivation to work.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Fears losing motivation / difficulty returning after the break.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "noplaoth": {
+   "var": "noplaoth",
+   "code": 8,
+   "label": "other",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it wasn't the sort of company that I wanted to work for",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Additional reason: disliked the only sponsoring company/environment, not a listed standard category.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 3,
+   "label": "contracting",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "hopefully I can get a job with my local contractor at my own town. Work for them for a few years",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Plans to start out working for a local contractor (contracting QS work).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "you can become the top QS a lot quicker than in a bigger company",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Aspires to rise to top/managerial role, then property development; managerial trajectory.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "charship": {
+   "var": "charship",
+   "code": 1,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "particularly if you get chartership at the end of it",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Values chartership as enabling career flexibility; treats it as important.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "travel": {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "go travelling hopefully",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Travel features positively in her career plans; opportunity to work abroad valued.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "people": {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "all the small companies that you know, have got better kind of sort of customer relations – sort of people skills with their workers",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Values the people/relations in choosing a company to work for.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "promot": {
+   "var": "promot",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "with a smaller one you can kind of go and you can, you know, you can become the top QS a lot quicker",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Promotion/advancement speed is a key criterion in choosing where to work.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "covered by variety"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by careers"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "experien",
+   "reason": "covered by wkexp"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "my mum, she got a job with CITB, and so she kind of knew all about the construction industry and so she kind of thrust some leaflets under my nose and said what about this job?",
+    "I decided I wanted to come to [this university], and then I sort of found a course to match. So that's pretty the only reason I suppose.",
+    "well I've always sort of liked sort of buildings. Sort of – I want to go into the property market, eventually, when I'm older. And it's just kind of – I'm very much like – er I get on well with men, rather than girls and it's sort of a challenge being in a male dominated industry. Get a bit of a kick.",
+    "Er no – well I did consider chemical engineering erm 'cos my brother did that at university – but I got fed up with sort of the sciences and it wasn't really as hands on as the construction industry.",
+    "Oh no – yeah, I probably wouldn't have – I didn't even know what a QS was or – when my mum suggested it. So I didn't really know much – it sort of had to be researching when I decided which courses to do."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "I'm really enjoying it and I definitely, even though I'm not gonna stay QS'ing for sort of long after, it's not like my final career. Er, I'm glad I did the course, 'cos it's not – I've learnt so much more, other than just kind of construction, which is good.",
+    "the work is pretty tough, because I've got about 19 hours a week and the coursework's a bit of nightmare, but the work's good and the lecturers – some of them, especially if you get sort of from other departments, like sort of the law and economics, er they're like – they weren't particularly good but the lecturers are really good from our department. They're really enthusiastic about it and enjoy teaching it which is good.",
+    "my tutor's a nightmare – I don't like him. He doesn't really kind of get enthusiastic about it.",
+    "I think we definitely learn a lot about sort of people skills and we've got a team building erm trip in the Lake District, next week.",
+    "everything that you learn – kind of all the theory and stuff it's actually – it's not done like that on like – in the sort of industry. They cut corners a lot"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "the company I was working with over the summer, I didn't really get on – they were really large company and I was like down in London, on one of their biggest jobs. And it just kind of – I felt like – it wasn't the sort of company that I wanted to work for",
+    "I prefer the sort of smaller contractors, because I've got a job erm with a local one, from my home town, for over the summer and possibly when I graduate – plus I want to get my degree out the way",
+    "I just want to get out working properly and not have to have a year out and come back do your – you know, finish off your degree. It's a bit of – it's a bit of too big an interruption for me. I'd sort of lose all my motivation to work.",
+    "If I wasn't on the placement, then they didn't want to sponsor me. Which is fair enough – they don't want to give me money if I'm not gonna work for them.",
+    "I'd enjoyed working but I didn't kind of enjoy the environment that the company had. And I know, from other students who are sponsored with them, they don't like working for them either, but they want to do their placements, so I think it was sort of 50/50, I suppose."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "after erm Uni I'm gonna kind of go – hopefully I can get a job with my local contractor at my own town. Work for them for a few years, go travelling hopefully and then, probably, I want to – by the time I'm 30 I want to be in the property market and sort of redeveloping houses.",
+    "Because I feel I've been – you know, I've got all this knowledge about the construction industry – I can use it to my advantage, you know and I have contacts in the industry, which always help.",
+    "at the moment it's financial – you've got to have the capital to invest in the first place. Erm, but I'm quite lucky I've inherited enough so I can, you know, at least get one step on the ladder",
+    "with a smaller one you can kind of go and you can, you know, you can become the top QS a lot quicker than in a bigger company. I think once you've reached that, then you can go back into the big company and you 're actually valued a bit more",
+    "that's the beauty of QS'ing as well. Because it's – you know – everything is a standard way of doing it you can work in other countries quite easily."
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

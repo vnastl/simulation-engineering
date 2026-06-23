@@ -1,0 +1,61 @@
+SURVEY RESPONDENT #642 (Women Engineering Students' Workplace Experiences, UKDA SN 5723)
+
+## Demographics & background
+Gender: Male
+Age band: 23
+Ethnic group: British
+Religion: None
+Type of secondary school attended: Mixed sex
+Year of study: Part A/Year 1
+Department: School of Technology
+University type (pre- or post-1992): Post-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Agree
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Using science and maths without specialising: Disagree
+Being good at maths and science at school: Neither agree nor disagree
+Choosing engineering with little knowledge of the job: Strongly disagree
+Having a family member in the industry: Strongly agree
+Having technical hobbies and interests: Disagree
+Engineering as a good degree to hold regardless: Disagree
+Engineering's appeal as a varied field: Agree
+Mother's encouragement to study engineering: Strongly disagree
+Father's encouragement to study engineering: Strongly disagree
+Careers advisor's encouragement: Strongly disagree
+School teacher's encouragement: Strongly disagree
+Nobody encouraged the choice: Neither agree nor disagree
+Ever attended an engineering insight course: No
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Disagree
+The curriculum being harder than expected: Disagree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Strongly agree
+Engineering students being competitive: Neither agree nor disagree
+Male students being more confident in class: Neither agree nor disagree
+Female students getting more help in class: Neither agree nor disagree
+Always having competing deadlines: Agree
+The coursework/exam balance being just right: Agree
+The course developing interpersonal skills: Disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Dissatisfied
+Support from lecturers: Very dissatisfied
+Support from a personal tutor: Neither satisfied nor dissatisfied
+Group work: Satisfied
+Number of teaching hours: Dissatisfied
+The friends made on the course: Neither satisfied nor dissatisfied
+Quantity of coursework: Very dissatisfied
+Theory work: Satisfied
+Practical work: Neither satisfied nor dissatisfied
+Design work: Satisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+
+[Not stated: 15 item(s) left blank; 23 item(s) not applicable / filtered out by a branch.]

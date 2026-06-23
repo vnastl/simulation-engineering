@@ -1,0 +1,26 @@
+INTERVIEW INT61 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Design & Technology
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+For personal development: Strongly agree
+To apply theory learnt at university: Disagree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Seeing nothing to be gained from a placement: Strongly disagree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Do not want career in engineering
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Work environment: Important
+The people worked with: Important
+Opportunities for flexible working: Important

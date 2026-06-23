@@ -1,0 +1,29 @@
+{
+ "unit_id": "int50",
+ "recodes": [
+  {
+   "var": "father",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "low",
+   "evidence_quote": "Yes, they just – well whatever I wanted to do – they’re fine with.",
+   "reasoning": "Family passively supportive ('fine with whatever'); father sparked car interest but no active encouragement to study engineering, so neutral."
+  },
+  {
+   "var": "practica",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "low",
+   "evidence_quote": "it’s been more theory based than design, but I think we needed to do that before we could do the design and that comes next year",
+   "reasoning": "She states the course has been more theory than design/practical so far, signalling practical level is not yet just right despite accepting the sequencing."
+  },
+  {
+   "var": "theory",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "low",
+   "evidence_quote": "it’s been more theory based than design, but I think we needed to do that before we could do the design",
+   "reasoning": "Theory accepted as a necessary precursor, not endorsed enthusiastically; tone is neutral toward theory work."
+  }
+ ]
+}

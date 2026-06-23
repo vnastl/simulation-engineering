@@ -1,0 +1,15 @@
+INTERVIEW INT53 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+
+## Future in engineering
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Very unimportant
+Preferred future work role: Managerial

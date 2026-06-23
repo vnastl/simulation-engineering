@@ -1,0 +1,21 @@
+{
+  "unit_id": "int61",
+  "recodes": [
+    {
+      "var": "interper",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": null,
+      "reasoning": "No Subject statement that the degree COURSE develops interpersonal skills; the only interpersonal/confidence gains are attributed to placement work, a different construct."
+    },
+    {
+      "var": "flexible",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_quote": "he knows that I hate just sitting at a desk all day. So if I want to go and sit and the sofas and do my work, or if I want to work from home some days, he just says I can do it, which is quite cool",
+      "reasoning": "She actively values flexible/home working and dislikes desk-bound work, implying it matters to her; indirect (not framed as future job-choice importance) so low confidence."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "unit_id": "int67",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-identifies as female ('two of us who are female ... not me')."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Repeatedly frames her course/role as design & technology / packaging design."
+    },
+    {
+      "var": "year",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "On a year-long placement, six months in; placement year fits."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Currently on placement at the company; status confirms on_placement."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Strong endorsement of work experience as the gain ('happily walk out tomorrow')."
+    },
+    {
+      "var": "jobdecid",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Placement helped her decide direction; 'definitely thinking now' supports strong agree."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'know so much more about business' supports sense of what industry is like; agree."
+    },
+    {
+      "var": "perdevel",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Hedged 'probably a bit more confident' fits agree, not strongly agree."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'help me so much for graduate schemes' supports improved job chances; agree."
+    },
+    {
+      "var": "money",
+      "verdict": "wrong_code",
+      "corrected_code": 3,
+      "corrected_label": "neither agree nor disagree",
+      "corrected_confidence": "low",
+      "note": "'nice to earn money' is incidental enjoyment, not a stated NEED/reason for placement; agree overstates it."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Undecided on specific area, wants 'taste of everything'; don't know fits (not code 10, she does want a career)."
+    },
+    {
+      "var": "travel",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote describes enjoying unexpected travel during placement, NOT travel as a factor in choosing a job; coder admits 'enjoyment not a job-choice rating'."
+    },
+    {
+      "var": "location",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I don't really mind where it is' re accepting a job supports location unimportant."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Faint double-negative ('not a waste of time') is mild positive; agree at low confidence is defensible as nearest positive code."
+    }
+  ]
+}

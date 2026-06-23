@@ -1,0 +1,34 @@
+INTERVIEW INT69 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Year of study: Placement year
+Department: Chemical Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+Wanting the challenge of solving problems: Agree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Group work: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+To help decide a future direction: Agree
+To see what industry is really like: Strongly agree
+For personal development: Agree
+To apply theory learnt at university: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Important
+Preferred future work role: Technical/specialist

@@ -1,0 +1,35 @@
+INTERVIEW INT59 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Single sex
+Year of study: Placement year
+Department: Mechanical & Manufacturing Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Strongly agree
+Difficulty seeing the relevance of some modules: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+For a break from education: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+Because it counts towards Chartership: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Research/development
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Important
+Preferred future work role: Technical/specialist

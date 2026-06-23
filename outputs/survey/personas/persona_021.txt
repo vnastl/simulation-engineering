@@ -1,0 +1,92 @@
+SURVEY RESPONDENT #21 (Women Engineering Students' Workplace Experiences, UKDA SN 5723)
+
+## Demographics & background
+Gender: Female
+Age band: 20
+Ethnic group: British
+Religion: None
+Type of secondary school attended: Mixed sex
+Year of study: Placement year
+Department: Civil & Building Engineering
+University type (pre- or post-1992): Pre-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Agree
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Using science and maths without specialising: Strongly agree
+Being good at maths and science at school: Strongly agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Strongly disagree
+Having technical hobbies and interests: Neither agree nor disagree
+Engineering as a good degree to hold regardless: Strongly agree
+Engineering's appeal as a varied field: Strongly agree
+Mother's encouragement to study engineering: Agree
+Father's encouragement to study engineering: Agree
+Careers advisor's encouragement: Agree
+School teacher's encouragement: Agree
+Nobody encouraged the choice: Strongly disagree
+Ever attended an engineering insight course: Yes
+Whether the insight course encouraged studying engineering: Yes
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Agree
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Strongly agree
+Engineering students being competitive: Agree
+Male students being more confident in class: Agree
+Female students getting more help in class: Disagree
+Always having competing deadlines: Agree
+The coursework/exam balance being just right: Disagree
+The course developing interpersonal skills: Neither agree nor disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Satisfied
+Support from lecturers: Satisfied
+Support from a personal tutor: Dissatisfied
+Group work: Satisfied
+Number of teaching hours: Satisfied
+The friends made on the course: Satisfied
+Quantity of coursework: Satisfied
+Theory work: Satisfied
+Practical work: Dissatisfied
+Design work: Neither satisfied nor dissatisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Agree
+For a break from education: Agree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+To improve grades on returning to university: Neither agree nor disagree
+To apply theory learnt at university: Agree
+To help choose a final-year project: Strongly agree
+Because it counts towards Chartership: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Don't know
+Intended area of further study: Don't know
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Neither important nor unimportant
+Work environment: Neither important nor unimportant
+The people worked with: Important
+Opportunities to travel: Important
+Benefits such as a company car: Important
+Training opportunities: Important
+Opportunities for promotion: Important
+Equal-opportunities policies: Neither important nor unimportant
+Opportunities for flexible working: Important
+Childcare policies: Neither important nor unimportant
+Preferred future work role: Don't know
+Importance of gaining Chartership: Not important
+
+[Not stated: 1 item(s) left blank; 10 item(s) not applicable / filtered out by a branch.]

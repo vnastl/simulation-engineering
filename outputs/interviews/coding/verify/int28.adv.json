@@ -1,0 +1,317 @@
+{
+ "unit_id": "int28",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Female; study of women in engineering and subject self-identifies among the girls."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly confirms chemical engineering."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'girls school and a guys school' is ambiguous (could be co-sited single-sex) but leans mixed; low confidence apt."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Older brother an engineer; family member in industry = agree."
+  },
+  {
+   "var": "mother",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('they're retired') is about parents' occupation, not mother's ENCOURAGEMENT; no evidence she did or did not encourage."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Father mentioned at A-level decision but words lost; 'neither' is the safe middle, low confidence apt."
+  },
+  {
+   "var": "interest",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('feel of what I was gonna go into') is a placement reason, not 'engineering offered interesting work'; evidence mismatched."
+  },
+  {
+   "var": "mathsci",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Maths/chemistry A-levels show background, but 'good at' is inferred (she 'didn't do well' at foundation); downgrade to low."
+  },
+  {
+   "var": "knowledg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Thought engineers were 'proper mechanics' until her brother; little knowledge of the job = agree."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Reports lack of encouragement, no active discouragement named; no = correct."
+  },
+  {
+   "var": "nobody",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Little/no encouragement at school; agree defensible (brother was example, not active steering)."
+  },
+  {
+   "var": "careers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "School not focused on sixth form, no careers encouragement toward engineering; disagree apt."
+  },
+  {
+   "var": "teacher",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "School steered toward bio/chem/microbiology, not engineering; teachers did not encourage engineering."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicit 'Yes, I am' going on placement."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Strong emphasis on value of placement work experience; strongly agree defensible."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'wanted a feel of what I was gonna go into' maps directly to seeing what industry is really like."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'is this the career path I really want' was 'one of the main reasons'; strongly agree supported."
+  },
+  {
+   "var": "educatio",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Frames placement as a break that re-motivates, not a stated NEED for a break; agree thin, downgrade to low."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('good reputation with companies') is about choosing the university, not going on placement to improve job chances; mismatched."
+  },
+  {
+   "var": "apptheor",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'apply what I've learnt' directly supports applying theory on placement."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('learn more about yourself') is from the course-teamwork discussion, not a placement reason; mismatched to the variable."
+  },
+  {
+   "var": "placothe",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I was made to follow that' suggests compulsory format; ambiguous (refers to one-year length), low confidence apt."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'quite pleased where I'm at' supports pleased with the choice."
+  },
+  {
+   "var": "curricul",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'surprising it's so hard' = curriculum harder than expected."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Course 'build up communication skills and team work'; strongly agree apt given emphasis."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Repeated 'I like the team work'; satisfied with group work."
+  },
+  {
+   "var": "designwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'realise the importance of doing all this exercise' is indirect but positive; low confidence apt."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Gets along with personal tutor; satisfied with personal-tutor support."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'He makes it much clearer' supports satisfaction with lecturer support."
+  },
+  {
+   "var": "Fhelp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'treated equal' = disagree that female students get more help."
+  },
+  {
+   "var": "teachhrs",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Notes packed hours but no clear dis/satisfaction; neutral apt, low confidence."
+  },
+  {
+   "var": "salary",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'the salary's a big one' = very important."
+  },
+  {
+   "var": "training",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'training aspect as well is quite important' = important."
+  },
+  {
+   "var": "travel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'd like to travel... wouldn't mind a company like international'; important defensible."
+  },
+  {
+   "var": "promot",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about promotion 'coming naturally' in the industry, not its importance in her job choice; mismatched to the variable."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'maybe one day... do a PhD' is a tentative yes; low confidence apt."
+  },
+  {
+   "var": "studarea",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Only further-study area named is a PhD."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Wants to be a navy officer doing engineering = Armed Forces related."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'd like to be in a senior role' with responsibility = managerial."
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "unit_id": "int54",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "With the girls they waited until they actually got here and we ordered it, with the boys it was just a case of, 'We've got a spare set so there you go'.",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject distinguishes herself among the girls (overalls ordered for the girls); throughout speaks as a woman in engineering."
+  },
+  {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "so I'm enjoying having my year out kind of thing, and when it comes back to October, I will just deal with it then",
+   "theme": "placement_decision",
+   "reasoning": "Currently on the placement/year out, returning to final year in October."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "When did I start here? It would have been middle of July last year.",
+   "theme": "placement_decision",
+   "reasoning": "She is currently on placement, started last July."
+  },
+  {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "to see like an industry that actually involves engineering, it makes a change from just reading the text books all the time",
+   "theme": "placement_decision",
+   "reasoning": "Values getting real work/industry experience over textbook learning."
+  },
+  {
+   "var": "industry",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "to see like an industry that actually involves engineering, it makes a change from just reading the text books all the time. (Yes) Its good to see it.",
+   "theme": "placement_decision",
+   "reasoning": "Strongly emphasises wanting to see what industry is really like."
+  },
+  {
+   "var": "perdevel",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "The best thing I think is what I've learned about myself and how I deal with people and certain situations and tweaking my approach to tasks",
+   "theme": "placement_decision",
+   "reasoning": "Repeatedly stresses personal development as the biggest gain from placement."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "even when you go to an interview and you're selling yourself, whatever it is you're more aware of your skills and you how you really deal with things",
+   "theme": "placement_decision",
+   "reasoning": "Believes placement improves chances of getting a job afterwards."
+  },
+  {
+   "var": "indchart",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "especially since the year can contribute if you want to go on to be Chartered",
+   "theme": "placement_decision",
+   "reasoning": "Notes the placement year counts towards Chartership; raised positively though not as her main driver."
+  },
+  {
+   "var": "finalyr",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "you have to write a dissertation for the DIS don't you, you don't know whether you've fulfilled the criteria, there's other stuff that you could have got involved in that you could talk about of a more engineering or technical nature that would be more relevant",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as feeding the DIS dissertation/final-year project, keeping focus on relevant material."
+  },
+  {
+   "var": "educatio",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think I needed the year out just to see where it would all go",
+   "theme": "placement_decision",
+   "reasoning": "Valued the year out / break from continuous education to reorient."
+  },
+  {
+   "var": "jobdecid",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "No, I think the fact that it's so broad is even worse, because I still can't focus on a particular area",
+   "theme": "placement_decision",
+   "reasoning": "Placement did NOT help her decide a future direction; field too broad to narrow down."
+  },
+  {
+   "var": "carpath",
+   "code": 4,
+   "label": "manufacturing",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "because I'm from an engineering background I want to get involved in more production stuff, so I’m going to spend some time with the guys and learn a bit more about the turbine itself and the components",
+   "theme": "future_intentions",
+   "reasoning": "Repeatedly states wanting to get into the production/manufacturing side; nearest allowed area is manufacturing."
+  },
+  {
+   "var": "workrole",
+   "code": 3,
+   "label": "don't know",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the fact that it's so broad is even worse, because I still can't focus on a particular area",
+   "theme": "future_intentions",
+   "reasoning": "Cannot settle on a role (could take a business/managerial or technical route); explicitly undecided."
+  },
+  {
+   "var": "varied",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "its definitely so varied I think just saying the word 'engineering' just doesn’t justify it",
+   "theme": "route_into_engineering",
+   "reasoning": "Strongly emphasises engineering's variety/breadth as a key appeal."
+  },
+  {
+   "var": "interest",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "It is interesting - yes definitely very interesting",
+   "theme": "route_into_engineering",
+   "reasoning": "Describes the field as interesting with endless opportunities."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "the opportunity to get out and do stuff, yes, but at the moment the opportunity to travel is there",
+   "theme": "future_intentions",
+   "reasoning": "Speaks positively of travel opportunities as a valued aspect, though importance to a job decision is only implied; flagged low."
+  },
+  {
+   "var": "competit",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "At uni there seems to be more of a competitive edge, everybody, even though you are working in a group, the competitiveness is there more than in the workplace",
+   "theme": "course_experience",
+   "reasoning": "Explicitly says engineering students at uni are more competitive than the workplace."
+  },
+  {
+   "var": "interper",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "We do get the opportunity to do a lot of teamwork or group work at uni, but it's just not the same",
+   "theme": "course_experience",
+   "reasoning": "Implies uni group work does not develop interpersonal/teamwork skills as the workplace does; sees it as 'a real chore'."
+  },
+  {
+   "var": "groupwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "the only way I can describe it in uni is like a chore. You think 'oh not group work again’",
+   "theme": "course_experience",
+   "reasoning": "Clearly negative about university group work experience ('a real chore', frustrating)."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think it would be silly to rule it out to be quite honest",
+   "theme": "course_experience",
+   "reasoning": "Positive overall about engineering as a choice/field; would not rule out a career in it."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "covered by industry"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "covered by indchart"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "because I'm from an engineering background I want to get involved in more production stuff, so I’m going to spend some time with the guys and learn a bit more about the turbine itself and the components",
+    "its definitely so varied I think just saying the word 'engineering' just doesn’t justify it, and I think that's probably what puts people off because when they hear the word, they just associate it with a certain environment and its just not that word at all",
+    "now that I've been involved in it, I mean I've heard previously that it is such a wide field and it's true, there is so much that you can get involved in",
+    "It is interesting - yes definitely very interesting"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "At uni there seems to be more of a competitive edge, everybody, even though you are working in a group, the competitiveness is there more than in the workplace and there's always someone trying to be the leader to lead the group",
+    "the only way I can describe it in uni is like a chore. You think 'oh not group work again’ you think that can do it better in your own time by yourself",
+    "Well last year I found myself getting really frustrated at things, like trying to get your point across and then obviously if you've got someone that's really strong about their view about something",
+    "We do get the opportunity to do a lot of teamwork or group work at uni, but it's just not the same. I can appreciate what they were trying to do and I’d still encourage them to do it, but in the workplace it's a totally different system",
+    "at uni I think the pressure really is there obviously because you really think that you're trying your hardest and maybe it's just the way that you're applying yourself to it. Yes you can really put the pressure on yourself a lot"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I'm definitely glad that I've done it. I think I wouldn't have been able to take from it if I'd just stayed at university. Now I realise, I wasn’t of the idea of doing a placement anyway, but I think it's just as valuable as doing your degree",
+    "The best thing I think is what I've learned about myself and how I deal with people and certain situations and tweaking my approach to tasks that sometimes might have frustrated me previously but I'm learning how to deal with it more effectively now",
+    "to see like an industry that actually involves engineering, it makes a change from just reading the text books all the time. (Yes) Its good to see it",
+    "the worst: the fact that I get up at half-five each day, I commute for about an hour and a half to two hours to get here and I get home at seven",
+    "especially since the year can contribute if you want to go on to be Chartered"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "No, I think the fact that it's so broad is even worse, because I still can't focus on a particular area, but in a way I think that's good because I don't know what will happen when I leave uni, but I'll see something that may interest me and then after a while I might try something else",
+    "even if it wasn't in hard engineering itself or heavy engineering itself, you could take on a more business role, you could be out on site, leading like all the technical assistants when they are taking things apart, there's just so much that you could get involved in",
+    "Yes, I would. Like I said again the opportunities that you have … There is just so much to get involved in it would be silly not to",
+    "the opportunity to get out and do stuff, yes, but at the moment the opportunity to travel is there"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 20,
+  "n_codes_kept": 20,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

@@ -1,0 +1,42 @@
+INTERVIEW INT02 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: not_going.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Department: Design & Technology
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Having a family member in the industry: Agree
+Engineering's appeal as a varied field: Agree
+Careers advisor's encouragement: Disagree
+School teacher's encouragement: Agree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Satisfied
+Group work: Satisfied
+Design work: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Disagree
+Fear of returning to education after a break: Agree
+Seeing nothing to be gained from a placement: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work
+Whether they would like to go on to further study: Yes
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Unimportant
+Training opportunities: Neither important nor unimportant
+Preferred future work role: Managerial

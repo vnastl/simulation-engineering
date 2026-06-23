@@ -1,0 +1,109 @@
+{
+  "unit_id": "int28",
+  "recodes": [
+    {
+      "var": "school",
+      "code": 1,
+      "label": "Mixed sex",
+      "confidence": "low",
+      "evidence_quote": "so the school was made of a girls school and a guys school but (lost words)",
+      "reasoning": "A-level school combined a girls school and a guys school, indicating a mixed-sex setup, though words are lost."
+    },
+    {
+      "var": "mother",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Er, no they’re not – they’re retired.",
+      "reasoning": "Parents are retired and not engineers; no statement that her mother encouraged engineering, so unsupportable."
+    },
+    {
+      "var": "father",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "doing ‘A’ level, my father (lost words).  I liked chemistry, since then I’ve always wanted to do chemical engineering",
+      "reasoning": "Father mentioned around the A-level decision but words are lost; no clear statement of paternal encouragement to study engineering."
+    },
+    {
+      "var": "teacher",
+      "code": 2,
+      "label": "disagree",
+      "confidence": "medium",
+      "evidence_quote": "there wasn’t much encouragement for doing engineering at the school I went to. There’s more – probably doing biological science or chemistry, microbiology, something of that sort.",
+      "reasoning": "School/teachers steered toward biology/chemistry rather than engineering, so teachers did not encourage engineering."
+    },
+    {
+      "var": "jobprosp",
+      "code": 4,
+      "label": "agree",
+      "confidence": "low",
+      "evidence_quote": "you want to probably be able to go back there and there’s a possibility that you go back there and work for them, so I looked – I was also looking at the fact that I’m – having been chosen to work for your company, would I get a bit of preference – being a graduate.",
+      "reasoning": "She values placement as a route to return employment and graduate preference, indicating it improves future job chances."
+    },
+    {
+      "var": "perdevel",
+      "code": 4,
+      "label": "agree",
+      "confidence": "low",
+      "evidence_quote": "you are more into your course.  You are – you are more open minded.",
+      "reasoning": "She frames the placement as making you more open-minded and changing how you see things, suggesting personal development."
+    },
+    {
+      "var": "placothe",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "that one appealed to me er mainly because I wanted a feel of what I was gonna go into",
+      "reasoning": "Sandwich placement was a personal choice that appealed to her; 'made to follow' refers to the one-year length, not compulsion to do a placement, so no clear additional reason applies."
+    },
+    {
+      "var": "designwk",
+      "code": 4,
+      "label": "satisfied",
+      "confidence": "low",
+      "evidence_quote": "you actually appreciate at the end, when you do your presentation – present the design – it might not be like as you want but it, to me, for me then you realise the importance of doing all this exercise.",
+      "reasoning": "Despite frustration in design groups, she comes to appreciate the value of the design exercise, indicating satisfaction."
+    },
+    {
+      "var": "supplect",
+      "code": 4,
+      "label": "satisfied",
+      "confidence": "low",
+      "evidence_quote": "I get along with my tutors especially when he’s lecturing me, so I can go and ask that same day.  Often I try (??) to guess things and I give up.  He makes it much clearer.",
+      "reasoning": "Positive about her lecturer/tutor clarifying material when asked, indicating satisfaction with lecturer support."
+    },
+    {
+      "var": "teachhrs",
+      "code": 3,
+      "label": "neither satisfied nor dissatisfied",
+      "confidence": "low",
+      "evidence_quote": "we have like packed hours and we also have our personal study.",
+      "reasoning": "Notes packed teaching hours but rationalizes them as useful preparation for work, so not clearly satisfied or dissatisfied."
+    },
+    {
+      "var": "promot",
+      "code": 4,
+      "label": "important",
+      "confidence": "low",
+      "evidence_quote": "I also took that into account and also just the size – the size of the company and er future growth",
+      "reasoning": "She considers company future growth/development when assessing employers, indicating promotion/development matters to her."
+    },
+    {
+      "var": "furstudy",
+      "code": 1,
+      "label": "yes",
+      "confidence": "low",
+      "evidence_quote": "they let me think that maybe one day I’m gonna do further studies and do a PhD.  Even though at the moment I don’t think I’ll do it",
+      "reasoning": "Tentatively open to doing further studies/a PhD one day, though not currently planning to."
+    },
+    {
+      "var": "studarea",
+      "code": 2,
+      "label": "PhD",
+      "confidence": "low",
+      "evidence_quote": "maybe one day I’m gonna do further studies and do a PhD",
+      "reasoning": "The only area of further study she names is a PhD."
+    }
+  ]
+}

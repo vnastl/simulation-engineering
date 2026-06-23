@@ -1,0 +1,574 @@
+{
+ "unit_id": "int49",
+ "verbatim": true,
+ "placement_status": "intend_yes",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "like most other women I think I think engineering now only for men",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject self-identifies as one of the women engineers being interviewed"
+  },
+  {
+   "var": "school",
+   "code": 2,
+   "label": "Single sex",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Yeah. An all girls school.",
+   "theme": "route_into_engineering",
+   "reasoning": "Attended an all-girls convent school for primary and high school"
+  },
+  {
+   "var": "dept",
+   "code": 2,
+   "label": "Chemical Engineering",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "So I applied for chemical engineering and that’s because of",
+   "theme": "route_into_engineering",
+   "reasoning": "Confirmed chemical engineering as her degree"
+  },
+  {
+   "var": "varied",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it has a wider er band of opportunities – work opportunities",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose chemical engineering for its breadth of opportunities, indicating its varied appeal"
+  },
+  {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I was like one of those type of girls – I didn’t know anything.",
+   "theme": "route_into_engineering",
+   "reasoning": "Says she knew nothing about engineering, like the girls who don't know what it is"
+  },
+  {
+   "var": "interest",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Er, fun? Interesting, er stressed – with all the calculations",
+   "theme": "course_experience",
+   "reasoning": "Describes the field as interesting and fun when asked for 5 words"
+  },
+  {
+   "var": "mother",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they don’t mind what course I choose as long as I enjoy doing it",
+   "theme": "route_into_engineering",
+   "reasoning": "Family supportive but did not actively encourage engineering specifically; neutral on active encouragement"
+  },
+  {
+   "var": "father",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they don’t mind what course I choose as long as I enjoy doing it",
+   "theme": "route_into_engineering",
+   "reasoning": "Father a businessman, family did not mind/actively encourage engineering specifically"
+  },
+  {
+   "var": "careers",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Not really no.",
+   "theme": "route_into_engineering",
+   "reasoning": "Had no careers advice, so careers advisor did not encourage her"
+  },
+  {
+   "var": "family",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "my father is a business man and my mother is a housewife",
+   "theme": "route_into_engineering",
+   "reasoning": "No family member in the engineering industry"
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "they don’t mind what course I choose as long as I enjoy doing it",
+   "theme": "route_into_engineering",
+   "reasoning": "Family supportive, no one mentioned as discouraging her"
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think I will still choose engineering and so…",
+   "theme": "course_experience",
+   "reasoning": "Would still choose engineering if doing it again, indicating she is pleased with the choice"
+  },
+  {
+   "var": "curricul",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "Mm, it was quite a tough course, yeah, but I think that if I – if I work extra, like work harder on it, it should be OK",
+   "theme": "course_experience",
+   "reasoning": "Describes the course as tough requiring extra work, indicating it is harder than expected"
+  },
+  {
+   "var": "competit",
+   "code": 3,
+   "label": "neither agree nor disagree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "all my course mates so they’re really friendly and they’re really helpful",
+   "theme": "course_experience",
+   "reasoning": "Describes coursemates as friendly and helpful rather than competitive; weak/indirect on competitiveness"
+  },
+  {
+   "var": "Mconfid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "sometimes maybe you can see that they are treating the male engineers betters. But maybe because they are bolder. When in the class they answer the questions",
+   "theme": "course_experience",
+   "reasoning": "Says male students are bolder and answer questions in class, indicating greater confidence"
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s trying to communicate with people and I think that’s the skill that I’m getting from the design coursework",
+   "theme": "course_experience",
+   "reasoning": "Says the design coursework develops communication/interpersonal skills"
+  },
+  {
+   "var": "supppers",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "my personal tutor, he’s quite nice. Yeah he’s – he always welcomes us for questions and he always helps us",
+   "theme": "course_experience",
+   "reasoning": "Positive about personal tutor being nice, welcoming and helpful"
+  },
+  {
+   "var": "friends",
+   "code": 5,
+   "label": "very satisfied",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "all my course mates so they’re really friendly and they’re really helpful, not like some other course",
+   "theme": "course_experience",
+   "reasoning": "Strongly positive about coursemates being really friendly and helpful"
+  },
+  {
+   "var": "designwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "we have some design course work where we have to work in groups and we have 4 different course works",
+   "theme": "course_experience",
+   "reasoning": "Speaks positively of the design coursework as a good part of the course and source of skills"
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "And this one I’ve been in, I just got it",
+   "theme": "placement_decision",
+   "reasoning": "Has secured and is going on placement"
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think we can get work experience. I really working as an engineer yeah",
+   "theme": "placement_decision",
+   "reasoning": "Cites gaining work experience as a key benefit she hopes for"
+  },
+  {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it will lighten the burden of my family because they have to pay overseas fees",
+   "theme": "placement_decision",
+   "reasoning": "Wanted placement to ease family financial burden of overseas fees; also mentions extra money"
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "if we get a placement it will be like er like er an advance stage to the graduate recruitment",
+   "theme": "placement_decision",
+   "reasoning": "Believes placement advances her chances in graduate recruitment"
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I really working as an engineer yeah",
+   "theme": "placement_decision",
+   "reasoning": "Wants to experience really working as an engineer in industry"
+  },
+  {
+   "var": "placothe",
+   "code": 2,
+   "label": "other",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m worried that if I don’t accept that offer then I may not get a placement at all, in the end",
+   "theme": "placement_decision",
+   "reasoning": "Additional reason beyond the listed items: motivated/pressured by fear of not getting any placement"
+  },
+  {
+   "var": "carpath",
+   "code": 6,
+   "label": "research/development",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "because I like from – I would like to study pharmaceuticals so I thought I would like to work in pharmaceuticals company",
+   "theme": "future_intentions",
+   "reasoning": "Preference toward pharmaceuticals work; no clear fit to listed areas, weak/ambiguous mapping"
+  },
+  {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I want to do masters in business studies – business course",
+   "theme": "future_intentions",
+   "reasoning": "Wants to move into management/business side managing other engineers in future"
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I want to do masters in business studies – business course",
+   "theme": "future_intentions",
+   "reasoning": "Wants to do a masters in business studies"
+  },
+  {
+   "var": "studarea",
+   "code": 3,
+   "label": "Masters, MSc, MBA",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I want to do masters in business studies – business course",
+   "theme": "future_intentions",
+   "reasoning": "Intends to do a masters in business studies"
+  },
+  {
+   "var": "charship",
+   "code": 1,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I will just need work experiences and I had to join IChemE to get chartership",
+   "theme": "future_intentions",
+   "reasoning": "Wants Chartership and has researched the route, indicating she sees it as important"
+  },
+  {
+   "var": "location",
+   "code": 3,
+   "label": "neither important nor unimportant",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I don’t mind the location because er it’s quite good, it’s in [town]. Yeah, er I don’t mind really if it’s not in [town]",
+   "theme": "future_intentions",
+   "reasoning": "Explicitly says she does not mind location, indicating it is not particularly important"
+  },
+  {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ve met the supervisors that I will be working with and they’re quite nice, so I think it’s OK",
+   "theme": "future_intentions",
+   "reasoning": "Niceness of people she works with featured in her acceptance of the placement"
+  }
+ ],
+ "skips": [
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "covered by supppers"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "perdevel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I studied science all the while, so I actually wanted to choose pharmacy ‘cos I quite like chemistry, but then er because I didn’t do A’’ levels, so most of the universities they didn’t accept foundation. So I applied for chemical engineering and that’s because of – it has a wider er band of opportunities – work opportunities.",
+    "they don’t mind what course I choose as long as I enjoy doing it",
+    "like most other women I think I think engineering now only for men. Yeah, like when I joined the women engineering society – like we need to influence the young girls – high school girls and tell them about engineering. I was like one of those type of girls – I didn’t know anything.",
+    "Yeah. An all girls school. Then I came over to Bath to do my foundation. After GCSE in [country].",
+    "my father is a business man and my mother is a housewife"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "all my course mates so they’re really friendly and they’re really helpful, not like some other course. ‘Cos I visit – my course is just small group of people.",
+    "Mm, it was quite a tough course, yeah, but I think that if I – if I work extra, like work harder on it, it should be OK, yeah.",
+    "I think most of them treat us the same but sometimes maybe you can see that they are treating the male engineers betters. But maybe because they are bolder. When in the class they answer the questions",
+    "my personal tutor, he’s quite nice. Yeah he’s – he always welcomes us for questions and he always helps us.",
+    "we have some design course work where we have to work in groups and we have 4 different course works and we changed our groups each time, so we get to know other people on the course"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Because I’ve been to many interviews but I didn’t get any of the place. And this one I’ve been in, I just got it",
+    "it will lighten the burden of my family because they have to pay overseas fees",
+    "I think we can get work experience. I really working as an engineer yeah, but like the part-time jobs. And then, get to meet more people and then some extra money.",
+    "if we get a placement it will be like er like er an advance stage to the graduate recruitment",
+    "I’m worried that if I don’t accept that offer then I may not get a placement at all, in the end",
+    "I’ll be doing like emissions from the gases of the exhausts of the cars. I will be testing those emissions but I’m not sure what skills I’ll need."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I hope to be in chemical engineering (yeah). I hope to work er and going back to [country].",
+    "I’ve been picking (?) chemical engineers because I want to do masters in business studies – business course. Then, hmm like I am not sure if I can do it all. Maybe I get some work experience first before I start the masters course",
+    "it has diverse working opportunities. Because we can work in like pharmaceuticals oil companies or both, there are lots of different companies where we can work for.",
+    "I would like to study pharmaceuticals so I thought I would like to work in pharmaceuticals company, but then I asked some agents in Malaysia – they say that pharmaceuticals they’re not very er wide in Malaysia",
+    "it shouldn’t be too hard because the IChemE they came to give us a presentation, at the start of last year, and they say I will just need work experiences and I had to join IChemE to get chartership"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 32,
+  "n_codes_kept": 32,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

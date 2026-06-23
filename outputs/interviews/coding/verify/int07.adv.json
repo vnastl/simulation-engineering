@@ -1,0 +1,301 @@
+{
+ "unit_id": "int07",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Refers to self vs 'the males'; study of women students confirms female."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'normal, basic school' plus her own 'Oh no' to all-girls question supports mixed-sex; medium fine."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "States course is industrial design and technology -> D&T."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Past first year, placement (sandwich) pending -> Year 2; inferential, medium ok."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Father is engineer/Project Manager -> family member in the industry."
+  },
+  {
+   "var": "mother",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Mother steered her toward industrial design -> agree with mother's encouragement."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Father informed but did not explicitly encourage study; neither-agree justified, low conf ok."
+  },
+  {
+   "var": "careers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Careers advisors 'never said that much' -> disagree with advisor encouragement."
+  },
+  {
+   "var": "varied",
+   "verdict": "wrong_code",
+   "corrected_code": 4,
+   "corrected_label": "agree",
+   "corrected_confidence": "medium",
+   "note": "Breadth was a factor (via mother's reasoning) but 'strongly' not warranted by quote -> agree."
+  },
+  {
+   "var": "knowledg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'didn't quite realise how much technology' -> chose with little knowledge of content."
+  },
+  {
+   "var": "gooddeg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'get your foot in the door' -> degree valuable even if not entering profession."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No one described as discouraging; family steered toward -> no."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'did really enjoy that' -> drawn by interest/enjoyment."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'some aspects I hate but... some I do like... change day to day' -> neither/ambivalent."
+  },
+  {
+   "var": "curricul",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'really difficult... really hard' vs prior assurances -> harder than expected, strongly agree."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'very much like brain storming' -> very satisfied with group work."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'gained more confidence... through group work' -> course develops interpersonal skills."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Never talks to tutor, not beneficial; tutors not approachable -> dissatisfied."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'they just lecture... not bothered if you understand' -> dissatisfied with lecturer support."
+  },
+  {
+   "var": "designwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Enjoyed the open design/research board project -> satisfied with design work; medium ok."
+  },
+  {
+   "var": "practwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I hated that part' (workshop/machining) -> dissatisfied with practical work."
+  },
+  {
+   "var": "variety",
+   "verdict": "wrong_code",
+   "corrected_code": 4,
+   "corrected_label": "satisfied",
+   "corrected_confidence": "medium",
+   "note": "'good course... very varied' is positive but 'very satisfied' overstates -> satisfied."
+  },
+  {
+   "var": "Fhelp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Electronics helper 'helps the females more' -> females get more help, agree."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I've applied to [company]' and intends more -> yes."
+  },
+  {
+   "var": "money",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "medium",
+   "note": "'money (laughs)' names money as a good thing but jokey, no 'need' stated -> downgrade to medium."
+  },
+  {
+   "var": "educatio",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'getting a break from the course' -> break from education."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'it'll help you in your job if you've had work experience' -> values work experience."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'that's what they look for' (employability) -> placement improves job chances; overlaps experien but distinct."
+  },
+  {
+   "var": "perdevel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'feel a bit older because more experience' -> personal development/maturity."
+  },
+  {
+   "var": "unigrade",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is 'fresher perspective... more skills'; never mentions grades -> over-reach for grade-improvement item."
+  },
+  {
+   "var": "noappeal",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'a lot are very technical which I obviously don't want' -> available work doesn't appeal."
+  },
+  {
+   "var": "placloca",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Item is 'could NOT find placement in suitable location'; she intends to go and only states a distance preference -> not supported (belongs to location)."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Brainstorming product ideas / arty / textiles design -> design work."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Managerial-vs-specialised prompt -> 'be more specialised' = technical/specialist."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Teaching named only as a job fallback ('if I can't find anything else'); no expressed desire for further study -> inference not in text."
+  },
+  {
+   "var": "studarea",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly says 'I'll probably teach' -> if further study, PGCE/teaching is the area; low conf appropriate."
+  },
+  {
+   "var": "location",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'want to be in travelling distance' -> location important; correct home for this quote."
+  }
+ ]
+}

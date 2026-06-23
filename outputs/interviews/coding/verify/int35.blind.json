@@ -1,0 +1,21 @@
+{
+  "unit_id": "int35",
+  "recodes": [
+    {
+      "var": "practwk",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "I couldn’t really like handle the working with technical bits. I thought I might try but I couldn’t",
+      "reasoning": "No statement of satisfaction with practical work on the course; she leans away from hands-on/technical, so satisfaction cannot be supported."
+    },
+    {
+      "var": "furstudy",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Erm, hopefully something I really enjoy to do with design.",
+      "reasoning": "She is never asked about and never expresses any intention regarding further study; career/5-10yr answers are about work, not study, so unsupportable."
+    }
+  ]
+}

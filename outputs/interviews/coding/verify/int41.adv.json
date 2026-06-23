@@ -1,0 +1,229 @@
+{
+ "unit_id": "int41",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Subject states she is one of the only girls on the course; female confirmed."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly 'a normal mixed school' = mixed sex."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Says third/final year; Year 3 correct."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Developing interest in audio-visual studies supports interesting-work draw (agree)."
+  },
+  {
+   "var": "knowledg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Did research before secondary school and knew her choice; disagree with 'little knowledge' is reasonable, though inferred."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Quote only shows father is in a different (civil) field; non-encouragement inferred (influence was 'myself'); downgrade confidence."
+  },
+  {
+   "var": "nobody",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Biggest influence was herself; supports nobody encouraged her (agree)."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No discouragement mentioned anywhere; absence supports 'no', though quote is about influence not discouragement; confidence rightly low."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I'm happy with my choices' supports pleased (agree)."
+  },
+  {
+   "var": "practica",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Wants more practical/studio time = disagrees level is 'just right'."
+  },
+  {
+   "var": "relevanc",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Some modules seen as not important supports difficulty seeing relevance (agree)."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Substance ('used to dealing with different people, helps integrate in a team') is Subject's own; agree supported."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Met tutor once in year 1, 'doesn't help me' = dissatisfied."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Talks with and has a relationship with her lecturers = satisfied."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Final-project group 'messy', 'worried' = dissatisfied with group work."
+  },
+  {
+   "var": "practwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'very good practical side' supports satisfaction with practical work."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Intends to get a summer placement; yes."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'only because I want the work experience now' strongly emphasises work experience as the reason."
+  },
+  {
+   "var": "industry",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about gaining confidence/readiness, not about wanting an idea of what industry is really like; construct not addressed."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote ('more prepared to do tasks that they give us') is about academic preparedness, not improving chances of getting a job."
+  },
+  {
+   "var": "breaked",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'difficult to come back and start studying again' directly matches fear of returning to education after a break (agree)."
+  },
+  {
+   "var": "placloca",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'difficult in my area' refers to her field/discipline, not a suitable geographic location; location construct not supported."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Video editor / cinema is not a listed engineering specialism = other."
+  },
+  {
+   "var": "furstudy",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'next academic year I'll be doing my masters' = yes."
+  },
+  {
+   "var": "studarea",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Plans a Masters; code 3 correct."
+  },
+  {
+   "var": "workenv",
+   "verdict": "wrong_code",
+   "corrected_code": 4,
+   "corrected_label": "important",
+   "corrected_confidence": "medium",
+   "note": "Lists 'good working environment' among desired traits but does not call it 'very important' (she reserves 'very important' for company image); important (4) fits better than 5."
+  },
+  {
+   "var": "people",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'a good team' supports people/team being important when choosing a company."
+  },
+  {
+   "var": "travel",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Hedged wish to travel ('don't know if possible'), stated re life plans not job-choice factor; thin, keep low."
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+  "round_trip": {
+    "9 present on Q7 (reasons-for, branch N/A)": 224,
+    "9 present on Q8 (reasons-against, branch N/A)": 564,
+    "0 present on a Likert item (blank)": 3,
+    "2 present on a Yes/No item (out-of-range)": 11
+  },
+  "unexplained_codes_per_column": {
+    "highsal": [
+      0
+    ],
+    "interest": [],
+    "challeng": [
+      0
+    ],
+    "special": [
+      0
+    ],
+    "mathsci": [
+      0
+    ],
+    "knowledg": [
+      0
+    ],
+    "family": [
+      0
+    ],
+    "hobbies": [],
+    "gooddeg": [
+      0
+    ],
+    "varied": [
+      0
+    ],
+    "mother": [
+      0
+    ],
+    "father": [
+      0
+    ],
+    "careers": [
+      0
+    ],
+    "teacher": [
+      0,
+      42
+    ],
+    "nobody": [
+      0
+    ],
+    "insight": [
+      2
+    ],
+    "encourag": [
+      2,
+      9
+    ],
+    "discoura": [
+      2
+    ],
+    "whodisc": [
+      0,
+      9
+    ],
+    "practica": [
+      0
+    ],
+    "curricul": [
+      0
+    ],
+    "pleased": [
+      0
+    ],
+    "relevanc": [
+      0
+    ],
+    "competit": [
+      0
+    ],
+    "Mconfid": [
+      0
+    ],
+    "Fhelp": [
+      0
+    ],
+    "deadline": [
+      0
+    ],
+    "assess": [
+      0
+    ],
+    "interper": [
+      0
+    ],
+    "quality": [
+      0
+    ],
+    "supplect": [
+      0
+    ],
+    "supppers": [
+      0
+    ],
+    "groupwk": [
+      0
+    ],
+    "teachhrs": [
+      0
+    ],
+    "friends": [
+      0
+    ],
+    "coursewk": [
+      0
+    ],
+    "theory": [
+      0
+    ],
+    "practwk": [
+      0
+    ],
+    "designwk": [
+      0
+    ],
+    "variety": [
+      0
+    ],
+    "placemen": [
+      2
+    ],
+    "experien": [
+      0,
+      9
+    ],
+    "money": [
+      0,
+      9
+    ],
+    "educatio": [
+      0,
+      9
+    ],
+    "jobprosp": [
+      0,
+      9
+    ],
+    "jobdecid": [
+      0,
+      9
+    ],
+    "industry": [
+      0,
+      9
+    ],
+    "perdevel": [
+      0,
+      9
+    ],
+    "unigrade": [
+      0,
+      9
+    ],
+    "apptheor": [
+      0,
+      9
+    ],
+    "finalyr": [
+      0,
+      9
+    ],
+    "indchart": [
+      0,
+      9
+    ],
+    "placothe": [
+      0,
+      9
+    ],
+    "wkexp": [
+      0,
+      9
+    ],
+    "placloca": [
+      0,
+      9
+    ],
+    "breaked": [
+      0,
+      9
+    ],
+    "finuni": [
+      0,
+      9
+    ],
+    "nogain": [
+      0,
+      9
+    ],
+    "noappeal": [
+      0,
+      9
+    ],
+    "noaccept": [
+      0,
+      9
+    ],
+    "noplaoth": [
+      0,
+      9
+    ],
+    "carpath": [
+      0
+    ],
+    "furstudy": [
+      2,
+      9
+    ],
+    "studarea": [
+      0,
+      9
+    ],
+    "salary": [
+      0,
+      9
+    ],
+    "location": [
+      0,
+      9
+    ],
+    "workenv": [
+      0,
+      9
+    ],
+    "people": [
+      0,
+      9
+    ],
+    "travel": [
+      0,
+      9
+    ],
+    "benefits": [
+      0,
+      9
+    ],
+    "training": [
+      0,
+      9
+    ],
+    "promot": [
+      0,
+      9
+    ],
+    "equalopp": [
+      0,
+      9
+    ],
+    "flexible": [
+      0,
+      9
+    ],
+    "childcar": [
+      0,
+      9
+    ],
+    "workrole": [
+      0
+    ],
+    "charship": [
+      0
+    ],
+    "gender": [
+      0
+    ],
+    "age": [
+      0
+    ],
+    "ethnic": [
+      0
+    ],
+    "religion": [
+      0
+    ],
+    "school": [
+      0,
+      3
+    ],
+    "year": [
+      0
+    ],
+    "dept": [
+      0
+    ],
+    "uni": []
+  },
+  "n_rows": 804,
+  "n_cols_persona": 85
+}

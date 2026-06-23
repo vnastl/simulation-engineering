@@ -1,0 +1,51 @@
+INTERVIEW INT45 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Department: Mechanical & Manufacturing Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Agree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Disagree
+Having a family member in the industry: Disagree
+Engineering's appeal as a varied field: Agree
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Female students getting more help in class: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Satisfied
+Group work: Dissatisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Disagree
+To improve job chances after university: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+To improve grades on returning to university: Agree
+To apply theory learnt at university: Strongly agree
+To help choose a final-year project: Agree
+Additional reason for wanting placement: Other
+
+## Future in engineering
+Preferred area of engineering to specialise in: Design work
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Work environment: Important
+The people worked with: Important
+Training opportunities: Important
+Opportunities for promotion: Important
+Preferred future work role: Don't know
+Importance of gaining Chartership: Important

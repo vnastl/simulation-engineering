@@ -1,0 +1,221 @@
+{
+  "unit_id": "int05",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Speaks throughout as a woman/girl contrasting herself with boys; metadata correct."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicitly says 'Mixed school' with a 1:5 girl:boy ratio."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quantity surveying / commercial management / construction maps to Civil & Building Engineering; quote weak but dept correct."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Father had a construction firm; clear family member involved in the industry."
+    },
+    {
+      "var": "father",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote shows father's equality message, not explicit engineering encouragement; thin, downgrade to low."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Interested because the work is 'more than going onto site'; supports interesting-work draw."
+    },
+    {
+      "var": "varied",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Computing/technology/'more than building' supports appeal of variety."
+    },
+    {
+      "var": "gooddeg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Commercial bit as fallback 'if I don't do well in the engineering sector' maps to good degree even if not entering profession."
+    },
+    {
+      "var": "mathsci",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote shows she TOOK maths/economics (economics is not science), not that she was GOOD at maths and science; does not support being good at maths/science."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Clearly intends to go on placement with a company already arranged."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I needed work experience... wanted to put them into practice' is the primary stated reason; strongly agree justified."
+    },
+    {
+      "var": "apptheor",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'kept learning these things but wanted to put them into practice' explicitly supports applying theory."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "'help me understand where I'm going' is vague re 'what industry is really like'; thin, downgrade to low."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote about wanting ongoing employment with the company only loosely maps to placement-as-job-prospects reason; thin, downgrade to low."
+    },
+    {
+      "var": "finalyr",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "She adds choosing dissertation more appropriately; dissertation = final-year project."
+    },
+    {
+      "var": "indchart",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Chartership noted as company-selection factor rather than explicit placement-counts-toward-chartership reason; stays low."
+    },
+    {
+      "var": "money",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I wasn't looking at the salary really' explicitly supports money not a driver = disagree."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'wouldn't do anything different... same area' supports pleased with the choice."
+    },
+    {
+      "var": "interper",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'learnt knowing people... being patient with people' supports course develops interpersonal skills."
+    },
+    {
+      "var": "friends",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'made new friends... which is really good' supports satisfied with friends."
+    },
+    {
+      "var": "supppers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'my female tutor's not really been that good... isn't kind' clearly supports dissatisfied with personal tutor."
+    },
+    {
+      "var": "supplect",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Course head 'very encouraging' supports satisfaction with lecturer support; stays low."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'arrange meetings and no-one comes... bad times of group work' supports dissatisfied."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'working in a consultancy... having my own consultancy' explicitly supports consultancy."
+    },
+    {
+      "var": "travel",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'put on projects in different areas... that's why I took up this course' supports travel being important."
+    },
+    {
+      "var": "promot",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "'looking at career prospects' is broader than promotion specifically; thin mapping, stays low."
+    },
+    {
+      "var": "competit",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'give the girls more work to do' is boys offloading/freeloading, not students being competitive; does not support the competit construct."
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+ "unit_id": "int09",
+ "verbatim": false,
+ "placement_status": "intend_yes",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "thought that work experience would be particularly helpful in being a woman",
+   "theme": "route_into_engineering",
+   "reasoning": "Repeatedly described as a woman/girl on course; subject is female."
+  },
+  {
+   "var": "dept",
+   "code": 3,
+   "label": "Civil & Building Engineering",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "On the BSc in Construction Management Course at [name] University",
+   "theme": "route_into_engineering",
+   "reasoning": "Construction Management maps to Civil & Building Engineering."
+  },
+  {
+   "var": "highsal",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "This got Clare interested in becoming a project manager, and building houses etc.  Also a well paid job.",
+   "theme": "route_into_engineering",
+   "reasoning": "Notes flag well-paid job as a draw to the field."
+  },
+  {
+   "var": "family",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "neither parent is in engineering industry",
+   "theme": "route_into_engineering",
+   "reasoning": "No family member in the industry."
+  },
+  {
+   "var": "knowledg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "No previous experience of the industry",
+   "theme": "route_into_engineering",
+   "reasoning": "Chose with little prior knowledge/experience of the industry."
+  },
+  {
+   "var": "careers",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "Didn’t have any careers advice at school.",
+   "theme": "route_into_engineering",
+   "reasoning": "No careers advice, so no careers-advisor encouragement."
+  },
+  {
+   "var": "discoura",
+   "code": 0,
+   "label": "no",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "Happy with all career choices.",
+   "theme": "route_into_engineering",
+   "reasoning": "No mention of anyone discouraging; weak inference only."
+  },
+  {
+   "var": "pleased",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "course she’s on now, which she really enjoys",
+   "theme": "course_experience",
+   "reasoning": "Strongly positive about her choice of course."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "the best thing is improved confidence with working with the guys",
+   "theme": "course_experience",
+   "reasoning": "Course developed interpersonal confidence working with others."
+  },
+  {
+   "var": "Mconfid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "a good engineer needs to be a born leader and confident – characteristics that are usually perceived as male",
+   "theme": "course_experience",
+   "reasoning": "Indirectly associates confidence with men; weak support for in-class confidence claim."
+  },
+  {
+   "var": "supppers",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "No personal tutor.",
+   "theme": "course_experience",
+   "reasoning": "Has no personal tutor; cannot express satisfaction, treated as neutral/ambiguous."
+  },
+  {
+   "var": "friends",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "a fellow student, who are all very encouraging",
+   "theme": "course_experience",
+   "reasoning": "Positive about a fellow student, though only one other girl on course; weak."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "Is going on placement with [company].",
+   "theme": "placement_decision",
+   "reasoning": "Confirmed placement secured with a company."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "Principal reason for choosing to go on placement was because she had no experience in industry",
+   "theme": "placement_decision",
+   "reasoning": "Principal reason was to gain work experience."
+  },
+  {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "Thinks the best thing about placement will be getting paid",
+   "theme": "placement_decision",
+   "reasoning": "Values getting paid; not framed as need, so weak."
+  },
+  {
+   "var": "jobprosp",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "thought that when applying for jobs, this would count more than anything else",
+   "theme": "placement_decision",
+   "reasoning": "Placement to improve job chances after university."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "she had no experience in industry",
+   "theme": "placement_decision",
+   "reasoning": "Wants to see what industry is like, having none; weak/indirect."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "does think that it will improve confidence",
+   "theme": "placement_decision",
+   "reasoning": "Expects improved confidence — personal development."
+  },
+  {
+   "var": "unigrade",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "will help with assignments in the final year",
+   "theme": "placement_decision",
+   "reasoning": "Expects placement to help final-year assignments/grades."
+  },
+  {
+   "var": "apptheor",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "Is not expecting to find that she will put theory into practice on placement.",
+   "theme": "placement_decision",
+   "reasoning": "Does not expect to apply theory on placement."
+  },
+  {
+   "var": "placothe",
+   "code": 2,
+   "label": "other",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "Didn’t decide to do a placement until she got to university.",
+   "theme": "placement_decision",
+   "reasoning": "Placement was a choice, not compulsory, so other."
+  },
+  {
+   "var": "carpath",
+   "code": 5,
+   "label": "project management",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "would hopefully be a good project manager",
+   "theme": "future_intentions",
+   "reasoning": "Wants to specialise in project management."
+  },
+  {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "possibly being executive of own company",
+   "theme": "future_intentions",
+   "reasoning": "Aspires to project manager/executive — managerial role."
+  },
+  {
+   "var": "salary",
+   "code": 5,
+   "label": "very important",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "would hopefully be a good project manager earning lots of money",
+   "theme": "future_intentions",
+   "reasoning": "Earning lots of money is a clear aspiration."
+  },
+  {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "Would like to work abroad because it is too cold here!",
+   "theme": "future_intentions",
+   "reasoning": "Location/climate matters to her job choice; weak."
+  },
+  {
+   "var": "travel",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "would love to work in Australia where career prospects are good",
+   "theme": "future_intentions",
+   "reasoning": "Keen to work abroad — travel opportunities matter; weak."
+  },
+  {
+   "var": "benefits",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "have a husband, house and nice car",
+   "theme": "future_intentions",
+   "reasoning": "Nice car as a goal hints benefits matter; weak/indirect."
+  },
+  {
+   "var": "promot",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_role": "Notes",
+   "evidence_quote": "career prospects are good as there is a shortage of professionals",
+   "theme": "future_intentions",
+   "reasoning": "Cares about career prospects/progression; weak."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "covered by discoura"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "breaked",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "finuni",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noappeal",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noaccept",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "No previous experience of the industry, and neither parent is in engineering industry.",
+    "Applied to architecture course after ‘A’ levels in Art and Psychology, but didn’t get in.  So went on Foundation course in Built Environment at [same university].",
+    "This got Clare interested in becoming a project manager, and building houses etc.  Also a well paid job.",
+    "Didn’t have any careers advice at school.",
+    "Decided to do construction management at [name] University because it was a bit unusual and far away from her parents.",
+    "Thinks it fate that she didn’t do well in ‘A’ levels, or wouldn’t have gone through clearing, foundation course, and course she’s on now, which she really enjoys."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "Has enjoyed the course so far.  Thinks that the best thing is improved confidence with working with the guys.  But worst bit is only 1 other girl on course (who isn’t doing placement, so will be only girl in final year).",
+    "Has been taught by one female lecturer but would be encouraging to be taught by more especially if they had good degree etc.",
+    "Some male lecturers don’t necessarily treat you differently, but do act differently around you.  For example, making comments or swearing, and then apologising.",
+    "No personal tutor.",
+    "Have to do lots of group work as part of course.  Get put into groups – don’t usually have a choice of who to work with.  Thinks that men and women do bring different skills to group work, e.g. women more organised, but men don’t always take you seriously."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "Principal reason for choosing to go on placement was because she had no experience in industry and thought that when applying for jobs, this would count more than anything else.  [Male lecturer] and boyfriend also encouraged her to go on placement.  Also thought that work experience would be particularly helpful in being a woman.",
+    "Is going on placement with [company].  Was attracted to this company because they are interested in increasing number of women working for them and because they do project management work.",
+    "Is not expecting to find that she will put theory into practice on placement.  Has been told that everything she’s learnt will go out the window when on placement.  However, does think that it will improve confidence and will help with assignments in the final year.",
+    "Thinks the best thing about placement will be getting paid and improving confidence working with men.  Most apprehensive about first two weeks of work and not being taken seriously on site, especially by labourers."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "Thought that in 5 years time would hopefully be a good project manager earning lots of money, and have a husband, house and nice car.",
+    "Above would be ideal career, or possibly being executive of own company.",
+    "Would like to work abroad because it is too cold here!  Although career prospects are ok here, would love to work in Australia where career prospects are good as there is a shortage of professionals.",
+    "Would describe the engineering industry as hard-working, demanding and masculine."
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 28,
+  "n_codes_kept": 28,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

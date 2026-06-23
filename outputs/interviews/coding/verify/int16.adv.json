@@ -1,0 +1,213 @@
+{
+ "unit_id": "int16",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Self-describes as 'the only girl'; clearly female."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly 'a mixed school'."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "States she is in third year."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'only thing I wanted to do was music' supports strong interest."
+  },
+  {
+   "var": "knowledg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Had an idea of careers; disagrees she chose with little knowledge."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Parents are musicians and influenced her, but they 'don't work with music' (industry tie thin); keep agree, lower confidence."
+  },
+  {
+   "var": "hobbies",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Taught music from a young age' is a musical, not technical, hobby; does not support technical-nature construct."
+  },
+  {
+   "var": "gooddeg",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote downplays the degree vs experience; does not support degree being valuable even if not entering profession."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "No discouragement mentioned; determined free choice supports 'no'."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Yeah definitely' to being pleased she chose the course."
+  },
+  {
+   "var": "relevanc",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Multimedia she'd never use yet had to do supports difficulty seeing relevance."
+  },
+  {
+   "var": "interper",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about people skills a good technician needs (field requirement), not about the COURSE developing interpersonal skills."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Lecturers 'very approachable' supports satisfaction with lecturer support."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Personal tutor effectively absent ('don't know who it is'); very dissatisfied is inferred, not emotionally expressed; lower confidence."
+  },
+  {
+   "var": "groupwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Depends on your group' supports a mixed/neither view."
+  },
+  {
+   "var": "practwk",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Names studio/practical work as a best part; supports satisfied."
+  },
+  {
+   "var": "variety",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'A good mixture of things' supports satisfaction with variety."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Did not go on placement; offered placements unsuitable."
+  },
+  {
+   "var": "noappeal",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Factory work... nothing to do with music' supports work did not appeal."
+  },
+  {
+   "var": "placloca",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Having to move to London is a location deterrent, but quote emphasises cost; keep agree, lower confidence."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": "low",
+   "note": "Would have gone for interesting work; indirect support for valuing experience; thin."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Business/industry side is not a listed engineering area; 'other' fits."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Wants to run her own thing/business; managerial orientation."
+  },
+  {
+   "var": "salary",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Important but just a bonus, not what I'll look for' supports middling importance."
+  },
+  {
+   "var": "travel",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is a personal gap-year travel plan, separated from career; not travel opportunities as a job-choice factor."
+  },
+  {
+   "var": "highsal",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Aware earning will be slow/low; high salary was not a draw; disagree fits."
+  }
+ ]
+}

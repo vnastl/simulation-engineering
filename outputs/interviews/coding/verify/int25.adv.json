@@ -1,0 +1,237 @@
+{
+  "unit_id": "int25",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-identifies as a woman throughout; female confirmed."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicit: 'mixed sort of schooling', comprehensive school."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Doing aeronautical engineering, stated repeatedly."
+    },
+    {
+      "var": "mathsci",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Repeatedly affirms being good at and enjoying maths/physics at school; strong."
+    },
+    {
+      "var": "varied",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Variety is the named main appeal; emphatic 'Absolutely'."
+    },
+    {
+      "var": "special",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Chose engineering to use maths/physics without going 'hard core' into either alone."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Chose it for interesting work vs 'boring' single subject; genuine though intertwined with variety."
+    },
+    {
+      "var": "knowledg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicit: 'didn't really know what it entailed when I came here'; agree (had partial knowledge) well-calibrated."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "No family in industry ('completely unrelated') = strongly disagree."
+    },
+    {
+      "var": "careers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Sixth-form careers advisor actively steered her to aeronautical engineering; affirmed supportive."
+    },
+    {
+      "var": "discoura",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicit: 'no... any discouragement from anyone'."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Not going on placement; declined the year out."
+    },
+    {
+      "var": "wkexp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Primary stated reason for not going: already has a year out plus work since age 13."
+    },
+    {
+      "var": "nogain",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote is 'nothing to benefit ME personally'; she explicitly says placement WOULD be invaluable to others and rotation is valuable, weakening the general 'nothing to be gained' claim. Downgrade confidence."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Rejects placement as a job-prospects motivator; only a 'tiny bit' of employability gain = disagree."
+    },
+    {
+      "var": "carpath",
+      "verdict": "wrong_code",
+      "corrected_code": 9,
+      "corrected_label": "don't know",
+      "corrected_confidence": "low",
+      "note": "Quote is hypothetical ('if you wanted to design fuselages') describing big-company breadth, not her preference. She says she likes 'not being pigeon holed', wants to 'try a bit of this... seeing where I fit in' = don't know."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I'd much rather be on the shop floor... doing the engineering thing' over managerial paperwork = technical/specialist."
+    },
+    {
+      "var": "salary",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'salary, salary... that's quite a big pull' = very important."
+    },
+    {
+      "var": "location",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Lists location among job attractors; no emphasis = important (4), well-calibrated."
+    },
+    {
+      "var": "training",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'training opportunities... wouldn't really bother me' = unimportant."
+    },
+    {
+      "var": "equalopp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "EO 'wouldn't really attract me to a company'; 'less and less of an issue' = unimportant."
+    },
+    {
+      "var": "people",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Fears isolation/loneliness, strongly drawn to bigger company for peers; people matter = important."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'quite happy... don't regret anything'; course 'really interesting' = strongly agree."
+    },
+    {
+      "var": "curricul",
+      "verdict": "wrong_code",
+      "corrected_code": 2,
+      "corrected_label": "disagree",
+      "corrected_confidence": "medium",
+      "note": "Variable asks if MORE difficult than EXPECTED. She says hard but 'which I knew it would be... it's exactly what I thought it was' = NOT harder than expected = disagree, not agree."
+    },
+    {
+      "var": "variety",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Chosen quote frames variety within the workload-as-downside passage, not satisfaction; satisfaction inferred from her overall enthusiasm elsewhere. Thin quote, downgrade."
+    },
+    {
+      "var": "friends",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Names the people as the 'best thing'; 'nice spirit amongst everyone' = very satisfied."
+    },
+    {
+      "var": "interper",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'developed me as a person... helped my communication skills'; reinforced by group-work comment."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Views group work positively/'essential'; one mild bad experience. Satisfied (4) reasonable."
+    },
+    {
+      "var": "teachhrs",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Variable is NUMBER OF TEACHING HOURS. Her complaint is overall workload/free-time work; she explicitly downplays contact hours ('25 hours... isn't very much'). Dissatisfaction with teaching hours not supported."
+    }
+  ]
+}

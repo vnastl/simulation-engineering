@@ -1,0 +1,269 @@
+{
+  "unit_id": "int03",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Subject self-refers as 'a girl'; project interviews women only."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'all girls Grammar' = single sex, explicit Subject statement."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Product design, 'more design orientated' = Design & Technology (7)."
+    },
+    {
+      "var": "special",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Wanted to keep all 3 A levels without dropping/specialising; reasonable agree."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Chose because she enjoyed the subjects; maps to interesting-work draw."
+    },
+    {
+      "var": "knowledg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'didn't really know an awful lot about it... a fluke' directly supports little knowledge."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Only tenuous grandfather link, parents not engineers; disagree justified."
+    },
+    {
+      "var": "careers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Careers were 'shocked' at her choice = did not encourage engineering; disagree."
+    },
+    {
+      "var": "nobody",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "School peers/family supportive, so 'nobody encouraged' is false; disagree."
+    },
+    {
+      "var": "discoura",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is placement-context but 'nobody discouraged me' generally holds; no=0 fine."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Actively applying, intends sandwich year; yes=1 (stronger quotes available)."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Experience named as 'the main reason'; strongly agree justified."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'not come straight from university... that'll help' = improved job chances; agree."
+    },
+    {
+      "var": "jobdecid",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'tell me whether I hate engineering or love it' = help decide future; agree."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Assigned quote is generic experience/employability, not explicitly 'what industry is like'; thin, downgrade."
+    },
+    {
+      "var": "perdevel",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'confidence and the ability to work for a company' = personal development; agree."
+    },
+    {
+      "var": "placothe",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is the experience reason already coded as experien; no compulsory/distinct 'other' reason stated."
+    },
+    {
+      "var": "relevanc",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Elaborated complaint that some modules lack relevance ('don't get anything from it'); strongly agree defensible."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I enjoy it' plus direct 'Yeah' to being pleased she chose the course; agree."
+    },
+    {
+      "var": "Fhelp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "As a woman she gets 'a lot of help' offered; maps to female students getting more help; agree."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Conditionally positive about group work ('if everybody pulls their weight'); satisfied=4 fine."
+    },
+    {
+      "var": "interper",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'being able to work in groups... will definitely help' = course develops interpersonal skills; agree."
+    },
+    {
+      "var": "friends",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Names 'the people' as best thing; worried about missing friends; satisfied with friends made."
+    },
+    {
+      "var": "supppers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'really approachable... I'm quite happy' = clearly satisfied with personal tutor."
+    },
+    {
+      "var": "supplect",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'male teaching lecturers are really good' = positive support despite one or two exceptions; satisfied."
+    },
+    {
+      "var": "designwk",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote expresses there is LESS design than expected (a shock), not satisfaction with design work; does not support satisfied."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicit: 'engineering design consultancy' = consultancy (1)."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'go into management... Yeah, probably' = leans managerial (1); medium confidence apt."
+    },
+    {
+      "var": "location",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'location... the strongest one' = important (4 safe; arguably very important)."
+    },
+    {
+      "var": "salary",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Pay matters 'a little bit' but less than other factors; neither (3) borderline with unimportant but defensible."
+    },
+    {
+      "var": "promot",
+      "verdict": "wrong_code",
+      "corrected_code": 2,
+      "corrected_label": "unimportant",
+      "corrected_confidence": "low",
+      "note": "'not really too bothered' about post-placement job/prospects leans to unimportant (2), not neutral (3)."
+    },
+    {
+      "var": "training",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is about pay/location; Subject never addresses training; inferred from absence, not supported."
+    },
+    {
+      "var": "furstudy",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Management-module quote supports workrole, not further study; no statement about wanting further academic study."
+    }
+  ]
+}

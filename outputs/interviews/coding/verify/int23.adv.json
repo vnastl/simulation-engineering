@@ -1,0 +1,221 @@
+{
+  "unit_id": "int23",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-identifies as female ('being a female') throughout; clear."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'a mixed comprehensive school' directly = mixed sex."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'doing manufacturing and design management', started mechanical then swapped; fits Mech & Manufacturing."
+    },
+    {
+      "var": "mathsci",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "medium",
+      "note": "Quote evidences interest in maths/physics more than 'good at'; did Maths/Physics A-levels so plausible, but downgrade."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I quite like knowing how things are made' + 'stretches your brain' supports interesting work."
+    },
+    {
+      "var": "challeng",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'it's all about problem solving' directly supports challenge of solving problems."
+    },
+    {
+      "var": "varied",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'it's quite a big area ... it's like vast' supports varied appeal."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'my dad's an engineer' = family member in industry; clear."
+    },
+    {
+      "var": "hobbies",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Garage play is framed as father's stuff/childhood, not her own established technical hobbies; thin, downgrade."
+    },
+    {
+      "var": "father",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'not in the sense that you're going to do engineering ... He wasn't like that' supports father did not actively encourage = disagree."
+    },
+    {
+      "var": "careers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Advisor helped with university choice, not encouraging engineering specifically = disagree."
+    },
+    {
+      "var": "knowledg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "School product design + engineer father + gap year = chose with substantial knowledge, so disagree with 'little knowledge'."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Asked why not going on placement; 'I just wanted to graduate' = not going = no."
+    },
+    {
+      "var": "wkexp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Substantial prior work experience; interviewer confirm 'if you hadn't done a year out' -> 'Yes definitely' links it to not going."
+    },
+    {
+      "var": "finuni",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'wait another year and probably get paid better ... just wanted to graduate' supports finishing sooner to earn."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'doing like more like research or R & D kind of stuff' explicitly names R&D as preferred specialization."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I would like to do like manager' + enjoys project management supports managerial."
+    },
+    {
+      "var": "training",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "medium",
+      "note": "Interviewer offered 'pay or training'; she picked training and elaborated, genuine but partly led, downgrade."
+    },
+    {
+      "var": "travel",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Prompted by 'would you like to travel' but gives substantive enthusiastic own reasons (different countries, send back to UK)."
+    },
+    {
+      "var": "location",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'location I suppose, money ...' - hedged passing mention in a list; weak but lists it as a factor; confidence already low."
+    },
+    {
+      "var": "people",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "About managers listening/caring; relates to people worked with mattering. Reasonable fit."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Asked re career choices generally; 'happy how I've ended up' + 'can't imagine not doing what I've done' covers pleased with studying engineering."
+    },
+    {
+      "var": "relevanc",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Quote is about prior mechanical course modules not used in gap year, not relevance-comprehension on current course; underlying sentiment ('stupid lectures', modules not useful) present but loose, downgrade."
+    },
+    {
+      "var": "practica",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Wanted more 'make stuff' which they haven't done = level of practical work not just right = disagree."
+    },
+    {
+      "var": "practwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Clear disappointment at lack of hands-on/lathe work supports dissatisfied with practical work."
+    },
+    {
+      "var": "quality",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Praises manufacturing lectures (her main lectures) as best thing = satisfied; some criticism of science being basic but net positive."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'generally bad ones ... quite stressful' + finds working with the women hard = dissatisfied."
+    }
+  ]
+}

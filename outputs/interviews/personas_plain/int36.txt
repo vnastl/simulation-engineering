@@ -1,0 +1,37 @@
+INTERVIEW INT36 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: not_going.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Strongly agree
+Having a family member in the industry: Disagree
+Engineering's appeal as a varied field: Agree
+Nobody encouraged the choice: Disagree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Other
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Strongly agree
+The coursework/exam balance being just right: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Very satisfied
+Group work: Satisfied
+The friends made on the course: Very satisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+No placement available in a suitable location: Agree
+Having applied but not been accepted: Strongly agree
+Additional reason for not going on placement: Other
+
+## Future in engineering
+Preferred area of engineering to specialise in: Project management
+Preferred future work role: Managerial

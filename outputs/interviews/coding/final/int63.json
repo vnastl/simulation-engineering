@@ -1,0 +1,615 @@
+{
+ "unit_id": "int63",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I will always be girl here. I’ll never be one of the lads",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Subject repeatedly self-identifies as female/'girl' throughout.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "school": {
+   "var": "school",
+   "code": 2,
+   "label": "Single sex",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "through school I had lots of feminist attitudes pumped in to me … Because they were all female mistresses",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "All-female staff/mistresses and later amalgamation in sixth form indicate a single-sex (girls') school.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "year": {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "most of my friends are on placement this year. So I didn’t want to go back to university. It’s too late to do my final year anyway by then",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on her industrial placement year, final year still to come.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 7,
+   "label": "Design & Technology",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "within DT like the BSc modules, there’s obviously a right or a wrong. And like the more BA, the BA side of it",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Studies Design & Technology (DT), BSc-with-mechanics stream.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "uni": {
+   "var": "uni",
+   "code": 1,
+   "label": "Pre-1992 university",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it’s really a good engineering university, it’s in the top ten … it’s like all the old poly’s",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Describes her university as a top-ten 'first division' engineering university, contrasted with the 'old poly's' — a pre-1992 institution.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "family": {
+   "var": "family",
+   "code": 1,
+   "label": "strongly disagree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "there’s no engineering history in my family whatsoever … Yes my dad’s a librarian",
+   "evidence_role": "Subject",
+   "theme": "route_into_engineering",
+   "reasoning": "Explicitly denies any family member in the engineering/industry world.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "the course has given me the confidence to say what I think because, there’s lots of critiquing on the course",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Credits the course for confidence, communication and diplomacy skills.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "relevanc": {
+   "var": "relevanc",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "They’re certain modules which I have which are a bit airy fairy. And you sit there and you think, “And why are you telling me this?” You know what relevance does this have",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "States some modules' relevance is hard to see.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "competit": {
+   "var": "competit",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "you are working against, your competitors. And they’re people who are going to try and get your job off you at the end of the day",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Describes DT/design students as competitive rivals; also calls herself competitive.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’m glad I’ve done the placement",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently completing her industrial placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I think that’s the main benefit for this year, as well as the business experience",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Values the work/business experience gained as the main benefit of placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "industry": {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it’s taught me that I don’t want to do it. And it’s not necessarily because of the subject, it’s more the environment",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement gave her a clear picture of what the engineering industry/environment is really like.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "perdevel": {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think I’ve learnt more about myself than engineering in the placement so far",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Frames placement primarily as personal development/self-learning.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobdecid": {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it’s taught me that I don’t want to do it",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement helped her decide her future direction (away from this engineering area).",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "finalyr": {
+   "var": "finalyr",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’m seeing it as preparation for my final year dissertation … I may continue with my dissertation",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Will carry her placement dissertation forward into her final-year project.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobprosp": {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "It shows commitment and it shows obviously some company somewhere thought you were good enough, and you pass. And it’s good references as well",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Sees the placement/diploma and references as improving future job chances, though she's sceptical about qualifications generally.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 2,
+   "label": "design work",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I wanted to get myself established within my design career",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Wants a design career (DT is her passion; loves ergonomics/manufacturing); explicitly does not want this civil-engineering area.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "furstudy": {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I’m going to do a Masters and then a Doctorate and everything",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Definite plans for postgraduate study.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "studarea": {
+   "var": "studarea",
+   "code": 2,
+   "label": "PhD",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I’d loved to be a doctor in ergonomics. I love ergonomics",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Plans a Masters then a Doctorate; ultimate aim is a PhD (a 'doctor') in ergonomics.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "charship": {
+   "var": "charship",
+   "code": 1,
+   "label": "important",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "I’m interested in kind of furthering myself … it’s all about qualifications. The more qualifications you have, the more likely you are to get a job",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Expresses interest in chartership and strongly values accumulating qualifications.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "workrole": {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I wanted to get myself established within my design career and get to a management level before I considered having children",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Aspires to a management level and to running her own company.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "salary": {
+   "var": "salary",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I love the money, but it’s not. It’s the independence of the money",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Money/independence and earning potential matter to her, though not the sole factor.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "workenv": {
+   "var": "workenv",
+   "code": 5,
+   "label": "very important",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "it’s not necessarily because of the subject, it’s more the environment",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Work environment is decisive: she turned down a placement and rejects this engineering area because of the environment.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "people": {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I don’t think many people have true friends within engineering. And I don’t think any of them socialise because it is so competitive … that concerns me slightly",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "The people and social atmosphere matter to her; rejected a 'bitchy' department for this reason.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "training": {
+   "var": "training",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "there’s a lot of emphasis on training and the personal development, which is good",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Praises training/development provision; values it, though not stated explicitly as a job-choice priority.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "equalopp": {
+   "var": "equalopp",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "I had a erm a copy of the Grievance Policy. And I knew what my rights were",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Deeply attuned to fair treatment/equal opportunities; invoked formal grievance/HR procedures, implying such policies matter to her.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "promot": {
+   "var": "promot",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "verification": "adversarial-supported; blind-agree",
+   "evidence": "get to a management level before I considered having children",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Advancement to management matters to her, though she is wary of the promotion-obsessed culture she observed.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "covered by pleased"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "covered by pleased"
+  },
+  {
+   "var": "designwk",
+   "reason": "covered by pleased"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "covered by educatio"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "placloca",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "breaked",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "finuni",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "nogain",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noappeal",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noaccept",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "covered by placemen"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "there’s no engineering history in my family whatsoever … Yes my dad’s a librarian. You know you can’t get much further away from it really",
+    "because I was good at the subject",
+    "And whose more styling orientated. But I think styling’s boring. So, I decided to do mechanics",
+    "through school I had lots of feminist attitudes pumped in to me. And you can do anything a man can do. You can do twice as well as they do. Everything like that. Because they were all female mistresses",
+    "DT’s my passion"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "the course has given me the confidence to say what I think because, there’s lots of critiquing on the course. So everyone’s always telling you the truth about your product or whatever and you’ve got to take it on the chin",
+    "They’re certain modules which I have which are a bit airy fairy. And you sit there and you think, “And why are you telling me this?” You know what relevance does this have",
+    "within DT like the BSc modules, there’s obviously a right or a wrong. And like the more BA, the BA side of it, it’s more open to opinions",
+    "I’m using the approaches that I’ve learnt on my course, to work here",
+    "it’s really a good engineering university, it’s in the top ten … it’s like all the old poly’s",
+    "I get on better with lads at uni anyway"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I’m glad I’ve done the placement. I think if I had of carrying on, I would have had a nervous breakdown … I did need some time out. And the fact that this goes towards my course is convenient in that respect",
+    "I think I’ve learnt more about myself than engineering in the placement so far",
+    "it’s taught me that I don’t want to do it. And it’s not necessarily because of the subject, it’s more the environment",
+    "I think that’s the main benefit for this year, as well as the business experience",
+    "I’m seeing it as preparation for my final year dissertation which is nine thousand",
+    "Erm, eye opening"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’m going to do a Masters and then a Doctorate and everything. I’m going to stay uni, I really, I really don’t want to start work",
+    "I’d loved to be a doctor in ergonomics. I love ergonomics. I really, really do. And I’m also interested in manufacturing side",
+    "I wanted to get myself established within my design career and get to a management level before I considered having children",
+    "the same as with the diploma it’s all about qualifications. The more qualifications you have, the more likely you are to get a job, supposedly",
+    "I’d either go towards ergonomics on the BSc level. Or, probably mechanics or physics. More along the scientific line of things",
+    "it’s not necessarily because of the subject, it’s more the environment"
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

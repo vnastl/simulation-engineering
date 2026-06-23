@@ -1,0 +1,48 @@
+INTERVIEW INT04 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: not_going.
+
+## Demographics & background
+Gender: Female
+Department: Civil & Building Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Strongly disagree
+The chance to do interesting work: Agree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Strongly agree
+Having a family member in the industry: Disagree
+Engineering as a good degree to hold regardless: Agree
+Engineering's appeal as a varied field: Strongly agree
+Mother's encouragement to study engineering: Agree
+Careers advisor's encouragement: Strongly disagree
+Nobody encouraged the choice: Disagree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Very satisfied
+Support from a personal tutor: Very satisfied
+The friends made on the course: Satisfied
+Quantity of coursework: Dissatisfied
+Variety of subjects covered: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+No placement available in a suitable location: Strongly agree
+Wanting to finish university sooner and start earning: Agree
+Additional reason for not going on placement: Time
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Very important
+Opportunities for promotion: Very important
+Opportunities for flexible working: Important

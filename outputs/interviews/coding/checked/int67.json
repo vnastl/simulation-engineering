@@ -1,0 +1,465 @@
+{
+ "unit_id": "int67",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "there’s only two of us who are female and one of them, she’s pregnant – not me",
+   "theme": "route_into_engineering",
+   "reasoning": "Self-identifies as one of the female team members."
+  },
+  {
+   "var": "dept",
+   "code": 7,
+   "label": "Design & Technology",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I'm doing packaging design",
+   "theme": "course_experience",
+   "reasoning": "Describes her course/role as packaging/industrial design within D&T."
+  },
+  {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "obviously I’ve only been here six months or so",
+   "theme": "placement_decision",
+   "reasoning": "Currently mid-way through a year-long industrial placement."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m based in the packaging team",
+   "theme": "placement_decision",
+   "reasoning": "Is presently on her industrial placement at the company."
+  },
+  {
+   "var": "experien",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I just feel like I’ve learnt so much already I’d quite happily walk out tomorrow and, you know, be happy with what I’ve learnt",
+   "theme": "placement_decision",
+   "reasoning": "Values the work experience very highly as the main gain from placement."
+  },
+  {
+   "var": "jobdecid",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "before I didn’t know what I wanted to do after I graduate but I’m definitely thinking now that I’ll apply for the graduate training scheme",
+   "theme": "placement_decision",
+   "reasoning": "Placement directly helped her decide on a future direction (graduate scheme)."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I feel like I know so much more about business and stuff",
+   "theme": "placement_decision",
+   "reasoning": "Got a real sense of what industry/business is like."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I think I’m probably a bit more confident",
+   "theme": "placement_decision",
+   "reasoning": "Reports personal development, notably increased confidence."
+  },
+  {
+   "var": "jobprosp",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I just feel like it will help me so much if I’m going to go for graduate schemes as well",
+   "theme": "placement_decision",
+   "reasoning": "Sees placement as improving her job chances after university."
+  },
+  {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s nice to earn money as well",
+   "theme": "placement_decision",
+   "reasoning": "Mentions earning money positively, though incidental rather than a primary reason."
+  },
+  {
+   "var": "carpath",
+   "code": 9,
+   "label": "don't know",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I still don’t know what – what jobs specifically I’d want to do",
+   "theme": "future_intentions",
+   "reasoning": "Does not want to specialise in D&T specifically; undecided, wants to sample many roles."
+  },
+  {
+   "var": "travel",
+   "code": 5,
+   "label": "very important",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ve been able to travel quite a lot, which I wasn’t even expecting, so… I’ve been to Holland and I’ve been to Germany",
+   "theme": "future_intentions",
+   "reasoning": "Clearly values and enjoys travel as a highlight of the work, though stated as enjoyment not a job-choice rating."
+  },
+  {
+   "var": "location",
+   "code": 2,
+   "label": "unimportant",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "actually I don’t really mind where it is",
+   "theme": "future_intentions",
+   "reasoning": "States location would not matter when deciding on a job."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_role": "Subject",
+   "evidence_quote": "oh, my whole degree hasn’t been a waste of time",
+   "theme": "course_experience",
+   "reasoning": "Mildly positive about her degree choice; indirect support only."
+  }
+ ],
+ "skips": [
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "covered by perdevel"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I'm doing packaging design",
+    "I wasn’t too keen on doing a really design y placement anyway",
+    "when I went into university because they don’t have very many females on the course, um, I felt like I kind of just got in by default because they needed more females"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "it’s quite nice when you do something and you think oh, I’ve actually learnt this on my degree",
+    "my whole degree hasn’t been a waste of time",
+    "within the company we don’t do so much front line design, it’s more of, um, adapting ideas we’ve already got",
+    "I feel like I'm getting a bit out of touch with what – the stuff I did at uni. I think it will be hard to go back in there",
+    "whenever I give a presentation or anything I just write reams and reams and since then I’ve been told, you know, just put a few key points"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I’ve really enjoyed it",
+    "the best thing has been I feel like I’ve got real responsibility and my project’s real and I’ve – I’ve been able to travel quite a lot, which I wasn’t even expecting",
+    "I just feel like I’ve learnt so much already I’d quite happily walk out tomorrow and, you know, be happy with what I’ve learnt",
+    "the worst thing was the sort of upheaval, expected to move to France or whatever",
+    "I feel like I know so much more about business and stuff",
+    "I think I’m probably a bit more confident"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’m definitely thinking now that I’ll apply for the graduate training scheme",
+    "I still don’t know what – what jobs specifically I’d want to do, but I definitely think it’d be worthwhile me going on a graduate scheme",
+    "the graduate schemes here you do six months in different jobs, you keep switching round, so I think that’s the kind of thing I’d like to do, get a taste of everything",
+    "I wouldn’t be applying specifically for design and technology I don’t think",
+    "it doesn’t really inspire me because they just seem to work really hard and yeah, they like earn a load of money, but I just sort of think it’s not really worth it",
+    "It would depend what it is and where it is and stuff, well, actually I don’t really mind where it is"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 14,
+  "n_codes_kept": 14,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

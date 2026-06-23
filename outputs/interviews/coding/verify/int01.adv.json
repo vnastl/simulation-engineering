@@ -1,0 +1,285 @@
+{
+  "unit_id": "int01",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Subject self-identifies as a girl/woman among the lads; metadata clear."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Comprehensive, explicitly not all-girls -> mixed sex."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Confirmed mechanical engineering early in interview."
+    },
+    {
+      "var": "special",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Wanted maths applied plus physics rather than specialising; fits 'use maths/science without specialising'."
+    },
+    {
+      "var": "gooddeg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Don't have to be an engineer, keeping it open' directly maps to good degree to hold regardless."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Chose engineering as far more interesting than accounting; opportunity for interesting work."
+    },
+    {
+      "var": "family",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Father (design draughtsman) works for an engineering firm; agree (not strongly) appropriate."
+    },
+    {
+      "var": "father",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Father tried to put her off -> strongly disagree that father encouraged."
+    },
+    {
+      "var": "careers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Careers advice non-existent -> strongly disagree careers advisor encouraged."
+    },
+    {
+      "var": "nobody",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": "agree",
+      "corrected_confidence": "low",
+      "note": "Own decision, dad discouraged; but recruiter said 'go for it', so downgrade confidence to low."
+    },
+    {
+      "var": "discoura",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Father actively tried to discourage her -> yes."
+    },
+    {
+      "var": "whodisc",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Discourager was the father."
+    },
+    {
+      "var": "knowledg",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Had work experience in engineering place plus draughtsman father -> disagree she chose with little knowledge."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Going on placement, has a company secured -> yes."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Primary placement motive is 'the whole working experience'; strongly agree justified by repetition."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Wants 'experience of work and real life' -> see what industry is really like."
+    },
+    {
+      "var": "jobdecid",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Unsure what to do after graduating; placement to narrow it down."
+    },
+    {
+      "var": "jobprosp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "CV value plus 'ready to get a job' supports improving job chances; medium appropriate."
+    },
+    {
+      "var": "finalyr",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote answers the explicit end-of-year project question -> placement helps decide final-year project."
+    },
+    {
+      "var": "money",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Don't come back with any money' framed as fine -> money not a placement motive; disagree."
+    },
+    {
+      "var": "apptheor",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Ambivalent ('hope so, I don't know') plus 'none of the technical stuff applies' -> neutral; low confidence already correct."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Robotics/robotic-arms 'new technology' work fits research/development; borderline vs design but defensible at medium."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Technical expert, never want management' -> technical/specialist, explicit."
+    },
+    {
+      "var": "charship",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "low",
+      "note": "Aspires to be chartered in 5 yrs, but mentioned casually with no importance statement; downgrade to low."
+    },
+    {
+      "var": "location",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Firm preference 'Up North, not down south' -> location matters in job choice."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Answered 'Yeah' to pleased with choice; 'degree worth having'."
+    },
+    {
+      "var": "designwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Design modules the best thing 'because you get to play' -> very satisfied."
+    },
+    {
+      "var": "theory",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Maths the worst thing, 'pure calculations no application' -> dissatisfied with theory work."
+    },
+    {
+      "var": "relevanc",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Still doesn't apply to anything' -> difficult to see relevance of some modules; agree."
+    },
+    {
+      "var": "supppers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Tutor biggest influence, 'really cool', 'lovely' -> very satisfied with personal tutor."
+    },
+    {
+      "var": "interper",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Cited quote 'it's your other skills that they go on' is about what industry values, not that the COURSE develops interpersonal skills; reject."
+    },
+    {
+      "var": "competit",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'Everyone covers for them' describes cooperative not competitive students -> disagree."
+    },
+    {
+      "var": "Fhelp",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Female students get more help in the lab while lads get none -> agree, strong evidence."
+    },
+    {
+      "var": "groupwk",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Fine when self-chosen, frustrating when assigned -> neutral satisfaction."
+    },
+    {
+      "var": "varied",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote about the placement COMPANY's department rotation, not engineering-as-discipline appealing because varied; wrong construct, reject."
+    }
+  ]
+}

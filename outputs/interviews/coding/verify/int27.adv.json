@@ -1,0 +1,245 @@
+{
+ "unit_id": "int27",
+ "verdicts": [
+  {
+   "var": "gender",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Self-identifies among 'the female in the engineering'; women-student study; female."
+  },
+  {
+   "var": "school",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Local high school and confirmed 'No' to all-girls school = mixed sex."
+  },
+  {
+   "var": "dept",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Civil engineering B Eng stated repeatedly; correct department."
+  },
+  {
+   "var": "year",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "States she is in year 2; corroborated by 'this is our 2nd module' surveying."
+  },
+  {
+   "var": "mathsci",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'a lot better at sciences and maths' supports being good at maths/science; agree fits."
+  },
+  {
+   "var": "interest",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'physical scale of the project – I like to be involved' supports interesting-work draw."
+  },
+  {
+   "var": "family",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Uncle is a civil engineer she consulted; clear family-in-industry influence."
+  },
+  {
+   "var": "varied",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about other women's misperceptions ('many types going on'), not a personal varied-appeal draw; reject."
+  },
+  {
+   "var": "knowledg",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Spoke to engineer uncle about the job => did NOT choose with little knowledge; disagree fits."
+  },
+  {
+   "var": "highsal",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'not do it for the sake of money' (ideal-career) is indirect but supports salary not a draw; low conf appropriate."
+  },
+  {
+   "var": "mother",
+   "verdict": "supported",
+   "corrected_code": 2,
+   "corrected_label": "disagree",
+   "corrected_confidence": "low",
+   "note": "Occupation quote only inferential; no specific maternal engineering encouragement => disagree, but downgrade to low."
+  },
+  {
+   "var": "father",
+   "verdict": "supported",
+   "corrected_code": 2,
+   "corrected_label": "disagree",
+   "corrected_confidence": "low",
+   "note": "Occupation quote only inferential; no specific paternal engineering encouragement => disagree, but downgrade to low."
+  },
+  {
+   "var": "discoura",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Parents open-minded and direct 'haven't had anyone disencourage me' => no discouragement."
+  },
+  {
+   "var": "placemen",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Intends placement, has applied and is waiting; yes."
+  },
+  {
+   "var": "experien",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'really good experience' for work experience; strong endorsement justifies strongly agree."
+  },
+  {
+   "var": "jobprosp",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'stand a better chance... finding a graduate job'; hedged so agree (not strongly) fits."
+  },
+  {
+   "var": "industry",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'see really how a proper job feels' supports wanting an idea of industry."
+  },
+  {
+   "var": "jobdecid",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'Yeah, definitely' placement helps decide consultancy vs contracting; strongly agree fits."
+  },
+  {
+   "var": "apptheor",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Substantively elaborates applying surveying theory; somewhat prompted but own elaboration; agree."
+  },
+  {
+   "var": "money",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I don't really look at the pay' => money not a placement driver; disagree fits."
+  },
+  {
+   "var": "carpath",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'I prefer a consultants to a contractor' directly supports consultancy."
+  },
+  {
+   "var": "workrole",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Project manager / design-team leader / 'running the project' => managerial."
+  },
+  {
+   "var": "pleased",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Enjoys it, says yes pleased, would do straight engineering again; agree fits."
+  },
+  {
+   "var": "curricul",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'workload is a little bit heavier than I would have expected' => curriculum harder; agree."
+  },
+  {
+   "var": "interper",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Affirms 'Oh yeah, definitely' group work develops skills for working with others; prompted but agreed; medium ok."
+  },
+  {
+   "var": "competit",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Explicitly denies competition among classmates => students not competitive; disagree fits."
+  },
+  {
+   "var": "supplect",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'lecturers are very nice and the whole department is very friendly' => satisfied."
+  },
+  {
+   "var": "supppers",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Personal tutor 'very friendly and helpful' => satisfied."
+  },
+  {
+   "var": "friends",
+   "verdict": "supported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "'lucky to have them... really caring' => satisfied with friends made."
+  },
+  {
+   "var": "Mconfid",
+   "verdict": "unsupported",
+   "corrected_code": null,
+   "corrected_label": null,
+   "corrected_confidence": null,
+   "note": "Quote is about one dominant individual 'like that to everybody' (not gendered); the only male>female agreement is interviewer-planted bare 'Oh yeah'; reject."
+  }
+ ]
+}

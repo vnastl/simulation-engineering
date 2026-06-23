@@ -1,0 +1,173 @@
+{
+  "unit_id": "int59",
+  "verdicts": [
+    {
+      "var": "gender",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Self-references 'all girls school' and being 'a girl' in engineering; clearly female."
+    },
+    {
+      "var": "school",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Explicit: 'going from an all girls school in sixth form' = single sex."
+    },
+    {
+      "var": "year",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "On her DIS industrial placement now (started Sept, design engineer); placement year confirmed by context."
+    },
+    {
+      "var": "dept",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "IMechE chartership route plus CAD/design work supports Mechanical & Manufacturing; inferential, medium fair."
+    },
+    {
+      "var": "placemen",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Currently on placement as design engineer; clearly yes."
+    },
+    {
+      "var": "experien",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": "medium",
+      "note": "Leads benefits with 'the experience' and is enthusiastic about learning; quote alone is mild, keep medium not high."
+    },
+    {
+      "var": "industry",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'idea of how I need to operate in a working environment' directly maps to seeing what industry is really like."
+    },
+    {
+      "var": "jobdecid",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'giving me a lot of focus on what I want to do next' plus 'if its bad I know where I don't wanna go' supports deciding future direction."
+    },
+    {
+      "var": "educatio",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'a break from uni instead of being sat with books' directly maps to needing a break from education."
+    },
+    {
+      "var": "indchart",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'a year off chartership' maps to year counting towards Chartership."
+    },
+    {
+      "var": "finalyr",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote is about secrecy complicating her dissertation titles, NOT that she wanted placement to help choose a final-year project; does not support finalyr."
+    },
+    {
+      "var": "interest",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'I was interested in it so I'm becoming an engineer' directly supports interest as a draw."
+    },
+    {
+      "var": "pleased",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'definitely at the right place, there's no humming and arring about it' strongly affirms being pleased; strongly agree justified."
+    },
+    {
+      "var": "relevanc",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Early theory 'not really doing much' for her work loosely supports difficulty seeing relevance; she also calls theory necessary, so low confidence appropriate."
+    },
+    {
+      "var": "supppers",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Her personal tutor is also placement tutor; she emails him and he sorts problems, modestly supporting satisfied; low confidence fair."
+    },
+    {
+      "var": "discoura",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'people have said but you're a girl, it's a strange degree' is a remark she explicitly rejects/never internalised; she names no one who tried to put her off. Not discouragement."
+    },
+    {
+      "var": "whodisc",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Falls with discoura; underlying discouragement not established, so identifying a discourager is unsupported."
+    },
+    {
+      "var": "carpath",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'always wanted to do research or something hands on' plus 'research based placement' supports research/development."
+    },
+    {
+      "var": "workrole",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "'involved in projects rather than the managerial aspect' = rejecting managerial, leaving technical/specialist; medium fair."
+    },
+    {
+      "var": "location",
+      "verdict": "supported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Wanting to stay in home area where the firms are based implies location matters somewhat; thin, low confidence appropriate."
+    },
+    {
+      "var": "charship",
+      "verdict": "unsupported",
+      "corrected_code": null,
+      "corrected_label": null,
+      "corrected_confidence": null,
+      "note": "Quote merely describes the company's graduate/chartership programme structure; does not express that Chartership is important to her personally (elsewhere conditional 'if you want to do that')."
+    }
+  ]
+}

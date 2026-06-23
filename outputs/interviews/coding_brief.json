@@ -1,0 +1,1276 @@
+[
+ {
+  "var": "highsal",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "high salary as a draw to engineering",
+  "question": "I was attracted to engineering/design & technology because of the high salary",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "interest",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "the chance to do interesting work",
+  "question": "Engineering/Design & Technology provided an opportunity to do interesting work",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "challeng",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "wanting the challenge of solving problems",
+  "question": "I wanted the challenge of solving problems",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "special",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "using science and maths without specialising",
+  "question": "I wanted to use my science and maths background without specialising in either",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "mathsci",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "being good at maths and science at school",
+  "question": "I was good at maths and science at school",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "knowledg",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "choosing engineering with little knowledge of the job",
+  "question": "I chose to study engineering/design & technology with little knowledge of what engineers actually do",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "family",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "having a family member in the industry",
+  "question": "I knew about engineering/design & technology because a member of my family is involved in the industry",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "hobbies",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "having technical hobbies and interests",
+  "question": "My hobbies and interests are of a technical nature",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "gooddeg",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "engineering as a good degree to hold regardless",
+  "question": "Engineering/Design & Technology will be a good degree to have even if I decide not to enter the profession",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "varied",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "engineering's appeal as a varied field",
+  "question": "Engineering/Design & Technology appealed to me because it is so varied",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "mother",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "mother's encouragement to study engineering",
+  "question": "My mother encouraged me to study engineering/design & technology",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "father",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "father's encouragement to study engineering",
+  "question": "My father encouraged me to study engineering/design & technology",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "careers",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "careers advisor's encouragement",
+  "question": "My careers advisor encouraged me to study engineering/design & technology",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "teacher",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "school teacher's encouragement",
+  "question": "My school teacher encouraged me to study engineering/design & technology",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "nobody",
+  "section": "A. Choosing engineering",
+  "battery_stem": "Influences on the decision to study engineering",
+  "description": "nobody encouraged the choice",
+  "question": "Nobody encouraged me to study engineering/design & technology",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "discoura",
+  "section": "A. Choosing engineering",
+  "battery_stem": "",
+  "description": "whether anyone discouraged studying engineering",
+  "question": "Did anyone discourage you from studying engineering/design & technology?",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "0": "no",
+   "1": "yes"
+  }
+ },
+ {
+  "var": "whodisc",
+  "section": "A. Choosing engineering",
+  "battery_stem": "",
+  "description": "who discouraged studying engineering",
+  "question": "If yes, who discouraged you from studying engineering/design & technology?",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "1": "mother",
+   "2": "father",
+   "3": "other family",
+   "4": "teacher(s)",
+   "5": "friend(s)",
+   "6": "engineer(s)",
+   "7": "careers advisor",
+   "8": "other"
+  }
+ },
+ {
+  "var": "practica",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "the level of practical work being just right",
+  "question": "The level of practical work on the course is just right",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "curricul",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "the curriculum being harder than expected",
+  "question": "The engineering/design & technology curriculum is more difficult than I expected",
+  "tier": "weak",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "pleased",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "being pleased with the choice to study engineering",
+  "question": "I am pleased I chose to study engineering/design & technology",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "relevanc",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "difficulty seeing the relevance of some modules",
+  "question": "It is difficult to understand the relevance of some modules",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "competit",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "engineering students being competitive",
+  "question": "Engineering/design & technology students are competitive",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "Mconfid",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "male students being more confident in class",
+  "question": "Male students are more confident than female students in class",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "Fhelp",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "female students getting more help in class",
+  "question": "Female students get more help in class than male students",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "deadline",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "always having competing deadlines",
+  "question": "We always have competing deadlines",
+  "tier": "weak",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "assess",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "the coursework/exam balance being just right",
+  "question": "The balance between coursework and exams in module assessments is just right",
+  "tier": "weak",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "interper",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Level of agreement with statements about the degree",
+  "description": "the course developing interpersonal skills",
+  "question": "The course develops interpersonal skills",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "quality",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "quality of lectures",
+  "question": "Level of satisfaction with quality of lectures",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "supplect",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "support from lecturers",
+  "question": "Level of satisfaction with support from lecturers",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "supppers",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "support from a personal tutor",
+  "question": "Level of satisfaction with support from personal tutor",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "groupwk",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "group work",
+  "question": "Level of satisfaction with group work",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "teachhrs",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "number of teaching hours",
+  "question": "Level of satisfaction with number of teaching hours",
+  "tier": "weak",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "friends",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "the friends made on the course",
+  "question": "Level of satisfaction with the friends I've made",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "coursewk",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "quantity of coursework",
+  "question": "Level of satisfaction with quantity of coursework",
+  "tier": "weak",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "theory",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "theory work",
+  "question": "Level of satisfaction with theory work",
+  "tier": "weak",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "practwk",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "practical work",
+  "question": "Level of satisfaction with practical work",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "designwk",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "design work",
+  "question": "Level of satisfaction with design work",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "variety",
+  "section": "B. Experiences of higher education",
+  "battery_stem": "Satisfaction with aspects of the course",
+  "description": "variety of subjects covered",
+  "question": "Level of satisfaction with the variety of subjects the course covers",
+  "tier": "strong",
+  "scale": "5-point scale, very dissatisfied → very satisfied",
+  "allowed_values": {
+   "1": "very dissatisfied",
+   "2": "dissatisfied",
+   "3": "neither satisfied nor dissatisfied",
+   "4": "satisfied",
+   "5": "very satisfied"
+  }
+ },
+ {
+  "var": "placemen",
+  "section": "C. Industrial placement",
+  "battery_stem": "",
+  "description": "whether they have gone / intend to go on placement",
+  "question": "Have you/do you intend to go on placement?",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "0": "no",
+   "1": "yes"
+  }
+ },
+ {
+  "var": "experien",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "for the work experience",
+  "question": "I want(ed) to go on placement for the work experience",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "money",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "because of needing the money",
+  "question": "I want(ed) to go on placement because I need the money",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "educatio",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "for a break from education",
+  "question": "I want(ed) to go on placement because I need a break from education",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "jobprosp",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "to improve job chances after university",
+  "question": "I want(ed) to go on placement to improve my chances of getting a job when I finish university",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "jobdecid",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "to help decide a future direction",
+  "question": "I want(ed) to go on placement to help me decide what I want to do when I finish university",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "industry",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "to see what industry is really like",
+  "question": "I want(ed) to go on placement to give me an idea of what industry is really like",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "perdevel",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "for personal development",
+  "question": "I want(ed) to go on placement for personal development",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "unigrade",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "to improve grades on returning to university",
+  "question": "I want(ed) to go on placement to improve my grades when I return to university",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "apptheor",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "to apply theory learnt at university",
+  "question": "I want(ed) to go on placement because it will be an opportunity to apply the theory I've learnt at university",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "finalyr",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "to help choose a final-year project",
+  "question": "I want(ed) to go on placement because it will help me decide what to do for my final year project",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "indchart",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for wanting to go on placement",
+  "description": "because it counts towards Chartership",
+  "question": "I want(ed) to go on placement because the year in industry counts towards getting my Chartership",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "placothe",
+  "section": "C. Industrial placement",
+  "battery_stem": "",
+  "description": "additional reason for wanting placement",
+  "question": "Additional reasons for wanting to go on placement",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "1": "compulsory",
+   "2": "other"
+  }
+ },
+ {
+  "var": "wkexp",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for not going on placement",
+  "description": "already having work experience",
+  "question": "I do/did not want to on placement because I already have work experience",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "placloca",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for not going on placement",
+  "description": "no placement available in a suitable location",
+  "question": "I do/did not want to on placement because I could not find a placement in a suitable location",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "breaked",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for not going on placement",
+  "description": "fear of returning to education after a break",
+  "question": "I do/did not want to on placement because I thought it would be too difficult to get back into education after a break",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "finuni",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for not going on placement",
+  "description": "wanting to finish university sooner and start earning",
+  "question": "I do/did not want to on placement because I want to finish uni as soon as possible so I can start earning money",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "nogain",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for not going on placement",
+  "description": "seeing nothing to be gained from a placement",
+  "question": "I do/did not want to on placement because I don't think there is anything to be gained from going on placement",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "noappeal",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for not going on placement",
+  "description": "no available placement appealing",
+  "question": "I do/did not want to on placement because I could not find a placement where the work I would be doing appealed to me",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "noaccept",
+  "section": "C. Industrial placement",
+  "battery_stem": "Reasons for not going on placement",
+  "description": "having applied but not been accepted",
+  "question": "I do/did not want to on placement because I applied for placements but was not accepted",
+  "tier": "strong",
+  "scale": "5-point scale, strongly disagree → strongly agree",
+  "allowed_values": {
+   "1": "strongly disagree",
+   "2": "disagree",
+   "3": "neither agree nor disagree",
+   "4": "agree",
+   "5": "Strongly agree"
+  }
+ },
+ {
+  "var": "noplaoth",
+  "section": "C. Industrial placement",
+  "battery_stem": "",
+  "description": "additional reason for not going on placement",
+  "question": "Additional reasons for not wanting to go on placement",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "1": "already employed",
+   "2": "network 75 student",
+   "3": "Armed Forces",
+   "4": "time",
+   "5": "already completed placement/year out",
+   "6": "not required on course",
+   "7": "university not supportive",
+   "8": "other"
+  }
+ },
+ {
+  "var": "carpath",
+  "section": "D. Future in engineering",
+  "battery_stem": "",
+  "description": "preferred area of engineering to specialise in",
+  "question": "What area of engineering/design & technology would you prefer to specialise in?",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "1": "consultancy",
+   "2": "design work",
+   "3": "contracting",
+   "4": "manufacturing",
+   "5": "project management",
+   "6": "research/development",
+   "7": "teaching",
+   "8": "Armed Forces related",
+   "9": "don't know",
+   "10": "do not want career in engineering",
+   "11": "other"
+  }
+ },
+ {
+  "var": "furstudy",
+  "section": "D. Future in engineering",
+  "battery_stem": "",
+  "description": "whether they would like to go on to further study",
+  "question": "Would you like to go on to further study?",
+  "tier": "weak",
+  "scale": "",
+  "allowed_values": {
+   "0": "no",
+   "1": "yes"
+  }
+ },
+ {
+  "var": "studarea",
+  "section": "D. Future in engineering",
+  "battery_stem": "",
+  "description": "intended area of further study",
+  "question": "If yes, what area/subject would you like to study?",
+  "tier": "weak",
+  "scale": "",
+  "allowed_values": {
+   "1": "don't know",
+   "2": "PhD",
+   "3": "Masters, MSc, MBA",
+   "4": "PGCE, teaching",
+   "5": "engineering related subject",
+   "6": "design related subject",
+   "7": "not engineering/design related",
+   "8": "other"
+  }
+ },
+ {
+  "var": "salary",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "salary",
+  "question": "Salary will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "location",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "location",
+  "question": "Location will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "workenv",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "work environment",
+  "question": "Work environment will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "people",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "the people worked with",
+  "question": "People I work with will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "travel",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "opportunities to travel",
+  "question": "Opportunities to travel will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "benefits",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "benefits such as a company car",
+  "question": "Benefits like a company car will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "training",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "training opportunities",
+  "question": "Training opportunities will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "promot",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "opportunities for promotion",
+  "question": "Opportunities for promotion will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "equalopp",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "equal-opportunities policies",
+  "question": "Equal opportunites policies will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "flexible",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "opportunities for flexible working",
+  "question": "Opportunities for flexible working will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "childcar",
+  "section": "D. Future in engineering",
+  "battery_stem": "Importance of factors when choosing a job",
+  "description": "childcare policies",
+  "question": "Child-care policies will be important to me in making a decision to accept a job or decide where to work",
+  "tier": "weak",
+  "scale": "5-point scale, very unimportant → very important",
+  "allowed_values": {
+   "1": "very unimportant",
+   "2": "unimportant",
+   "3": "neither important nor unimportant",
+   "4": "important",
+   "5": "very important"
+  }
+ },
+ {
+  "var": "workrole",
+  "section": "D. Future in engineering",
+  "battery_stem": "",
+  "description": "preferred future work role",
+  "question": "In the future what would you prefer your work role to be?",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "1": "managerial",
+   "2": "technical/specialist",
+   "3": "don't know"
+  }
+ },
+ {
+  "var": "charship",
+  "section": "D. Future in engineering",
+  "battery_stem": "",
+  "description": "importance of gaining Chartership",
+  "question": "In your opinion, how important is it for you to get Chartership?",
+  "tier": "weak",
+  "scale": "",
+  "allowed_values": {
+   "1": "important",
+   "2": "not important",
+   "3": "not applicable to my subject area"
+  }
+ },
+ {
+  "var": "gender",
+  "section": "E. About the respondent",
+  "battery_stem": "",
+  "description": "gender",
+  "question": "Are you male or female?",
+  "tier": "metadata",
+  "scale": "",
+  "allowed_values": {
+   "1": "male",
+   "2": "female"
+  }
+ },
+ {
+  "var": "school",
+  "section": "E. About the respondent",
+  "battery_stem": "",
+  "description": "type of secondary school attended",
+  "question": "What type of secondary school did you attend?",
+  "tier": "strong",
+  "scale": "",
+  "allowed_values": {
+   "1": "Mixed sex",
+   "2": "Single sex"
+  }
+ },
+ {
+  "var": "year",
+  "section": "E. About the respondent",
+  "battery_stem": "",
+  "description": "year of study",
+  "question": "What year of study are you in?",
+  "tier": "weak",
+  "scale": "",
+  "allowed_values": {
+   "1": "Part A/Year 1",
+   "2": "Part B/Year 2",
+   "3": "Part C/Year 3",
+   "4": "Part D/Year 4",
+   "5": "Placement year"
+  }
+ },
+ {
+  "var": "dept",
+  "section": "E. About the respondent",
+  "battery_stem": "",
+  "description": "department",
+  "question": "Which department are you in?",
+  "tier": "weak",
+  "scale": "",
+  "allowed_values": {
+   "1": "Aeronautical & Automotive Engineering",
+   "2": "Chemical Engineering",
+   "3": "Civil & Building Engineering",
+   "4": "Electronic & Electrical Engineering",
+   "5": "IPTME",
+   "6": "Mechanical & Manufacturing Engineering",
+   "7": "Design & Technology",
+   "8": "School of Technology",
+   "9": "School of Electronics"
+  }
+ },
+ {
+  "var": "uni",
+  "section": "E. About the respondent",
+  "battery_stem": "",
+  "description": "university type (pre- or post-1992)",
+  "question": "Which university are you at?",
+  "tier": "weak",
+  "scale": "",
+  "allowed_values": {
+   "1": "Pre-1992 university",
+   "2": "Post-1992 university"
+  }
+ }
+]

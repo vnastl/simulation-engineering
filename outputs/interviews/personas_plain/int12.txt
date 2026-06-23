@@ -1,0 +1,56 @@
+INTERVIEW INT12 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Single sex
+Department: Design & Technology
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Using science and maths without specialising: Agree
+Having a family member in the industry: Agree
+Engineering's appeal as a varied field: Strongly agree
+Mother's encouragement to study engineering: Disagree
+Careers advisor's encouragement: Disagree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Other
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Male students being more confident in class: Strongly agree
+Female students getting more help in class: Agree
+Always having competing deadlines: Strongly agree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Neither satisfied nor dissatisfied
+Group work: Neither satisfied nor dissatisfied
+Number of teaching hours: Satisfied
+The friends made on the course: Very satisfied
+Quantity of coursework: Dissatisfied
+Variety of subjects covered: Very satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Because of needing the money: Agree
+To improve job chances after university: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+To improve grades on returning to university: Agree
+To help choose a final-year project: Agree
+Additional reason for wanting placement: Other
+
+## Future in engineering
+Preferred area of engineering to specialise in: Consultancy
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Important
+The people worked with: Important
+Training opportunities: Important
+Preferred future work role: Technical/specialist

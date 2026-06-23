@@ -1,0 +1,45 @@
+{
+ "unit_id": "int05",
+ "recodes": [
+  {
+   "var": "gooddeg",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_quote": "I think that if I don't do well in the engineering sector, I do the commercial bit.",
+   "reasoning": "Treats the commercial route within the degree as a fallback, so the degree is worth holding even if she does not stay in engineering proper."
+  },
+  {
+   "var": "indchart",
+   "code": 4,
+   "label": "agree",
+   "confidence": "low",
+   "evidence_quote": "I was looking at the career prospects and I was looking at the – like the line of (?) they give to being chartered – chartership and all that.",
+   "reasoning": "Names chartership as a factor she looked at when choosing the placement, supporting that it counts towards Chartership as a reason."
+  },
+  {
+   "var": "supplect",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_quote": "I usually refer to my one who heads my course – yeah, he's very encouraging and all that kind of thing, yeah.",
+   "reasoning": "Positive about support from the lecturer who heads her course, indicating satisfaction with lecturer support."
+  },
+  {
+   "var": "promot",
+   "code": 4,
+   "label": "important",
+   "confidence": "low",
+   "evidence_quote": "Yeah, I was looking at the career prospects",
+   "reasoning": "Emphasises career prospects/progression as a factor, the closest verbatim support for promotion opportunities mattering."
+  },
+  {
+   "var": "competit",
+   "code": null,
+   "label": null,
+   "confidence": "low",
+   "evidence_quote": null,
+   "reasoning": "Boys offloading work onto girls reflects being taken advantage of, not students competing; no verbatim supports the competitiveness construct."
+  }
+ ]
+}

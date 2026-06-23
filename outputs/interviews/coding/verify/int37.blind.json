@@ -1,0 +1,69 @@
+{
+  "unit_id": "int37",
+  "recodes": [
+    {
+      "var": "school",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "It’s kind of private high school (right) in Canada.",
+      "reasoning": "Says private high school but gives no indication of mixed vs single-sex; cannot support either code."
+    },
+    {
+      "var": "challeng",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Thinking in an engineering way, it’s more fundamental and problem solving – we’re more realistic.",
+      "reasoning": "Mentions problem solving only as a descriptive characteristic of engineering thinking, not as wanting the challenge of solving problems as a reason for choosing; unsupportable."
+    },
+    {
+      "var": "groupwk",
+      "code": 3,
+      "label": "neither satisfied nor dissatisfied",
+      "confidence": "low",
+      "evidence_quote": "sometimes my group mate will not turn up on time or they just disappeared. It’s quite annoying sometimes.",
+      "reasoning": "Mixed: content working with friends but annoyed when members don't show; net stance is ambiguous, neutral."
+    },
+    {
+      "var": "Mconfid",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "Er, I think they are quite fair on the mental work. On the physical work they might help you.",
+      "reasoning": "No statement about male vs female confidence in class; the quote is about fairness/help, not confidence; unsupportable."
+    },
+    {
+      "var": "apptheor",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "some technical skills because being on site for a year will be – probably will learn more than staying on at university",
+      "reasoning": "Expects to learn new technical skills on site, not to apply theory already learnt at university; no support for the apply-theory item."
+    },
+    {
+      "var": "carpath",
+      "code": 1,
+      "label": "consultancy",
+      "confidence": "medium",
+      "evidence_quote": "eventually I think I’ll go into consulting because I wouldn’t imagine myself, at age 40, climbing up and down",
+      "reasoning": "Although she prefers contracting now, she concludes she will eventually specialise in consulting."
+    },
+    {
+      "var": "workrole",
+      "code": 2,
+      "label": "technical/specialist",
+      "confidence": "low",
+      "evidence_quote": "Hopefully I can be senior engineer or be responsible for quite large project and I can travel around.",
+      "reasoning": "Aspires to be a senior engineer (technical track); 'responsible for large project' is ambiguous toward managerial, so confidence is low."
+    },
+    {
+      "var": "salary",
+      "code": null,
+      "label": null,
+      "confidence": "low",
+      "evidence_quote": "I really think that the salary is not very competitive (OK) because engineers are – they put in a lot of hard work.",
+      "reasoning": "Comments that engineering salary is not competitive but never states salary's importance in her own job-choice decision; cannot place on the importance scale."
+    }
+  ]
+}

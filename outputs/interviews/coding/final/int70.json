@@ -1,0 +1,489 @@
+{
+ "unit_id": "int70",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "fields": {
+  "gender": {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "people are obviously aware that you're female",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Subject explicitly refers to herself as female.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "dept": {
+   "var": "dept",
+   "code": 6,
+   "label": "Mechanical & Manufacturing Engineering",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "There are two other mechanical engineers that are basically on a level to me",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Identifies as a mechanical engineer alongside two others.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "year": {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I've moved to the area here, yes.",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on her industrial placement year, having moved for it.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "placemen": {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "my placement is a work experience",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Currently on placement, so has gone on placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "experien": {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "I think the benefits far outweigh that, because you have a year’s experience",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Values placement primarily for the work experience it provides.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobprosp": {
+   "var": "jobprosp",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "verification": "adversarial-supported",
+   "evidence": "It'll certainly help me get a job even elsewhere because you do have one year’s experience and that’s obviously on your CV and that’s quite a sought after thing",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Strongly affirms placement improves job chances after university.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "industry": {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "it makes you more aware of how work is sort of expected, just the general structure, maturity I guess",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement gave her an idea of what industry/work is really like.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "jobdecid": {
+   "var": "jobdecid",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "You’ll go back to university more focused because I know really what I want now",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement helped her decide/clarify what she wants to do.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "perdevel": {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "I guess I have changed to some extent, perhaps my confidence, inter-personal skills, having to work round problems",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Reports clear personal development from the placement.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "apptheor": {
+   "var": "apptheor",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "the things I have used have obviously been very beneficial, and I’ve used in quite a lot of depth",
+   "evidence_role": "Subject",
+   "theme": "placement_decision",
+   "reasoning": "Placement was an opportunity to apply theory learnt at university, in depth.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "carpath": {
+   "var": "carpath",
+   "code": 9,
+   "label": "don't know",
+   "confidence": "medium",
+   "verification": "adversarial-wrong_code",
+   "evidence": "I'm currently doing design work which I'm enjoying",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Currently doing and enjoying design work; closest stated preference though still exploring.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "groupwk": {
+   "var": "groupwk",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "low",
+   "verification": "adversarial-supported",
+   "evidence": "you certainly learn a lot from group work at uni",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Positive about university group work despite noting recognition unfairness.",
+   "provenance": "prose-derived",
+   "flags": [
+    "low-not-blind-rechecked"
+   ]
+  },
+  "pleased": {
+   "var": "pleased",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "medium",
+   "verification": "adversarial-supported",
+   "evidence": "Yes definitely.",
+   "evidence_role": "Subject",
+   "theme": "future_intentions",
+   "reasoning": "Strongly affirms she wants a career in engineering, indicating she is pleased with the choice.",
+   "provenance": "prose-derived",
+   "flags": []
+  },
+  "interper": {
+   "var": "interper",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "verification": "adversarial-wrong_code; blind-agree",
+   "evidence": "some people having done presentations at uni may benefit from that",
+   "evidence_role": "Subject",
+   "theme": "course_experience",
+   "reasoning": "Concedes course presentations could develop interpersonal skills for some, though not for her; weak.",
+   "provenance": "prose-derived",
+   "flags": []
+  }
+ },
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "covered by groupwk"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "covered by finalyr"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "salary",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "people",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "No, I guess I’ve always known when I chose an engineering career that that's how it would be probably for most of my career and that's not really an issue.",
+    "Certainly the engineering side women are a minority.",
+    "I guess that engineering's kind of portrayed us in cars and engines and motors. If you ask most women they’ll see it as that and I guess that what goes alongside that is the A level choices you make are again very male dominated."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "I guess whilst I haven’t really used much of my course the things I have used have obviously been very beneficial, and I’ve used in quite a lot of depth.",
+    "The stuff that I've done has been mainly design work and I know that some of the things I've been taught at uni have been useful in that and applying that. Erm, mechanics particularly and (inaudible) diagrams.",
+    "No, to be honest I don't really think that there's been anything from that side of my course that's really benefited me here",
+    "you certainly learn a lot from group work at uni but on the unfairness side you don't always get recognition that perhaps you deserve or, you know, you’re all marked on a level as a team",
+    "I think the course uni is quite well balanced in that we do get to do some practical application of what we're learning, all be it in a controlled environment"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I wouldn't say there's any drawbacks, initially when I thought about getting a placement obviously I realised it would make my degree longer and that was kind of a negative point, but certainly having been here, I think the benefits far outweigh that, because you have a year’s experience.",
+    "You’ll go back to university more focused because I know really what I want now.",
+    "going back to university with the experience of having worked and dealt with problems is going to make any final year projects or any setbacks and group work far more easy to deal with",
+    "I'd say it's been a suitable balance of challenges and the work I've done has been interesting, so that’s good, I'd say mostly generally yeah really happy with my development since I’ve started and the opportunities I’ve been given.",
+    "It'll certainly help me get a job even elsewhere because you do have one year’s experience and that’s obviously on your CV and that’s quite a sought after thing"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "No I wouldn't say they had changed in terms of what I actually want, I guess a bit more narrowed down to specifics, or I'd be happy to do what I'm doing this year as career.",
+    "I'm currently doing design work which I'm enjoying but that's kind of more for the experience, I quite enjoy the testing side of it but I think to be honest there's still so much that I haven't seen",
+    "I know if I was on a graduate scheme you kind of get to move round and see different areas which would then perhaps help me decide a bit more.",
+    "Yes, I think it’d be nice to go onto a programme where you see different areas, yeah.",
+    "I'd certainly consider it yeah."
+   ],
+   "n_dropped": 0
+  }
+ ]
+}

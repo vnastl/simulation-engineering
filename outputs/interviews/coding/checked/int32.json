@@ -1,0 +1,503 @@
+{
+ "unit_id": "int32",
+ "verbatim": false,
+ "placement_status": "network75",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "my particular office – I’m the only woman in the office",
+   "theme": "course_experience",
+   "reasoning": "Repeatedly refers to herself as the only woman in the office; subject is female."
+  },
+  {
+   "var": "curricul",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I expected it to be hard and everything but I didn’t expect it to be as hard as it has been",
+   "theme": "course_experience",
+   "reasoning": "Course harder than she expected -> agree."
+  },
+  {
+   "var": "relevanc",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I find you learn a lot of theory, which because I’m working at the same time I think, oh I’m never gonna use this",
+   "theme": "course_experience",
+   "reasoning": "Struggles to see relevance of theory modules -> agree."
+  },
+  {
+   "var": "interper",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "it’s given me a lot of confidence like with doing presentations and things and it’s given me a lot of skills",
+   "theme": "course_experience",
+   "reasoning": "Course developed presentation/interpersonal skills and confidence -> agree."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I am happy with it. I think the way I’ve done it it’s like best for me",
+   "theme": "course_experience",
+   "reasoning": "Happy with her course/career choices -> agree (indirect, course is business not engineering)."
+  },
+  {
+   "var": "groupwk",
+   "code": 3,
+   "label": "neither satisfied nor dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I’ve had good experiences and bad experiences with group work",
+   "theme": "course_experience",
+   "reasoning": "Explicitly mixed feelings on group work -> neutral satisfaction."
+  },
+  {
+   "var": "friends",
+   "code": 4,
+   "label": "satisfied",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "the best thing is getting to meet loads of people anyway really. All the friends you make from doing the course",
+   "theme": "course_experience",
+   "reasoning": "Friends made are the best thing about the course -> satisfied."
+  },
+  {
+   "var": "theory",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "a lot of theory, which because I’m working at the same time I think, oh I’m never gonna use this (yeah) this is silly",
+   "theme": "course_experience",
+   "reasoning": "Negative about theory work as useless -> dissatisfied."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "the reason I chose the company was that was – the company wanted somebody because they didn’t have a marketing department",
+   "theme": "placement_decision",
+   "reasoning": "On a Network 75 work placement at the company -> yes."
+  },
+  {
+   "var": "noplaoth",
+   "code": 2,
+   "label": "network 75 student",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "What appealed to you about the Network 75 programme?",
+   "theme": "placement_decision",
+   "reasoning": "She is a Network 75 student -> placement additional category network 75."
+  },
+  {
+   "var": "money",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "it’s hard to get by when you’re a student (yeah) so it’s nice to have a bit of money as well as coming to uni",
+   "theme": "placement_decision",
+   "reasoning": "Money was an appeal of the scheme/placement -> agree."
+  },
+  {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "the best thing is the experience I think. You know – it’s made me grow up a lot",
+   "theme": "placement_decision",
+   "reasoning": "Values the work experience from placement -> agree."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "it’s made me grow up a lot, like I’ve learnt a lot from it",
+   "theme": "placement_decision",
+   "reasoning": "Placement drove personal growth/development -> agree."
+  },
+  {
+   "var": "carpath",
+   "code": 9,
+   "label": "don't know",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I’ve just got like no ambition really of what I want to be or what I want to do",
+   "theme": "future_intentions",
+   "reasoning": "Indifferent/undecided about future area -> don't know."
+  },
+  {
+   "var": "furstudy",
+   "code": 1,
+   "label": "yes",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I was thinking of doing a – this is totally unrelated – a law conversion course",
+   "theme": "future_intentions",
+   "reasoning": "Considering a law conversion course -> would like further study."
+  },
+  {
+   "var": "studarea",
+   "code": 7,
+   "label": "not engineering/design related",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "a law conversion course (really) and it only takes a year and then you’ve got your law degree",
+   "theme": "future_intentions",
+   "reasoning": "Intended further study is law -> not engineering/design related."
+  },
+  {
+   "var": "salary",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "money would obviously come into it, because obviously I’ve done the degree, why shouldn’t I have the money",
+   "theme": "future_intentions",
+   "reasoning": "Salary matters in choosing a job -> important."
+  },
+  {
+   "var": "location",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "me and my friend have just bought our own house so I’d like to stay local anyway, with my parents and that",
+   "theme": "future_intentions",
+   "reasoning": "Wants to stay local due to house/family -> location important."
+  },
+  {
+   "var": "workenv",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "It’s like it’s a nice atmosphere, it’s a good place to work",
+   "theme": "future_intentions",
+   "reasoning": "Values a good working atmosphere/environment -> important (indirect)."
+  },
+  {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Notes",
+   "evidence_quote": "I’d like to stay there, I mean I like everybody there",
+   "theme": "future_intentions",
+   "reasoning": "Wanting to stay because she likes the people -> people important (indirect)."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "year",
+   "reason": "not discussed"
+  },
+  {
+   "var": "dept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobprosp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "industry",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "covered by relevanc"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "covered by noplaoth"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workrole",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "I’d done my GNVQ in business (yeah) and then I come to Uni and just thought, oh I’ll do business",
+    "I was gonna do purchasing because I heard that it’s easy to get a job, if you have a degree in purchasing, but I started doing that and I thought no, I’d rather generalise and have a knowledge of everything",
+    "I done a presentation – we had to do like a group assignment and part of it was linked to the Network and we had to promote the Network 75 into the schools and the colleges",
+    "they approached me then in the summer, asking was I interested in the scheme? Well, obviously I knew a lot about it cos I’d promoted it anyway",
+    "it’s hard to get by when you’re a student (yeah) so it’s nice to have a bit of money as well as coming to uni"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "I expected it to be hard and everything but I didn’t expect it to be as hard as it has been and I expected to learn stuff but I thought I expect to learn more useful stuff than I am learning",
+    "the best thing is getting to meet loads of people anyway really. All the friends you make from doing the course",
+    "it’s given me a lot of confidence like with doing presentations and things and it’s given me a lot of skills, like using the computers and things like that, which I can transfer to work",
+    "I don’t like group work to be honest, especially when your grades count",
+    "I like group work if you’ve got a good group (yeah) but I’ve had good experiences and bad experiences with group work. I think you learn a lot from working in a group",
+    "I think a mix is good, yeah, definitely. I’d rather have a mix than all of the same – all girls or all boys"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "I had a choice between the company where I’m at now or working for Network 75",
+    "the reason I chose the company was that was – the company wanted somebody because they didn’t have a marketing department, basically, so they needed somebody to do their marketing",
+    "the placement with the Uni was more of a Human Resource (yes) placement, which I’ve never, ever been interested in Human Resources so that’s why I went for the company",
+    "Big disadvantage is lack of time to do your work",
+    "the best thing is the experience I think. You know – it’s made me grow up a lot, like I’ve learnt a lot from it"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "I’ve just got like no ambition really of what I want to be or what I want to do",
+    "I’d really like to but it’s whether the position is there for me, I don’t know",
+    "money would obviously come into it, because obviously I’ve done the degree, why shouldn’t I have the money like, at the end of the day?",
+    "me and my friend have just bought our own house so I’d like to stay local anyway, with my parents and that",
+    "I was thinking of doing a – this is totally unrelated – a law conversion course (really) and it only takes a year and then you’ve got your law degree",
+    "a job in an engineering company wouldn’t scare me, or would probably catch my eye and interest me then. I wouldn’t be at all daunted by the fact that it’s engineering"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 20,
+  "n_codes_kept": 20,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

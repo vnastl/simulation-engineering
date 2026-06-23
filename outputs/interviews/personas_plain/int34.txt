@@ -1,0 +1,62 @@
+INTERVIEW INT34 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: intend_yes.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Year of study: Part B/Year 2
+Department: IPTME
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+The chance to do interesting work: Agree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Disagree
+Having technical hobbies and interests: Disagree
+Engineering as a good degree to hold regardless: Agree
+Mother's encouragement to study engineering: Disagree
+Father's encouragement to study engineering: Disagree
+Careers advisor's encouragement: Disagree
+Nobody encouraged the choice: Agree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Agree
+The course developing interpersonal skills: Neither agree nor disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Neither satisfied nor dissatisfied
+Support from a personal tutor: Neither satisfied nor dissatisfied
+Group work: Dissatisfied
+The friends made on the course: Satisfied
+Theory work: Dissatisfied
+Practical work: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Agree
+For a break from education: Agree
+To help decide a future direction: Agree
+To see what industry is really like: Agree
+For personal development: Agree
+To help choose a final-year project: Agree
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+No placement available in a suitable location: Disagree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Don't know
+Whether they would like to go on to further study: No
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Location: Important
+Work environment: Important
+The people worked with: Important
+Opportunities to travel: Important
+Training opportunities: Important
+Opportunities for promotion: Important
+Preferred future work role: Don't know

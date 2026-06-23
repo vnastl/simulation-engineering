@@ -1,0 +1,62 @@
+INTERVIEW INT43 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Mixed sex
+Year of study: Part B/Year 2
+Department: Civil & Building Engineering
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Disagree
+Using science and maths without specialising: Agree
+Being good at maths and science at school: Agree
+Choosing engineering with little knowledge of the job: Agree
+Having a family member in the industry: Disagree
+Having technical hobbies and interests: Disagree
+Engineering as a good degree to hold regardless: Agree
+Engineering's appeal as a varied field: Strongly agree
+Mother's encouragement to study engineering: Disagree
+Father's encouragement to study engineering: Disagree
+Careers advisor's encouragement: Strongly agree
+School teacher's encouragement: Agree
+Whether anyone discouraged studying engineering: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Disagree
+Being pleased with the choice to study engineering: Neither agree nor disagree
+Difficulty seeing the relevance of some modules: Strongly agree
+Engineering students being competitive: Agree
+The coursework/exam balance being just right: Disagree
+The course developing interpersonal skills: Agree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from a personal tutor: Very dissatisfied
+Group work: Neither satisfied nor dissatisfied
+The friends made on the course: Very satisfied
+Theory work: Dissatisfied
+Practical work: Dissatisfied
+Design work: Very satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Strongly agree
+Because of needing the money: Strongly agree
+To improve job chances after university: Agree
+To help decide a future direction: Strongly agree
+To see what industry is really like: Agree
+Because it counts towards Chartership: Disagree
+Additional reason for wanting placement: Compulsory
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Project management
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Unimportant
+The people worked with: Important
+Opportunities to travel: Very important
+Preferred future work role: Managerial

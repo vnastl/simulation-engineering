@@ -1,0 +1,451 @@
+{
+ "unit_id": "int62",
+ "verbatim": true,
+ "placement_status": "on_placement",
+ "codes": [
+  {
+   "var": "gender",
+   "code": 2,
+   "label": "female",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’m, I’m the only girl in the team at the moment.",
+   "theme": "course_experience",
+   "reasoning": "Refers to herself as the only girl/female throughout."
+  },
+  {
+   "var": "dept",
+   "code": 3,
+   "label": "Civil & Building Engineering",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s really like a small element of the civil engineering that I’m doing",
+   "theme": "course_experience",
+   "reasoning": "States she is doing civil engineering; works on highways/bridges."
+  },
+  {
+   "var": "year",
+   "code": 5,
+   "label": "Placement year",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "Erm I started back erm end September last year, yes.",
+   "theme": "placement_decision",
+   "reasoning": "Currently on her industrial placement year."
+  },
+  {
+   "var": "placemen",
+   "code": 1,
+   "label": "yes",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "I’ve been you know expecting and very much look, you know look forward to this placement. I want to make the most of it.",
+   "theme": "placement_decision",
+   "reasoning": "She is on placement now."
+  },
+  {
+   "var": "jobprosp",
+   "code": 5,
+   "label": "Strongly agree",
+   "confidence": "high",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s extremely useful in terms of looking for erm seeking employment after your graduation … I have the security in mind, yeah, after graduations",
+   "theme": "placement_decision",
+   "reasoning": "Strongly frames placement's main benefit as improving job/employment prospects after university."
+  },
+  {
+   "var": "industry",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "personally speaking, I’ve never worked in an office environment before. So, working here, I’ve learn a lot, like you say, you know office politics",
+   "theme": "placement_decision",
+   "reasoning": "Values seeing what real industry/office work is like, never having experienced it before."
+  },
+  {
+   "var": "perdevel",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I learnt a lot and erm it makes you. It makes me grow up a lot as well.",
+   "theme": "placement_decision",
+   "reasoning": "Emphasises personal development and growing up as a benefit of the placement."
+  },
+  {
+   "var": "experien",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "as I said before I’ve learnt a lot. Probably not. Not a lot of technical stuff. But, well I, I, I have learnt a new, how to use a new programme that would be very useful",
+   "theme": "placement_decision",
+   "reasoning": "Went on placement for work experience/learning, valuing skills gained; supportive but indirect."
+  },
+  {
+   "var": "carpath",
+   "code": 2,
+   "label": "design work",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "come back you know through a highways into structures. I mean I’m, I’m particularly fond of bridges",
+   "theme": "future_intentions",
+   "reasoning": "Wants to specialise in bridge/structures design; her role is bridge modelling and design."
+  },
+  {
+   "var": "workrole",
+   "code": 1,
+   "label": "managerial",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "I would hope for, you know erm more managerial role, but I can’t see myself doing it at this stage.",
+   "theme": "future_intentions",
+   "reasoning": "Hopes for a managerial role in future, though not yet."
+  },
+  {
+   "var": "salary",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "knowing the fact that civil engineering probably the lowest pay within engineering industry. I do have probably, you know a change in field … has come across my mind",
+   "theme": "future_intentions",
+   "reasoning": "Low pay of civil engineering is salient enough to make her consider changing field, indicating salary matters."
+  },
+  {
+   "var": "people",
+   "code": 4,
+   "label": "important",
+   "confidence": "medium",
+   "evidence_role": "Subject",
+   "evidence_quote": "it’s very, very much you know down to the people that you work with",
+   "theme": "future_intentions",
+   "reasoning": "Repeatedly stresses that the people you work with are what matters; indicates importance of colleagues in a job."
+  }
+ ],
+ "skips": [
+  {
+   "var": "school",
+   "reason": "not discussed"
+  },
+  {
+   "var": "uni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "highsal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interest",
+   "reason": "not discussed"
+  },
+  {
+   "var": "challeng",
+   "reason": "not discussed"
+  },
+  {
+   "var": "special",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mathsci",
+   "reason": "not discussed"
+  },
+  {
+   "var": "knowledg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "family",
+   "reason": "not discussed"
+  },
+  {
+   "var": "hobbies",
+   "reason": "not discussed"
+  },
+  {
+   "var": "gooddeg",
+   "reason": "not discussed"
+  },
+  {
+   "var": "varied",
+   "reason": "not discussed"
+  },
+  {
+   "var": "mother",
+   "reason": "not discussed"
+  },
+  {
+   "var": "father",
+   "reason": "not discussed"
+  },
+  {
+   "var": "careers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teacher",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nobody",
+   "reason": "not discussed"
+  },
+  {
+   "var": "discoura",
+   "reason": "not discussed"
+  },
+  {
+   "var": "whodisc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practica",
+   "reason": "not discussed"
+  },
+  {
+   "var": "curricul",
+   "reason": "not discussed"
+  },
+  {
+   "var": "pleased",
+   "reason": "not discussed"
+  },
+  {
+   "var": "relevanc",
+   "reason": "not discussed"
+  },
+  {
+   "var": "competit",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Mconfid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "Fhelp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "deadline",
+   "reason": "not discussed"
+  },
+  {
+   "var": "assess",
+   "reason": "not discussed"
+  },
+  {
+   "var": "interper",
+   "reason": "covered by perdevel"
+  },
+  {
+   "var": "quality",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supplect",
+   "reason": "not discussed"
+  },
+  {
+   "var": "supppers",
+   "reason": "not discussed"
+  },
+  {
+   "var": "groupwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "teachhrs",
+   "reason": "not discussed"
+  },
+  {
+   "var": "friends",
+   "reason": "not discussed"
+  },
+  {
+   "var": "coursewk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "theory",
+   "reason": "not discussed"
+  },
+  {
+   "var": "practwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "designwk",
+   "reason": "not discussed"
+  },
+  {
+   "var": "variety",
+   "reason": "not discussed"
+  },
+  {
+   "var": "money",
+   "reason": "not discussed"
+  },
+  {
+   "var": "educatio",
+   "reason": "not discussed"
+  },
+  {
+   "var": "jobdecid",
+   "reason": "not discussed"
+  },
+  {
+   "var": "unigrade",
+   "reason": "not discussed"
+  },
+  {
+   "var": "apptheor",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finalyr",
+   "reason": "not discussed"
+  },
+  {
+   "var": "indchart",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placothe",
+   "reason": "not discussed"
+  },
+  {
+   "var": "wkexp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "placloca",
+   "reason": "not discussed"
+  },
+  {
+   "var": "breaked",
+   "reason": "not discussed"
+  },
+  {
+   "var": "finuni",
+   "reason": "not discussed"
+  },
+  {
+   "var": "nogain",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noappeal",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noaccept",
+   "reason": "not discussed"
+  },
+  {
+   "var": "noplaoth",
+   "reason": "not discussed"
+  },
+  {
+   "var": "furstudy",
+   "reason": "not discussed"
+  },
+  {
+   "var": "studarea",
+   "reason": "not discussed"
+  },
+  {
+   "var": "charship",
+   "reason": "not discussed"
+  },
+  {
+   "var": "location",
+   "reason": "not discussed"
+  },
+  {
+   "var": "workenv",
+   "reason": "not discussed"
+  },
+  {
+   "var": "travel",
+   "reason": "not discussed"
+  },
+  {
+   "var": "benefits",
+   "reason": "not discussed"
+  },
+  {
+   "var": "training",
+   "reason": "not discussed"
+  },
+  {
+   "var": "promot",
+   "reason": "not discussed"
+  },
+  {
+   "var": "equalopp",
+   "reason": "not discussed"
+  },
+  {
+   "var": "flexible",
+   "reason": "not discussed"
+  },
+  {
+   "var": "childcar",
+   "reason": "not discussed"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "route_into_engineering",
+   "answer_quotes": [
+    "Erm in engineering. I always think in engineering, civil engineering very noble. To serve the human society.",
+    "Yes. Yes. Honestly, yes. And erm. I can’t think of any, other words.",
+    "Demanding."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "course_experience",
+   "answer_quotes": [
+    "in terms of the erm work that I’m doing and how’s it related to my degree, it’s not hugely but well erm because it’s really like a small element of the civil engineering that I’m doing",
+    "I wish I had learnt Excel more thoroughly. It’s erm. We, we do a lot of stuff on er spreadsheet within my team.",
+    "Yeah. Erm like I have developed interpersonal skill and erm communication with others and that we didn’t really have to apply, you know at University.",
+    "I’m aware that we’ve got one of the erm compulsory modules. It’s either compulsory or optional module erm during our final year. It’s erm to probably do a bridge design. So I think that erm what I’m doing now would be very useful"
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "placement_decision",
+   "answer_quotes": [
+    "it’s extremely useful in terms of looking for erm seeking employment after your graduation because more or less, well probably we’re talking about erm ninety percent chance and if the company will take me back",
+    "I didn’t have a great start for the first three months. I was left alone doing filing and being totally ignored in a different team. So I really do appreciate what, what I do now and in this team",
+    "I learnt a lot and erm it makes you. It makes me grow up a lot as well.",
+    "personally speaking, I’ve never worked in an office environment before. So, working here, I’ve learn a lot, like you say, you know office politics and you know, interpersonal skills",
+    "The best thing about this placement so far, was the day that I changed teams. I, I couldn’t. I couldn’t erm, I couldn’t take off my smile on my face.",
+    "Erm yes I would actually, yeah. Yes."
+   ],
+   "n_dropped": 0
+  },
+  {
+   "theme": "future_intentions",
+   "answer_quotes": [
+    "Yeah I think I would go, come back you know through a highways into structures. I mean I’m, I’m particularly fond of bridges. Don’t know why.",
+    "I would hope for, you know erm more managerial role, but I can’t see myself doing it at this stage.",
+    "knowing the fact that civil engineering probably the lowest pay within engineering industry. I do have probably, you know a change in field, you know a change in career, you know, has come across my mind",
+    "Erm yes I wouldn’t mind at all. Yeah, unless I got better offer from others, yeah.",
+    "it’s very, very much you know down to the people that you work with"
+   ],
+   "n_dropped": 0
+  }
+ ],
+ "_quote_check": {
+  "n_codes_in": 12,
+  "n_codes_kept": 12,
+  "n_dropped": 0,
+  "drops": []
+ }
+}

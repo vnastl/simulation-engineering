@@ -1,0 +1,19 @@
+INTERVIEW INT55 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: on_placement.
+
+## Demographics & background
+Gender: Female
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Difficulty seeing the relevance of some modules: Agree
+
+## Industrial placement
+Whether they have gone / intend to go on placement: Yes
+Reasons for wanting to go on placement (5-point scale, strongly disagree → strongly agree):
+For the work experience: Agree
+Because of needing the money: Strongly agree
+To improve job chances after university: Agree
+To see what industry is really like: Agree
+Additional reason for wanting placement: Compulsory

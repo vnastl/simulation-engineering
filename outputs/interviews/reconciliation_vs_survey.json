@@ -1,0 +1,161 @@
+{
+  "placemen": {
+    "description": "whether they have gone / intend to go on placement",
+    "addressability_tier": "strong",
+    "interview_n_confident": 71,
+    "interview_salient_pct": {
+      "yes": 83.1,
+      "no": 16.9
+    },
+    "survey_pct": {
+      "yes": 71.9,
+      "no": 28.1
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "carpath": {
+    "description": "preferred area of engineering to specialise in",
+    "addressability_tier": "strong",
+    "interview_n_confident": 61,
+    "interview_salient_pct": {
+      "design work": 18.0,
+      "don't know": 18.0,
+      "consultancy": 16.4,
+      "research/development": 13.1,
+      "project management": 11.5,
+      "other": 11.5,
+      "contracting": 4.9,
+      "Armed Forces related": 4.9,
+      "do not want career in engineering": 1.6
+    },
+    "survey_pct": {
+      "design work": 30.7,
+      "don't know": 22.3,
+      "consultancy": 21.3,
+      "contracting": 8.7,
+      "manufacturing": 5.8,
+      "do not want career in engineering": 4.8,
+      "other": 3.9,
+      "research/development": 1.3,
+      "project management": 0.5,
+      "teaching": 0.5,
+      "Armed Forces related": 0.3
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "workrole": {
+    "description": "preferred future work role",
+    "addressability_tier": "strong",
+    "interview_n_confident": 52,
+    "interview_salient_pct": {
+      "managerial": 53.8,
+      "technical/specialist": 32.7,
+      "don't know": 13.5
+    },
+    "survey_pct": {
+      "managerial": 42.1,
+      "technical/specialist": 36.3,
+      "don't know": 21.6
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "interest": {
+    "description": "the chance to do interesting work",
+    "addressability_tier": "strong",
+    "interview_n_confident": 43,
+    "interview_salient_pct": {
+      "agree": 79.1,
+      "Strongly agree": 20.9
+    },
+    "survey_pct": {
+      "agree": 51.9,
+      "Strongly agree": 44.2,
+      "neither agree nor disagree": 3.1,
+      "disagree": 0.7,
+      "strongly disagree": 0.1
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "challeng": {
+    "description": "wanting the challenge of solving problems",
+    "addressability_tier": "strong",
+    "interview_n_confident": 12,
+    "interview_salient_pct": {
+      "agree": 66.7,
+      "Strongly agree": 33.3
+    },
+    "survey_pct": {
+      "agree": 58.8,
+      "Strongly agree": 31.5,
+      "neither agree nor disagree": 8.8,
+      "disagree": 0.7,
+      "strongly disagree": 0.1
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "family": {
+    "description": "having a family member in the industry",
+    "addressability_tier": "strong",
+    "interview_n_confident": 46,
+    "interview_salient_pct": {
+      "agree": 32.6,
+      "disagree": 32.6,
+      "strongly disagree": 28.3,
+      "Strongly agree": 6.5
+    },
+    "survey_pct": {
+      "strongly disagree": 28.3,
+      "disagree": 27.8,
+      "agree": 21.3,
+      "Strongly agree": 11.7,
+      "neither agree nor disagree": 11.0
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "pleased": {
+    "description": "being pleased with the choice to study engineering",
+    "addressability_tier": "strong",
+    "interview_n_confident": 57,
+    "interview_salient_pct": {
+      "agree": 71.9,
+      "Strongly agree": 22.8,
+      "neither agree nor disagree": 5.3
+    },
+    "survey_pct": {
+      "agree": 55.4,
+      "Strongly agree": 27.6,
+      "neither agree nor disagree": 13.4,
+      "disagree": 3.0,
+      "strongly disagree": 0.6
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "discoura": {
+    "description": "whether anyone discouraged studying engineering",
+    "addressability_tier": "strong",
+    "interview_n_confident": 34,
+    "interview_salient_pct": {
+      "no": 73.5,
+      "yes": 26.5
+    },
+    "survey_pct": {
+      "no": 90.8,
+      "yes": 9.2
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  },
+  "school": {
+    "description": "type of secondary school attended",
+    "addressability_tier": "strong",
+    "interview_n_confident": 42,
+    "interview_salient_pct": {
+      "Mixed sex": 71.4,
+      "Single sex": 28.6
+    },
+    "survey_pct": {
+      "Mixed sex": 80.6,
+      "Single sex": 19.4
+    },
+    "note": "interview marginals are volunteer-biased; compare salient codes to salient survey responders, never as a prevalence estimate (§5.3)"
+  }
+}

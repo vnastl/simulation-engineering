@@ -1,0 +1,54 @@
+INTERVIEW INT42 — coded persona (transcript→codes; construct-level, not survey-linked)
+
+Placement status: not_going.
+
+## Demographics & background
+Gender: Female
+Type of secondary school attended: Single sex
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Disagree
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Strongly agree
+Having a family member in the industry: Strongly disagree
+Having technical hobbies and interests: Agree
+Mother's encouragement to study engineering: Disagree
+Father's encouragement to study engineering: Strongly disagree
+Careers advisor's encouragement: Strongly disagree
+School teacher's encouragement: Strongly disagree
+Whether anyone discouraged studying engineering: Yes
+Who discouraged studying engineering: Teacher(s)
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Strongly agree
+Male students being more confident in class: Agree
+The course developing interpersonal skills: Disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Support from lecturers: Satisfied
+Support from a personal tutor: Very dissatisfied
+Group work: Neither satisfied nor dissatisfied
+The friends made on the course: Very satisfied
+Quantity of coursework: Dissatisfied
+Practical work: Satisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Agree
+No placement available in a suitable location: Disagree
+Wanting to finish university sooner and start earning: Agree
+Additional reason for not going on placement: University not supportive
+
+## Future in engineering
+Preferred area of engineering to specialise in: Other
+Whether they would like to go on to further study: Yes
+Intended area of further study: Masters, MSc, MBA
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Important
+The people worked with: Important
+Opportunities to travel: Important
+Preferred future work role: Technical/specialist

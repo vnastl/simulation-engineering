@@ -1,0 +1,81 @@
+SURVEY RESPONDENT #750 (Women Engineering Students' Workplace Experiences, UKDA SN 5723)
+
+## Demographics & background
+Gender: Male
+Age band: 19
+Ethnic group: Irish
+Religion: Christian
+Type of secondary school attended: Single sex
+Year of study: Part B/Year 2
+Department: Civil & Building Engineering
+University type (pre- or post-1992): Pre-1992 university
+
+## Choosing engineering
+Influences on the decision to study engineering (5-point scale, strongly disagree → strongly agree):
+High salary as a draw to engineering: Neither agree nor disagree
+The chance to do interesting work: Agree
+Wanting the challenge of solving problems: Strongly agree
+Using science and maths without specialising: Strongly disagree
+Being good at maths and science at school: Neither agree nor disagree
+Choosing engineering with little knowledge of the job: Disagree
+Having a family member in the industry: Agree
+Having technical hobbies and interests: Strongly agree
+Engineering as a good degree to hold regardless: Neither agree nor disagree
+Mother's encouragement to study engineering: Strongly agree
+Father's encouragement to study engineering: Strongly agree
+Careers advisor's encouragement: Neither agree nor disagree
+School teacher's encouragement: Neither agree nor disagree
+Nobody encouraged the choice: Strongly disagree
+Ever attended an engineering insight course: No
+
+## Experiences of higher education
+Level of agreement with statements about the degree (5-point scale, strongly disagree → strongly agree):
+The level of practical work being just right: Disagree
+The curriculum being harder than expected: Agree
+Being pleased with the choice to study engineering: Agree
+Difficulty seeing the relevance of some modules: Disagree
+Engineering students being competitive: Disagree
+Male students being more confident in class: Disagree
+Female students getting more help in class: Disagree
+Always having competing deadlines: Neither agree nor disagree
+The coursework/exam balance being just right: Strongly disagree
+The course developing interpersonal skills: Disagree
+Satisfaction with aspects of the course (5-point scale, very dissatisfied → very satisfied):
+Quality of lectures: Satisfied
+Support from lecturers: Satisfied
+Support from a personal tutor: Satisfied
+Group work: Dissatisfied
+Number of teaching hours: Satisfied
+The friends made on the course: Satisfied
+Quantity of coursework: Satisfied
+Theory work: Satisfied
+Practical work: Dissatisfied
+Design work: Satisfied
+Variety of subjects covered: Dissatisfied
+
+## Industrial placement
+Whether they have gone / intend to go on placement: No
+Reasons for not going on placement (5-point scale, strongly disagree → strongly agree):
+Already having work experience: Strongly agree
+Fear of returning to education after a break: Agree
+Wanting to finish university sooner and start earning: Agree
+
+## Future in engineering
+Preferred area of engineering to specialise in: Contracting
+Whether they would like to go on to further study: No
+Importance of factors when choosing a job (5-point scale, very unimportant → very important):
+Salary: Important
+Location: Unimportant
+Work environment: Important
+The people worked with: Unimportant
+Opportunities to travel: Unimportant
+Benefits such as a company car: Important
+Training opportunities: Important
+Opportunities for promotion: Very important
+Equal-opportunities policies: Very unimportant
+Opportunities for flexible working: Neither important nor unimportant
+Childcare policies: Important
+Preferred future work role: Managerial
+Importance of gaining Chartership: Important
+
+[Not stated: 8 item(s) left blank; 14 item(s) not applicable / filtered out by a branch.]

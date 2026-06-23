@@ -1,0 +1,37 @@
+{
+ "unit_id": "int45",
+ "recodes": [
+  {
+   "var": "family",
+   "code": 2,
+   "label": "disagree",
+   "confidence": "medium",
+   "evidence_quote": "my uncle, who I’m not sort of particularly close to. Erm but he’s an engineer – I couldn’t actually tell you what sort of engineering he does",
+   "reasoning": "Parents not engineers; only a distant uncle she barely knows, so family did not inform her engineering knowledge."
+  },
+  {
+   "var": "challeng",
+   "code": 4,
+   "label": "agree",
+   "confidence": "medium",
+   "evidence_quote": "be able to be quite good at problem solving",
+   "reasoning": "Repeatedly cites problem solving as her strength and appeal, supporting wanting the challenge of solving problems."
+  },
+  {
+   "var": "groupwk",
+   "code": 2,
+   "label": "dissatisfied",
+   "confidence": "low",
+   "evidence_quote": "the worst so far has been a particular group project which has basically run across the whole of this year and you didn’t get to pick the groups you were in, and that was really difficult.",
+   "reasoning": "Names a group project as her worst course experience; though she sees general advantages, her direct satisfaction signal is negative."
+  },
+  {
+   "var": "pleased",
+   "code": 4,
+   "label": "agree",
+   "confidence": "high",
+   "evidence_quote": "Yeah.",
+   "reasoning": "Direct affirmative when asked 'Are you pleased that you chose this course then?'"
+  }
+ ]
+}
