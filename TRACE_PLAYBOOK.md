@@ -32,10 +32,23 @@ are about *what to render and why*, not fixed names to copy.
 
 ## Sections, in this order
 
+> **Two arms in one trace → organise section-major, not arm-major.** When the
+> pipeline has two arms that share a schema (e.g. a survey arm and a transcript
+> arm; INTERVIEW playbook §8), make each *stage* a joint top-level heading
+> (Variables, Intermediate, Persona, Task) with the two arms as panels *within*
+> it — not two independent columns each running 1→4. The reason to co-locate the
+> arms is to compare the **same stage** across them; arm-major hides exactly that.
+> An asymmetric stage (e.g. the transcript arm's thematic-prose stage, which the
+> survey arm lacks) lives inside that arm's panel for the relevant section.
+
 ### 1. Variables
 The picked record's **raw input fields**, as a `variable → value` table. Show
 the values verbatim, before any cleaning or mapping. Include a short header
 block naming the run config (dataset, unit, target/outcome, key parameters).
+When a variable carries **both** a preserved question wording and a derived short
+description (codebook playbook §1.4), show **both** as separate columns — they are
+different fields, and collapsing them into one (rendering only the noun phrase)
+hides what was actually asked.
 
 ### 2. Intermediate steps
 The **transformations between raw input and the model-facing representation**,

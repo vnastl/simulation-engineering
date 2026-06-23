@@ -132,6 +132,17 @@ from prose, and they carry different trust.
   speaker turns* — the `Interviewer:` / `Subject:` structure is signal (who is
   asked vs. who answers). Normalise lightly; keep wording **verbatim** so quotes
   survive the round trip (§5.1).
+- **Expect format heterogeneity *within one corpus* — detect per file, not once.**
+  A single deposit can mix turn formats: cleanly tagged (`Subject:\t…`), *alternating*
+  (tagged `Interviewer:` turns with the subject's replies as untagged lines between
+  them), and — the trap — **interviewer *notes*: prose summaries with no Subject
+  turns at all.** A notes unit cannot supply a verbatim Subject-turn quote, so it
+  breaks the very evidence rule the whole §5.1 trust model rests on. Treat it as its
+  own class alongside focus groups: tag it **non-verbatim**, cap its confidence,
+  draw "evidence" from the notes text (the interviewer's paraphrase, never the
+  subject's words), and use it only as supporting/low-confidence material — never as
+  a source of verbatim Subject quotes. Detect the format on each file before parsing
+  it; a single global parser silently drops the alternating and notes units.
 
 ## 4. Addressability — what the prose can and can't reach
 
@@ -183,11 +194,20 @@ all required, **and run in order — deterministic first, LLM second**:
   whitespace runs, unify quote and dash glyphs, strip inserted speaker tags, match
   case-insensitively, still allowing `…` for elided gaps. Track the drop rate; a
   sudden spike usually means the canonical form drifted from the extractor, not
-  that the coder started lying.
+  that the coder started lying. **A *low* presence drop, though, is not the "guard
+  isn't biting" smell of §0(E)** — presence and support are different failure
+  modes. The presence check catches only *fabrication / paraphrase* (the quote
+  isn't on the page), and a capable coder handed the transcript and told to copy
+  exactly will copy faithfully, so a near-zero presence drop is the *expected* good
+  case. The §0(E) "changes almost nothing → guard not biting" heuristic belongs to
+  the **support** check below (adversarial re-read), where near-zero change really
+  is suspicious. Confirm the presence check is alive by spot-checking it rejects a
+  known-bad quote — not by demanding a high drop rate.
 - **Adversarial re-read — on the survivors.** A second agent re-reads the *same*
   transcript and, per field, checks the quote supports the *assigned* code (not a
   neighbouring one); default to skepticism. Apply corrections; downgrade thin
-  support.
+  support. This is the *support* check (does the quote mean what the code says),
+  distinct from the presence check above (is the quote on the page).
 - **Leave null rather than guess.** Skipping is correct and expected — a coded
   field is a claim you must back with words on the page.
 
@@ -198,6 +218,18 @@ code**. Agree (exact, or within one point on an ordinal scale) → promote
 confidence; disagree → keep but flag with the alternative; the second pass finds
 nothing → keep low, flag. This measures *reproducibility between independent
 passes* — useful, but it is **not** validation against truth (§8).
+
+**Fix the blind-pass scope *after* the adversarial pass, not before — the order
+bites.** The adversarial re-read (§5.1) *downgrades* confidence on thinly-supported
+codes, so it changes which fields count as low-confidence. If the blind pass chose
+its targets from the pre-adversarial confidences, every field the adversarial pass
+*later* pushed to low was never in the blind pass's scope — and naively it then
+looks "not re-supported by the blind pass" when in truth it was simply never
+re-coded. So compute the low-confidence set from the *post-adversarial* record, and
+keep two distinct flags: **"blind tried and failed to re-support"** (a real
+reproducibility signal) versus **"never in blind scope"** (a scheduling artifact,
+not evidence). Conflating them silently inflates the apparent non-reproducibility
+rate and mis-reads §5.2's calibration extremes.
 
 **Agreement between two LLM passes is correlated, not independent.** The adversarial
 re-read (§5.1) and this blind pass share the same model priors, so a *systematic*
@@ -319,6 +351,18 @@ are verbatim with the same quote-presence check (§5.1), store them keyed by the
 with their related-variable subset, and reconcile against the coding: a code with no
 quote inside its theme's prose, or a theme rich in content but empty of codes, is a
 flag worth reading.
+
+**Render the prose as the reconstructed exchange, not a list of quotes.** "The
+whole answer after probing" *is* a question→answer exchange, and it reads as one
+only if you render it as one: map each verbatim Subject quote back to the turn it
+came from and prepend the preceding **Interviewer** turn, so each theme is the
+recurring question followed by the subject's full answer (several probes → several
+exchanges, in transcript order). A bare list of quote fragments — even correctly
+verbatim ones — reads as disconnected snippets, not an interview, and drops the
+question each answer was given to. (When a quote maps to no Subject turn — e.g.
+interviewer-notes units, which carry no Subject turns to reconstruct an exchange
+from — render the verbatim spans as plain paragraphs instead; such units should
+already carry the non-verbatim tag from §3.)
 
 ---
 

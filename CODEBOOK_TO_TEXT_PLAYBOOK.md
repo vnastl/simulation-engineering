@@ -174,7 +174,15 @@ text into its **own column** in the lookup table and carry it onto the
 renderer object (§4.1) — a separate field from `short_description`, not a
 replacement for it. Two things make this trickier than it looks:
 
-- **It usually comes from the instrument, not the codebook**, so you have
+- **First check whether the variable label already *is* the question.** Before
+  reaching for the instrument, look at the embedded variable label: some
+  depositors store the full item text there — the label is the whole question,
+  item number and all (`"<item code>  <full question wording>"`), not a terse
+  noun phrase. When it is, recover `question_text` by stripping the leading
+  item-code prefix off the label — no instrument, no item-number alignment
+  needed. Only fall through to the steps below when the label is a terse noun
+  phrase rather than the question.
+- **Otherwise it usually comes from the instrument, not the codebook**, so you have
   to align instrument item numbers (`Q11a`, `S5`) to data column codes
   (`q11a`, `s5a`). Mostly mechanical, but expect mismatches: derived /
   recoded variables have no instrument item (leave their question empty
@@ -371,6 +379,23 @@ breakoff, …}`. The number alone tells you nothing; the label does. Record
 the resulting per-column "missing codes" set in your lookup table so both
 layers below can use it.
 
+**Label-matching only catches *labelled* missing codes; unlabelled ones are
+§2.1's job, not this section's.** The rule above presumes the missing code *has* a
+label to normalize (`9 = "Refused"`). Some surveys instead leave missing codes
+**unlabelled** — a bare code with no value label at all — so there is no string to
+match and this section never sees them. Resist the tempting shortcut "no label ⇒
+missing": an unlabelled code is just as often a *real category the codebook
+dropped* as a sentinel (§2.2), and blanket-NaNing it silently discards real data.
+Unlabelled codes surface only in the `observed − listed` reconciliation (§2.1) and
+must be **investigated there** — triage by frequency and against the instrument
+(§2.2) — before any are called missing. Only the ones that investigation confirms
+are sentinels get frozen into the allow-list and join the per-column missing set;
+the safety comes from that reconciliation gate, not from the absence of a label.
+Doing it per (column, code) is what lets the *same number* resolve both ways —
+missing on a column where it is a confirmed unlabelled sentinel, a real category on
+a column where it carries a label (e.g. `9` = filtered-out skip on one item,
+`9 = "don't know"` on another).
+
 ### 3.2 Your loader may destroy the distinction before you see it
 
 Before you write any policy, **verify how missing values survive the
@@ -496,6 +521,17 @@ structure — over a full sentence per cell. It is a whole-persona phrasing
 choice (the A/B-over-`render_value` seam above), so you can switch without
 touching any column definition.
 
+**Strip the survey's clerical scaffolding from the layout.** "Mirroring the
+survey's structure" means its *topical* shape, not its paperwork. So: headers are
+human-readable **topic names** (`## Demographics & background`), never the
+questionnaire's own section letters or item numbers (`A.`, `Section 4`, `Q11`);
+the per-field lines are flat `Label: value`, with no bullet glyphs and no
+item-letter prefixes; lead with the identity/demographic block as the first
+topic, not a prose sentence. The persona is model-conditioning text — section
+codes, item numbers, and bullets are clerical noise the model shouldn't have to
+parse. Keep battery *stems*, though (and sentence-case the values): a stem names
+the response scale, which is signal, not scaffolding.
+
 **One composition decision that matters: skip-heavy surveys flood with
 N/A.** Most respondents skip most branches, so "render every column" can
 produce a wall of `N/A`. Prefer rendering only the *present* fields in the
@@ -509,6 +545,16 @@ wave, stratum) are known from metadata with certainty and have no skip or
 refusal flavour — they are always *present*. The drop-vs-keep-on-missing
 reasoning applies only to *elicited* answers; never drop a frame fact as if it
 were an unanswered branch.
+
+**But "demographic" is a topic, not a source — don't conflate the two.** The
+always-present guarantee belongs to *frame-supplied* facts, not to demographics as
+a category. A survey that *asks* its demographics (a gender/age/ethnicity block of
+questions, wherever it sits in the instrument) yields **elicited** demographics: they can be left
+blank or refused, and they are dropped-on-missing like any other answer. So tag a
+field metadata-derived vs elicited by where the value actually came from — the
+sample frame or a question the respondent answered — not by whether it sounds
+demographic. Only the former is always-present; the latter is an ordinary
+missing-able answer that merely happens to be about the respondent.
 
 That's the entire reusable core: per column, a value map, a missing-value
 fill, and a phrasing. It stops at the text — the persona is the output.
