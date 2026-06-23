@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Raw UK Data Service distribution — large, and licensed (do not redistribute).
+# Regenerate by unzipping the archives into data/.
+M_5723*.zip
+/data/
+/downloads/
