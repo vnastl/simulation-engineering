@@ -90,16 +90,27 @@ So inventory how the paper reports things, and pick the gap:
   race or age; if by race, split on something else). Its regression tables
   don't count: odds ratios with "coefficients not shown" are not descriptive
   percentages.
-- **Confirm the absence**, everywhere: tables, *figure* bars, body text,
-  appendices. If the number is in a figure, it's in the paper.
+- **Confirm the absence of the *difference*, not just the number** — and do it
+  adversarially: every theme, every held-out item, every source. The held-out
+  macro target is the **direction (and magnitude) of the gap** (§3.4), so a theme
+  is contaminated if a source states that direction in **any** form — a number, a
+  *figure* bar, *or a sentence of prose*. A discussed outcome is grounding; a
+  stated difference is leakage. Search every source the survey put out — not just
+  the headline paper but every companion / technical report, brief, supplement and
+  appendix (§2.1) — and quote anything you find. **Uncertain counts as covered**,
+  and **no theme is exempt** (the ones that look novel are where a buried sentence
+  survives). A source whose central thesis *is* your split axis presumptively
+  telegraphs every direction on it — usually a poor split, however un-tabulated
+  its numbers look.
 - **Confirm the estimability**: the split must have enough respondents per
   cell to estimate reliably, and the outcome must be a clean variable in the
   raw data. A gap that's real and absent-from-the-paper but only estimable at
   a very low sample size is not worth a task.
 
 A healthy theme: an outcome the paper *discusses* (so the task is grounded in
-the literature) whose *sub-population numbers* it never gives (so the task is
-non-trivial) and that the raw data *can* deliver (so the answer key is solid).
+the literature) whose *sub-population difference* it never states in any form —
+number, figure, or prose direction (so the task is non-trivial) — and that the
+raw data *can* deliver (so the answer key is solid).
 
 ### 1.2 The three shapes, and what each is for
 
@@ -143,6 +154,34 @@ Three decisions, each easy to get subtly wrong:
 
 State all three choices explicitly per theme; they *are* the task.
 
+### 1.4 The split itself: vary it across themes, name both groups, rule out a disguise
+
+The split *is* the macro task, so design it with the same care as the outcome.
+
+- **Vary the split axis across themes**, for the same reason the conditioning
+  varies (§1.3): a theme is *(outcome, split)*, so diversify the second axis too.
+  Don't view one population cut N ways — let each theme divide on a *different*
+  axis, the one where that outcome is both most informative and uncontaminated
+  (§1.1). Payoffs: more distinct insight, and robustness — when every theme rides
+  one axis, a single weak or contaminated split sinks the whole suite at once.
+- **Two named groups, not focal-vs-rest.** Compare two specifically *named*,
+  comparably-sized levels, each describable to the model by what it *is*. A
+  "focal group vs. *other (everything else)*" split is two bugs at once: the
+  residual arm is **heterogeneous** (its prevalence averages over unrelated
+  sub-populations, so the gap is uninterpretable) and **lopsided** (the unequal
+  arms make the smaller cell noisy). With a many-level variable, pick the two you
+  mean to contrast and drop the rest from that theme — never a vague catch-all in
+  model-facing text.
+- **Cross-tab the candidate split against the other structural variables first.**
+  A split reads as an "X" contrast but is really a "Y" contrast in disguise
+  whenever one arm lives almost entirely inside one level of another variable Y —
+  the headline gap is then Y's, mislabelled (and if Y is another theme's split,
+  you've asked the same question twice). If an arm is ~entirely aligned with one
+  level of Y, **hold Y constant** (restrict both arms to a shared Y, or pick arms
+  that already share it), then re-confirm estimability on the smaller cells.
+  **Scrutinise the highest-signal candidate hardest** — a large, "obvious" gap is
+  exactly what a lurking variable produces.
+
 ---
 
 ## 2. The answer key — get the numbers right, then freeze
@@ -161,11 +200,19 @@ silently. So **first reproduce numbers the paper *does* print**:
   missing-value handling are right, and the *new* split inherits that
   credibility. If they don't, fix the definition before computing anything
   the paper can't check.
-- **Weighting:** the paper's descriptives are usually survey-weighted; the
-  personas (and thus your task population) are usually unweighted individual
-  records. Decide which you report — unweighted is design-consistent with the
-  personas — and *document it*; it explains the few-point offsets and keeps
-  the validation honest rather than alarming.
+- **Weighting — first confirm a design weight exists.** Don't assume one because
+  the paper says "representative": many designs (convenience, census,
+  self-selected, single-stage) ship no weight/stratum/PSU variable. If none
+  exists, say so and document the reduction — the design is simple random
+  sampling, so weighted == unweighted, n_eff == the record count, and the
+  design-based variance is just the SRS variance; reproduce the paper's marginals
+  *unweighted*. **If a weight does exist:** the paper's descriptives are
+  survey-weighted, so report **weighted** estimates — what reproduces the
+  published marginals and what your answer-key targets should match. Don't drop
+  the weights to line up with the personas: each persona carries its own survey
+  weight, so weight *both* sides, not unweighted on both. *Document the weight
+  variable you used*; it explains the few-point offsets and keeps the validation
+  honest rather than alarming.
 
 Treat a mismatch as a stop-and-investigate, exactly like an unexplained value
 code in the persona playbook.
@@ -198,6 +245,115 @@ compute once, **freeze to a reviewable artifact** (per group, per rubric item:
 the prevalence, the denominator, the significance), commit it as the source of
 truth, and have the trace and any scorer *read* it rather than recompute. The
 estimator stays runnable, but the frozen file is what the tasks point at.
+
+Freeze the estimate — **weighted** if a weight exists, else the unweighted one
+(§2.1). Run the statistics through a **language boundary**: Python owns the task
+logic and emits a tidy long `(item, group, weight, stratum, y)` table (`y` = 0/1
+for a prevalence item, or a numeric score for a mean item); R does the stats and
+writes them back; the boundary is a data file, so no `rpy2` coupling (`samplics`
+is the pure-Python fallback). **Use this exact script — copy it verbatim, do not
+re-derive it.** It is survey-agnostic (it makes no task assumptions) and returns,
+per group, the design estimate (`svymean`), the design-based `svyglm` Wald p,
+Fisher's exact p, and a frequency-weight χ²:
+
+```r
+# Per-(item, group) design-based statistics for the survey task answer keys.
+# All the statistics live here (one auditable script); Python only prepares the
+# long table, re-checks the results, and freezes them (TASK_PLAYBOOK Sec 2.4).
+#
+# in:  long CSV (item, group [2 levels], weight, stratum, y)
+#        y = 0/1 for a prevalence item, or a numeric score for a mean item.
+# out: CSV (item, group, n, n_pos, pct, design_pct, neff, fisher_p, wald_p, freqweight_p)
+#        pct/design_pct are percentages for a 0/1 item, the raw/weighted mean for a score item.
+#
+# scale (optional, default 1) multiplies every weight: the survey-design p (wald_p) and the
+# exact p (fisher_p) are INVARIANT; the frequency-weight chi-square (freqweight_p) collapses
+# toward 0 — proving that our tests are design-based, not frequency-weighted.
+#
+# Usage:  Rscript estimate_weights.R <in.csv> <out.csv> [scale]
+
+library(survey)
+options(survey.lonely.psu = "adjust")            # a single-element stratum in a subset -> finite variance
+
+args    <- commandArgs(trailingOnly = TRUE)
+in_csv  <- args[1]
+out_csv <- args[2]
+scale   <- if (length(args) >= 3) as.numeric(args[3]) else 1.0
+
+d        <- read.csv(in_csv)
+d$weight <- d$weight * scale
+d$group  <- factor(d$group)
+
+# Stratified element design (ids = ~1); drop strata if a subset spans fewer than two.
+design <- function(s) {
+  if (length(unique(s$stratum)) > 1)
+    svydesign(ids = ~1, strata = ~stratum, weights = ~weight, data = s)
+  else
+    svydesign(ids = ~1, weights = ~weight, data = s)
+}
+
+per_item <- function(it) {
+  s       <- d[d$item == it, ]
+  s$group <- droplevels(s$group)
+  binary  <- all(s$y %in% c(0, 1))                # prevalence (0/1) vs mean (score) item
+  des     <- design(s)
+  dmean   <- svyby(~y, ~group, des, svymean)      # design-based group mean (svymean)
+
+  fit    <- tryCatch(if (binary) svyglm(y ~ group, des, family = quasibinomial())
+                     else        svyglm(y ~ group, des),
+                     error = function(e) NULL)
+  wald_p <- if (is.null(fit)) NA_real_ else coef(summary(fit))[2, "Pr(>|t|)"]
+
+  yf           <- factor(s$y, levels = c(0, 1))   # exact + frequency-weight checks: binary items only
+  fisher_p     <- if (binary) tryCatch(fisher.test(table(s$group, yf))$p.value,        error = function(e) NA_real_) else NA_real_
+  freqweight_p <- if (binary) tryCatch(chisq.test(xtabs(weight ~ group + yf, data = s))$p.value, error = function(e) NA_real_) else NA_real_
+
+  do.call(rbind, lapply(levels(s$group), function(g) {
+    sg <- s[s$group == g, ]
+    dm <- dmean[dmean$group == g, "y"]
+    data.frame(item = it, group = g, n = nrow(sg),
+               n_pos      = if (binary) sum(sg$y) else NA_integer_,
+               pct        = round(if (binary) 100 * mean(sg$y) else mean(sg$y), 4),
+               design_pct = round(if (binary) 100 * dm         else dm,         4),
+               neff       = round(sum(sg$weight)^2 / sum(sg$weight^2), 4),
+               fisher_p = fisher_p, wald_p = wald_p, freqweight_p = freqweight_p)
+  }))
+}
+
+write.csv(do.call(rbind, lapply(unique(d$item), per_item)), out_csv, row.names = FALSE)
+cat(sprintf("[R] survey %s: %d items -> %s\n",
+            as.character(packageVersion("survey")), length(unique(d$item)), out_csv))
+```
+
+Python reads the output back, **re-checks R's counts against the raw long table**,
+and freezes.
+
+**Which p is frozen depends on the weighting.** With a real weight the
+descriptives are survey-weighted, so the design-based **`svyglm` Wald** is the
+frozen significance (there is no exact weighted test) and Fisher's exact — which
+ignores the weights — is kept as an unweighted cross-check. With no weight the
+design is SRS, weighted == unweighted, and the frozen significance is **Fisher's
+exact** (design-exact, valid for the sparse cells, §3.4), with the Wald as the
+cross-check. Precision is set by the **effective sample size** n_eff = (Σw)²/Σw²
+— ≤ the record count, == it under unit weights.
+
+Sanity-check design-correctness the cheap way: rescale every weight by a
+constant — a correct survey/exact p is *unchanged*; a frequency-weight χ²
+collapses. Then, sanity-check design-correctness in detail: creating and verifying replications of estimates, variances and p values published in the paper. Reproduce the published regression in two deliberate passes before you accept
+any gap. **First**, pin each covariate to its own published marginal — a
+control whose distribution matches the paper's Table 1 is the right variable
+(and rules out using the wrong one). **Then actively search the missing-data
+conventions** — how each control's "don't know"/refused is treated, single
+vs. combined items — and adopt the coding that lands the regression N *closest*
+to the paper's; don't settle on the first that runs. **Only once that search
+is genuinely exhausted** is a residual acceptable: a replicated N a percent or
+two off is fine *as long as the coefficients and p-values reproduce*, because
+papers rarely document these conventions and the last few cases are often
+unrecoverable — at that point match the estimates and significance, and stop
+chasing the exact N. Keep the **unweighted N** alongside as the
+denominator — but only as the *sample-size sanity check* (is the subgroup big
+enough to bother testing), never the significance
+denominator.
 
 ---
 
@@ -301,11 +457,16 @@ The macro tasks buy two checks; render what each needs:
 ## 5. Checklist for a new survey/paper
 
 1. [ ] **Pick themes**: an outcome the paper *discusses* but whose
-       **sub-population cross-tab it never prints**, on a split with adequate
-       cell sizes and a clean source variable (§1.1).
-2. [ ] **Validate against the paper first**: reproduce its sample N and a few
-       marginals from the raw data before trusting any new number; document
-       weighting (§2.1). Pin the (nested) population to a predicate (§2.2).
+       **sub-population difference it never states in any form** — number, figure
+       or prose direction — verified by an adversarial per-item/every-source
+       disclosure check (§1.1). Each theme on a **different** split axis, two
+       *named* comparably-sized groups (not focal-vs-rest), cross-tabbed against
+       the other structural variables to rule out a confound (§1.4).
+2. [ ] **Find where the survey's numbers live, then validate**: the headline
+       paper often prints none — inventory every source (technical report, data
+       archive user guide, codebook, appendices). **First check whether a design
+       weight exists**; reproduce its sample N and a few marginals before trusting
+       any new number (§2.1). Pin the (nested) population to a predicate (§2.2).
 3. [ ] **Per theme, decide conditioning vs. held-out**: pick the conditioning
        set that *best predicts that outcome* (always aim high), and an explicit
        allow-list of shown sections; **assert** no held-out item is shown.
