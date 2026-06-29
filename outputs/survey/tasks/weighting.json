@@ -1,0 +1,957 @@
+{
+  "engine": "R (estimate_weights.R): fisher.test (exact) + survey::svyglm (design Wald) + svymean (prevalence), one script; Python orchestrates, re-checks against the raw data, and freezes.",
+  "weighting": {
+    "weight_variable": null,
+    "strata_variable": null,
+    "psu_variable": null,
+    "n_columns_scanned": 86,
+    "note": "no weight/strata/PSU/cluster/fpc column in any distributed format; documentation never mentions weighting; unit weights.",
+    "n_records": 804,
+    "n_eff_total": 804
+  },
+  "frozen_significance": "Fisher exact (two-sided, R fisher.test) \u2014 design-exact under SRS / unit weights and valid for sparse cells (\u00a73.4)",
+  "design_based_crosscheck": {
+    "tool": "R survey::svyglm Wald (same script)",
+    "items_with_design_p": 33,
+    "fisher_vs_wald_verdict_agreement": "33/33",
+    "note": "with unit weights svyglm is a large-sample normal approx; it agrees with Fisher's exact verdict on every item, so the frozen Fisher significance is corroborated by the design-based path."
+  },
+  "rescale_sanity_check": {
+    "rescale_constant": 7.0,
+    "exact_and_survey_p_invariant": true,
+    "max_abs_fisher_p_diff": 0.0,
+    "max_abs_wald_p_diff": 0.0,
+    "freqweight_contrast": {
+      "item": "mathsci",
+      "freqweight_p_at_w1": 3.1063205529861e-11,
+      "freqweight_p_at_w7": 6.75877369925562e-71,
+      "note": "a frequency-weight chi-square (chisq.test on the weight-weighted table) collapses toward 0 under \u00d7C; the exact (fisher_p) and survey-Wald p's do not \u2014 confirming our tests are design-based, not frequency-weighted."
+    }
+  },
+  "per_item": {
+    "practica": {
+      "split": "industrial placement",
+      "group_order": [
+        "placement",
+        "no_placement"
+      ],
+      "group_pct": {
+        "placement": 45.2,
+        "no_placement": 40.0
+      },
+      "fisher_p": 0.200360503099708,
+      "significant": false,
+      "design": {
+        "wald_p": 0.185575992588389,
+        "wald_significant": false,
+        "groups": {
+          "placement": {
+            "design_pct": 45.2,
+            "neff": 566.0
+          },
+          "no_placement": {
+            "design_pct": 40.0,
+            "neff": 220.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "curricul": {
+      "split": "industrial placement",
+      "group_order": [
+        "placement",
+        "no_placement"
+      ],
+      "group_pct": {
+        "placement": 41.6,
+        "no_placement": 50.7
+      },
+      "fisher_p": 0.0247386293370508,
+      "significant": true,
+      "design": {
+        "wald_p": 0.02206824561439,
+        "wald_significant": true,
+        "groups": {
+          "placement": {
+            "design_pct": 41.6,
+            "neff": 565.0
+          },
+          "no_placement": {
+            "design_pct": 50.7,
+            "neff": 219.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "pleased": {
+      "split": "industrial placement",
+      "group_order": [
+        "placement",
+        "no_placement"
+      ],
+      "group_pct": {
+        "placement": 85.6,
+        "no_placement": 76.5
+      },
+      "fisher_p": 0.0030357835986071,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0025670809243762,
+        "wald_significant": true,
+        "groups": {
+          "placement": {
+            "design_pct": 85.6,
+            "neff": 568.0
+          },
+          "no_placement": {
+            "design_pct": 76.5,
+            "neff": 221.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "relevanc": {
+      "split": "industrial placement",
+      "group_order": [
+        "placement",
+        "no_placement"
+      ],
+      "group_pct": {
+        "placement": 44.9,
+        "no_placement": 54.3
+      },
+      "fisher_p": 0.0212245524015461,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0181129855841915,
+        "wald_significant": true,
+        "groups": {
+          "placement": {
+            "design_pct": 44.9,
+            "neff": 568.0
+          },
+          "no_placement": {
+            "design_pct": 54.3,
+            "neff": 221.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "deadline": {
+      "split": "industrial placement",
+      "group_order": [
+        "placement",
+        "no_placement"
+      ],
+      "group_pct": {
+        "placement": 60.4,
+        "no_placement": 74.2
+      },
+      "fisher_p": 0.0002625366258725,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0003244282469374,
+        "wald_significant": true,
+        "groups": {
+          "placement": {
+            "design_pct": 60.4,
+            "neff": 565.0
+          },
+          "no_placement": {
+            "design_pct": 74.2,
+            "neff": 221.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "assess": {
+      "split": "industrial placement",
+      "group_order": [
+        "placement",
+        "no_placement"
+      ],
+      "group_pct": {
+        "placement": 48.1,
+        "no_placement": 48.2
+      },
+      "fisher_p": 1.0,
+      "significant": false,
+      "design": {
+        "wald_p": 0.971466809921655,
+        "wald_significant": false,
+        "groups": {
+          "placement": {
+            "design_pct": 48.1,
+            "neff": 566.0
+          },
+          "no_placement": {
+            "design_pct": 48.2,
+            "neff": 222.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "interper": {
+      "split": "industrial placement",
+      "group_order": [
+        "placement",
+        "no_placement"
+      ],
+      "group_pct": {
+        "placement": 73.5,
+        "no_placement": 66.1
+      },
+      "fisher_p": 0.0433111890205636,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0376411714332773,
+        "wald_significant": true,
+        "groups": {
+          "placement": {
+            "design_pct": 73.5,
+            "neff": 567.0
+          },
+          "no_placement": {
+            "design_pct": 66.1,
+            "neff": 221.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "highsal": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 44.2,
+        "post1992": 47.6
+      },
+      "fisher_p": 0.463872154350226,
+      "significant": false,
+      "design": {
+        "wald_p": 0.450658566486332,
+        "wald_significant": false,
+        "groups": {
+          "pre1992": {
+            "design_pct": 44.2,
+            "neff": 654.0
+          },
+          "post1992": {
+            "design_pct": 47.6,
+            "neff": 147.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "interest": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 96.8,
+        "post1992": 92.6
+      },
+      "fisher_p": 0.0322296960738846,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0212011682282983,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 96.8,
+            "neff": 656.0
+          },
+          "post1992": {
+            "design_pct": 92.6,
+            "neff": 148.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "challeng": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 92.4,
+        "post1992": 81.1
+      },
+      "fisher_p": 9.67834202056834e-05,
+      "significant": true,
+      "design": {
+        "wald_p": 5.69621272302847e-05,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 92.4,
+            "neff": 655.0
+          },
+          "post1992": {
+            "design_pct": 81.1,
+            "neff": 148.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "special": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 64.3,
+        "post1992": 42.6
+      },
+      "fisher_p": 1.73689806384769e-06,
+      "significant": true,
+      "design": {
+        "wald_p": 2.02215942248682e-06,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 64.3,
+            "neff": 655.0
+          },
+          "post1992": {
+            "design_pct": 42.6,
+            "neff": 148.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "mathsci": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 77.5,
+        "post1992": 50.0
+      },
+      "fisher_p": 1.12981213785884e-10,
+      "significant": true,
+      "design": {
+        "wald_p": 1.26560695463746e-10,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 77.5,
+            "neff": 652.0
+          },
+          "post1992": {
+            "design_pct": 50.0,
+            "neff": 148.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "knowledg": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 25.2,
+        "post1992": 26.0
+      },
+      "fisher_p": 0.833810063848611,
+      "significant": false,
+      "design": {
+        "wald_p": 0.833722314139807,
+        "wald_significant": false,
+        "groups": {
+          "pre1992": {
+            "design_pct": 25.2,
+            "neff": 655.0
+          },
+          "post1992": {
+            "design_pct": 26.0,
+            "neff": 146.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "family": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 31.7,
+        "post1992": 38.8
+      },
+      "fisher_p": 0.120232889896189,
+      "significant": false,
+      "design": {
+        "wald_p": 0.100895691874809,
+        "wald_significant": false,
+        "groups": {
+          "pre1992": {
+            "design_pct": 31.7,
+            "neff": 656.0
+          },
+          "post1992": {
+            "design_pct": 38.8,
+            "neff": 147.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "hobbies": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 56.6,
+        "post1992": 53.4
+      },
+      "fisher_p": 0.521345984736697,
+      "significant": false,
+      "design": {
+        "wald_p": 0.482600920344747,
+        "wald_significant": false,
+        "groups": {
+          "pre1992": {
+            "design_pct": 56.6,
+            "neff": 656.0
+          },
+          "post1992": {
+            "design_pct": 53.4,
+            "neff": 148.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "gooddeg": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 89.0,
+        "post1992": 68.5
+      },
+      "fisher_p": 7.86341056346762e-09,
+      "significant": true,
+      "design": {
+        "wald_p": 2.25149897513135e-09,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 89.0,
+            "neff": 656.0
+          },
+          "post1992": {
+            "design_pct": 68.5,
+            "neff": 146.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "varied": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 79.0,
+        "post1992": 66.2
+      },
+      "fisher_p": 0.0012298653593329,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0010571897752622,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 79.0,
+            "neff": 653.0
+          },
+          "post1992": {
+            "design_pct": 66.2,
+            "neff": 148.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "mother": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 20.2,
+        "post1992": 12.9
+      },
+      "fisher_p": 0.0469399231035644,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0451919502440789,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 20.2,
+            "neff": 655.0
+          },
+          "post1992": {
+            "design_pct": 12.9,
+            "neff": 147.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "father": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 31.6,
+        "post1992": 29.9
+      },
+      "fisher_p": 0.767922935491946,
+      "significant": false,
+      "design": {
+        "wald_p": 0.693274083357759,
+        "wald_significant": false,
+        "groups": {
+          "pre1992": {
+            "design_pct": 31.6,
+            "neff": 655.0
+          },
+          "post1992": {
+            "design_pct": 29.9,
+            "neff": 147.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "careers": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 21.1,
+        "post1992": 19.6
+      },
+      "fisher_p": 0.737583917182251,
+      "significant": false,
+      "design": {
+        "wald_p": 0.690201604482053,
+        "wald_significant": false,
+        "groups": {
+          "pre1992": {
+            "design_pct": 21.1,
+            "neff": 655.0
+          },
+          "post1992": {
+            "design_pct": 19.6,
+            "neff": 148.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "teacher": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 36.1,
+        "post1992": 19.2
+      },
+      "fisher_p": 5.98731535115735e-05,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0001259405106421,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 36.1,
+            "neff": 653.0
+          },
+          "post1992": {
+            "design_pct": 19.2,
+            "neff": 146.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "nobody": {
+      "split": "university type",
+      "group_order": [
+        "pre1992",
+        "post1992"
+      ],
+      "group_pct": {
+        "pre1992": 32.0,
+        "post1992": 46.2
+      },
+      "fisher_p": 0.0014388234146822,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0013779785490095,
+        "wald_significant": true,
+        "groups": {
+          "pre1992": {
+            "design_pct": 32.0,
+            "neff": 649.0
+          },
+          "post1992": {
+            "design_pct": 46.2,
+            "neff": 145.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "salary": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 96.9,
+        "design_tech": 90.1
+      },
+      "fisher_p": 0.0825407957045826,
+      "significant": false,
+      "design": {
+        "wald_p": 0.0690068711767463,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 96.9,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 90.1,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "location": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 86.6,
+        "design_tech": 75.0
+      },
+      "fisher_p": 0.0472364468929976,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0437398506892492,
+        "wald_significant": true,
+        "groups": {
+          "civil": {
+            "design_pct": 86.6,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 75.0,
+            "neff": 100.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "workenv": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 91.8,
+        "design_tech": 96.0
+      },
+      "fisher_p": 0.244014919047553,
+      "significant": false,
+      "design": {
+        "wald_p": 0.218574779916146,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 91.8,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 96.0,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "people": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 84.5,
+        "design_tech": 84.2
+      },
+      "fisher_p": 1.0,
+      "significant": false,
+      "design": {
+        "wald_p": 0.941945003286973,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 84.5,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 84.2,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "travel": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 48.5,
+        "design_tech": 48.5
+      },
+      "fisher_p": 1.0,
+      "significant": false,
+      "design": {
+        "wald_p": 0.993148544864005,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 48.5,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 48.5,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "benefits": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 50.5,
+        "design_tech": 22.8
+      },
+      "fisher_p": 6.08215638089792e-05,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0001023492265163,
+        "wald_significant": true,
+        "groups": {
+          "civil": {
+            "design_pct": 50.5,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 22.8,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "training": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 87.6,
+        "design_tech": 75.2
+      },
+      "fisher_p": 0.0292002294439843,
+      "significant": true,
+      "design": {
+        "wald_p": 0.0296070245539467,
+        "wald_significant": true,
+        "groups": {
+          "civil": {
+            "design_pct": 87.6,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 75.2,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "promot": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 94.8,
+        "design_tech": 88.1
+      },
+      "fisher_p": 0.12816247908331,
+      "significant": false,
+      "design": {
+        "wald_p": 0.10688026940195,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 94.8,
+            "neff": 96.0
+          },
+          "design_tech": {
+            "design_pct": 88.1,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "equalopp": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 43.8,
+        "design_tech": 50.5
+      },
+      "fisher_p": 0.392370050598255,
+      "significant": false,
+      "design": {
+        "wald_p": 0.345958102341465,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 43.8,
+            "neff": 96.0
+          },
+          "design_tech": {
+            "design_pct": 50.5,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "flexible": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 63.9,
+        "design_tech": 53.5
+      },
+      "fisher_p": 0.150632917015643,
+      "significant": false,
+      "design": {
+        "wald_p": 0.13897417420204,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 63.9,
+            "neff": 97.0
+          },
+          "design_tech": {
+            "design_pct": 53.5,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    },
+    "childcar": {
+      "split": "engineering discipline",
+      "group_order": [
+        "civil",
+        "design_tech"
+      ],
+      "group_pct": {
+        "civil": 24.0,
+        "design_tech": 13.9
+      },
+      "fisher_p": 0.0996841258710631,
+      "significant": false,
+      "design": {
+        "wald_p": 0.0749266611841756,
+        "wald_significant": false,
+        "groups": {
+          "civil": {
+            "design_pct": 24.0,
+            "neff": 96.0
+          },
+          "design_tech": {
+            "design_pct": 13.9,
+            "neff": 101.0
+          }
+        },
+        "fisher_vs_wald_verdict_agree": true
+      }
+    }
+  }
+}

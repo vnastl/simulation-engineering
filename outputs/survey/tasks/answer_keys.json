@@ -1,0 +1,3514 @@
+{
+  "study": "UKDA SN 5723 \u2014 Women Engineering Students' Workplace Experiences, 2004\u20132005",
+  "paper": "Powell, Bagilhole & Dainty (2009), 'How Women Engineers Do and Undo Gender', Gender, Work & Organization 16(4)",
+  "frozen_by": "pipeline/survey/tasks/estimate.py",
+  "validation": {
+    "reproduced_sample_size": {
+      "expected": 804,
+      "got": 804,
+      "match": true
+    },
+    "split_denominators_per_theme": {
+      "degree_experience": {
+        "axis": "industrial placement",
+        "var": "placemen",
+        "groups": {
+          "placement": 570,
+          "no_placement": 223
+        },
+        "not_in_either": 11
+      },
+      "routes_in": {
+        "axis": "university type",
+        "var": "uni",
+        "groups": {
+          "pre1992": 656,
+          "post1992": 148
+        },
+        "not_in_either": 0
+      },
+      "job_values": {
+        "axis": "engineering discipline",
+        "var": "dept",
+        "groups": {
+          "civil": 97,
+          "design_tech": 102
+        },
+        "not_in_either": 605
+      }
+    },
+    "report_marginals_reproduced": [
+      {
+        "var": "jobdecid",
+        "scope": "all",
+        "published_pct": 87,
+        "source": "report p.27: '87% of students agreed they wanted to go on placement to help them decide what to do after university'",
+        "reproduced_pct": 86.8,
+        "n_answered": 575,
+        "within_tol": true,
+        "abs_diff": 0.2
+      },
+      {
+        "var": "jobdecid",
+        "scope": "female",
+        "published_pct": 93,
+        "source": "report p.28: 'female students were significantly more likely to agree (93%)'",
+        "reproduced_pct": 92.8,
+        "n_answered": 139,
+        "within_tol": true,
+        "abs_diff": 0.2
+      },
+      {
+        "var": "industry",
+        "scope": "all",
+        "published_pct": 94,
+        "source": "report p.29: '94% of male and female students agreed that they wanted to go on placement to get an idea of what industry is really like'",
+        "reproduced_pct": 93.9,
+        "n_answered": 576,
+        "within_tol": true,
+        "abs_diff": 0.1
+      }
+    ],
+    "weighting": {
+      "weight_variable": null,
+      "note": "study ships no design weight; every respondent weight = 1; weighted estimate == unweighted (proven: R survey::svymean reproduces the unweighted prevalence); n_eff = (\u03a3w)\u00b2/\u03a3w\u00b2 == n. Full design-based provenance + rescale sanity check in weighting.json (\u00a72.4).",
+      "n_eff": 804.0
+    },
+    "source_cross_tab_validation": {
+      "journal_paper": "Powell et al. (2009) \u2014 qualitative, prints no survey numbers (the women-only interview arm).",
+      "esrc_report": "RES-000-23-0426 (downloads/q5723uguide.pdf pp.23\u201334) \u2014 prints survey marginals; reproduced above (report_marginals_reproduced) as the \u00a72.1 reconciliation.",
+      "per_theme_split_is_the_gap": {
+        "_verified_by": "adversarial disclosure check (both sources, item by item, with a skeptic stage hunting for covering statements).",
+        "degree_experience": "split on PLACEMENT; report discusses placement heavily and the Q4 degree-views, but attributes their directions to sex/discipline/university, never to placement status.",
+        "routes_in": "split on UNIVERSITY; report makes the pre/post-1992 divide its headline finding but never cross-tabulates the Q1 influence battery by university.",
+        "job_values": "split on DISCIPLINE; report cross-tabulates Q11 job-factors by university (and other outcomes by department) but never the job-factors by discipline.",
+        "_sex_dropped": "sex FAILED the check \u2014 sources state the by-sex directions outright (Fhelp 'women received more help ... the survey showed this'; competitiveness 'not conclusive')."
+      },
+      "upstream_coding_check": "pipeline/survey/validate.py diffs every categorical cell against the .sav native decode."
+    },
+    "significance_test": "Fisher exact (two-sided) on the 2\u00d72 endorsed\u00d7group cell \u2014 design-exact under SRS / unit weights and valid for sparse cells (\u00a73.4); corroborated item-by-item by the design-based R survey::svyglm Wald (weighting.json, \u00a72.4).",
+    "endorsement_cut": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+    "min_subgroup_cell_for_testing": 20
+  },
+  "splits": {
+    "degree_experience": {
+      "var": "placemen",
+      "name": "industrial placement"
+    },
+    "routes_in": {
+      "var": "uni",
+      "name": "university type"
+    },
+    "job_values": {
+      "var": "dept",
+      "name": "engineering discipline"
+    }
+  },
+  "themes": {
+    "degree_experience": {
+      "title": "Experiences of the engineering degree",
+      "outcome_group": "Experiences of the engineering degree (views of the course)",
+      "split": {
+        "var": "placemen",
+        "name": "industrial placement",
+        "groups": [
+          {
+            "key": "placement",
+            "label": "placement",
+            "definition": "engineering students who have gone, or intend to go, on an industrial placement",
+            "n": 570
+          },
+          {
+            "key": "no_placement",
+            "label": "no placement",
+            "definition": "engineering students who do not go on an industrial placement",
+            "n": 223
+          }
+        ]
+      },
+      "items": [
+        {
+          "code": "practica",
+          "statement": "The level of practical work on the course is just right",
+          "short_description": "the level of practical work being just right",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that the level of practical work on the course is just right",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "industrial placement",
+          "group_order": [
+            "placement",
+            "no_placement"
+          ],
+          "groups": {
+            "placement": {
+              "pct": 45.2,
+              "n_pos": 256,
+              "n_answered": 566
+            },
+            "no_placement": {
+              "pct": 40.0,
+              "n_pos": 88,
+              "n_answered": 220
+            }
+          },
+          "p_value": 0.200360503099708,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "placement",
+          "design_crosscheck": {
+            "wald_p": 0.185575992588389,
+            "wald_significant": false,
+            "groups": {
+              "placement": {
+                "design_pct": 45.2,
+                "neff": 566.0
+              },
+              "no_placement": {
+                "design_pct": 40.0,
+                "neff": 220.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 33,
+                "pct": 5.8
+              },
+              "disagree": {
+                "code": 2,
+                "n": 165,
+                "pct": 29.2
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 112,
+                "pct": 19.8
+              },
+              "agree": {
+                "code": 4,
+                "n": 219,
+                "pct": 38.7
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 37,
+                "pct": 6.5
+              }
+            },
+            "no_placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 22,
+                "pct": 10.0
+              },
+              "disagree": {
+                "code": 2,
+                "n": 68,
+                "pct": 30.9
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 42,
+                "pct": 19.1
+              },
+              "agree": {
+                "code": 4,
+                "n": 85,
+                "pct": 38.6
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 3,
+                "pct": 1.4
+              }
+            }
+          }
+        },
+        {
+          "code": "curricul",
+          "statement": "The engineering/design & technology curriculum is more difficult than I expected",
+          "short_description": "the curriculum being harder than expected",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that the engineering curriculum was more difficult than expected",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "industrial placement",
+          "group_order": [
+            "placement",
+            "no_placement"
+          ],
+          "groups": {
+            "placement": {
+              "pct": 41.6,
+              "n_pos": 235,
+              "n_answered": 565
+            },
+            "no_placement": {
+              "pct": 50.7,
+              "n_pos": 111,
+              "n_answered": 219
+            }
+          },
+          "p_value": 0.0247386293370508,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "no_placement",
+          "raw_direction": "no_placement",
+          "design_crosscheck": {
+            "wald_p": 0.02206824561439,
+            "wald_significant": true,
+            "groups": {
+              "placement": {
+                "design_pct": 41.6,
+                "neff": 565.0
+              },
+              "no_placement": {
+                "design_pct": 50.7,
+                "neff": 219.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 5,
+                "pct": 0.9
+              },
+              "disagree": {
+                "code": 2,
+                "n": 109,
+                "pct": 19.3
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 216,
+                "pct": 38.2
+              },
+              "agree": {
+                "code": 4,
+                "n": 189,
+                "pct": 33.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 46,
+                "pct": 8.1
+              }
+            },
+            "no_placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 3,
+                "pct": 1.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 37,
+                "pct": 16.9
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 68,
+                "pct": 31.1
+              },
+              "agree": {
+                "code": 4,
+                "n": 89,
+                "pct": 40.6
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 22,
+                "pct": 10.0
+              }
+            }
+          }
+        },
+        {
+          "code": "pleased",
+          "statement": "I am pleased I chose to study engineering/design & technology",
+          "short_description": "being pleased with the choice to study engineering",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that they are pleased they chose to study engineering",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "industrial placement",
+          "group_order": [
+            "placement",
+            "no_placement"
+          ],
+          "groups": {
+            "placement": {
+              "pct": 85.6,
+              "n_pos": 486,
+              "n_answered": 568
+            },
+            "no_placement": {
+              "pct": 76.5,
+              "n_pos": 169,
+              "n_answered": 221
+            }
+          },
+          "p_value": 0.0030357835986071,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "placement",
+          "raw_direction": "placement",
+          "design_crosscheck": {
+            "wald_p": 0.0025670809243762,
+            "wald_significant": true,
+            "groups": {
+              "placement": {
+                "design_pct": 85.6,
+                "neff": 568.0
+              },
+              "no_placement": {
+                "design_pct": 76.5,
+                "neff": 221.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 3,
+                "pct": 0.5
+              },
+              "disagree": {
+                "code": 2,
+                "n": 15,
+                "pct": 2.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 64,
+                "pct": 11.3
+              },
+              "agree": {
+                "code": 4,
+                "n": 318,
+                "pct": 56.0
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 168,
+                "pct": 29.6
+              }
+            },
+            "no_placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 2,
+                "pct": 0.9
+              },
+              "disagree": {
+                "code": 2,
+                "n": 9,
+                "pct": 4.1
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 41,
+                "pct": 18.6
+              },
+              "agree": {
+                "code": 4,
+                "n": 119,
+                "pct": 53.8
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 50,
+                "pct": 22.6
+              }
+            }
+          }
+        },
+        {
+          "code": "relevanc",
+          "statement": "It is difficult to understand the relevance of some modules",
+          "short_description": "difficulty seeing the relevance of some modules",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that it is difficult to understand the relevance of some modules",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "industrial placement",
+          "group_order": [
+            "placement",
+            "no_placement"
+          ],
+          "groups": {
+            "placement": {
+              "pct": 44.9,
+              "n_pos": 255,
+              "n_answered": 568
+            },
+            "no_placement": {
+              "pct": 54.3,
+              "n_pos": 120,
+              "n_answered": 221
+            }
+          },
+          "p_value": 0.0212245524015461,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "no_placement",
+          "raw_direction": "no_placement",
+          "design_crosscheck": {
+            "wald_p": 0.0181129855841915,
+            "wald_significant": true,
+            "groups": {
+              "placement": {
+                "design_pct": 44.9,
+                "neff": 568.0
+              },
+              "no_placement": {
+                "design_pct": 54.3,
+                "neff": 221.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 16,
+                "pct": 2.8
+              },
+              "disagree": {
+                "code": 2,
+                "n": 151,
+                "pct": 26.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 146,
+                "pct": 25.7
+              },
+              "agree": {
+                "code": 4,
+                "n": 198,
+                "pct": 34.9
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 57,
+                "pct": 10.0
+              }
+            },
+            "no_placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 5,
+                "pct": 2.3
+              },
+              "disagree": {
+                "code": 2,
+                "n": 41,
+                "pct": 18.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 55,
+                "pct": 24.9
+              },
+              "agree": {
+                "code": 4,
+                "n": 85,
+                "pct": 38.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 35,
+                "pct": 15.8
+              }
+            }
+          }
+        },
+        {
+          "code": "deadline",
+          "statement": "We always have competing deadlines",
+          "short_description": "always having competing deadlines",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that they always have competing deadlines",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "industrial placement",
+          "group_order": [
+            "placement",
+            "no_placement"
+          ],
+          "groups": {
+            "placement": {
+              "pct": 60.4,
+              "n_pos": 341,
+              "n_answered": 565
+            },
+            "no_placement": {
+              "pct": 74.2,
+              "n_pos": 164,
+              "n_answered": 221
+            }
+          },
+          "p_value": 0.0002625366258725,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "no_placement",
+          "raw_direction": "no_placement",
+          "design_crosscheck": {
+            "wald_p": 0.0003244282469374,
+            "wald_significant": true,
+            "groups": {
+              "placement": {
+                "design_pct": 60.4,
+                "neff": 565.0
+              },
+              "no_placement": {
+                "design_pct": 74.2,
+                "neff": 221.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 1,
+                "pct": 0.2
+              },
+              "disagree": {
+                "code": 2,
+                "n": 42,
+                "pct": 7.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 181,
+                "pct": 32.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 264,
+                "pct": 46.7
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 77,
+                "pct": 13.6
+              }
+            },
+            "no_placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "disagree": {
+                "code": 2,
+                "n": 11,
+                "pct": 5.0
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 46,
+                "pct": 20.8
+              },
+              "agree": {
+                "code": 4,
+                "n": 127,
+                "pct": 57.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 37,
+                "pct": 16.7
+              }
+            }
+          }
+        },
+        {
+          "code": "assess",
+          "statement": "The balance between coursework and exams in module assessments is just right",
+          "short_description": "the coursework/exam balance being just right",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that the coursework/exam balance in assessment is just right",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "industrial placement",
+          "group_order": [
+            "placement",
+            "no_placement"
+          ],
+          "groups": {
+            "placement": {
+              "pct": 48.1,
+              "n_pos": 272,
+              "n_answered": 566
+            },
+            "no_placement": {
+              "pct": 48.2,
+              "n_pos": 107,
+              "n_answered": 222
+            }
+          },
+          "p_value": 1.0,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "no_placement",
+          "design_crosscheck": {
+            "wald_p": 0.971466809921655,
+            "wald_significant": false,
+            "groups": {
+              "placement": {
+                "design_pct": 48.1,
+                "neff": 566.0
+              },
+              "no_placement": {
+                "design_pct": 48.2,
+                "neff": 222.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 16,
+                "pct": 2.8
+              },
+              "disagree": {
+                "code": 2,
+                "n": 94,
+                "pct": 16.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 184,
+                "pct": 32.5
+              },
+              "agree": {
+                "code": 4,
+                "n": 255,
+                "pct": 45.1
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 17,
+                "pct": 3.0
+              }
+            },
+            "no_placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 9,
+                "pct": 4.1
+              },
+              "disagree": {
+                "code": 2,
+                "n": 43,
+                "pct": 19.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 63,
+                "pct": 28.4
+              },
+              "agree": {
+                "code": 4,
+                "n": 100,
+                "pct": 45.0
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 7,
+                "pct": 3.2
+              }
+            }
+          }
+        },
+        {
+          "code": "interper",
+          "statement": "The course develops interpersonal skills",
+          "short_description": "the course developing interpersonal skills",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that the course develops interpersonal skills",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "industrial placement",
+          "group_order": [
+            "placement",
+            "no_placement"
+          ],
+          "groups": {
+            "placement": {
+              "pct": 73.5,
+              "n_pos": 417,
+              "n_answered": 567
+            },
+            "no_placement": {
+              "pct": 66.1,
+              "n_pos": 146,
+              "n_answered": 221
+            }
+          },
+          "p_value": 0.0433111890205636,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "placement",
+          "raw_direction": "placement",
+          "design_crosscheck": {
+            "wald_p": 0.0376411714332773,
+            "wald_significant": true,
+            "groups": {
+              "placement": {
+                "design_pct": 73.5,
+                "neff": 567.0
+              },
+              "no_placement": {
+                "design_pct": 66.1,
+                "neff": 221.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 6,
+                "pct": 1.1
+              },
+              "disagree": {
+                "code": 2,
+                "n": 33,
+                "pct": 5.8
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 111,
+                "pct": 19.6
+              },
+              "agree": {
+                "code": 4,
+                "n": 326,
+                "pct": 57.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 91,
+                "pct": 16.0
+              }
+            },
+            "no_placement": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 2,
+                "pct": 0.9
+              },
+              "disagree": {
+                "code": 2,
+                "n": 22,
+                "pct": 10.0
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 51,
+                "pct": 23.1
+              },
+              "agree": {
+                "code": 4,
+                "n": 127,
+                "pct": 57.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 19,
+                "pct": 8.6
+              }
+            }
+          }
+        }
+      ]
+    },
+    "routes_in": {
+      "title": "Routes into engineering",
+      "outcome_group": "Influences on the decision to study engineering",
+      "split": {
+        "var": "uni",
+        "name": "university type",
+        "groups": [
+          {
+            "key": "pre1992",
+            "label": "pre-1992 university",
+            "definition": "students at a pre-1992, traditional research-intensive university (mostly post-A-level entrants)",
+            "n": 656
+          },
+          {
+            "key": "post1992",
+            "label": "post-1992 university",
+            "definition": "students at a post-1992, former-polytechnic university with a more vocational intake (more mature and part-time students)",
+            "n": 148
+          }
+        ]
+      },
+      "items": [
+        {
+          "code": "highsal",
+          "statement": "I was attracted to engineering/design & technology because of the high salary",
+          "short_description": "high salary as a draw to engineering",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that the high salary attracted them to engineering",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 44.2,
+              "n_pos": 289,
+              "n_answered": 654
+            },
+            "post1992": {
+              "pct": 47.6,
+              "n_pos": 70,
+              "n_answered": 147
+            }
+          },
+          "p_value": 0.463872154350226,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "post1992",
+          "design_crosscheck": {
+            "wald_p": 0.450658566486332,
+            "wald_significant": false,
+            "groups": {
+              "pre1992": {
+                "design_pct": 44.2,
+                "neff": 654.0
+              },
+              "post1992": {
+                "design_pct": 47.6,
+                "neff": 147.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 25,
+                "pct": 3.8
+              },
+              "disagree": {
+                "code": 2,
+                "n": 148,
+                "pct": 22.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 192,
+                "pct": 29.4
+              },
+              "agree": {
+                "code": 4,
+                "n": 252,
+                "pct": 38.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 37,
+                "pct": 5.7
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 4,
+                "pct": 2.7
+              },
+              "disagree": {
+                "code": 2,
+                "n": 17,
+                "pct": 11.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 56,
+                "pct": 38.1
+              },
+              "agree": {
+                "code": 4,
+                "n": 56,
+                "pct": 38.1
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 14,
+                "pct": 9.5
+              }
+            }
+          }
+        },
+        {
+          "code": "interest",
+          "statement": "Engineering/Design & Technology provided an opportunity to do interesting work",
+          "short_description": "the chance to do interesting work",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that the chance to do interesting work attracted them",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 96.8,
+              "n_pos": 635,
+              "n_answered": 656
+            },
+            "post1992": {
+              "pct": 92.6,
+              "n_pos": 137,
+              "n_answered": 148
+            }
+          },
+          "p_value": 0.0322296960738846,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 0.0212011682282983,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 96.8,
+                "neff": 656.0
+              },
+              "post1992": {
+                "design_pct": 92.6,
+                "neff": 148.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "disagree": {
+                "code": 2,
+                "n": 4,
+                "pct": 0.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 17,
+                "pct": 2.6
+              },
+              "agree": {
+                "code": 4,
+                "n": 330,
+                "pct": 50.3
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 305,
+                "pct": 46.5
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 1,
+                "pct": 0.7
+              },
+              "disagree": {
+                "code": 2,
+                "n": 2,
+                "pct": 1.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 8,
+                "pct": 5.4
+              },
+              "agree": {
+                "code": 4,
+                "n": 87,
+                "pct": 58.8
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 50,
+                "pct": 33.8
+              }
+            }
+          }
+        },
+        {
+          "code": "challeng",
+          "statement": "I wanted the challenge of solving problems",
+          "short_description": "wanting the challenge of solving problems",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that wanting the challenge of solving problems attracted them",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 92.4,
+              "n_pos": 605,
+              "n_answered": 655
+            },
+            "post1992": {
+              "pct": 81.1,
+              "n_pos": 120,
+              "n_answered": 148
+            }
+          },
+          "p_value": 9.67834202056834e-05,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 5.69621272302847e-05,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 92.4,
+                "neff": 655.0
+              },
+              "post1992": {
+                "design_pct": 81.1,
+                "neff": 148.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "disagree": {
+                "code": 2,
+                "n": 4,
+                "pct": 0.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 46,
+                "pct": 7.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 374,
+                "pct": 57.1
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 231,
+                "pct": 35.3
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 1,
+                "pct": 0.7
+              },
+              "disagree": {
+                "code": 2,
+                "n": 2,
+                "pct": 1.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 25,
+                "pct": 16.9
+              },
+              "agree": {
+                "code": 4,
+                "n": 98,
+                "pct": 66.2
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 22,
+                "pct": 14.9
+              }
+            }
+          }
+        },
+        {
+          "code": "special",
+          "statement": "I wanted to use my science and maths background without specialising in either",
+          "short_description": "using science and maths without specialising",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that using science and maths without specialising attracted them",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 64.3,
+              "n_pos": 421,
+              "n_answered": 655
+            },
+            "post1992": {
+              "pct": 42.6,
+              "n_pos": 63,
+              "n_answered": 148
+            }
+          },
+          "p_value": 1.73689806384769e-06,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 2.02215942248682e-06,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 64.3,
+                "neff": 655.0
+              },
+              "post1992": {
+                "design_pct": 42.6,
+                "neff": 148.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 16,
+                "pct": 2.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 62,
+                "pct": 9.5
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 156,
+                "pct": 23.8
+              },
+              "agree": {
+                "code": 4,
+                "n": 283,
+                "pct": 43.2
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 138,
+                "pct": 21.1
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 8,
+                "pct": 5.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 28,
+                "pct": 18.9
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 49,
+                "pct": 33.1
+              },
+              "agree": {
+                "code": 4,
+                "n": 50,
+                "pct": 33.8
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 13,
+                "pct": 8.8
+              }
+            }
+          }
+        },
+        {
+          "code": "mathsci",
+          "statement": "I was good at maths and science at school",
+          "short_description": "being good at maths and science at school",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that being good at maths and science at school attracted them",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 77.5,
+              "n_pos": 505,
+              "n_answered": 652
+            },
+            "post1992": {
+              "pct": 50.0,
+              "n_pos": 74,
+              "n_answered": 148
+            }
+          },
+          "p_value": 1.12981213785884e-10,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 1.26560695463746e-10,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 77.5,
+                "neff": 652.0
+              },
+              "post1992": {
+                "design_pct": 50.0,
+                "neff": 148.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 9,
+                "pct": 1.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 42,
+                "pct": 6.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 96,
+                "pct": 14.7
+              },
+              "agree": {
+                "code": 4,
+                "n": 319,
+                "pct": 48.9
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 186,
+                "pct": 28.5
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 6,
+                "pct": 4.1
+              },
+              "disagree": {
+                "code": 2,
+                "n": 28,
+                "pct": 18.9
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 40,
+                "pct": 27.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 55,
+                "pct": 37.2
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 19,
+                "pct": 12.8
+              }
+            }
+          }
+        },
+        {
+          "code": "knowledg",
+          "statement": "I chose to study engineering/design & technology with little knowledge of what engineers actually do",
+          "short_description": "choosing engineering with little knowledge of the job",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that they chose engineering with little knowledge of the job",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 25.2,
+              "n_pos": 165,
+              "n_answered": 655
+            },
+            "post1992": {
+              "pct": 26.0,
+              "n_pos": 38,
+              "n_answered": 146
+            }
+          },
+          "p_value": 0.833810063848611,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "post1992",
+          "design_crosscheck": {
+            "wald_p": 0.833722314139807,
+            "wald_significant": false,
+            "groups": {
+              "pre1992": {
+                "design_pct": 25.2,
+                "neff": 655.0
+              },
+              "post1992": {
+                "design_pct": 26.0,
+                "neff": 146.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 78,
+                "pct": 11.9
+              },
+              "disagree": {
+                "code": 2,
+                "n": 262,
+                "pct": 40.0
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 150,
+                "pct": 22.9
+              },
+              "agree": {
+                "code": 4,
+                "n": 133,
+                "pct": 20.3
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 32,
+                "pct": 4.9
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 19,
+                "pct": 13.0
+              },
+              "disagree": {
+                "code": 2,
+                "n": 57,
+                "pct": 39.0
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 32,
+                "pct": 21.9
+              },
+              "agree": {
+                "code": 4,
+                "n": 33,
+                "pct": 22.6
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 5,
+                "pct": 3.4
+              }
+            }
+          }
+        },
+        {
+          "code": "family",
+          "statement": "I knew about engineering/design & technology because a member of my family is involved in the industry",
+          "short_description": "having a family member in the industry",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that a family member in the industry informed the choice",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 31.7,
+              "n_pos": 208,
+              "n_answered": 656
+            },
+            "post1992": {
+              "pct": 38.8,
+              "n_pos": 57,
+              "n_answered": 147
+            }
+          },
+          "p_value": 0.120232889896189,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "post1992",
+          "design_crosscheck": {
+            "wald_p": 0.100895691874809,
+            "wald_significant": false,
+            "groups": {
+              "pre1992": {
+                "design_pct": 31.7,
+                "neff": 656.0
+              },
+              "post1992": {
+                "design_pct": 38.8,
+                "neff": 147.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 204,
+                "pct": 31.1
+              },
+              "disagree": {
+                "code": 2,
+                "n": 173,
+                "pct": 26.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 71,
+                "pct": 10.8
+              },
+              "agree": {
+                "code": 4,
+                "n": 138,
+                "pct": 21.0
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 70,
+                "pct": 10.7
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 23,
+                "pct": 15.6
+              },
+              "disagree": {
+                "code": 2,
+                "n": 50,
+                "pct": 34.0
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 17,
+                "pct": 11.6
+              },
+              "agree": {
+                "code": 4,
+                "n": 33,
+                "pct": 22.4
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 24,
+                "pct": 16.3
+              }
+            }
+          }
+        },
+        {
+          "code": "hobbies",
+          "statement": "My hobbies and interests are of a technical nature",
+          "short_description": "having technical hobbies and interests",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that their hobbies and interests are of a technical nature",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 56.6,
+              "n_pos": 371,
+              "n_answered": 656
+            },
+            "post1992": {
+              "pct": 53.4,
+              "n_pos": 79,
+              "n_answered": 148
+            }
+          },
+          "p_value": 0.521345984736697,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 0.482600920344747,
+            "wald_significant": false,
+            "groups": {
+              "pre1992": {
+                "design_pct": 56.6,
+                "neff": 656.0
+              },
+              "post1992": {
+                "design_pct": 53.4,
+                "neff": 148.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 17,
+                "pct": 2.6
+              },
+              "disagree": {
+                "code": 2,
+                "n": 92,
+                "pct": 14.0
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 176,
+                "pct": 26.8
+              },
+              "agree": {
+                "code": 4,
+                "n": 249,
+                "pct": 38.0
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 122,
+                "pct": 18.6
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 8,
+                "pct": 5.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 27,
+                "pct": 18.2
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 34,
+                "pct": 23.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 55,
+                "pct": 37.2
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 24,
+                "pct": 16.2
+              }
+            }
+          }
+        },
+        {
+          "code": "gooddeg",
+          "statement": "Engineering/Design & Technology will be a good degree to have even if I decide not to enter the profession",
+          "short_description": "engineering as a good degree to hold regardless",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that engineering is a good degree to hold regardless",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 89.0,
+              "n_pos": 584,
+              "n_answered": 656
+            },
+            "post1992": {
+              "pct": 68.5,
+              "n_pos": 100,
+              "n_answered": 146
+            }
+          },
+          "p_value": 7.86341056346762e-09,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 2.25149897513135e-09,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 89.0,
+                "neff": 656.0
+              },
+              "post1992": {
+                "design_pct": 68.5,
+                "neff": 146.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 4,
+                "pct": 0.6
+              },
+              "disagree": {
+                "code": 2,
+                "n": 17,
+                "pct": 2.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 51,
+                "pct": 7.8
+              },
+              "agree": {
+                "code": 4,
+                "n": 327,
+                "pct": 49.8
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 257,
+                "pct": 39.2
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 4,
+                "pct": 2.7
+              },
+              "disagree": {
+                "code": 2,
+                "n": 13,
+                "pct": 8.9
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 29,
+                "pct": 19.9
+              },
+              "agree": {
+                "code": 4,
+                "n": 74,
+                "pct": 50.7
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 26,
+                "pct": 17.8
+              }
+            }
+          }
+        },
+        {
+          "code": "varied",
+          "statement": "Engineering/Design & Technology appealed to me because it is so varied",
+          "short_description": "engineering's appeal as a varied field",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that engineering's varied nature attracted them",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 79.0,
+              "n_pos": 516,
+              "n_answered": 653
+            },
+            "post1992": {
+              "pct": 66.2,
+              "n_pos": 98,
+              "n_answered": 148
+            }
+          },
+          "p_value": 0.0012298653593329,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 0.0010571897752622,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 79.0,
+                "neff": 653.0
+              },
+              "post1992": {
+                "design_pct": 66.2,
+                "neff": 148.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 2,
+                "pct": 0.3
+              },
+              "disagree": {
+                "code": 2,
+                "n": 17,
+                "pct": 2.6
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 118,
+                "pct": 18.1
+              },
+              "agree": {
+                "code": 4,
+                "n": 349,
+                "pct": 53.4
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 167,
+                "pct": 25.6
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 2,
+                "pct": 1.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 8,
+                "pct": 5.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 40,
+                "pct": 27.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 81,
+                "pct": 54.7
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 17,
+                "pct": 11.5
+              }
+            }
+          }
+        },
+        {
+          "code": "mother",
+          "statement": "My mother encouraged me to study engineering/design & technology",
+          "short_description": "mother's encouragement to study engineering",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that their mother encouraged them to study engineering",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 20.2,
+              "n_pos": 132,
+              "n_answered": 655
+            },
+            "post1992": {
+              "pct": 12.9,
+              "n_pos": 19,
+              "n_answered": 147
+            }
+          },
+          "p_value": 0.0469399231035644,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 0.0451919502440789,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 20.2,
+                "neff": 655.0
+              },
+              "post1992": {
+                "design_pct": 12.9,
+                "neff": 147.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 99,
+                "pct": 15.1
+              },
+              "disagree": {
+                "code": 2,
+                "n": 149,
+                "pct": 22.7
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 275,
+                "pct": 42.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 109,
+                "pct": 16.6
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 23,
+                "pct": 3.5
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 37,
+                "pct": 25.2
+              },
+              "disagree": {
+                "code": 2,
+                "n": 54,
+                "pct": 36.7
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 37,
+                "pct": 25.2
+              },
+              "agree": {
+                "code": 4,
+                "n": 14,
+                "pct": 9.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 5,
+                "pct": 3.4
+              }
+            }
+          }
+        },
+        {
+          "code": "father",
+          "statement": "My father encouraged me to study engineering/design & technology",
+          "short_description": "father's encouragement to study engineering",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that their father encouraged them to study engineering",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 31.6,
+              "n_pos": 207,
+              "n_answered": 655
+            },
+            "post1992": {
+              "pct": 29.9,
+              "n_pos": 44,
+              "n_answered": 147
+            }
+          },
+          "p_value": 0.767922935491946,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 0.693274083357759,
+            "wald_significant": false,
+            "groups": {
+              "pre1992": {
+                "design_pct": 31.6,
+                "neff": 655.0
+              },
+              "post1992": {
+                "design_pct": 29.9,
+                "neff": 147.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 91,
+                "pct": 13.9
+              },
+              "disagree": {
+                "code": 2,
+                "n": 112,
+                "pct": 17.1
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 245,
+                "pct": 37.4
+              },
+              "agree": {
+                "code": 4,
+                "n": 164,
+                "pct": 25.0
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 43,
+                "pct": 6.6
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 29,
+                "pct": 19.7
+              },
+              "disagree": {
+                "code": 2,
+                "n": 47,
+                "pct": 32.0
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 27,
+                "pct": 18.4
+              },
+              "agree": {
+                "code": 4,
+                "n": 36,
+                "pct": 24.5
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 8,
+                "pct": 5.4
+              }
+            }
+          }
+        },
+        {
+          "code": "careers",
+          "statement": "My careers advisor encouraged me to study engineering/design & technology",
+          "short_description": "careers advisor's encouragement",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that a careers advisor encouraged them",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 21.1,
+              "n_pos": 138,
+              "n_answered": 655
+            },
+            "post1992": {
+              "pct": 19.6,
+              "n_pos": 29,
+              "n_answered": 148
+            }
+          },
+          "p_value": 0.737583917182251,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 0.690201604482053,
+            "wald_significant": false,
+            "groups": {
+              "pre1992": {
+                "design_pct": 21.1,
+                "neff": 655.0
+              },
+              "post1992": {
+                "design_pct": 19.6,
+                "neff": 148.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 102,
+                "pct": 15.6
+              },
+              "disagree": {
+                "code": 2,
+                "n": 142,
+                "pct": 21.7
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 273,
+                "pct": 41.7
+              },
+              "agree": {
+                "code": 4,
+                "n": 115,
+                "pct": 17.6
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 23,
+                "pct": 3.5
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 36,
+                "pct": 24.3
+              },
+              "disagree": {
+                "code": 2,
+                "n": 43,
+                "pct": 29.1
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 40,
+                "pct": 27.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 26,
+                "pct": 17.6
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 3,
+                "pct": 2.0
+              }
+            }
+          }
+        },
+        {
+          "code": "teacher",
+          "statement": "My school teacher encouraged me to study engineering/design & technology",
+          "short_description": "school teacher's encouragement",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that a school teacher encouraged them",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 36.1,
+              "n_pos": 236,
+              "n_answered": 653
+            },
+            "post1992": {
+              "pct": 19.2,
+              "n_pos": 28,
+              "n_answered": 146
+            }
+          },
+          "p_value": 5.98731535115735e-05,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "pre1992",
+          "raw_direction": "pre1992",
+          "design_crosscheck": {
+            "wald_p": 0.0001259405106421,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 36.1,
+                "neff": 653.0
+              },
+              "post1992": {
+                "design_pct": 19.2,
+                "neff": 146.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 78,
+                "pct": 11.9
+              },
+              "disagree": {
+                "code": 2,
+                "n": 104,
+                "pct": 15.9
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 235,
+                "pct": 36.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 183,
+                "pct": 28.0
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 53,
+                "pct": 8.1
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 40,
+                "pct": 27.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 40,
+                "pct": 27.4
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 38,
+                "pct": 26.0
+              },
+              "agree": {
+                "code": 4,
+                "n": 26,
+                "pct": 17.8
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 2,
+                "pct": 1.4
+              }
+            }
+          }
+        },
+        {
+          "code": "nobody",
+          "statement": "Nobody encouraged me to study engineering/design & technology",
+          "short_description": "nobody encouraged the choice",
+          "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+          "pos_state": "agrees that nobody encouraged the choice",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "university type",
+          "group_order": [
+            "pre1992",
+            "post1992"
+          ],
+          "groups": {
+            "pre1992": {
+              "pct": 32.0,
+              "n_pos": 208,
+              "n_answered": 649
+            },
+            "post1992": {
+              "pct": 46.2,
+              "n_pos": 67,
+              "n_answered": 145
+            }
+          },
+          "p_value": 0.0014388234146822,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "post1992",
+          "raw_direction": "post1992",
+          "design_crosscheck": {
+            "wald_p": 0.0013779785490095,
+            "wald_significant": true,
+            "groups": {
+              "pre1992": {
+                "design_pct": 32.0,
+                "neff": 649.0
+              },
+              "post1992": {
+                "design_pct": 46.2,
+                "neff": 145.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "pre1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 127,
+                "pct": 19.6
+              },
+              "disagree": {
+                "code": 2,
+                "n": 148,
+                "pct": 22.8
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 166,
+                "pct": 25.6
+              },
+              "agree": {
+                "code": 4,
+                "n": 136,
+                "pct": 21.0
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 72,
+                "pct": 11.1
+              }
+            },
+            "post1992": {
+              "strongly disagree": {
+                "code": 1,
+                "n": 31,
+                "pct": 21.4
+              },
+              "disagree": {
+                "code": 2,
+                "n": 23,
+                "pct": 15.9
+              },
+              "neither agree nor disagree": {
+                "code": 3,
+                "n": 24,
+                "pct": 16.6
+              },
+              "agree": {
+                "code": 4,
+                "n": 39,
+                "pct": 26.9
+              },
+              "Strongly agree": {
+                "code": 5,
+                "n": 28,
+                "pct": 19.3
+              }
+            }
+          }
+        }
+      ]
+    },
+    "job_values": {
+      "title": "What matters in a future job",
+      "outcome_group": "Importance of factors when choosing a job",
+      "split": {
+        "var": "dept",
+        "name": "engineering discipline",
+        "groups": [
+          {
+            "key": "civil",
+            "label": "civil & building engineering",
+            "definition": "students in the civil & building engineering department (construction-oriented engineering)",
+            "n": 97
+          },
+          {
+            "key": "design_tech",
+            "label": "design & technology",
+            "definition": "students in the design & technology department (design- and product-oriented engineering)",
+            "n": 102
+          }
+        ]
+      },
+      "items": [
+        {
+          "code": "salary",
+          "statement": "Salary will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "salary",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates salary important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 96.9,
+              "n_pos": 94,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 90.1,
+              "n_pos": 91,
+              "n_answered": 101
+            }
+          },
+          "p_value": 0.0825407957045826,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.0690068711767463,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 96.9,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 90.1,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 0,
+                "pct": 0.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 3,
+                "pct": 3.1
+              },
+              "important": {
+                "code": 4,
+                "n": 67,
+                "pct": 69.1
+              },
+              "very important": {
+                "code": 5,
+                "n": 27,
+                "pct": 27.8
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 1,
+                "pct": 1.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 9,
+                "pct": 8.9
+              },
+              "important": {
+                "code": 4,
+                "n": 68,
+                "pct": 67.3
+              },
+              "very important": {
+                "code": 5,
+                "n": 23,
+                "pct": 22.8
+              }
+            }
+          }
+        },
+        {
+          "code": "location",
+          "statement": "Location will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "location",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates location important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 86.6,
+              "n_pos": 84,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 75.0,
+              "n_pos": 75,
+              "n_answered": 100
+            }
+          },
+          "p_value": 0.0472364468929976,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "civil",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.0437398506892492,
+            "wald_significant": true,
+            "groups": {
+              "civil": {
+                "design_pct": 86.6,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 75.0,
+                "neff": 100.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 1,
+                "pct": 1.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 4,
+                "pct": 4.1
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 8,
+                "pct": 8.2
+              },
+              "important": {
+                "code": 4,
+                "n": 37,
+                "pct": 38.1
+              },
+              "very important": {
+                "code": 5,
+                "n": 47,
+                "pct": 48.5
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 7,
+                "pct": 7.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 18,
+                "pct": 18.0
+              },
+              "important": {
+                "code": 4,
+                "n": 40,
+                "pct": 40.0
+              },
+              "very important": {
+                "code": 5,
+                "n": 35,
+                "pct": 35.0
+              }
+            }
+          }
+        },
+        {
+          "code": "workenv",
+          "statement": "Work environment will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "work environment",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates the work environment important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 91.8,
+              "n_pos": 89,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 96.0,
+              "n_pos": 97,
+              "n_answered": 101
+            }
+          },
+          "p_value": 0.244014919047553,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "design_tech",
+          "design_crosscheck": {
+            "wald_p": 0.218574779916146,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 91.8,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 96.0,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 1,
+                "pct": 1.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 7,
+                "pct": 7.2
+              },
+              "important": {
+                "code": 4,
+                "n": 57,
+                "pct": 58.8
+              },
+              "very important": {
+                "code": 5,
+                "n": 32,
+                "pct": 33.0
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 0,
+                "pct": 0.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 4,
+                "pct": 4.0
+              },
+              "important": {
+                "code": 4,
+                "n": 60,
+                "pct": 59.4
+              },
+              "very important": {
+                "code": 5,
+                "n": 37,
+                "pct": 36.6
+              }
+            }
+          }
+        },
+        {
+          "code": "people",
+          "statement": "People I work with will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "the people worked with",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates the people they work with important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 84.5,
+              "n_pos": 82,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 84.2,
+              "n_pos": 85,
+              "n_answered": 101
+            }
+          },
+          "p_value": 1.0,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.941945003286973,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 84.5,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 84.2,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 3,
+                "pct": 3.1
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 12,
+                "pct": 12.4
+              },
+              "important": {
+                "code": 4,
+                "n": 54,
+                "pct": 55.7
+              },
+              "very important": {
+                "code": 5,
+                "n": 28,
+                "pct": 28.9
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 2,
+                "pct": 2.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 14,
+                "pct": 13.9
+              },
+              "important": {
+                "code": 4,
+                "n": 56,
+                "pct": 55.4
+              },
+              "very important": {
+                "code": 5,
+                "n": 29,
+                "pct": 28.7
+              }
+            }
+          }
+        },
+        {
+          "code": "travel",
+          "statement": "Opportunities to travel will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "opportunities to travel",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates opportunities to travel important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 48.5,
+              "n_pos": 47,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 48.5,
+              "n_pos": 49,
+              "n_answered": 101
+            }
+          },
+          "p_value": 1.0,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "about_equal",
+          "design_crosscheck": {
+            "wald_p": 0.993148544864005,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 48.5,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 48.5,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 3,
+                "pct": 3.1
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 7,
+                "pct": 7.2
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 40,
+                "pct": 41.2
+              },
+              "important": {
+                "code": 4,
+                "n": 26,
+                "pct": 26.8
+              },
+              "very important": {
+                "code": 5,
+                "n": 21,
+                "pct": 21.6
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 1,
+                "pct": 1.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 13,
+                "pct": 12.9
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 38,
+                "pct": 37.6
+              },
+              "important": {
+                "code": 4,
+                "n": 35,
+                "pct": 34.7
+              },
+              "very important": {
+                "code": 5,
+                "n": 14,
+                "pct": 13.9
+              }
+            }
+          }
+        },
+        {
+          "code": "benefits",
+          "statement": "Benefits like a company car will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "benefits such as a company car",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates benefits such as a company car important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 50.5,
+              "n_pos": 49,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 22.8,
+              "n_pos": 23,
+              "n_answered": 101
+            }
+          },
+          "p_value": 6.08215638089792e-05,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "civil",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.0001023492265163,
+            "wald_significant": true,
+            "groups": {
+              "civil": {
+                "design_pct": 50.5,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 22.8,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 6,
+                "pct": 6.2
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 11,
+                "pct": 11.3
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 31,
+                "pct": 32.0
+              },
+              "important": {
+                "code": 4,
+                "n": 43,
+                "pct": 44.3
+              },
+              "very important": {
+                "code": 5,
+                "n": 6,
+                "pct": 6.2
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 6,
+                "pct": 5.9
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 28,
+                "pct": 27.7
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 44,
+                "pct": 43.6
+              },
+              "important": {
+                "code": 4,
+                "n": 22,
+                "pct": 21.8
+              },
+              "very important": {
+                "code": 5,
+                "n": 1,
+                "pct": 1.0
+              }
+            }
+          }
+        },
+        {
+          "code": "training",
+          "statement": "Training opportunities will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "training opportunities",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates training opportunities important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 87.6,
+              "n_pos": 85,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 75.2,
+              "n_pos": 76,
+              "n_answered": 101
+            }
+          },
+          "p_value": 0.0292002294439843,
+          "test": "fisher_exact_two_sided",
+          "significant": true,
+          "keyed_direction": "civil",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.0296070245539467,
+            "wald_significant": true,
+            "groups": {
+              "civil": {
+                "design_pct": 87.6,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 75.2,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 1,
+                "pct": 1.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 3,
+                "pct": 3.1
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 8,
+                "pct": 8.2
+              },
+              "important": {
+                "code": 4,
+                "n": 46,
+                "pct": 47.4
+              },
+              "very important": {
+                "code": 5,
+                "n": 39,
+                "pct": 40.2
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 5,
+                "pct": 5.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 20,
+                "pct": 19.8
+              },
+              "important": {
+                "code": 4,
+                "n": 51,
+                "pct": 50.5
+              },
+              "very important": {
+                "code": 5,
+                "n": 25,
+                "pct": 24.8
+              }
+            }
+          }
+        },
+        {
+          "code": "promot",
+          "statement": "Opportunities for promotion will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "opportunities for promotion",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates opportunities for promotion important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 94.8,
+              "n_pos": 91,
+              "n_answered": 96
+            },
+            "design_tech": {
+              "pct": 88.1,
+              "n_pos": 89,
+              "n_answered": 101
+            }
+          },
+          "p_value": 0.12816247908331,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.10688026940195,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 94.8,
+                "neff": 96.0
+              },
+              "design_tech": {
+                "design_pct": 88.1,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 1,
+                "pct": 1.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 0,
+                "pct": 0.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 4,
+                "pct": 4.2
+              },
+              "important": {
+                "code": 4,
+                "n": 37,
+                "pct": 38.5
+              },
+              "very important": {
+                "code": 5,
+                "n": 54,
+                "pct": 56.2
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 1,
+                "pct": 1.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 0,
+                "pct": 0.0
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 11,
+                "pct": 10.9
+              },
+              "important": {
+                "code": 4,
+                "n": 53,
+                "pct": 52.5
+              },
+              "very important": {
+                "code": 5,
+                "n": 36,
+                "pct": 35.6
+              }
+            }
+          }
+        },
+        {
+          "code": "equalopp",
+          "statement": "Equal opportunites policies will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "equal-opportunities policies",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates equal-opportunities policies important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 43.8,
+              "n_pos": 42,
+              "n_answered": 96
+            },
+            "design_tech": {
+              "pct": 50.5,
+              "n_pos": 51,
+              "n_answered": 101
+            }
+          },
+          "p_value": 0.392370050598255,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "design_tech",
+          "design_crosscheck": {
+            "wald_p": 0.345958102341465,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 43.8,
+                "neff": 96.0
+              },
+              "design_tech": {
+                "design_pct": 50.5,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 5,
+                "pct": 5.2
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 10,
+                "pct": 10.4
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 39,
+                "pct": 40.6
+              },
+              "important": {
+                "code": 4,
+                "n": 29,
+                "pct": 30.2
+              },
+              "very important": {
+                "code": 5,
+                "n": 13,
+                "pct": 13.5
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 6,
+                "pct": 5.9
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 14,
+                "pct": 13.9
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 30,
+                "pct": 29.7
+              },
+              "important": {
+                "code": 4,
+                "n": 33,
+                "pct": 32.7
+              },
+              "very important": {
+                "code": 5,
+                "n": 18,
+                "pct": 17.8
+              }
+            }
+          }
+        },
+        {
+          "code": "flexible",
+          "statement": "Opportunities for flexible working will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "opportunities for flexible working",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates opportunities for flexible working important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 63.9,
+              "n_pos": 62,
+              "n_answered": 97
+            },
+            "design_tech": {
+              "pct": 53.5,
+              "n_pos": 54,
+              "n_answered": 101
+            }
+          },
+          "p_value": 0.150632917015643,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.13897417420204,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 63.9,
+                "neff": 97.0
+              },
+              "design_tech": {
+                "design_pct": 53.5,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 0,
+                "pct": 0.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 8,
+                "pct": 8.2
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 27,
+                "pct": 27.8
+              },
+              "important": {
+                "code": 4,
+                "n": 50,
+                "pct": 51.5
+              },
+              "very important": {
+                "code": 5,
+                "n": 12,
+                "pct": 12.4
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 4,
+                "pct": 4.0
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 9,
+                "pct": 8.9
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 34,
+                "pct": 33.7
+              },
+              "important": {
+                "code": 4,
+                "n": 42,
+                "pct": 41.6
+              },
+              "very important": {
+                "code": 5,
+                "n": 12,
+                "pct": 11.9
+              }
+            }
+          }
+        },
+        {
+          "code": "childcar",
+          "statement": "Child-care policies will be important to me in making a decision to accept a job or decide where to work",
+          "short_description": "childcare policies",
+          "scale": "5-point scale, very unimportant \u2192 very important",
+          "pos_state": "rates childcare policies important",
+          "endorsed_means": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+          "split_axis": "engineering discipline",
+          "group_order": [
+            "civil",
+            "design_tech"
+          ],
+          "groups": {
+            "civil": {
+              "pct": 24.0,
+              "n_pos": 23,
+              "n_answered": 96
+            },
+            "design_tech": {
+              "pct": 13.9,
+              "n_pos": 14,
+              "n_answered": 101
+            }
+          },
+          "p_value": 0.0996841258710631,
+          "test": "fisher_exact_two_sided",
+          "significant": false,
+          "keyed_direction": "about_equal",
+          "raw_direction": "civil",
+          "design_crosscheck": {
+            "wald_p": 0.0749266611841756,
+            "wald_significant": false,
+            "groups": {
+              "civil": {
+                "design_pct": 24.0,
+                "neff": 96.0
+              },
+              "design_tech": {
+                "design_pct": 13.9,
+                "neff": 101.0
+              }
+            },
+            "fisher_vs_wald_verdict_agree": true
+          },
+          "distribution": {
+            "civil": {
+              "very unimportant": {
+                "code": 1,
+                "n": 12,
+                "pct": 12.5
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 22,
+                "pct": 22.9
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 39,
+                "pct": 40.6
+              },
+              "important": {
+                "code": 4,
+                "n": 17,
+                "pct": 17.7
+              },
+              "very important": {
+                "code": 5,
+                "n": 6,
+                "pct": 6.2
+              }
+            },
+            "design_tech": {
+              "very unimportant": {
+                "code": 1,
+                "n": 16,
+                "pct": 15.8
+              },
+              "unimportant": {
+                "code": 2,
+                "n": 21,
+                "pct": 20.8
+              },
+              "neither important nor unimportant": {
+                "code": 3,
+                "n": 50,
+                "pct": 49.5
+              },
+              "important": {
+                "code": 4,
+                "n": 9,
+                "pct": 8.9
+              },
+              "very important": {
+                "code": 5,
+                "n": 5,
+                "pct": 5.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -108,6 +108,53 @@ Importance of gaining Chartership: Important
 
 ================================================================
 
+SURVEY ARM — §4 task layer (micro→macro), respondent #523:
+(each theme splits the population on a DIFFERENT axis, §1.3)
+
+— Theme: Experiences of the engineering degree  [split: industrial placement — placement vs no placement]  (held out: Experiences of the engineering degree (views of the course))
+   practica  placemen=45.2% no place=40.0% [n.s.→about-equal, dir=about_equal]  | this respondent: neither agree nor disagree (neg)
+   curricul  placemen=41.6% no place=50.7% [sig, dir=no_placement]  | this respondent: agree (pos)
+   pleased   placemen=85.6% no place=76.5% [sig, dir=placement]  | this respondent: Strongly agree (pos)
+   relevanc  placemen=44.9% no place=54.3% [sig, dir=no_placement]  | this respondent: disagree (neg)
+   deadline  placemen=60.4% no place=74.2% [sig, dir=no_placement]  | this respondent: neither agree nor disagree (neg)
+   assess    placemen=48.1% no place=48.2% [n.s.→about-equal, dir=about_equal]  | this respondent: neither agree nor disagree (neg)
+   interper  placemen=73.5% no place=66.1% [sig, dir=placement]  | this respondent: neither agree nor disagree (neg)
+   (micro/macro-prose/macro-number prompts in outputs/survey/tasks/tasks.json; model answer + score = OPEN SLOT, not run)
+
+— Theme: Routes into engineering  [split: university type — pre-1992 university vs post-1992 university]  (held out: Influences on the decision to study engineering)
+   highsal   pre-1992=44.2% post-199=47.6% [n.s.→about-equal, dir=about_equal]  | this respondent: agree (pos)
+   interest  pre-1992=96.8% post-199=92.6% [sig, dir=pre1992]  | this respondent: Strongly agree (pos)
+   challeng  pre-1992=92.4% post-199=81.1% [sig, dir=pre1992]  | this respondent: agree (pos)
+   special   pre-1992=64.3% post-199=42.6% [sig, dir=pre1992]  | this respondent: agree (pos)
+   mathsci   pre-1992=77.5% post-199=50.0% [sig, dir=pre1992]  | this respondent: Strongly agree (pos)
+   knowledg  pre-1992=25.2% post-199=26.0% [n.s.→about-equal, dir=about_equal]  | this respondent: disagree (neg)
+   family    pre-1992=31.7% post-199=38.8% [n.s.→about-equal, dir=about_equal]  | this respondent: Strongly agree (pos)
+   hobbies   pre-1992=56.6% post-199=53.4% [n.s.→about-equal, dir=about_equal]  | this respondent: Strongly agree (pos)
+   gooddeg   pre-1992=89.0% post-199=68.5% [sig, dir=pre1992]  | this respondent: Strongly agree (pos)
+   varied    pre-1992=79.0% post-199=66.2% [sig, dir=pre1992]  | this respondent: agree (pos)
+   mother    pre-1992=20.2% post-199=12.9% [sig, dir=pre1992]  | this respondent: agree (pos)
+   father    pre-1992=31.6% post-199=29.9% [n.s.→about-equal, dir=about_equal]  | this respondent: agree (pos)
+   careers   pre-1992=21.1% post-199=19.6% [n.s.→about-equal, dir=about_equal]  | this respondent: neither agree nor disagree (neg)
+   teacher   pre-1992=36.1% post-199=19.2% [sig, dir=pre1992]  | this respondent: agree (pos)
+   nobody    pre-1992=32.0% post-199=46.2% [sig, dir=post1992]  | this respondent: strongly disagree (neg)
+   (micro/macro-prose/macro-number prompts in outputs/survey/tasks/tasks.json; model answer + score = OPEN SLOT, not run)
+
+— Theme: What matters in a future job  [split: engineering discipline — civil & building engineering vs design & technology]  (held out: Importance of factors when choosing a job)
+   salary    civil & =96.9% design &=90.1% [n.s.→about-equal, dir=about_equal]  | this respondent: important (pos)
+   location  civil & =86.6% design &=75.0% [sig, dir=civil]  | this respondent: important (pos)
+   workenv   civil & =91.8% design &=96.0% [n.s.→about-equal, dir=about_equal]  | this respondent: important (pos)
+   people    civil & =84.5% design &=84.2% [n.s.→about-equal, dir=about_equal]  | this respondent: important (pos)
+   travel    civil & =48.5% design &=48.5% [n.s.→about-equal, dir=about_equal]  | this respondent: important (pos)
+   benefits  civil & =50.5% design &=22.8% [sig, dir=civil]  | this respondent: important (pos)
+   training  civil & =87.6% design &=75.2% [sig, dir=civil]  | this respondent: very important (pos)
+   promot    civil & =94.8% design &=88.1% [n.s.→about-equal, dir=about_equal]  | this respondent: very important (pos)
+   equalopp  civil & =43.8% design &=50.5% [n.s.→about-equal, dir=about_equal]  | this respondent: very important (pos)
+   flexible  civil & =63.9% design &=53.5% [n.s.→about-equal, dir=about_equal]  | this respondent: neither important nor unimportant (neg)
+   childcar  civil & =24.0% design &=13.9% [n.s.→about-equal, dir=about_equal]  | this respondent: neither important nor unimportant (neg)
+   (micro/macro-prose/macro-number prompts in outputs/survey/tasks/tasks.json; model answer + score = OPEN SLOT, not run)
+
+================================================================
+
 INTERVIEW ARM — INT22 §3 persona (transcript→codes→persona):
 
 INTERVIEW INT22 — coded persona (transcript→codes; construct-level, not survey-linked)

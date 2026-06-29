@@ -1,0 +1,2777 @@
+{
+  "splits_note": "each theme splits the population on a DIFFERENT axis (sex / university / discipline), \u00a71.3; populations named by definition, never by size (\u00a74)",
+  "endorsement_cut": "an item counts as endorsed ('pos') when the respondent answered 4 or 5 on its 5-point scale (agree/strongly agree, or important/very important)",
+  "themes": {
+    "degree_experience": {
+      "title": "Experiences of the engineering degree",
+      "split": {
+        "axis": "industrial placement",
+        "var": "placemen",
+        "A_population": "engineering students who have gone, or intend to go, on an industrial placement",
+        "B_population": "engineering students who do not go on an industrial placement",
+        "group_order": [
+          "placement",
+          "no_placement"
+        ],
+        "rationale": "The industrial placement is the study's KEY transitional stage ('usually women's first major contact with the engineering sector'); the whole project compares placement vs non-placement students. Whether a student goes on placement plausibly reshapes how they view their degree. The report discusses placement heavily but NEVER breaks down the Q4 degree-experience items by placement status \u2014 verified clean by the disclosure check."
+      },
+      "paper_grounding": "Split: industrial placement (gone/intending vs not). The placement is the study's central transitional stage \u2014 the ESRC report (pp.15, 17) targets it as 'usually women's first major contact with the engineering sector and ... a key transitional stage', and the entire project contrasts placement with non-placement students (Objectives 1\u20132). Going on placement plausibly reshapes how a student views their degree \u2014 its difficulty, the relevance of modules, whether it builds interpersonal skills, whether they are pleased with the choice. The report discusses placement extensively (reasons for/against, transition to work) and discusses these Q4 degree-views (curriculum, relevance, assessment, theory) \u2014 but it attributes their *directions* to sex, discipline and university, NEVER to placement status. The by-placement breakdown of the degree experience is therefore the gap (\u00a71.1), verified absent from both sources by an adversarial disclosure check.",
+      "outcome_group": "Experiences of the engineering degree (views of the course)",
+      "conditioning_rationale": "Background (including whether they go on placement \u2014 the split), why they chose engineering (Q1 influences), how satisfied they are with the course (Q5), and where they intend to head. Who the student is, what drew them in and how they rate the teaching are the apt predictors of how they view the degree; the Q4 degree-view statements themselves are held out. The Q5 satisfaction items are a near-leak (correlated with course views, distinct columns) \u2014 allowed by \u00a71.3.",
+      "conditioning_vars": [
+        "gender",
+        "age",
+        "ethnic",
+        "religion",
+        "school",
+        "year",
+        "dept",
+        "uni",
+        "placemen",
+        "highsal",
+        "interest",
+        "challeng",
+        "special",
+        "mathsci",
+        "knowledg",
+        "family",
+        "hobbies",
+        "gooddeg",
+        "varied",
+        "mother",
+        "father",
+        "careers",
+        "teacher",
+        "nobody",
+        "quality",
+        "supplect",
+        "supppers",
+        "groupwk",
+        "teachhrs",
+        "friends",
+        "coursewk",
+        "theory",
+        "practwk",
+        "designwk",
+        "variety",
+        "carpath",
+        "furstudy",
+        "studarea",
+        "workrole",
+        "charship"
+      ],
+      "held_out_vars": [
+        "practica",
+        "curricul",
+        "pleased",
+        "relevanc",
+        "deadline",
+        "assess",
+        "interper"
+      ],
+      "rubric": {
+        "dimensions": [
+          {
+            "code": "practica",
+            "statement": "The level of practical work on the course is just right",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that the level of practical work on the course is just right",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "curricul",
+            "statement": "The engineering/design & technology curriculum is more difficult than I expected",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that the engineering curriculum was more difficult than expected",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "pleased",
+            "statement": "I am pleased I chose to study engineering/design & technology",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that they are pleased they chose to study engineering",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "relevanc",
+            "statement": "It is difficult to understand the relevance of some modules",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that it is difficult to understand the relevance of some modules",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "deadline",
+            "statement": "We always have competing deadlines",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that they always have competing deadlines",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "assess",
+            "statement": "The balance between coursework and exams in module assessments is just right",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that the coursework/exam balance in assessment is just right",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "interper",
+            "statement": "The course develops interpersonal skills",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that the course develops interpersonal skills",
+            "non_salient_neg": "disagrees or is neutral"
+          }
+        ],
+        "prose_scoring": "salience-weighted, asymmetric; weights in rubric.PROSE_WEIGHTS; coverage reported separately (\u00a73.3)"
+      },
+      "shapes": {
+        "micro": {
+          "tests": "representational accuracy of one respondent (\u00a71.2)",
+          "model_facing": {
+            "conditioning": "this respondent's persona, restricted to the conditioning allow-list (rendered per-record by build_tasks.render_micro)",
+            "prompt_template": "Below is a profile of one engineering / design & technology student, covering their background, why they chose engineering, how satisfied they are with the course, and their future intentions.\n\n{persona}\n\nBased only on this profile, predict how this student would rate each of the following statements about their degree, on a scale from strongly disagree to strongly agree:\n  (a) The level of practical work on the course is just right.\n  (b) The engineering curriculum is more difficult than I expected.\n  (c) I am pleased I chose to study engineering.\n  (d) It is difficult to understand the relevance of some modules.\n  (e) We always have competing deadlines.\n  (f) The balance between coursework and exams is just right.\n  (g) The course develops interpersonal skills.\n\nWrite a short paragraph. For each statement, say whether you expect the student to agree or disagree, and why."
+          },
+          "answer_key": "per respondent: held-out true value per item (outputs/survey/tasks/micro_keys.json)",
+          "scorer": "rubric.score_micro_prose",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        },
+        "macro_prose": {
+          "tests": "external consistency (vs survey) + internal (vs micro aggregate) on direction (\u00a71.2, \u00a73.5)",
+          "model_facing": {
+            "prompt": "Consider two populations of engineering / design & technology students:\n  A: engineering students who have gone, or intend to go, on an industrial placement\n  B: engineering students who do not go on an industrial placement\n\nIn a paragraph, compare how these two populations would rate the following statements about their degree, and say which population is more likely to agree with each:\n  (a) The level of practical work on the course is just right.\n  (b) The engineering curriculum is more difficult than I expected.\n  (c) I am pleased I chose to study engineering.\n  (d) It is difficult to understand the relevance of some modules.\n  (e) We always have competing deadlines.\n  (f) The balance between coursework and exams is just right.\n  (g) The course develops interpersonal skills."
+          },
+          "answer_key": {
+            "practica": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 45.2
+                },
+                "no_placement": {
+                  "pct": 40.0
+                }
+              },
+              "p_value": 0.200360503099708,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "placement",
+              "design_crosscheck": {
+                "wald_p": 0.185575992588389,
+                "wald_significant": false,
+                "groups": {
+                  "placement": {
+                    "design_pct": 45.2,
+                    "neff": 566.0
+                  },
+                  "no_placement": {
+                    "design_pct": 40.0,
+                    "neff": 220.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "curricul": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 41.6
+                },
+                "no_placement": {
+                  "pct": 50.7
+                }
+              },
+              "p_value": 0.0247386293370508,
+              "significant": true,
+              "direction": "no_placement",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.02206824561439,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 41.6,
+                    "neff": 565.0
+                  },
+                  "no_placement": {
+                    "design_pct": 50.7,
+                    "neff": 219.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "pleased": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 85.6
+                },
+                "no_placement": {
+                  "pct": 76.5
+                }
+              },
+              "p_value": 0.0030357835986071,
+              "significant": true,
+              "direction": "placement",
+              "raw_direction_if_ignoring_significance": "placement",
+              "design_crosscheck": {
+                "wald_p": 0.0025670809243762,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 85.6,
+                    "neff": 568.0
+                  },
+                  "no_placement": {
+                    "design_pct": 76.5,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "relevanc": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 44.9
+                },
+                "no_placement": {
+                  "pct": 54.3
+                }
+              },
+              "p_value": 0.0212245524015461,
+              "significant": true,
+              "direction": "no_placement",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.0181129855841915,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 44.9,
+                    "neff": 568.0
+                  },
+                  "no_placement": {
+                    "design_pct": 54.3,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "deadline": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 60.4
+                },
+                "no_placement": {
+                  "pct": 74.2
+                }
+              },
+              "p_value": 0.0002625366258725,
+              "significant": true,
+              "direction": "no_placement",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.0003244282469374,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 60.4,
+                    "neff": 565.0
+                  },
+                  "no_placement": {
+                    "design_pct": 74.2,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "assess": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 48.1
+                },
+                "no_placement": {
+                  "pct": 48.2
+                }
+              },
+              "p_value": 1.0,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.971466809921655,
+                "wald_significant": false,
+                "groups": {
+                  "placement": {
+                    "design_pct": 48.1,
+                    "neff": 566.0
+                  },
+                  "no_placement": {
+                    "design_pct": 48.2,
+                    "neff": 222.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "interper": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 73.5
+                },
+                "no_placement": {
+                  "pct": 66.1
+                }
+              },
+              "p_value": 0.0433111890205636,
+              "significant": true,
+              "direction": "placement",
+              "raw_direction_if_ignoring_significance": "placement",
+              "design_crosscheck": {
+                "wald_p": 0.0376411714332773,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 73.5,
+                    "neff": 567.0
+                  },
+                  "no_placement": {
+                    "design_pct": 66.1,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            }
+          },
+          "scorer": "rubric.score_macro_prose",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        },
+        "macro_number": {
+          "tests": "external + internal consistency on the explicit % (\u00a71.2)",
+          "model_facing": {
+            "prompt": "Consider two populations of engineering / design & technology students:\n  A: engineering students who have gone, or intend to go, on an industrial placement\n  B: engineering students who do not go on an industrial placement\n\nFor each statement below, estimate the percentage of EACH population who would agree (answer 'agree' or 'strongly agree' on a 5-point scale). Give two percentages per statement:\n  (a) The level of practical work on the course is just right.\n  (b) The engineering curriculum is more difficult than I expected.\n  (c) I am pleased I chose to study engineering.\n  (d) It is difficult to understand the relevance of some modules.\n  (e) We always have competing deadlines.\n  (f) The balance between coursework and exams is just right.\n  (g) The course develops interpersonal skills."
+          },
+          "answer_key": {
+            "practica": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 45.2
+                },
+                "no_placement": {
+                  "pct": 40.0
+                }
+              },
+              "p_value": 0.200360503099708,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "placement",
+              "design_crosscheck": {
+                "wald_p": 0.185575992588389,
+                "wald_significant": false,
+                "groups": {
+                  "placement": {
+                    "design_pct": 45.2,
+                    "neff": 566.0
+                  },
+                  "no_placement": {
+                    "design_pct": 40.0,
+                    "neff": 220.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "curricul": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 41.6
+                },
+                "no_placement": {
+                  "pct": 50.7
+                }
+              },
+              "p_value": 0.0247386293370508,
+              "significant": true,
+              "direction": "no_placement",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.02206824561439,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 41.6,
+                    "neff": 565.0
+                  },
+                  "no_placement": {
+                    "design_pct": 50.7,
+                    "neff": 219.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "pleased": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 85.6
+                },
+                "no_placement": {
+                  "pct": 76.5
+                }
+              },
+              "p_value": 0.0030357835986071,
+              "significant": true,
+              "direction": "placement",
+              "raw_direction_if_ignoring_significance": "placement",
+              "design_crosscheck": {
+                "wald_p": 0.0025670809243762,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 85.6,
+                    "neff": 568.0
+                  },
+                  "no_placement": {
+                    "design_pct": 76.5,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "relevanc": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 44.9
+                },
+                "no_placement": {
+                  "pct": 54.3
+                }
+              },
+              "p_value": 0.0212245524015461,
+              "significant": true,
+              "direction": "no_placement",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.0181129855841915,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 44.9,
+                    "neff": 568.0
+                  },
+                  "no_placement": {
+                    "design_pct": 54.3,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "deadline": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 60.4
+                },
+                "no_placement": {
+                  "pct": 74.2
+                }
+              },
+              "p_value": 0.0002625366258725,
+              "significant": true,
+              "direction": "no_placement",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.0003244282469374,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 60.4,
+                    "neff": 565.0
+                  },
+                  "no_placement": {
+                    "design_pct": 74.2,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "assess": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 48.1
+                },
+                "no_placement": {
+                  "pct": 48.2
+                }
+              },
+              "p_value": 1.0,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "no_placement",
+              "design_crosscheck": {
+                "wald_p": 0.971466809921655,
+                "wald_significant": false,
+                "groups": {
+                  "placement": {
+                    "design_pct": 48.1,
+                    "neff": 566.0
+                  },
+                  "no_placement": {
+                    "design_pct": 48.2,
+                    "neff": 222.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "interper": {
+              "split_axis": "industrial placement",
+              "group_order": [
+                "placement",
+                "no_placement"
+              ],
+              "groups": {
+                "placement": {
+                  "pct": 73.5
+                },
+                "no_placement": {
+                  "pct": 66.1
+                }
+              },
+              "p_value": 0.0433111890205636,
+              "significant": true,
+              "direction": "placement",
+              "raw_direction_if_ignoring_significance": "placement",
+              "design_crosscheck": {
+                "wald_p": 0.0376411714332773,
+                "wald_significant": true,
+                "groups": {
+                  "placement": {
+                    "design_pct": 73.5,
+                    "neff": 567.0
+                  },
+                  "no_placement": {
+                    "design_pct": 66.1,
+                    "neff": 221.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            }
+          },
+          "scorer": "rubric.score_macro_number",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        }
+      }
+    },
+    "routes_in": {
+      "title": "Routes into engineering",
+      "split": {
+        "axis": "university type",
+        "var": "uni",
+        "A_population": "students at a pre-1992, traditional research-intensive university (mostly post-A-level entrants)",
+        "B_population": "students at a post-1992, former-polytechnic university with a more vocational intake (more mature and part-time students)",
+        "group_order": [
+          "pre1992",
+          "post1992"
+        ],
+        "rationale": "The report's headline finding is the 'significant difference between students studying at a pre- and post-1992 university'; the two intakes follow different routes into engineering. The report cross-tabulates placement and job-factors by university but NEVER the Q1 influence battery \u2014 so the by-university routes-in cut is the gap (\u00a71.1). Empirically the richest split for this outcome (9/15 items differ)."
+      },
+      "paper_grounding": "Split: university type (pre- vs post-1992). The ESRC report (RES-000-23-0426, p.27, p.20) makes the pre/post-1992 divide its HEADLINE finding \u2014 'a significant difference between students studying at a pre- and post-1992 university', the post-1992 intake being more mature/part-time with 'different priorities and experiences'. Two intakes follow different ROUTES into engineering: the traditional pre-1992 cohort (mostly young post-A-level) vs the vocational post-1992 cohort. The report cross-tabulates placement and job-factors by university but NEVER the Q1 influence battery, so the by-university breakdown of *why students chose engineering* is the gap (\u00a71.1). Powell et al. (2009, pp. 415\u2013421) supply the conceptual frame (entry is shaped by socialisation, hobbies and encouragement); empirically university is the richest cut here (9/15 influences differ \u2014 pre-1992 students far more drawn by maths/science, challenge and 'a good degree', post-1992 more likely that 'nobody encouraged' them).",
+      "outcome_group": "Influences on the decision to study engineering",
+      "conditioning_rationale": "Background, the decision context (whether they attended an engineering insight course, whether/who discouraged them), and where they intend to go next (further study, preferred role, Chartership, specialism). Who the student is and how engaged they are with the engineering decision predict what drew them in; the specific Q1 influences are held out. The decision-context items are distinct columns from the Q1 battery \u2014 a correlated predictor, not the outcome (\u00a71.3).",
+      "conditioning_vars": [
+        "gender",
+        "age",
+        "ethnic",
+        "religion",
+        "school",
+        "year",
+        "dept",
+        "uni",
+        "insight",
+        "encourag",
+        "discoura",
+        "whodisc",
+        "carpath",
+        "furstudy",
+        "studarea",
+        "workrole",
+        "charship"
+      ],
+      "held_out_vars": [
+        "highsal",
+        "interest",
+        "challeng",
+        "special",
+        "mathsci",
+        "knowledg",
+        "family",
+        "hobbies",
+        "gooddeg",
+        "varied",
+        "mother",
+        "father",
+        "careers",
+        "teacher",
+        "nobody"
+      ],
+      "rubric": {
+        "dimensions": [
+          {
+            "code": "highsal",
+            "statement": "I was attracted to engineering/design & technology because of the high salary",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that the high salary attracted them to engineering",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "interest",
+            "statement": "Engineering/Design & Technology provided an opportunity to do interesting work",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that the chance to do interesting work attracted them",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "challeng",
+            "statement": "I wanted the challenge of solving problems",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that wanting the challenge of solving problems attracted them",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "special",
+            "statement": "I wanted to use my science and maths background without specialising in either",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that using science and maths without specialising attracted them",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "mathsci",
+            "statement": "I was good at maths and science at school",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that being good at maths and science at school attracted them",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "knowledg",
+            "statement": "I chose to study engineering/design & technology with little knowledge of what engineers actually do",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that they chose engineering with little knowledge of the job",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "family",
+            "statement": "I knew about engineering/design & technology because a member of my family is involved in the industry",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that a family member in the industry informed the choice",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "hobbies",
+            "statement": "My hobbies and interests are of a technical nature",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that their hobbies and interests are of a technical nature",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "gooddeg",
+            "statement": "Engineering/Design & Technology will be a good degree to have even if I decide not to enter the profession",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that engineering is a good degree to hold regardless",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "varied",
+            "statement": "Engineering/Design & Technology appealed to me because it is so varied",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that engineering's varied nature attracted them",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "mother",
+            "statement": "My mother encouraged me to study engineering/design & technology",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that their mother encouraged them to study engineering",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "father",
+            "statement": "My father encouraged me to study engineering/design & technology",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that their father encouraged them to study engineering",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "careers",
+            "statement": "My careers advisor encouraged me to study engineering/design & technology",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that a careers advisor encouraged them",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "teacher",
+            "statement": "My school teacher encouraged me to study engineering/design & technology",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that a school teacher encouraged them",
+            "non_salient_neg": "disagrees or is neutral"
+          },
+          {
+            "code": "nobody",
+            "statement": "Nobody encouraged me to study engineering/design & technology",
+            "scale": "5-point scale, strongly disagree \u2192 strongly agree",
+            "salient_state_pos": "agrees that nobody encouraged the choice",
+            "non_salient_neg": "disagrees or is neutral"
+          }
+        ],
+        "prose_scoring": "salience-weighted, asymmetric; weights in rubric.PROSE_WEIGHTS; coverage reported separately (\u00a73.3)"
+      },
+      "shapes": {
+        "micro": {
+          "tests": "representational accuracy of one respondent (\u00a71.2)",
+          "model_facing": {
+            "conditioning": "this respondent's persona, restricted to the conditioning allow-list (rendered per-record by build_tasks.render_micro)",
+            "prompt_template": "Below is a profile of one engineering / design & technology student, covering their background, the context of their decision to study engineering, and their future intentions.\n\n{persona}\n\nBased only on this profile, predict what influenced this student's decision to study engineering. For each of these possible influences, say whether you expect it applied to them (they would agree) or not, and why: high salary; interesting work; the challenge of problem-solving; using science & maths without specialising; being good at maths/science at school; choosing with little knowledge of the job; a family member in industry; technical hobbies; it being a good degree to hold; its varied nature; encouragement from mother, from father, from a careers advisor, from a teacher; or nobody encouraging them. Write a short paragraph."
+          },
+          "answer_key": "per respondent: held-out true value per item (outputs/survey/tasks/micro_keys.json)",
+          "scorer": "rubric.score_micro_prose",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        },
+        "macro_prose": {
+          "tests": "external consistency (vs survey) + internal (vs micro aggregate) on direction (\u00a71.2, \u00a73.5)",
+          "model_facing": {
+            "prompt": "Consider two populations of engineering / design & technology students:\n  A: students at a pre-1992, traditional research-intensive university (mostly post-A-level entrants)\n  B: students at a post-1992, former-polytechnic university with a more vocational intake (more mature and part-time students)\n\nIn a paragraph, compare what influenced these two populations' decision to study engineering, and for each influence say which population is more likely to agree it applied to them: high salary; interesting work; the challenge of problem-solving; using science & maths without specialising; being good at maths/science at school; choosing with little knowledge of the job; a family member in industry; technical hobbies; it being a good degree to hold; its varied nature; encouragement from mother, from father, from a careers advisor, from a teacher; nobody encouraging them."
+          },
+          "answer_key": {
+            "highsal": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 44.2
+                },
+                "post1992": {
+                  "pct": 47.6
+                }
+              },
+              "p_value": 0.463872154350226,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.450658566486332,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 44.2,
+                    "neff": 654.0
+                  },
+                  "post1992": {
+                    "design_pct": 47.6,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "interest": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 96.8
+                },
+                "post1992": {
+                  "pct": 92.6
+                }
+              },
+              "p_value": 0.0322296960738846,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0212011682282983,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 96.8,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 92.6,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "challeng": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 92.4
+                },
+                "post1992": {
+                  "pct": 81.1
+                }
+              },
+              "p_value": 9.67834202056834e-05,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 5.69621272302847e-05,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 92.4,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 81.1,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "special": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 64.3
+                },
+                "post1992": {
+                  "pct": 42.6
+                }
+              },
+              "p_value": 1.73689806384769e-06,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 2.02215942248682e-06,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 64.3,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 42.6,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "mathsci": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 77.5
+                },
+                "post1992": {
+                  "pct": 50.0
+                }
+              },
+              "p_value": 1.12981213785884e-10,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 1.26560695463746e-10,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 77.5,
+                    "neff": 652.0
+                  },
+                  "post1992": {
+                    "design_pct": 50.0,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "knowledg": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 25.2
+                },
+                "post1992": {
+                  "pct": 26.0
+                }
+              },
+              "p_value": 0.833810063848611,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.833722314139807,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 25.2,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 26.0,
+                    "neff": 146.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "family": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 31.7
+                },
+                "post1992": {
+                  "pct": 38.8
+                }
+              },
+              "p_value": 0.120232889896189,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.100895691874809,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 31.7,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 38.8,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "hobbies": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 56.6
+                },
+                "post1992": {
+                  "pct": 53.4
+                }
+              },
+              "p_value": 0.521345984736697,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.482600920344747,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 56.6,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 53.4,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "gooddeg": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 89.0
+                },
+                "post1992": {
+                  "pct": 68.5
+                }
+              },
+              "p_value": 7.86341056346762e-09,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 2.25149897513135e-09,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 89.0,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 68.5,
+                    "neff": 146.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "varied": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 79.0
+                },
+                "post1992": {
+                  "pct": 66.2
+                }
+              },
+              "p_value": 0.0012298653593329,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0010571897752622,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 79.0,
+                    "neff": 653.0
+                  },
+                  "post1992": {
+                    "design_pct": 66.2,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "mother": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 20.2
+                },
+                "post1992": {
+                  "pct": 12.9
+                }
+              },
+              "p_value": 0.0469399231035644,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0451919502440789,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 20.2,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 12.9,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "father": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 31.6
+                },
+                "post1992": {
+                  "pct": 29.9
+                }
+              },
+              "p_value": 0.767922935491946,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.693274083357759,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 31.6,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 29.9,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "careers": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 21.1
+                },
+                "post1992": {
+                  "pct": 19.6
+                }
+              },
+              "p_value": 0.737583917182251,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.690201604482053,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 21.1,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 19.6,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "teacher": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 36.1
+                },
+                "post1992": {
+                  "pct": 19.2
+                }
+              },
+              "p_value": 5.98731535115735e-05,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0001259405106421,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 36.1,
+                    "neff": 653.0
+                  },
+                  "post1992": {
+                    "design_pct": 19.2,
+                    "neff": 146.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "nobody": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 32.0
+                },
+                "post1992": {
+                  "pct": 46.2
+                }
+              },
+              "p_value": 0.0014388234146822,
+              "significant": true,
+              "direction": "post1992",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.0013779785490095,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 32.0,
+                    "neff": 649.0
+                  },
+                  "post1992": {
+                    "design_pct": 46.2,
+                    "neff": 145.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            }
+          },
+          "scorer": "rubric.score_macro_prose",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        },
+        "macro_number": {
+          "tests": "external + internal consistency on the explicit % (\u00a71.2)",
+          "model_facing": {
+            "prompt": "Consider two populations of engineering / design & technology students:\n  A: students at a pre-1992, traditional research-intensive university (mostly post-A-level entrants)\n  B: students at a post-1992, former-polytechnic university with a more vocational intake (more mature and part-time students)\n\nFor each influence below, estimate the percentage of EACH population who would agree it applied to their decision to study engineering (answer 'agree' or 'strongly agree' on a 5-point scale). Give two percentages per influence: high salary; interesting work; the challenge of problem-solving; using science & maths without specialising; being good at maths/science at school; choosing with little knowledge of the job; a family member in industry; technical hobbies; a good degree to hold; varied nature; encouragement from mother, from father, from a careers advisor, from a teacher; nobody encouraging them."
+          },
+          "answer_key": {
+            "highsal": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 44.2
+                },
+                "post1992": {
+                  "pct": 47.6
+                }
+              },
+              "p_value": 0.463872154350226,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.450658566486332,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 44.2,
+                    "neff": 654.0
+                  },
+                  "post1992": {
+                    "design_pct": 47.6,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "interest": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 96.8
+                },
+                "post1992": {
+                  "pct": 92.6
+                }
+              },
+              "p_value": 0.0322296960738846,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0212011682282983,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 96.8,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 92.6,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "challeng": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 92.4
+                },
+                "post1992": {
+                  "pct": 81.1
+                }
+              },
+              "p_value": 9.67834202056834e-05,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 5.69621272302847e-05,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 92.4,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 81.1,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "special": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 64.3
+                },
+                "post1992": {
+                  "pct": 42.6
+                }
+              },
+              "p_value": 1.73689806384769e-06,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 2.02215942248682e-06,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 64.3,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 42.6,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "mathsci": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 77.5
+                },
+                "post1992": {
+                  "pct": 50.0
+                }
+              },
+              "p_value": 1.12981213785884e-10,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 1.26560695463746e-10,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 77.5,
+                    "neff": 652.0
+                  },
+                  "post1992": {
+                    "design_pct": 50.0,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "knowledg": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 25.2
+                },
+                "post1992": {
+                  "pct": 26.0
+                }
+              },
+              "p_value": 0.833810063848611,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.833722314139807,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 25.2,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 26.0,
+                    "neff": 146.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "family": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 31.7
+                },
+                "post1992": {
+                  "pct": 38.8
+                }
+              },
+              "p_value": 0.120232889896189,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.100895691874809,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 31.7,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 38.8,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "hobbies": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 56.6
+                },
+                "post1992": {
+                  "pct": 53.4
+                }
+              },
+              "p_value": 0.521345984736697,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.482600920344747,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 56.6,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 53.4,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "gooddeg": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 89.0
+                },
+                "post1992": {
+                  "pct": 68.5
+                }
+              },
+              "p_value": 7.86341056346762e-09,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 2.25149897513135e-09,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 89.0,
+                    "neff": 656.0
+                  },
+                  "post1992": {
+                    "design_pct": 68.5,
+                    "neff": 146.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "varied": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 79.0
+                },
+                "post1992": {
+                  "pct": 66.2
+                }
+              },
+              "p_value": 0.0012298653593329,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0010571897752622,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 79.0,
+                    "neff": 653.0
+                  },
+                  "post1992": {
+                    "design_pct": 66.2,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "mother": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 20.2
+                },
+                "post1992": {
+                  "pct": 12.9
+                }
+              },
+              "p_value": 0.0469399231035644,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0451919502440789,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 20.2,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 12.9,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "father": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 31.6
+                },
+                "post1992": {
+                  "pct": 29.9
+                }
+              },
+              "p_value": 0.767922935491946,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.693274083357759,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 31.6,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 29.9,
+                    "neff": 147.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "careers": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 21.1
+                },
+                "post1992": {
+                  "pct": 19.6
+                }
+              },
+              "p_value": 0.737583917182251,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.690201604482053,
+                "wald_significant": false,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 21.1,
+                    "neff": 655.0
+                  },
+                  "post1992": {
+                    "design_pct": 19.6,
+                    "neff": 148.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "teacher": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 36.1
+                },
+                "post1992": {
+                  "pct": 19.2
+                }
+              },
+              "p_value": 5.98731535115735e-05,
+              "significant": true,
+              "direction": "pre1992",
+              "raw_direction_if_ignoring_significance": "pre1992",
+              "design_crosscheck": {
+                "wald_p": 0.0001259405106421,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 36.1,
+                    "neff": 653.0
+                  },
+                  "post1992": {
+                    "design_pct": 19.2,
+                    "neff": 146.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "nobody": {
+              "split_axis": "university type",
+              "group_order": [
+                "pre1992",
+                "post1992"
+              ],
+              "groups": {
+                "pre1992": {
+                  "pct": 32.0
+                },
+                "post1992": {
+                  "pct": 46.2
+                }
+              },
+              "p_value": 0.0014388234146822,
+              "significant": true,
+              "direction": "post1992",
+              "raw_direction_if_ignoring_significance": "post1992",
+              "design_crosscheck": {
+                "wald_p": 0.0013779785490095,
+                "wald_significant": true,
+                "groups": {
+                  "pre1992": {
+                    "design_pct": 32.0,
+                    "neff": 649.0
+                  },
+                  "post1992": {
+                    "design_pct": 46.2,
+                    "neff": 145.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            }
+          },
+          "scorer": "rubric.score_macro_number",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        }
+      }
+    },
+    "job_values": {
+      "title": "What matters in a future job",
+      "split": {
+        "axis": "engineering discipline",
+        "var": "dept",
+        "A_population": "students in the civil & building engineering department (construction-oriented engineering)",
+        "B_population": "students in the design & technology department (design- and product-oriented engineering)",
+        "group_order": [
+          "civil",
+          "design_tech"
+        ],
+        "rationale": "A clean two-discipline head-to-head: civil & building (site-based, location-dependent, company-car construction culture) vs design & technology (studio / product design). Both ~100 students at the same pre-1992 university, so the cut is discipline not institution. The report singles out both disciplines but NEVER splits the Q11 job-factors by discipline \u2014 so the cut is the gap (\u00a71.1). Empirically civil students rate location, company-car benefits and training higher."
+      },
+      "paper_grounding": "Split: engineering discipline \u2014 a clean two-department head-to-head, civil & building engineering vs design & technology (both ~100 students at the same pre-1992 university, so the cut is discipline not institution). The study's Objective 4 is explicitly about disciplinary sub-cultures \u2014 'distinct aspects of different engineering workplaces and cultures' (report p.16) \u2014 and the report singles out BOTH of these disciplines (civil/building on practical-work satisfaction; design & technology as distinctive on several outcomes). What a student values in a job tracks the industry their field leads to: civil is the archetypal site-based, location-dependent, company-car construction culture, design & technology a studio/product-design culture. The ESRC report (p.27) cross-tabulates the Q11 job-factors by UNIVERSITY, but NEVER by discipline \u2014 so the by-discipline breakdown is the gap (\u00a71.1, verified by the disclosure check). Empirically, civil students rate location, company-car benefits and training markedly higher than design & technology students. (Powell et al. 2009 supply the domestic-sphere / equal-opportunities frame for the battery.)",
+      "outcome_group": "Importance of factors when choosing a job",
+      "conditioning_rationale": "Background, future plans (further study, preferred role, Chartership, specialism), and the placement block (whether they went on placement and what they sought from / avoided about it). What a student wants from industrial placement and where they intend to head are the apt predictors of what they will value in a job; the Q11 job-acceptance factors themselves are held out. Placement motivations are distinct columns from the Q11 battery \u2014 correlated predictors, not the outcome (\u00a71.3).",
+      "conditioning_vars": [
+        "gender",
+        "age",
+        "ethnic",
+        "religion",
+        "school",
+        "year",
+        "dept",
+        "uni",
+        "carpath",
+        "furstudy",
+        "studarea",
+        "workrole",
+        "charship",
+        "placemen",
+        "experien",
+        "money",
+        "educatio",
+        "jobprosp",
+        "jobdecid",
+        "industry",
+        "perdevel",
+        "unigrade",
+        "apptheor",
+        "finalyr",
+        "indchart",
+        "wkexp",
+        "placloca",
+        "breaked",
+        "finuni",
+        "nogain",
+        "noappeal",
+        "noaccept"
+      ],
+      "held_out_vars": [
+        "salary",
+        "location",
+        "workenv",
+        "people",
+        "travel",
+        "benefits",
+        "training",
+        "promot",
+        "equalopp",
+        "flexible",
+        "childcar"
+      ],
+      "rubric": {
+        "dimensions": [
+          {
+            "code": "salary",
+            "statement": "Salary will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates salary important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "location",
+            "statement": "Location will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates location important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "workenv",
+            "statement": "Work environment will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates the work environment important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "people",
+            "statement": "People I work with will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates the people they work with important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "travel",
+            "statement": "Opportunities to travel will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates opportunities to travel important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "benefits",
+            "statement": "Benefits like a company car will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates benefits such as a company car important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "training",
+            "statement": "Training opportunities will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates training opportunities important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "promot",
+            "statement": "Opportunities for promotion will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates opportunities for promotion important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "equalopp",
+            "statement": "Equal opportunites policies will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates equal-opportunities policies important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "flexible",
+            "statement": "Opportunities for flexible working will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates opportunities for flexible working important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          },
+          {
+            "code": "childcar",
+            "statement": "Child-care policies will be important to me in making a decision to accept a job or decide where to work",
+            "scale": "5-point scale, very unimportant \u2192 very important",
+            "salient_state_pos": "rates childcare policies important",
+            "non_salient_neg": "rates it unimportant or neutral"
+          }
+        ],
+        "prose_scoring": "salience-weighted, asymmetric; weights in rubric.PROSE_WEIGHTS; coverage reported separately (\u00a73.3)"
+      },
+      "shapes": {
+        "micro": {
+          "tests": "representational accuracy of one respondent (\u00a71.2)",
+          "model_facing": {
+            "conditioning": "this respondent's persona, restricted to the conditioning allow-list (rendered per-record by build_tasks.render_micro)",
+            "prompt_template": "Below is a profile of one engineering / design & technology student, covering their background, their industrial-placement experience and motivations, and their future intentions.\n\n{persona}\n\nBased only on this profile, predict which factors this student would rate as important when choosing a job. For each factor, say whether you expect them to rate it important or not, and why: salary; location; work environment; the people they work with; opportunities to travel; benefits like a company car; training opportunities; opportunities for promotion; equal-opportunities policies; flexible working; childcare policies. Write a short paragraph."
+          },
+          "answer_key": "per respondent: held-out true value per item (outputs/survey/tasks/micro_keys.json)",
+          "scorer": "rubric.score_micro_prose",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        },
+        "macro_prose": {
+          "tests": "external consistency (vs survey) + internal (vs micro aggregate) on direction (\u00a71.2, \u00a73.5)",
+          "model_facing": {
+            "prompt": "Consider two populations of engineering / design & technology students:\n  A: students in the civil & building engineering department (construction-oriented engineering)\n  B: students in the design & technology department (design- and product-oriented engineering)\n\nIn a paragraph, compare which job factors these two populations would rate as important when choosing a job, and for each factor say which population is more likely to rate it important: salary; location; work environment; the people they work with; opportunities to travel; benefits like a company car; training opportunities; opportunities for promotion; equal-opportunities policies; flexible working; childcare policies."
+          },
+          "answer_key": {
+            "salary": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 96.9
+                },
+                "design_tech": {
+                  "pct": 90.1
+                }
+              },
+              "p_value": 0.0825407957045826,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0690068711767463,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 96.9,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 90.1,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "location": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 86.6
+                },
+                "design_tech": {
+                  "pct": 75.0
+                }
+              },
+              "p_value": 0.0472364468929976,
+              "significant": true,
+              "direction": "civil",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0437398506892492,
+                "wald_significant": true,
+                "groups": {
+                  "civil": {
+                    "design_pct": 86.6,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 75.0,
+                    "neff": 100.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "workenv": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 91.8
+                },
+                "design_tech": {
+                  "pct": 96.0
+                }
+              },
+              "p_value": 0.244014919047553,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "design_tech",
+              "design_crosscheck": {
+                "wald_p": 0.218574779916146,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 91.8,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 96.0,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "people": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 84.5
+                },
+                "design_tech": {
+                  "pct": 84.2
+                }
+              },
+              "p_value": 1.0,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.941945003286973,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 84.5,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 84.2,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "travel": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 48.5
+                },
+                "design_tech": {
+                  "pct": 48.5
+                }
+              },
+              "p_value": 1.0,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "about_equal",
+              "design_crosscheck": {
+                "wald_p": 0.993148544864005,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 48.5,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 48.5,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "benefits": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 50.5
+                },
+                "design_tech": {
+                  "pct": 22.8
+                }
+              },
+              "p_value": 6.08215638089792e-05,
+              "significant": true,
+              "direction": "civil",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0001023492265163,
+                "wald_significant": true,
+                "groups": {
+                  "civil": {
+                    "design_pct": 50.5,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 22.8,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "training": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 87.6
+                },
+                "design_tech": {
+                  "pct": 75.2
+                }
+              },
+              "p_value": 0.0292002294439843,
+              "significant": true,
+              "direction": "civil",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0296070245539467,
+                "wald_significant": true,
+                "groups": {
+                  "civil": {
+                    "design_pct": 87.6,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 75.2,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "promot": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 94.8
+                },
+                "design_tech": {
+                  "pct": 88.1
+                }
+              },
+              "p_value": 0.12816247908331,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.10688026940195,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 94.8,
+                    "neff": 96.0
+                  },
+                  "design_tech": {
+                    "design_pct": 88.1,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "equalopp": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 43.8
+                },
+                "design_tech": {
+                  "pct": 50.5
+                }
+              },
+              "p_value": 0.392370050598255,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "design_tech",
+              "design_crosscheck": {
+                "wald_p": 0.345958102341465,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 43.8,
+                    "neff": 96.0
+                  },
+                  "design_tech": {
+                    "design_pct": 50.5,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "flexible": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 63.9
+                },
+                "design_tech": {
+                  "pct": 53.5
+                }
+              },
+              "p_value": 0.150632917015643,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.13897417420204,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 63.9,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 53.5,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "childcar": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 24.0
+                },
+                "design_tech": {
+                  "pct": 13.9
+                }
+              },
+              "p_value": 0.0996841258710631,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0749266611841756,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 24.0,
+                    "neff": 96.0
+                  },
+                  "design_tech": {
+                    "design_pct": 13.9,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            }
+          },
+          "scorer": "rubric.score_macro_prose",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        },
+        "macro_number": {
+          "tests": "external + internal consistency on the explicit % (\u00a71.2)",
+          "model_facing": {
+            "prompt": "Consider two populations of engineering / design & technology students:\n  A: students in the civil & building engineering department (construction-oriented engineering)\n  B: students in the design & technology department (design- and product-oriented engineering)\n\nFor each job factor below, estimate the percentage of EACH population who would rate it important (answer 'important' or 'very important' on a 5-point scale). Give two percentages per factor: salary; location; work environment; the people they work with; opportunities to travel; benefits like a company car; training opportunities; opportunities for promotion; equal-opportunities policies; flexible working; childcare policies."
+          },
+          "answer_key": {
+            "salary": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 96.9
+                },
+                "design_tech": {
+                  "pct": 90.1
+                }
+              },
+              "p_value": 0.0825407957045826,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0690068711767463,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 96.9,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 90.1,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "location": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 86.6
+                },
+                "design_tech": {
+                  "pct": 75.0
+                }
+              },
+              "p_value": 0.0472364468929976,
+              "significant": true,
+              "direction": "civil",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0437398506892492,
+                "wald_significant": true,
+                "groups": {
+                  "civil": {
+                    "design_pct": 86.6,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 75.0,
+                    "neff": 100.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "workenv": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 91.8
+                },
+                "design_tech": {
+                  "pct": 96.0
+                }
+              },
+              "p_value": 0.244014919047553,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "design_tech",
+              "design_crosscheck": {
+                "wald_p": 0.218574779916146,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 91.8,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 96.0,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "people": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 84.5
+                },
+                "design_tech": {
+                  "pct": 84.2
+                }
+              },
+              "p_value": 1.0,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.941945003286973,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 84.5,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 84.2,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "travel": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 48.5
+                },
+                "design_tech": {
+                  "pct": 48.5
+                }
+              },
+              "p_value": 1.0,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "about_equal",
+              "design_crosscheck": {
+                "wald_p": 0.993148544864005,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 48.5,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 48.5,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "benefits": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 50.5
+                },
+                "design_tech": {
+                  "pct": 22.8
+                }
+              },
+              "p_value": 6.08215638089792e-05,
+              "significant": true,
+              "direction": "civil",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0001023492265163,
+                "wald_significant": true,
+                "groups": {
+                  "civil": {
+                    "design_pct": 50.5,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 22.8,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "training": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 87.6
+                },
+                "design_tech": {
+                  "pct": 75.2
+                }
+              },
+              "p_value": 0.0292002294439843,
+              "significant": true,
+              "direction": "civil",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0296070245539467,
+                "wald_significant": true,
+                "groups": {
+                  "civil": {
+                    "design_pct": 87.6,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 75.2,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "promot": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 94.8
+                },
+                "design_tech": {
+                  "pct": 88.1
+                }
+              },
+              "p_value": 0.12816247908331,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.10688026940195,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 94.8,
+                    "neff": 96.0
+                  },
+                  "design_tech": {
+                    "design_pct": 88.1,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "equalopp": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 43.8
+                },
+                "design_tech": {
+                  "pct": 50.5
+                }
+              },
+              "p_value": 0.392370050598255,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "design_tech",
+              "design_crosscheck": {
+                "wald_p": 0.345958102341465,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 43.8,
+                    "neff": 96.0
+                  },
+                  "design_tech": {
+                    "design_pct": 50.5,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "flexible": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 63.9
+                },
+                "design_tech": {
+                  "pct": 53.5
+                }
+              },
+              "p_value": 0.150632917015643,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.13897417420204,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 63.9,
+                    "neff": 97.0
+                  },
+                  "design_tech": {
+                    "design_pct": 53.5,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            },
+            "childcar": {
+              "split_axis": "engineering discipline",
+              "group_order": [
+                "civil",
+                "design_tech"
+              ],
+              "groups": {
+                "civil": {
+                  "pct": 24.0
+                },
+                "design_tech": {
+                  "pct": 13.9
+                }
+              },
+              "p_value": 0.0996841258710631,
+              "significant": false,
+              "direction": "about_equal",
+              "raw_direction_if_ignoring_significance": "civil",
+              "design_crosscheck": {
+                "wald_p": 0.0749266611841756,
+                "wald_significant": false,
+                "groups": {
+                  "civil": {
+                    "design_pct": 24.0,
+                    "neff": 96.0
+                  },
+                  "design_tech": {
+                    "design_pct": 13.9,
+                    "neff": 101.0
+                  }
+                },
+                "fisher_vs_wald_verdict_agree": true
+              }
+            }
+          },
+          "scorer": "rubric.score_macro_number",
+          "model_output": "OPEN SLOT \u2014 not run in this pipeline (\u00a74)"
+        }
+      }
+    }
+  }
+}

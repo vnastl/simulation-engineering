@@ -11,3 +11,10 @@ __pycache__/
 M_5723*.zip
 /data/
 /downloads/
+
+# Large generated machine artifacts — regenerate, do not version
+outputs/survey/personas.jsonl
+outputs/survey/tasks/micro_keys.json
+
+# Internal sister-project handoff note
+pipeline/survey/tasks/WEIGHTED_ESTIMATES.md

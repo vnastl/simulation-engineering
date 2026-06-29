@@ -25,12 +25,15 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 sys.path.insert(0, str(HERE.parent / "survey"))
+sys.path.insert(0, str(HERE.parent / "survey" / "tasks"))
 sys.path.insert(0, str(HERE.parent / "interviews"))
 
 import pandas as pd  # noqa: E402
 from schema import load_columns, SECTION_ORDER, SEC_E, classify_sentinel  # noqa: E402
 import clean_data  # noqa: E402
 import build_personas  # noqa: E402
+import task_defs as TD  # noqa: E402  (survey task layer; THEMES here ≠ registry.THEMES)
+import build_tasks as BT  # noqa: E402
 from registry import THEMES  # noqa: E402
 
 OUT = ROOT / "outputs/trace"
@@ -76,6 +79,18 @@ pre { background: var(--surface2); border: 1px solid var(--camel-soft); border-r
 .box { border-radius: 8px; padding: 11px 14px; margin: 10px 0; font-size: 13px; }
 .draft { background: #f3ecdf; border: 1px dashed var(--camel); color: #6b5836; }
 .warn { background: #f4e7df; border: 1px solid var(--warn); color: var(--warn); }
+.slot { background: #efe7f0; border: 1px dashed var(--mauve); color: #5b4756; }
+.keyonly { background: #eef0ee; border: 1px solid var(--good); }
+.keyonly > .lbl, .modelfacing > .lbl { font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .5px; display: block; margin-bottom: 5px; }
+.keyonly > .lbl { color: var(--good); }
+.modelfacing { background: var(--surface2); border: 1px solid var(--camel-soft); border-radius: 8px;
+  padding: 10px 14px; margin: 10px 0; }
+.modelfacing > .lbl { color: var(--slate); }
+.themecard { border: 1px solid var(--camel-soft); border-radius: 9px; margin: 12px 0; padding: 2px 12px 10px; }
+.themecard > h5 { font-size: 13.5px; margin: 10px 0 2px; color: var(--ink); }
+.pos { color: var(--good); font-weight:600; } .neg { color: var(--muted); }
+.sig { color: var(--warn); font-weight:600; } .nsig { color: var(--muted); }
 .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px;
   border: 1px solid var(--camel-soft); color: var(--slate); background: var(--surface2); margin-left: 4px; }
 .conf-high { color: var(--good); } .conf-medium { color: var(--camel); } .conf-low { color: var(--warn); }
@@ -133,17 +148,137 @@ def survey_persona(cols, raw):
             f"{n_na} not applicable (dropped, present-only).</p><pre>{esc(text)}</pre>")
 
 
-SURVEY_TASK = ('<div class="box draft"><b>DRAFT — not designed in this pipeline.</b><br>'
-               'INSTRUCTIONS.md stops at the persona. A micro/macro task layer '
-               '(prompt + rubric + frozen data-derived answer key) would attach here '
-               'without touching §1–§3. The model-facing conditioning view would be the '
-               'persona above; held-out answer-key material (estimates, correct answers, '
-               'sample sizes) would be kept visually separate.</div>')
+SLOT = ('<div class="box slot"><b>MODEL OUTPUT + SCORE — open slot.</b> '
+        'This pipeline does not call a model (TASK_PLAYBOOK §4 "show, don\'t run"). '
+        'A model answer would be scored here by the runnable scorer '
+        '(<span class="code">rubric.{fn}</span>) against the answer key on the left; '
+        'we render the key and leave the answer + score explicitly <b>not run</b>.</div>')
 
-INT_TASK = ('<div class="box draft"><b>DRAFT — not designed in this pipeline.</b><br>'
-            'The coded persona is a drop-in for the same downstream task as the survey '
-            'persona (shared schema). A task layer would attach here; the held-out '
-            'answer key would stay separate from the model-facing persona.</div>')
+
+def _key_dir_class(direction, significant):
+    return ("sig", direction) if significant else ("nsig", "about equal (n.s.)")
+
+
+def survey_task(by_code, raw_row, forbidden, tasks, keys, themes):
+    """§4 — render the REAL task artifacts for this respondent (TRACE §4).
+
+    Model-facing material (conditioning persona + prompts) is boxed apart from
+    answer-key-only material (estimates, denominators, correct answers) so a reader
+    cannot mistake the scorer's view for the model's. The model's answer + score is
+    an explicit open slot.
+    """
+    H = [f"<p class='small'>The §3 persona is the conditioning base. Each theme holds out a "
+         f"different outcome battery and splits the population on a <b>different axis</b> "
+         f"(§1.3) — three the study foregrounds: <b>industrial placement</b>, "
+         f"<b>university type</b> and <b>engineering discipline</b>. Populations are named "
+         f"by definition, never by size (§4); the answer keys are validated against the "
+         f"report's printed marginals (jobdecid 87%/93% female, industry 94%; see "
+         f"<span class='code'>answer_keys.json → validation</span>). Three shapes per theme: "
+         f"<i>micro</i> (this respondent), <i>macro-prose</i>, <i>macro-number</i>.</p>"]
+
+    for ti, theme in enumerate(themes):
+        t = tasks["themes"][theme.key]
+        kt = keys["themes"][theme.key]
+        sp = t["split"]
+        gA, gB = sp["group_order"]
+        glabel = {g["key"]: g["label"] for g in kt["split"]["groups"]}
+        micro = BT.render_micro(theme, raw_row, by_code, forbidden)
+        holdout = theme.holdout_codes()
+        open_first = " open" if ti == 0 else ""
+
+        # held-out items: this respondent's true value (scorer-only micro key)
+        mk_rows = []
+        for it in theme.outcome_items:
+            tr = micro["answer_key"]["held_out_truth"][it.code]
+            if tr["answered"]:
+                pos = "<span class='pos'>pos ✓</span>" if tr["pos"] else "<span class='neg'>neg</span>"
+                ans = f"answered “{esc(tr['respondent_answer'])}” → {pos}"
+            else:
+                ans = "<span class='small'>not answered</span>"
+            mk_rows.append(f"<tr><td class='code'>{esc(it.code)}</td>"
+                           f"<td class='small'>{esc(by_code[it.code].question_text)}</td>"
+                           f"<td>{ans}</td></tr>")
+
+        # macro answer key: group %s, p, significance, keyed direction
+        mac_rows = []
+        for it in kt["items"]:
+            mk = t["shapes"]["macro_prose"]["answer_key"][it["code"]]
+            cls, lbl = _key_dir_class(mk["direction"], it["significant"])
+            p = it["p_value"]
+            mac_rows.append(
+                f"<tr><td class='code'>{esc(it['code'])}</td>"
+                f"<td>{esc(it['groups'][gA]['pct'])}%</td>"
+                f"<td>{esc(it['groups'][gB]['pct'])}%</td>"
+                f"<td class='small'>{('%.4f'%p) if p is not None else 'n/a'}</td>"
+                f"<td class='{cls}'>{esc(lbl)}</td></tr>")
+
+        # which group this respondent falls in, on THIS theme's axis (may be neither —
+        # e.g. a two-discipline split covers only part of the sample)
+        my_group = micro["answer_key"].get("respondent_group")
+        my_group_lbl = (glabel.get(my_group) if my_group
+                        else "not in either group — micro shown for illustration")
+
+        H.append(
+            f"<details class='themecard'{open_first}><summary><b>Theme {ti+1} — "
+            f"{esc(theme.title)}</b> <span class='tag'>split: {esc(sp['axis'])}</span> "
+            f"<span class='tag'>{len(holdout)} held-out items</span></summary>"
+            f"<p class='small'><b>Split ({esc(sp['axis'])}):</b> "
+            f"<b>{esc(glabel.get(gA, gA))}</b> ({esc(sp['A_population'])}) vs "
+            f"<b>{esc(glabel.get(gB, gB))}</b> ({esc(sp['B_population'])}) — a cut the report "
+            f"does not print for this outcome. <b>Held out:</b> {esc(theme.outcome_group)}.</p>"
+            f"<p class='small'><b>Grounding:</b> {esc(theme.paper_grounding[:260])}…</p>"
+
+            # ---- MICRO ----
+            f"<h5>micro — representational accuracy (this respondent — {esc(my_group_lbl)})</h5>"
+            f"<div class='modelfacing'><span class='lbl'>Model sees — conditioning + prompt</span>"
+            f"<p class='small'>Conditioning = the §3 persona restricted to "
+            f"<b>{micro['n_conditioning_fields']}</b> apt fields "
+            f"({esc(theme.conditioning_rationale[:130])}…); the held-out items are removed. "
+            f"<details><summary>show this respondent's conditioning view</summary>"
+            f"<pre>{esc(micro['conditioning_persona'])}</pre></details></p>"
+            f"<details><summary>show the micro prompt</summary><pre>{esc(theme.micro_prompt.replace('{persona}', '«persona above»'))}</pre></details></div>"
+            f"<div class='box keyonly'><span class='lbl'>Answer key — scorer only, held out from the model</span>"
+            f"<table><tr><th>item</th><th>statement (verbatim)</th><th>this respondent's truth</th></tr>"
+            f"{''.join(mk_rows)}</table></div>"
+            + SLOT.format(fn="score_micro_prose")
+
+            # ---- MACRO ----
+            + f"<h5>macro — external + internal consistency (populations by {esc(sp['axis'])})</h5>"
+            f"<div class='modelfacing'><span class='lbl'>Model sees — prompt (populations by definition)</span>"
+            f"<details><summary>macro-prose prompt</summary><pre>{esc(t['shapes']['macro_prose']['model_facing']['prompt'])}</pre></details>"
+            f"<details><summary>macro-number prompt</summary><pre>{esc(t['shapes']['macro_number']['model_facing']['prompt'])}</pre></details></div>"
+            f"<div class='box keyonly'><span class='lbl'>Answer key — scorer only (frozen estimates; direction gated on significance §3.4)</span>"
+            f"<table><tr><th>item</th><th>{esc(glabel.get(gA, gA))} %</th>"
+            f"<th>{esc(glabel.get(gB, gB))} %</th><th>Fisher p</th><th>keyed direction</th></tr>"
+            f"{''.join(mac_rows)}</table>"
+            f"<p class='small'>A non-significant gap is keyed <i>about equal</i>, so the scorer "
+            f"never credits a fabricated direction. Significance is <b>Fisher exact</b> — "
+            f"design-exact here because the study ships <b>no survey weight</b> (the design is "
+            f"simple random sampling, n_eff = n).</p></div>"
+            + SLOT.format(fn="score_macro_prose / score_macro_number")
+            + "</details>")
+    return "".join(H)
+
+
+def interview_task(theme0, by_code, rec, forbidden):
+    """§4 for the interview arm — the coded persona is a drop-in for the SAME task
+    layer (shared schema). The macro answer keys are survey-derived; interview
+    marginals are volunteer-biased, so interview responses are not used as a key."""
+    if rec is None:
+        return WARN.format("Coded record not yet produced — run synthesize.py, then rebuild.")
+    return (
+        "<p class='small'>The coded persona plugs into the <b>same</b> micro task as the "
+        "survey arm (shared schema, same rubric, same survey-derived answer keys). "
+        "Conditioning = the coded persona restricted to a theme's allow-list, held-out "
+        "items removed; the model's answer + score is the same open slot.</p>"
+        "<div class='box keyonly'><span class='lbl'>Why no macro answer key here</span>"
+        "<p class='small'>The macro tasks compare survey populations (by placement / university / "
+        "discipline) and their answer keys are the survey's frozen estimates. The interview "
+        "arm is women-only and its marginals are volunteer-biased (AGENT_README §5.3/§8), so "
+        "interview responses are <b>not</b> used as an answer key; the survey arm owns the "
+        "frozen estimates.</p></div>"
+        + '<div class="box slot"><b>MODEL OUTPUT + SCORE — open slot (not run).</b> '
+        'Same scorer, same held-out design as the survey micro task.</div>')
 
 
 # ----- interview arm: one function per stage -----
@@ -223,6 +358,13 @@ def build():
 
     raw = raw_df[raw_df.ID == sid].iloc[0]
     clean = clean_df[clean_df.ID == sid].iloc[0]
+
+    # task layer artifacts (degrade gracefully if not yet built — TRACE ground rule)
+    by_code = {c.name: c for c in cols}
+    TASK_OUT = SURVEY_OUT / "tasks"
+    tasks = json.loads((TASK_OUT / "tasks.json").read_text()) if (TASK_OUT / "tasks.json").exists() else None
+    task_keys = json.loads((TASK_OUT / "answer_keys.json").read_text()) if (TASK_OUT / "answer_keys.json").exists() else None
+    forbidden = BT._forbidden_size_tokens(task_keys) if task_keys else set()
     tr_path = INT_OUT / "transcripts" / f"{unit}.json"
     fin_path = INT_OUT / "coding/final" / f"{unit}.json"
     tr = json.loads(tr_path.read_text()) if tr_path.exists() else None
@@ -251,7 +393,11 @@ def build():
         ("3 · Persona",
          survey_persona(cols, raw),
          interview_persona(rec, cols) if rec else no_rec),
-        ("4 · Task (prompting)", SURVEY_TASK, INT_TASK),
+        ("4 · Task (prompting)",
+         survey_task(by_code, raw, forbidden, tasks, task_keys, TD.THEMES) if tasks and task_keys
+         else WARN.format("Task layer not built — run pipeline/survey/tasks/estimate.py "
+                          "then build_tasks.py, then rebuild."),
+         interview_task(TD.THEMES[0], by_code, rec, forbidden)),
     ]
     sv_hdr = (f"<h4>Survey · respondent #{sid}</h4>"
               f"<div class='armhdr'>codebook → persona (deterministic). "
@@ -274,7 +420,7 @@ def build():
 <style>:root {{{PALETTE}}}{CSS}</style></head><body><div class="wrap">
 <h1>Women Engineering Students pipeline trace — one respondent</h1>
 <p class="subtitle">Women Engineering Students' Workplace Experiences: Impact on Career
-Intentions, 2004–2005 (UKDA SN 5723) — codebook→persona pipeline + transcript→coded-persona pipeline</p>
+Intentions, 2004–2005 (UKDA SN 5723) — codebook→persona pipeline + transcript→coded-persona pipeline + micro→macro task layer</p>
 {meta}
 {''.join(body)}
 </div></body></html>"""
@@ -285,8 +431,33 @@ Intentions, 2004–2005 (UKDA SN 5723) — codebook→persona pipeline + transcr
     raw = raw_df[raw_df.ID == sid].iloc[0]
     survey_text, sfields, sdropped = build_personas.compose(cols, raw)
     txt = [f"SN5723 PIPELINE TRACE — survey #{sid} & interview {unit}", "=" * 64, "",
-           "SURVEY ARM — §3 persona (codebook→persona):", "", survey_text, "",
-           "=" * 64, "", f"INTERVIEW ARM — {unit.upper()} §3 persona (transcript→codes→persona):", ""]
+           "SURVEY ARM — §3 persona (codebook→persona):", "", survey_text, ""]
+    if tasks and task_keys:
+        txt += ["=" * 64, "",
+                f"SURVEY ARM — §4 task layer (micro→macro), respondent #{sid}:",
+                "(each theme splits the population on a DIFFERENT axis, §1.3)", ""]
+        for theme in TD.THEMES:
+            t = tasks["themes"][theme.key]
+            kt = task_keys["themes"][theme.key]
+            sp = t["split"]
+            gA, gB = sp["group_order"]
+            glabel = {g["key"]: g["label"] for g in kt["split"]["groups"]}
+            micro = BT.render_micro(theme, raw, by_code, forbidden)
+            txt.append(f"— Theme: {theme.title}  [split: {sp['axis']} — "
+                       f"{glabel.get(gA,gA)} vs {glabel.get(gB,gB)}]  (held out: {theme.outcome_group})")
+            for it in kt["items"]:
+                tr = micro["answer_key"]["held_out_truth"][it["code"]]
+                truth = (f"this respondent: {tr['respondent_answer']} "
+                         f"({'pos' if tr['pos'] else 'neg'})") if tr["answered"] else "this respondent: n/a"
+                sig = "sig" if it["significant"] else "n.s.→about-equal"
+                mk = t["shapes"]["macro_prose"]["answer_key"][it["code"]]
+                txt.append(f"   {it['code']:9} {glabel.get(gA,gA)[:8]}={it['groups'][gA]['pct']}% "
+                           f"{glabel.get(gB,gB)[:8]}={it['groups'][gB]['pct']}% "
+                           f"[{sig}, dir={mk['direction']}]  | {truth}")
+            txt.append("   (micro/macro-prose/macro-number prompts in outputs/survey/tasks/tasks.json; "
+                       "model answer + score = OPEN SLOT, not run)")
+            txt.append("")
+    txt += ["=" * 64, "", f"INTERVIEW ARM — {unit.upper()} §3 persona (transcript→codes→persona):", ""]
     fin = INT_OUT / "coding/final" / f"{unit}.json"
     if fin.exists():
         from synthesize import render_plain
